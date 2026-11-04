@@ -53,10 +53,11 @@ python3 check_split.py          # split labelling: value lemma, reduction from 3
 python3 check_reduction.py      # cycle hardness reduction (about 1 min)
 python3 check_approx.py         # forest cover ratio (about 2 min)
 python3 e2_backward_checks.py   # backward direction of the reductions, tight family (a few min)
+python3 check_zero_marginal.py   # split hardness on chance-corrected (zero-sum) tables (about 1 hour)
 ```
 
-All checks pass with zero failures; the logs of our run are `proof_checks/check_split.log` and
-`proof_checks/check_reduction.log`.
+All checks pass with zero failures; the logs of our run are `proof_checks/check_split.log`,
+`proof_checks/check_reduction.log` and `proof_checks/check_zero_marginal.log`.
 
 `test_pairbound.py` checks the pair upper bound used by the stack certificate. `check_fft.py` and
 `lambda_check.py` check the Fourier scores against direct sums and the movement bound.

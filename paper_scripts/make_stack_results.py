@@ -98,7 +98,7 @@ nums = {"STbestWins": int((gb > 0).sum()), "STbestGain": f"{100 * np.median(gb):
         "STbestGainAri": f"{100 * np.median(gba):.0f}", "STcapOneWins": int((gc > 0).sum()), "STcapOneGain": f"{100 * np.median(gc):.0f}",
         "STn": len(S), "STgain": f"{100 * gain:.0f}", "STwins": wins, "STruns": len(S) * len(V),
         "STcertLo": f"{int(100 * min(cl))}", "STcertHi": f"{100 * max(cl):.0f}",
-        "STcertAllLo": f"{int(100 * min(allr))}", "STcertAllHi": f"{100 * max(allr):.0f}", "STcertN": len(allr),
+        "STcertAllLo": f"{100 * min(allr):.1f}", "STcertAllHi": f"{100 * max(allr):.0f}", "STcertN": len(allr),
         "STgainAri": f"{100 * np.median(ga):.0f}", "STwinsAri": int((ga > 0).sum()), "STwinsNmi": int((gn > 0).sum()),
         "STsplit": f"{get('clean', 'cap2_d2').mean():.3f}", "STone": f"{get('clean', 'forest_d2').mean():.3f}",
         "STpooled": f"{get('clean', 'pooled').mean():.3f}", "STpooledNmi": f"{get('clean', 'pooled', 'nmi').mean():.3f}", "STsplitNmi": f"{get('clean', 'cap2_d2', 'nmi').mean():.3f}", "STchain": f"{get('clean', 'chain').mean():.3f}"}
@@ -106,9 +106,9 @@ open(os.path.join(TABLES, "stack_numbers.tex"), "w").write("".join(f"\\newcomman
 print(src, nums)
 
 # ---- figure: (a) ARI per variant, (b) proven share of optimum per run
-BLUE, ORANGE, GREY, INK = "#2a78d6", "#eb6834", "#9a9a95", "#222222"
+BLUE, ORANGE, GREY, INK = "#3C5488", "#E64B35", "#9a9a95", "#222222"   # figstyle: ours navy
 plt.rcParams.update({"font.size": 7.5, "axes.linewidth": 0.6, "axes.spines.top": False, "axes.spines.right": False,
-                     "pdf.fonttype": 42, "font.family": "serif", "font.serif": ["cmr10"], "mathtext.fontset": "cm", "axes.formatter.use_mathtext": True})
+                     "pdf.fonttype": 42, "font.family": "sans-serif", "font.sans-serif": ["Arial"], "mathtext.fontset": "custom", "mathtext.rm": "Arial"})
 fig, ax = plt.subplots(1, 2, figsize=(4.8, 2.0), gridspec_kw={"width_ratios": [1.6, 1]})
 a = ax[0]; SHORT = ["clean", "reclust.", "cut", "noise 1", "noise 2"]
 for j, (v, n) in enumerate(V):
@@ -124,7 +124,7 @@ b = ax[1]
 for j, (v, n) in enumerate(V):
     r = [B[s]["runs"][v]["d2"]["ratio_to_pair_bound"] for s in S if s in B and v in B[s]["runs"]]
     b.scatter(np.full(len(r), j) + np.linspace(-0.12, 0.12, len(r)), r, s=12, color=BLUE, lw=0)
-b.set_xticks(range(len(V))); b.set_xticklabels(["clean", "recl.", "cut", "n1", "n2"], fontsize=7)
+b.set_xticks(range(len(V))); b.set_xticklabels(SHORT, fontsize=7)
 b.set_ylim(0.75, 1.0); b.set_ylabel("proven share")
 b.set_title(r"$\mathbf{b}$  Certificate per run", fontsize=7.5, loc="left")
 fig.tight_layout(w_pad=1.2)

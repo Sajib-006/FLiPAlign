@@ -14,9 +14,9 @@ import matplotlib.pyplot as plt
 from make_results import load, manifest, RIGHT
 from make_results2 import load_s, ad
 
-BLUE, ORANGE, GREY, INK = "#0072B2", "#D55E00", "#8A8A8A", "#222222"
-plt.rcParams.update({"font.size": 7, "axes.linewidth": 0.6, "axes.spines.top": False, "axes.spines.right": False,
-                     "xtick.major.width": 0.6, "ytick.major.width": 0.6, "pdf.fonttype": 42, "font.family": "DejaVu Sans"})
+BLUE, ORANGE, GREY, INK = "#00A087", "#E64B35", "#8A8A8A", "#222222"   # figstyle: right green, wrong red
+plt.rcParams.update({"font.size": 8, "axes.linewidth": 0.6, "axes.spines.top": False, "axes.spines.right": False,
+                     "xtick.major.width": 0.6, "ytick.major.width": 0.6, "pdf.fonttype": 42, "font.family": "sans-serif", "font.sans-serif": ["Arial"]})
 
 
 def gm(g):
@@ -48,10 +48,10 @@ a.plot(lim, lim, color=GREY, lw=0.8); a.plot(lim, [lim[0] - slack, lim[1] - slac
 a.axhline(0, color=INK, lw=0.5)
 a.scatter(mm[rg], ee[rg], s=9, color=BLUE, lw=0, alpha=0.8, label="answer right"); a.scatter(mm[~rg], ee[~rg], s=11, color=ORANGE, lw=0, marker="D", alpha=0.9, label="answer wrong")
 a.set_xlim(0, 0.11); a.set_ylim(-0.025, 0.11); a.set_xlabel("margin on a 1$^\\circ$ grid (no proof)"); a.set_ylabel("proven margin $\\varepsilon$")
-a.text(0.050, 0.064, "$\\varepsilon$ = margin", rotation=41, color=GREY, fontsize=6); a.text(0.074, 0.040, "margin $-$ slack", rotation=41, color=GREY, fontsize=6)
-a.text(0.108, 0.003, "certified above", ha="right", fontsize=6, color=INK)
-a.legend(frameon=False, loc="upper left", handletextpad=0.2, borderpad=0.1, fontsize=6)
-a.set_title("(a) proven margin = margin $-$ slack", fontsize=7, loc="left")
+a.text(0.050, 0.064, "$\\varepsilon$ = margin", rotation=41, color=GREY, fontsize=7); a.text(0.074, 0.040, "margin $-$ slack", rotation=41, color=GREY, fontsize=7)
+a.text(0.108, 0.003, "certified above", ha="right", fontsize=7, color=INK)
+a.legend(frameon=False, loc="upper left", handletextpad=0.2, borderpad=0.1, fontsize=7)
+a.set_title("(a) Proven margin and grid margin", fontsize=7, loc="left")
 
 # ---- (b) accepted answers on held-out: certificate vs rules tuned on development tissue
 b = ax[1]
@@ -63,16 +63,16 @@ for lab, S in [("all dev.", dev)] + [(t, [r for r in dev if r["t"] == t]) for t 
 x = np.arange(len(bars)); R_ = [v[1] for v in bars]; W_ = [v[2] for v in bars]
 b.bar(x, R_, width=0.62, color=BLUE, label="accepted, right"); b.bar(x, W_, width=0.62, bottom=np.array(R_) + 0.4, color=ORANGE, label="accepted, wrong")
 for xi, (r_, w_) in enumerate(zip(R_, W_)):
-    b.text(xi, r_ / 2, str(r_), ha="center", va="center", color="white", fontsize=6)
+    b.text(xi, r_ / 2, str(r_), ha="center", va="center", color="white", fontsize=7)
     if w_:
-        b.text(xi, r_ + 0.4 + w_ / 2, str(w_), ha="center", va="center", color="white", fontsize=6)
+        b.text(xi, r_ + 0.4 + w_ / 2, str(w_), ha="center", va="center", color="white", fontsize=7)
     if r_ + w_ == 0:
-        b.text(xi, 1, "0", ha="center", fontsize=6, color=INK)
-b.set_xticks(x); b.set_xticklabels([v[0].replace("mouse brain", "brain") for v in bars], fontsize=6)
+        b.text(xi, 1, "0", ha="center", fontsize=7, color=INK)
+b.set_xticks(x); b.set_xticklabels([v[0].replace("mouse brain", "brain") for v in bars], fontsize=7)
 b.set_ylabel(f"held-out cases accepted (of {len(ho)})"); b.axvline(0.5, color=GREY, lw=0.5, ls=":")
-b.text(3.0, -0.25, "margin rule, threshold tuned on", ha="center", transform=b.get_xaxis_transform(), fontsize=6)
-b.legend(frameon=False, loc="upper right", fontsize=6, handlelength=1, borderpad=0.1)
-b.set_title("(b) a tuned threshold depends on its tuning tissue", fontsize=7, loc="left")
+b.text(3.0, -0.25, "margin rule, threshold tuned on", ha="center", transform=b.get_xaxis_transform(), fontsize=7)
+b.legend(frameon=False, loc="upper right", fontsize=7, handlelength=1, borderpad=0.1)
+b.set_title("(b) Margin rule against the certificate", fontsize=7, loc="left")
 
 # ---- (c) overlap sweep on mouse brain
 c = ax[2]; xs, ys, yk = [100, 80, 60], [], []
@@ -85,11 +85,11 @@ for ov in xs:
     cs_ = sorted(load(f"gt_ov{ov}")); pats = [f"sw_ov{ov}base", f"sw_ov{ov}spateo", f"sw_ov{ov}cast"]
     g1 = tool_best(pats, cs_, GOOD, [f"sw_fo_ov{ov}base", f"sw_fo_ov{ov}spateo", f"sw_fo_ov{ov}cast"])
     yt.append(max(v[0] for v in g1.values() if v))
-c.plot(xs, yk, color=BLUE, lw=1.6, marker="o", ms=4, label="FLiPAlign, flip known"); c.plot(xs, ys, color=ORANGE, lw=1.6, marker="D", ms=4, label="FLiPAlign, flip searched")
-c.plot(xs, yt, color=GREY, lw=1.4, marker="s", ms=3.5, ls="--", label="best tool, flip given")
-c.legend(frameon=False, loc="lower left", fontsize=5.5, handlelength=1.6, borderpad=0.1)
-c.set_xlim(104, 56); c.set_ylim(0, 22); c.set_xticks(xs); c.set_xlabel("share of A on B (%)"); c.set_ylabel("brain cases right (of 20)")
-c.set_title("(c) brain, as overlap falls", fontsize=7, loc="left")
+c.plot(xs, yk, color="#3C5488", lw=1.6, marker="o", ms=4, mfc="white", label="FLiPAlign, flip known"); c.plot(xs, ys, color="#3C5488", lw=1.6, marker="D", ms=4, label="FLiPAlign, flip searched")
+c.plot(xs, yt, color="#4DBBD5", lw=1.4, marker="s", ms=3.5, ls="--", label="best tool, flip given")
+c.legend(frameon=False, loc="upper center", fontsize=7, handlelength=1.6, borderpad=0.1)
+c.set_xlim(104, 56); c.set_ylim(0, 31); c.set_yticks([0, 5, 10, 15, 20]); c.set_xticks(xs); c.set_xlabel("share of A on B (%)"); c.set_ylabel("brain cases right (of 20)")
+c.set_title("(c) Mouse brain, by overlap", fontsize=7, loc="left")
 fig.tight_layout(w_pad=1.0)
 fig.savefig(os.path.join(FIGURES, "results.pdf")); fig.savefig(os.path.join(FIGURES, "results.png"), dpi=200)
 print("slack", round(slack, 4), "bars", bars, "sweep", ys, yk)

@@ -24,7 +24,7 @@ def save(name, lines):
 keys = [("start_fromC", "Forest ($C$)"), ("cap1_fromC", "Cap 1"), ("cap2_fromC", "Cap 2"), ("start_fromW", "Forest ($w$)"),
         ("cap1_fromW", "Cap 1"), ("cap2_fromW", "Cap 2")]
 L = ["\\begin{tabular}{@{}lcccccc@{}}", "\\toprule",
-     " & \\multicolumn{3}{c}{Start: forest under $C$ (as in the paper)} & \\multicolumn{3}{c}{Start: forest under $w$} \\\\",
+     " & \\multicolumn{3}{c}{Start: forest under $C$ (as in the main text)} & \\multicolumn{3}{c}{Start: forest under $w$} \\\\",
      "\\cmidrule(lr){2-4}\\cmidrule(lr){5-7}", "Stack & " + " & ".join(n for _, n in keys) + " \\\\", "\\midrule"]
 for v, name in V:
     L.append(name + " & " + " & ".join(pm([CT[s]["runs"][v][k]["nmi"] for s in sorted(CT)]) for k, _ in keys) + " \\\\")

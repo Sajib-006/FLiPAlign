@@ -398,10 +398,14 @@ def datasets():
              "Breast, Xenium Rep1 $\\to$ Rep2 (3 landmarks) & Xenium & \\cite{janesick2023xenium,clifton2023stalign} & 1 & 167k & -- & 118k \\\\",
              "Breast, Visium $\\to$ Xenium Rep1, Rep2 & Visium, Xenium & \\cite{janesick2023xenium} & 2 & -- & 5k & 167k, 118k \\\\",
              "Colon, Visium $\\to$ Visium HD, 3 blocks & Visium, Visium HD & \\cite{oliveira2025hd} & 3 & -- & spots & bins \\\\",
+             "Lung, Visium HD $\\to$ Xenium, Xenium 5K, 2 blocks & Visium HD, Xenium & 10x Genomics & 2 & -- & bins & cells \\\\",
              "Mouse brain, 3 serial sections, whole & Xenium & 10x Genomics & 3 & cells & -- & cells \\\\",
              "Human DLPFC, same-donor pairs & Visium & \\cite{maynard2021dlpfc} & 18 & -- & spots & spots \\\\"]
     a, b, c = sz("abc"); rows.append(f"Mouse brain, neighbouring sections, whole & MERFISH & \\cite{{yao2023abc}} & 20 & {a} & -- & {c} \\\\")
     a, b, c = sz("abc_ov70"); rows.append(f"Mouse brain, neighbouring sections, 70\\% overlap & MERFISH & \\cite{{yao2023abc}} & 20 & {a} & -- & {c} \\\\")
+    rows += ["\\midrule", "\\multicolumn{7}{l}{\\emph{Stacks (eight consecutive sections each)}} \\\\",
+             "Mouse brain 1, Allen, 6 stacks & MERFISH & \\cite{yao2023abc} & 6 & cells & -- & cells \\\\",
+             "Mouse brain 2, Zhuang-ABCA-1, 6 stacks & MERFISH & \\cite{zhang2023zhuang} & 6 & cells & -- & cells \\\\"]
     tab = ["\\begin{table}[H]", "\\centering\\scriptsize", "\\begin{tabular}{lllrrrr}", "\\toprule",
            " & & & & \\multicolumn{2}{c}{Points of $A$ (median)} & Points \\\\",
            "Dataset & Platform & Source & Cases & as cells & as spots & of $B$ \\\\", "\\midrule"] + rows + \
@@ -595,7 +599,7 @@ def appendix_tables():
               "Mouse brain overlap sweep (20 known-answer cases per level, five Xenium datasets): right answers of every method. Tools: as given / with the true flip handed over, "
               "best setting. With whole sections several tools place most cases right once the flip is given; FLiPAlign with the flip known keeps its level as overlap falls.", "tab:sweep")
     for f_, cap, lab in (("res3_landmarks_detail.tex", "Real pairs with clicked landmarks: number of points after removing three misclicks (pair 2, points 24 and 25; pair 5, point 37), the median misfit of the best rigid move (floor), the turn of that move, and FLiPAlign's median landmark error with its first and fine answers.", "tab:lmdetail"),
-                         ("res3_landmarks_all.tex", "Median landmark error ($\\mu$m) of each tool on the five real pairs from three starts. For each tool and pair, the best of its settings and two rigid fits, chosen with the truth. $^\\ast$: right (within 100~$\\mu$m of the floor of the pair). Last column: pairs right.", "tab:lmall")):
+                         ("res3_landmarks_all.tex", "Median landmark error ($\\mu$m) of each tool on the seven real pairs from three starts. For each tool and pair, the best of its settings and two rigid fits, chosen with the truth. $^\\ast$: right (within 100~$\\mu$m of the floor of the pair). Last column: pairs right.", "tab:lmall")):
         if os.path.exists(f"{T}/{f_}"):
             table(open(f"{T}/{f_}").read(), cap, lab)
     # ---- breast pair: tools from three starts

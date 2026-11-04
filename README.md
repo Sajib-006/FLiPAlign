@@ -109,20 +109,19 @@ The table and figure scripts in the last column are all in `paper_scripts/`.
 | --- | --- | --- |
 | Fig. 1, the method on real data | `runs_stacks/fig_data.py`, `flipalign/smoothalign.py` | `make_fig_method.py` |
 | Table 1, complexity | proofs in the supplement, checked by `proof_checks/` | written by hand |
-| Table 2, placement against seven tools | `runs_placement/bench_gt.py`, `runs_placement/bench_gt2.py`, `runs_baselines/bench_baselines.py` | `make_results3.py` |
-| Table 3, how often certified answers were right | the placement runs above, `runs_stacks/stack_refuse.py` | `make_review_tables.py` |
-| Fig. 2, seven real pairs scored on landmarks | `runs_placement/real_fine.py`, `runs_placement/landmark_eval_flip.py`, `runs_baselines/bench_landmark_tools.py`, `runs_baselines/gala_*.py` | `make_fig_landmarks.py` |
-| Table 4, stack labelling | `stacklabel/stack_jlp.py`, `stacklabel/stack_cap.py`, `runs_stacks/stack_ctrl.py` | `make_stack_results.py` |
-| Proven share of each stack | `stacklabel/stack_cap_bound.py` | `make_stack_results.py` |
+| Fig. 2, placement of held-out sections and the certificate | `runs_placement/bench_gt.py`, `runs_placement/bench_gt2.py`, `runs_baselines/bench_baselines.py`; example case: `runs_placement/fig_case_data.py` | `make_fig_placement.py` |
+| Fig. 3, seven real pairs scored on landmarks | `runs_placement/real_fine.py`, `runs_placement/landmark_eval_flip.py`, `runs_baselines/bench_landmark_tools.py`, `runs_baselines/gala_*.py`; maps: `runs_placement/fig_realpairs_data.py` | `make_fig_realpairs.py` |
+| Fig. 4, stack labelling | `stacklabel/`, `runs_stacks/stack_ctrl.py`, `runs_stacks/stack_sweep.py`, `runs_stacks/stack_brain2.py`, `runs_stacks/stack_consistency.py`, `runs_stacks/stack_refuse.py` | `make_fig_stacks.py` |
 | Section-level bootstrap | saved placement results | `boot_sections.py` |
 
 **Supplement**
 
 | Supplement item | Experiment scripts | Table or figure script |
 | --- | --- | --- |
+| Placement counts per tool and start, certificate precision | the placement runs above | `make_results3.py`, `make_review_tables.py` |
 | Datasets, tool settings, held-out sets, landmark table | the placement runs above | `make_results3.py` |
 | Results by start and tool (figure) | the placement runs above | `make_fig_results.py` |
-| Full one-to-one stack table, ARI table, stack figure | `stacklabel/`, `runs_stacks/stack_ctrl.py` | `make_stack_results.py` |
+| Stack table in numbers, full one-to-one table, ARI table, stack figure | `stacklabel/`, `runs_stacks/stack_ctrl.py` | `make_stack_results.py` |
 | Stack example figure | `runs_stacks/fig_data.py` | `make_fig_overview.py` |
 | Disjoint gene panels, class-matched control, STAligner | `runs_stacks/stack_v2.py`, `runs_baselines/stack_staligner.py` | `make_stack_extras.py` |
 | Cap-1 control | `runs_stacks/stack_ctrl.py` | `make_review_tables.py` |

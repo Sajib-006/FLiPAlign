@@ -25,11 +25,12 @@ FD = os.path.join(STACK, "fig_data.npz")
 BB = os.environ.get("METHOD_BB", os.path.join(STACK, "method_bb.npz"))
 OUT = os.environ.get("METHOD_OUT", os.path.join(FIGURES, "method"))
 z = np.load(FD, allow_pickle=True)
-PAL = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#6250d6", "#e34948"]
+PAL = ["#3C5488", "#E64B35", "#00A087", "#DC9E3C", "#F39B7F", "#00A087", "#4DBBD5", "#E64B35"]   # figstyle colours; 0 = ours, 5 = right
 GREY, LGREY, INK = "#bdbdb8", "#e4e4e0", "#222222"
 FS = 9                                    # every text >= 9 pt
-plt.rcParams.update({"font.size": FS, "pdf.fonttype": 42, "font.family": "serif", "font.serif": ["cmr10"],
-                     "mathtext.fontset": "cm", "axes.formatter.use_mathtext": True, "axes.unicode_minus": False,
+plt.rcParams.update({"font.size": FS, "pdf.fonttype": 42, "font.family": "sans-serif", "font.sans-serif": ["Arial"],
+                     "mathtext.fontset": "custom", "mathtext.rm": "Arial", "mathtext.it": "Arial:italic", "mathtext.bf": "Arial:bold",
+                     "axes.formatter.use_mathtext": True, "axes.unicode_minus": True,
                      "axes.linewidth": 0.6, "xtick.major.width": 0.6, "ytick.major.width": 0.6,
                      "xtick.major.size": 2, "ytick.major.size": 2, "xtick.major.pad": 1.5, "ytick.major.pad": 1.5})
 
@@ -79,13 +80,13 @@ def fit(ax, xy, pad=0.02):
     ax.set_xlim(lo[0] - d[0], hi[0] + d[0]); ax.set_ylim(lo[1] - d[1], hi[1] + d[1])
     ax.set_aspect("equal", adjustable="box", anchor="C"); ax.axis("off")
 def title(x, y, letter, s):
-    t = txt(x, y, letter, fontsize=FS + 1, family="cmb10", ha="left", va="baseline")
+    t = txt(x, y, letter, fontsize=FS + 1, fontweight="bold", ha="left", va="baseline")
     txt(x + 0.13, y, s, ha="left", va="baseline")
 def band(y, text):
     fig.add_artist(FancyBboxPatch((0.0, y / FH), 1.0, 0.17 / FH, boxstyle="round,pad=0,rounding_size=0.01",
                                   transform=fig.transFigure, fc="#eef2f7", ec="none"))
-    txt(0.06, y + 0.085, text, family="cmb10", ha="left", va="center", fontsize=FS + 0.5)
-cols = np.array(PAL)
+    txt(0.06, y + 0.085, text, fontweight="bold", ha="left", va="center", fontsize=FS + 0.5)
+cols = np.array(["#4DBBD5", "#E64B35", "#00A087", "#3C5488", "#F39B7F", "#8491B4", "#91D1C2", "#DC9E3C"])   # tissue labels (figstyle REGION)
 
 
 # ================================================================== row 1: placement
@@ -115,7 +116,7 @@ bx0, bw, bh, off = 1.27, 0.44, 0.37, 0.165
 for k in range(len(show))[::-1]:
     l = show[k]
     a = axin(bx0 + k * off, P1 + 0.22 + (len(show) - 1 - k) * off * 0.75, bw, bh)
-    cm = LinearSegmentedColormap.from_list("m", ["#ffffff", PAL[permB[l]]])
+    cm = LinearSegmentedColormap.from_list("m", ["#ffffff", cols[permB[l]]])
     a.imshow(Gm[l].T, origin="lower", cmap=cm, vmin=0, vmax=0.7, interpolation="bilinear", aspect="auto")
     a.set_xticks([]); a.set_yticks([])
     for s_ in a.spines.values(): s_.set_color("#777777"); s_.set_linewidth(0.5)

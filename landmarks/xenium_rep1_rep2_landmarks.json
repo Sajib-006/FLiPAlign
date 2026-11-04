@@ -1,0 +1,5 @@
+{
+ "source": "STalign authors (Clifton et al.), docs/notebooks/xenium-xenium-alignment.ipynb, printed output of Xenium_Breast_Cancer_Rep1_points.npy / Rep2_points.npy. Units: um, 10x Xenium x_centroid / y_centroid frame. Stored as (x, y).",
+ "rep1_xy": [[2065.0390375683187, 3096.538441761356], [6505.52290853606, 4365.248119180711], [4226.85355369735, 4932.828764342001]],
+ "rep2_xy": [[2365.8569852416354, 1218.8582693193312], [6839.7279529835705, 2387.4066564161058], [4552.711823951313, 3046.801817706428]]
+}

@@ -5,11 +5,12 @@ excluded zone around the answer and the margin eps; (d) the answer, A placed on 
 Row 2, labelling a stack: (e) three serial sections with own labels and overlap tables of neighbours; (f) one-to-one
 matching against a split (cap 2); (g) one set of labels for the stack and its proven share V/U.
 
-Data: ../server_results/stack/fig_data.npz (made by release/FLiPAlign/fig_data.py). Panel c is computed here with
-release/FLiPAlign/smoothalign.py on a 4000-cell subsample of A (cached in figures/method_bb.npz; delete it to recompute,
-takes several minutes). V/U = 0.90 is stack 1, clean, d = 2, cap 2 (server_results/stack/stackbound2_1.json).
-Run from paper/ with a numpy 2 python: python make_fig_method.py -> figures/method.pdf, figures/method.png"""
+Data: results/stack/fig_data.npz (made by runs_stacks/fig_data.py). Panel c is computed here with
+flipalign/smoothalign.py on a 4000-cell subsample of A (cached in results/stack/method_bb.npz; delete it to recompute,
+takes several minutes). V/U = 0.90 is stack 1, clean, d = 2, cap 2 (results/stack/stackbound2_1.json).
+Needs numpy 2. Usage: python3 make_fig_method.py -> out/figures/method.pdf, method.png"""
 import os, sys, json
+from _paths import STACK, FIGURES
 import numpy as np
 import matplotlib
 matplotlib.use("Agg")
@@ -20,9 +21,9 @@ from scipy.ndimage import gaussian_filter, map_coordinates
 from scipy.optimize import linear_sum_assignment
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-FD = os.path.join(HERE, "../server_results/stack/fig_data.npz")
-BB = os.environ.get("METHOD_BB", os.path.join(HERE, "figures/method_bb.npz"))
-OUT = os.environ.get("METHOD_OUT", os.path.join(HERE, "figures/method"))
+FD = os.path.join(STACK, "fig_data.npz")
+BB = os.environ.get("METHOD_BB", os.path.join(STACK, "method_bb.npz"))
+OUT = os.environ.get("METHOD_OUT", os.path.join(FIGURES, "method"))
 z = np.load(FD, allow_pickle=True)
 PAL = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#6250d6", "#e34948"]
 GREY, LGREY, INK = "#bdbdb8", "#e4e4e0", "#222222"
@@ -37,7 +38,7 @@ plt.rcParams.update({"font.size": FS, "pdf.fonttype": 42, "font.family": "serif"
 def run_bb():
     """best placement near the reported answer (172.3 deg, flip), then the far test of smoothalign with every
     rotation range it bounds logged; plus a plain curve of the best score every 3 degrees for both flips."""
-    sys.path.insert(0, os.path.join(HERE, "../release/FLiPAlign"))
+    sys.path.insert(0, os.path.join(HERE, "..", "flipalign"))
     from smoothalign import SmoothAlign, far_upper_bound
     rng = np.random.default_rng(0)
     ia = rng.choice(len(z["p_A"]), 4000, replace=False)
@@ -228,7 +229,7 @@ txt(fx - 0.12, P2 + 0.62, "1", ha="center", va="center"); txt(fx - 0.12, P2 + 0.
 title(1.82, TY2, "f", "Split labels")
 
 # (g) one set of labels for the stack (split classes, cap 2) and the proven share V/U
-vu = json.load(open(os.path.join(HERE, "../server_results/stack/stackbound2_1.json")))["runs"]["clean"]["d2"]["ratio_to_pair_bound"]
+vu = json.load(open(os.path.join(STACK, "stackbound2_1.json")))["runs"]["clean"]["d2"]["ratio_to_pair_bound"]
 gx, gw, gh = 3.33, 0.47, 0.30
 for j in range(3):
     a = axin(gx + j * (gw + 0.03), ys + 0.02, gw, gh)

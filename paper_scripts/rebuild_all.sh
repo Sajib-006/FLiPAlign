@@ -31,6 +31,7 @@ run make_figures.py          # figures/benchmark.pdf, certificate.pdf
 run make_fig_results.py      # figures/results.pdf
 run make_fig_landmarks.py    # figures/landmarks.pdf
 run make_fig_overview.py     # figures/overview2.pdf, stack_example.pdf (needs results/stack/fig_data.npz)
+run make_fig_method.py       # figures/method.pdf (Fig. 1; needs numpy 2, uses the cached results/stack/method_bb.npz)
 echo
 if [ ${#fail[@]} -gt 0 ]; then echo "Steps that failed: ${fail[*]}"; exit 1; fi
 echo "All steps finished. Tables: $OUT/tables  Figures: $OUT/figures"

@@ -5,6 +5,7 @@ region labels renamed at random (so the two label sets share no names). FLiPAlig
 then tests the zone around its answer: if every placement outside the zone scores lower by a proven margin eps > 0,
 the answer is certified; otherwise it refuses.
 Usage: python3 example.py"""
+import repo_paths  # noqa: F401  (puts the code folders on the import path)
 import numpy as np
 from smoothalign import SmoothAlign, far_upper_bound, rot
 

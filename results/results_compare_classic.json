@@ -1,0 +1,361 @@
+[
+ {
+  "pair": "XX",
+  "method": "mi_1",
+  "angle": 0.06,
+  "flip": 0,
+  "off_from_ours_deg": 2.68,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.1217,
+  "sec": 4.8,
+  "picked_start": [
+   0.0,
+   0
+  ],
+  "metric": -0.17434
+ },
+ {
+  "pair": "XX",
+  "method": "mi_8",
+  "angle": 0.06,
+  "flip": 0,
+  "off_from_ours_deg": 2.68,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.1217,
+  "sec": 25.5,
+  "picked_start": [
+   0.0,
+   0
+  ],
+  "metric": -0.17434
+ },
+ {
+  "pair": "XX",
+  "method": "mi_32",
+  "angle": 337.53,
+  "flip": 0,
+  "off_from_ours_deg": 19.85,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.1698,
+  "sec": 66.1,
+  "picked_start": [
+   337.5,
+   0
+  ],
+  "metric": -0.18985
+ },
+ {
+  "pair": "XX",
+  "method": "cpd_1",
+  "angle": 356.16,
+  "flip": 0,
+  "off_from_ours_deg": 1.22,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.1013,
+  "sec": 106.8,
+  "picked_start": [
+   0.0,
+   0
+  ],
+  "sigma2": 206.8045
+ },
+ {
+  "pair": "XX",
+  "method": "cpd_8",
+  "angle": 356.16,
+  "flip": 0,
+  "off_from_ours_deg": 1.22,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.1013,
+  "sec": 651.0,
+  "picked_start": [
+   0.0,
+   0
+  ],
+  "sigma2": 206.8045
+ },
+ {
+  "pair": "XX",
+  "method": "cpd_32",
+  "angle": 356.16,
+  "flip": 0,
+  "off_from_ours_deg": 1.22,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.1013,
+  "sec": 2486.7,
+  "picked_start": [
+   0.0,
+   0
+  ],
+  "sigma2": 206.8045
+ },
+ {
+  "pair": "VX1",
+  "method": "mi_1",
+  "angle": 0.09,
+  "flip": 0,
+  "off_from_ours_deg": 86.96,
+  "flip_same_as_ours": 1,
+  "gene_score": -0.0322,
+  "sec": 3.0,
+  "picked_start": [
+   0.0,
+   0
+  ],
+  "metric": -0.02497
+ },
+ {
+  "pair": "VX1",
+  "method": "mi_8",
+  "angle": 269.84,
+  "flip": 1,
+  "off_from_ours_deg": 3.29,
+  "flip_same_as_ours": 0,
+  "gene_score": -0.005,
+  "sec": 17.5,
+  "picked_start": [
+   270.0,
+   1
+  ],
+  "metric": -0.03087
+ },
+ {
+  "pair": "VX1",
+  "method": "mi_32",
+  "angle": 247.51,
+  "flip": 1,
+  "off_from_ours_deg": 25.62,
+  "flip_same_as_ours": 0,
+  "gene_score": 0.0201,
+  "sec": 70.5,
+  "picked_start": [
+   247.5,
+   1
+  ],
+  "metric": -0.0311
+ },
+ {
+  "pair": "VX1",
+  "method": "cpd_1",
+  "angle": 358.36,
+  "flip": 0,
+  "off_from_ours_deg": 85.23,
+  "flip_same_as_ours": 1,
+  "gene_score": -0.0415,
+  "sec": 116.0,
+  "picked_start": [
+   0.0,
+   0
+  ],
+  "sigma2": 914.5157
+ },
+ {
+  "pair": "VX1",
+  "method": "cpd_8",
+  "angle": 177.9,
+  "flip": 0,
+  "off_from_ours_deg": 95.23,
+  "flip_same_as_ours": 1,
+  "gene_score": -0.0116,
+  "sec": 799.3,
+  "picked_start": [
+   180.0,
+   0
+  ],
+  "sigma2": 912.227
+ },
+ {
+  "pair": "VX1",
+  "method": "cpd_32",
+  "angle": 177.9,
+  "flip": 0,
+  "off_from_ours_deg": 95.23,
+  "flip_same_as_ours": 1,
+  "gene_score": -0.0116,
+  "sec": 16757.0,
+  "picked_start": [
+   180.0,
+   0
+  ],
+  "sigma2": 912.227
+ },
+ {
+  "pair": "VX2",
+  "method": "mi_1",
+  "angle": 0.25,
+  "flip": 0,
+  "off_from_ours_deg": 89.38,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.0403,
+  "sec": 1.4,
+  "picked_start": [
+   0.0,
+   0
+  ],
+  "metric": -0.02372
+ },
+ {
+  "pair": "VX2",
+  "method": "mi_8",
+  "angle": 89.94,
+  "flip": 0,
+  "off_from_ours_deg": 179.07,
+  "flip_same_as_ours": 1,
+  "gene_score": -0.0024,
+  "sec": 6.8,
+  "picked_start": [
+   90.0,
+   0
+  ],
+  "metric": -0.02458
+ },
+ {
+  "pair": "VX2",
+  "method": "mi_32",
+  "angle": 134.79,
+  "flip": 1,
+  "off_from_ours_deg": 136.08,
+  "flip_same_as_ours": 0,
+  "gene_score": 0.1035,
+  "sec": 32.4,
+  "picked_start": [
+   135.0,
+   1
+  ],
+  "metric": -0.02583
+ },
+ {
+  "pair": "VX2",
+  "method": "cpd_1",
+  "angle": 355.37,
+  "flip": 0,
+  "off_from_ours_deg": 84.5,
+  "flip_same_as_ours": 1,
+  "gene_score": -0.059,
+  "sec": 86.0,
+  "picked_start": [
+   0.0,
+   0
+  ],
+  "sigma2": 2273.0827
+ },
+ {
+  "pair": "VX2",
+  "method": "cpd_8",
+  "angle": 88.22,
+  "flip": 0,
+  "off_from_ours_deg": 177.35,
+  "flip_same_as_ours": 1,
+  "gene_score": -0.1168,
+  "sec": 581.5,
+  "picked_start": [
+   90.0,
+   0
+  ],
+  "sigma2": 2243.055
+ },
+ {
+  "pair": "XX",
+  "method": "santo_k10",
+  "angle": 31.12,
+  "flip": 0,
+  "off_from_ours_deg": 33.74,
+  "flip_same_as_ours": 1,
+  "gene_score": -0.0641,
+  "sec": 2019.7,
+  "mode": "align",
+  "k": 10,
+  "cells_used": [
+   4000,
+   4000
+  ]
+ },
+ {
+  "pair": "XX",
+  "method": "santo_k20",
+  "angle": 23.37,
+  "flip": 0,
+  "off_from_ours_deg": 25.99,
+  "flip_same_as_ours": 1,
+  "gene_score": -0.0243,
+  "sec": 2402.1,
+  "mode": "align",
+  "k": 20,
+  "cells_used": [
+   4000,
+   4000
+  ]
+ },
+ {
+  "pair": "XX",
+  "method": "santo_stitch",
+  "angle": 346.52,
+  "flip": 0,
+  "off_from_ours_deg": 10.86,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.1359,
+  "sec": 1900.2,
+  "mode": "stitch",
+  "k": 10,
+  "cells_used": [
+   4000,
+   4000
+  ]
+ },
+ {
+  "pair": "VX1",
+  "method": "santo_k10",
+  "error": "_LinAlgError('linalg.svd: The algorithm failed to converge because the input matrix contained non-finite values.')",
+  "sec": 36.0
+ },
+ {
+  "pair": "VX1",
+  "method": "santo_k20",
+  "error": "_LinAlgError('linalg.svd: The algorithm failed to converge because the input matrix contained non-finite values.')",
+  "sec": 36.8
+ },
+ {
+  "pair": "VX1",
+  "method": "santo_stitch",
+  "angle": 310.27,
+  "flip": 0,
+  "off_from_ours_deg": 37.14,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.0864,
+  "sec": 1055.8,
+  "mode": "stitch",
+  "k": 10,
+  "cells_used": [
+   4000,
+   4000
+  ]
+ },
+ {
+  "pair": "VX2",
+  "method": "santo_k10",
+  "error": "_LinAlgError('linalg.svd: The algorithm failed to converge because the input matrix contained non-finite values.')",
+  "sec": 33.7
+ },
+ {
+  "pair": "VX2",
+  "method": "santo_k20",
+  "error": "_LinAlgError('linalg.svd: The algorithm failed to converge because the input matrix contained non-finite values.')",
+  "sec": 31.5
+ },
+ {
+  "pair": "VX2",
+  "method": "santo_stitch",
+  "angle": 304.94,
+  "flip": 0,
+  "off_from_ours_deg": 34.07,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.0984,
+  "sec": 838.4,
+  "mode": "stitch",
+  "k": 10,
+  "cells_used": [
+   4000,
+   4000
+  ]
+ }
+]

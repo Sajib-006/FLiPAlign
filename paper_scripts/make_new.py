@@ -1,4 +1,4 @@
-"""Numbers and figure for the reviewer-round experiments (2026-09-30). Reads ../server_results/new/.
+"""Numbers and figure for the reviewer-round experiments (2026-09-30). Reads results/placement/.
 
   * zone ladder on the known-answer sets (gt1 = first 24 cases, gt2 = 72 cases on new tissues):
     right / wrong (200 um), certified at each zone, wrong answers certified, how far the zone lets
@@ -8,13 +8,15 @@
     share answered vs share wrong among answered, against FLiPAlign ranked by its eps;
   * fair DLPFC on all 66 pairs (own gene clusters): layer score of certified vs refused.
 Writes tables/new_numbers.tex (macros) and figures/refusal.pdf."""
+import os
+from _paths import RES, PLACE, STACK, OUT, TABLES, FIGURES
 import glob, json, os
 import numpy as np
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-R = "../server_results/new"
+R = PLACE
 RIGHT_UM = 200
 INK, INK2, GRID, SURF = "#0b0b0b", "#52514e", "#e4e3df", "#fcfcfb"
 BLUE, ORANGE = "#2a78d6", "#eb6834"
@@ -107,7 +109,7 @@ def main():
             ax.grid(axis="y", color=GRID, lw=0.6)
     axs[0].set_ylabel("wrong among answered (%)")
     axs[0].legend(frameon=False, fontsize=6.5, loc="upper left")
-    fig.savefig("figures/refusal.pdf", bbox_inches="tight"); fig.savefig("figures/refusal.png", dpi=220, bbox_inches="tight")
+    fig.savefig(os.path.join(FIGURES, "refusal.pdf"), bbox_inches="tight"); fig.savefig(os.path.join(FIGURES, "refusal.png"), dpi=220, bbox_inches="tight")
     h4 = merged("gt1h4")
     if h4:
         M.update(ladder_stats(h4, "GTf"))
@@ -119,7 +121,7 @@ def main():
                   "DLFcertMin": f"{min(cert):.2f}" if cert else "--", "DLFcertBad": sum(v < 0.4 for v in cert),
                   "DLFref": len(ref), "DLFrefBad": sum(v < 0.4 for v in ref),
                   "DLFrefMed": f"{np.median(ref):.2f}" if ref else "--"})
-    open("tables/new_numbers.tex", "w").write("".join(f"\\newcommand{{\\{k}}}{{{v}}}\n" for k, v in M.items()))
+    open(os.path.join(TABLES, "new_numbers.tex"), "w").write("".join(f"\\newcommand{{\\{k}}}{{{v}}}\n" for k, v in M.items()))
     return M
 
 

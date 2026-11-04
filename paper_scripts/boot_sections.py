@@ -2,7 +2,9 @@
 Cases from one source section are not independent, so resample source sections (6 per set, 8 cases each) with
 replacement, 10,000 times. For each resample: FLiPAlign right answers (flip searched, nothing handed over) and the
 best tool's right answers, with the best tool and start (as given or flip, + angle, + position) re-chosen in each resample (favours the tools).
-Writes ../server_results/boot_sections.json and tables/boot_numbers.tex."""
+Writes out/boot_sections.json (the shipped copy is results/boot_sections.json)."""
+import os
+from _paths import RES, PLACE, STACK, OUT, TABLES, FIGURES
 import json
 import numpy as np
 from make_results import load, manifest
@@ -43,4 +45,4 @@ for name, sets in (("both", ("gt3", "gt4")), ("second", ("gt4",))):
     out[name] = {"flipalign": o_, "best_tool": b_, "ratio": round(o_ / b_, 3),
                  "ratio_ci": [round(float(np.percentile(ratio, 2.5)), 2), round(float(np.percentile(ratio, 97.5)), 2)],
                  "p_flip_not_better": round(float(np.mean(R[:, 0] <= R[:, 1])), 4)}
-json.dump(out, open("../server_results/boot_sections.json", "w"), indent=1); print(json.dumps(out, indent=1))
+json.dump(out, open(os.path.join(OUT, "boot_sections.json"), "w"), indent=1); print(json.dumps(out, indent=1))

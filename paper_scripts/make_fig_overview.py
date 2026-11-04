@@ -1,17 +1,19 @@
-"""Figure 1 (overview) and the stack example, from real data (../server_results/stack/fig_data.npz, made by fig_data.py).
+"""Figure 1 (overview) and the stack example, from real data (results/stack/fig_data.npz, made by fig_data.py).
 Overview: (a) section A as given (turned, mirrored), own labels; (b) section B, own labels (colours do not correspond);
 (c) A placed on B by FLiPAlign's certified answer; (d) three serial sections, own labels; (e) the same after split
 labelling, one set of labels for the stack.
 Stack example: three sections; rows = atlas division, best one-to-one labelling, split labelling. Colours of a
 labelling are matched to the atlas divisions by an assignment on overlap, for display only.
-Run from paper/: python3 make_fig_overview.py -> figures/overview2.pdf, figures/stack_example.pdf"""
+Run from paper_scripts/ (env RESULTS, OUT): python3 make_fig_overview.py -> figures/overview2.pdf, figures/stack_example.pdf"""
+import os
+from _paths import RES, PLACE, STACK, OUT, TABLES, FIGURES
 import numpy as np
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from scipy.optimize import linear_sum_assignment
 
-z = np.load("../server_results/stack/fig_data.npz", allow_pickle=True)
+z = np.load(os.path.join(STACK, "fig_data.npz"), allow_pickle=True)
 PAL = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#6250d6", "#e34948"]
 GREY, INK = "#c9c9c4", "#222222"
 plt.rcParams.update({"font.size": 7, "pdf.fonttype": 42, "font.family": "serif", "font.serif": ["cmr10"],
@@ -53,17 +55,17 @@ for j in range(3):
     dots(ax[4], sh, z[f"s{j}_split"] % 8, s=0.08)
 for a_ in ax[3:]: fit_box(a_, np.vstack(stack))
 for a_, (l, t) in zip(ax, [("a", "Section A"), ("b", "Section B"), ("c", "A on B"), ("d", "Own labels"), ("e", "One set")]):
-    fig.text(X[ax.index(a_)] + 0.005, Y + H + 0.015, l, fontsize=7.5, ha="left", va="bottom", family="cmb10")
-    fig.text(X[ax.index(a_)] + 0.032, Y + H + 0.015, t, fontsize=7, ha="left", va="bottom")
+    fig.text(X[ax.index(a_)] + 0.005, Y + H + 0.015, l, fontsize=9, ha="left", va="bottom", family="cmb10")
+    fig.text(X[ax.index(a_)] + 0.036, Y + H + 0.015, t, fontsize=8.5, ha="left", va="bottom")
 from matplotlib.patches import FancyBboxPatch
 for x0, x1, n, txt in ((0.0, 0.62, "1", "Placement"), (0.655, 0.99, "2", "Labelling")):
     fig.add_artist(FancyBboxPatch((x0, 0.885), x1 - x0, 0.085, boxstyle="round,pad=0,rounding_size=0.012",
                                   transform=fig.transFigure, fc="#eef2f7", ec="none"))
-    fig.text((x0 + x1) / 2, 0.927, f"{n}   {txt}", fontsize=8, ha="center", va="center", color=INK, family="cmb10")
+    fig.text((x0 + x1) / 2, 0.927, f"{n}   {txt}", fontsize=9.5, ha="center", va="center", color=INK, family="cmb10")
 for x0, x1, lab in ((0.37, 0.43, "search"), (0.80, 0.835, "split")):
     fig.add_artist(FancyArrowPatch((x0, Y + H / 2), (x1, Y + H / 2), transform=fig.transFigure, arrowstyle="-|>", mutation_scale=8, lw=0.8, color=INK))
-    fig.text((x0 + x1) / 2, Y + H / 2 + 0.04, lab, fontsize=7, ha="center", va="bottom", color=INK)
-fig.savefig("figures/overview2.pdf", bbox_inches="tight", pad_inches=0.02); fig.savefig("figures/overview2.png", dpi=220, bbox_inches="tight", pad_inches=0.02)
+    fig.text((x0 + x1) / 2, Y + H / 2 + 0.04, lab, fontsize=8.5, ha="center", va="bottom", color=INK)
+fig.savefig(os.path.join(FIGURES, "overview2.pdf"), bbox_inches="tight", pad_inches=0.02); fig.savefig(os.path.join(FIGURES, "overview2.png"), dpi=220, bbox_inches="tight", pad_inches=0.02)
 
 # ---------------- stack example (atlas / one-to-one / split), colours matched to atlas divisions
 divs = np.concatenate([z[f"s{j}_div"] for j in range(3)])
@@ -87,5 +89,5 @@ for j in range(3):
 for i, t in enumerate(["atlas division", "one-to-one", "split (ours)"]):
     ax[i, 0].text(-0.08, 0.5, t, transform=ax[i, 0].transAxes, rotation=90, va="center", ha="right", fontsize=6.5)
 fig.subplots_adjust(wspace=0.02, hspace=0.06, left=0.06, right=0.99, top=0.93, bottom=0.01)
-fig.savefig("figures/stack_example.pdf"); fig.savefig("figures/stack_example.png", dpi=220)
+fig.savefig(os.path.join(FIGURES, "stack_example.pdf")); fig.savefig(os.path.join(FIGURES, "stack_example.png"), dpi=220)
 print("top divisions", top)

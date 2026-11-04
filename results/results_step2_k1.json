@@ -1,0 +1,104 @@
+[
+ {
+  "pair": "151507 vs 151508",
+  "note": "adjacent 10 um, same donor",
+  "best": 0.6301,
+  "gap": 0.0323,
+  "certified": true,
+  "angle_deg": 1.94,
+  "flip": 0,
+  "shift": [
+   -1.25,
+   1.0
+  ],
+  "solve_s": 127.6,
+  "far_exact": 0.5803,
+  "eps_unique": 0.0166,
+  "unique_PROVEN": true,
+  "far_complete": true,
+  "layers matched right": "7/7",
+  "total_s": 245.6
+ },
+ {
+  "pair": "151507 vs 151510",
+  "note": "same donor, 300 um apart",
+  "best": 0.4022,
+  "gap": 0.035,
+  "certified": true,
+  "angle_deg": 244.31,
+  "flip": 1,
+  "shift": [
+   -8.0,
+   8.0
+  ],
+  "solve_s": 348.1,
+  "far_exact": 0.399,
+  "eps_unique": -0.0326,
+  "unique_PROVEN": false,
+  "far_complete": true,
+  "layers matched right": "7/7",
+  "total_s": 530.0
+ },
+ {
+  "pair": "151507 vs 151673",
+  "note": "different donors (negative control)",
+  "best": 0.2585,
+  "gap": 0.0343,
+  "certified": true,
+  "angle_deg": 234.25,
+  "flip": 0,
+  "shift": [
+   6.0,
+   8.0
+  ],
+  "solve_s": 2398.8,
+  "far_exact": 0.2477,
+  "eps_unique": -0.0227,
+  "unique_PROVEN": false,
+  "far_complete": true,
+  "layers matched right": "0/7",
+  "total_s": 3030.1
+ },
+ {
+  "pair": "151507 vs 151508",
+  "note": "adjacent + known 73 deg and mirror flip",
+  "best": 0.631,
+  "gap": 0.0326,
+  "certified": true,
+  "angle_deg": 71.06,
+  "flip": 1,
+  "shift": [
+   0.5,
+   -1.5
+  ],
+  "solve_s": 121.4,
+  "far_exact": 0.5817,
+  "eps_unique": 0.0156,
+  "unique_PROVEN": true,
+  "far_complete": true,
+  "layers matched right": "7/7",
+  "total_s": 218.6,
+  "angle_err_vs_known": 1.94,
+  "flip_ok": 1
+ },
+ {
+  "pair": "151507 vs 151508",
+  "note": "adjacent, B merges L2+L3",
+  "best": 0.5869,
+  "gap": 0.0281,
+  "certified": true,
+  "angle_deg": 2.75,
+  "flip": 0,
+  "shift": [
+   -1.5,
+   1.0
+  ],
+  "solve_s": 118.3,
+  "far_exact": 0.5394,
+  "eps_unique": 0.018,
+  "unique_PROVEN": true,
+  "far_complete": true,
+  "layers matched right": "n/a (merged)",
+  "total_s": 210.9
+ }
+]

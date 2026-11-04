@@ -1,14 +1,16 @@
-"""Paper figures, drawn straight from the result files (../server_results).
+"""Paper figures, drawn straight from the result files (results/).
 Palette: validated categorical order (blue, orange, aqua, yellow, magenta, green); ours is blue.
 Every method is named on the axis (identity is never color alone); certified vs refused uses
 filled vs hollow markers as well as color."""
+import os
+from _paths import RES, PLACE, STACK, OUT, TABLES, FIGURES
 import collections, json, os
 import numpy as np
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-R = "../server_results"; F = "figures"; os.makedirs(F, exist_ok=True)
+R = RES; F = FIGURES
 load = lambda f: json.load(open(os.path.join(R, f)))
 INK, INK2, GRID, SURF = "#0b0b0b", "#52514e", "#e4e3df", "#fcfcfb"
 PAL = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300"]

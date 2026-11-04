@@ -2,11 +2,14 @@
 Wraps each top-level tabular in adjustbox{max width=\linewidth} (shrinks only when too wide), and shortens the
 widest tables first so they do not shrink to an unreadable size: "median (lo--hi)" cells go on two lines, long row
 names and "a / b / c" spacing are shortened. Safe to run more than once.
-Run from paper/: python3 fit_tables.py   (make_results3.py also calls it at the end)"""
+Run from paper_scripts/ (env RESULTS, OUT): python3 fit_tables.py   (make_results3.py also calls it at the end)"""
+import os
+from _paths import RES, PLACE, STACK, OUT, TABLES, FIGURES
 import re
 
-FILES = ["appendix.tex", "tables/res3_appendix.tex", "tables/res3_datasets.tex", "tables/res3_tools.tex",
-         "tables/res3_heldout.tex", "tables/res3_landmarks.tex", "tables/stack_results_ari.tex"]
+FILES = [os.path.join(os.environ.get("PAPER_DIR", "."), "appendix.tex")] + [
+    os.path.join(TABLES, f) for f in ("res3_appendix.tex", "res3_datasets.tex", "res3_tools.tex", "res3_heldout.tex",
+                                       "res3_landmarks.tex", "stack_results_ari.tex")]
 OPEN, CLOSE = "\\begin{adjustbox}{max width=\\linewidth}", "\\end{adjustbox}"
 
 
@@ -50,9 +53,11 @@ def shorten(txt):
 
 def main():
     for f in FILES:
+        if not os.path.exists(f):
+            print("skip (not found)", f); continue
         t = open(f).read()
         n = t
-        if f == "appendix.tex":
+        if os.path.basename(f) == "appendix.tex":
             n = re.sub(r"\\resizebox\{\\linewidth\}\{!\}\{(\\input\{[^}]+\})\}", r"\1", n)
         else:
             n = shorten(two_line(n))

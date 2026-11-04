@@ -1,0 +1,273 @@
+[
+ {
+  "test": "Visium vs Xenium, cell types",
+  "xenium": "Rep1",
+  "sigma": 20.0,
+  "h": 4.0,
+  "tpad": 300.0,
+  "KA/KB": [
+   15,
+   20
+  ],
+  "angle_deg": 273.38,
+  "flip": 0,
+  "shift": [
+   28.0,
+   116.0
+  ],
+  "shift_at_window_edge": false,
+  "best": 0.0808,
+  "gap": 0.0188,
+  "certified": true,
+  "solve_s": 5234.2,
+  "far_exact": 0.0625,
+  "eps_unique": -0.0048,
+  "unique_PROVEN": false,
+  "far_complete": true,
+  "gene_corr": 0.4833,
+  "spots_on_xenium": 0.7,
+  "shared_genes": 307,
+  "random_mean": -0.0058,
+  "random_max": 0.1595
+ },
+ {
+  "test": "Visium vs Xenium, cell types",
+  "xenium": "Rep1",
+  "sigma": 30.0,
+  "h": 4.0,
+  "tpad": 300.0,
+  "KA/KB": [
+   15,
+   20
+  ],
+  "angle_deg": 273.38,
+  "flip": 0,
+  "shift": [
+   36.0,
+   120.0
+  ],
+  "shift_at_window_edge": false,
+  "best": 0.0702,
+  "gap": 0.0121,
+  "certified": true,
+  "solve_s": 4844.1,
+  "far_exact": 0.0623,
+  "eps_unique": -0.0056,
+  "unique_PROVEN": false,
+  "far_complete": true,
+  "gene_corr": 0.398,
+  "spots_on_xenium": 0.692,
+  "shared_genes": 307,
+  "random_mean": 0.011,
+  "random_max": 0.0866
+ },
+ {
+  "test": "Visium vs Xenium, regions K=6",
+  "xenium": "Rep1",
+  "sigma": 20.0,
+  "h": 4.0,
+  "tpad": 300.0,
+  "KA/KB": [
+   15,
+   6
+  ],
+  "angle_deg": 273.13,
+  "flip": 0,
+  "shift": [
+   28.0,
+   120.0
+  ],
+  "shift_at_window_edge": false,
+  "best": 0.1189,
+  "gap": 0.0315,
+  "certified": true,
+  "solve_s": 3057.0,
+  "far_exact": 0.086,
+  "eps_unique": -0.0011,
+  "unique_PROVEN": false,
+  "far_complete": true,
+  "gene_corr": 0.4581,
+  "spots_on_xenium": 0.694,
+  "shared_genes": 307,
+  "random_mean": 0.0055,
+  "random_max": 0.1697
+ },
+ {
+  "test": "Visium vs Xenium, regions K=6",
+  "xenium": "Rep2",
+  "sigma": 20.0,
+  "h": 4.0,
+  "tpad": 300.0,
+  "KA/KB": [
+   15,
+   6
+  ],
+  "angle_deg": 270.87,
+  "flip": 0,
+  "shift": [
+   68.0,
+   -12.0
+  ],
+  "shift_at_window_edge": false,
+  "best": 0.115,
+  "gap": 0.0322,
+  "certified": true,
+  "solve_s": 2233.4,
+  "far_exact": 0.0864,
+  "eps_unique": -0.0037,
+  "unique_PROVEN": false,
+  "far_complete": true,
+  "gene_corr": 0.4208,
+  "spots_on_xenium": 0.607,
+  "shared_genes": 307,
+  "random_mean": -0.0042,
+  "random_max": 0.1115
+ },
+ {
+  "test": "Visium vs Xenium, cell types",
+  "xenium": "Rep2",
+  "sigma": 20.0,
+  "h": 4.0,
+  "tpad": 300.0,
+  "KA/KB": [
+   15,
+   25
+  ],
+  "angle_deg": 271.12,
+  "flip": 0,
+  "shift": [
+   68.0,
+   -8.0
+  ],
+  "shift_at_window_edge": false,
+  "best": 0.0878,
+  "gap": 0.0181,
+  "certified": true,
+  "solve_s": 3053.2,
+  "far_exact": 0.0747,
+  "eps_unique": -0.0055,
+  "unique_PROVEN": false,
+  "far_complete": true,
+  "gene_corr": 0.3753,
+  "spots_on_xenium": 0.613,
+  "shared_genes": 307,
+  "random_mean": 0.0114,
+  "random_max": 0.1067
+ },
+ {
+  "test": "Visium vs Xenium, regions K=6, h=2",
+  "xenium": "Rep1",
+  "sigma": 20.0,
+  "h": 2.0,
+  "tpad": 300.0,
+  "KA/KB": [
+   15,
+   6
+  ],
+  "angle_deg": 272.94,
+  "flip": 0,
+  "shift": [
+   30.0,
+   120.0
+  ],
+  "shift_at_window_edge": false,
+  "best": 0.1191,
+  "gap": 0.0139,
+  "certified": true,
+  "solve_s": 4691.2,
+  "far_exact": 0.086,
+  "eps_unique": -0.0097,
+  "unique_PROVEN": false,
+  "far_complete": false,
+  "gene_corr": 0.4565,
+  "spots_on_xenium": 0.693,
+  "shared_genes": 307,
+  "random_mean": -0.0058,
+  "random_max": 0.1595
+ },
+ {
+  "test": "Visium vs Xenium, regions K=6, h=2",
+  "xenium": "Rep1",
+  "sigma": 10.0,
+  "h": 2.0,
+  "tpad": 300.0,
+  "KA/KB": [
+   15,
+   6
+  ],
+  "angle_deg": 273.0,
+  "flip": 0,
+  "shift": [
+   28.0,
+   116.0
+  ],
+  "shift_at_window_edge": false,
+  "best": 0.1483,
+  "gap": 0.0531,
+  "certified": false,
+  "solve_s": 5408.9,
+  "gene_corr": 0.4867,
+  "spots_on_xenium": 0.702,
+  "shared_genes": 307,
+  "random_mean": 0.011,
+  "random_max": 0.0866
+ },
+ {
+  "test": "Visium vs Xenium, regions K=6, h=2",
+  "xenium": "Rep2",
+  "sigma": 20.0,
+  "h": 2.0,
+  "tpad": 300.0,
+  "KA/KB": [
+   15,
+   6
+  ],
+  "angle_deg": 270.81,
+  "flip": 0,
+  "shift": [
+   66.0,
+   -12.0
+  ],
+  "shift_at_window_edge": false,
+  "best": 0.1151,
+  "gap": 0.0142,
+  "certified": true,
+  "solve_s": 5146.3,
+  "far_exact": 0.0864,
+  "eps_unique": -0.0224,
+  "unique_PROVEN": false,
+  "far_complete": false,
+  "gene_corr": 0.4244,
+  "spots_on_xenium": 0.61,
+  "shared_genes": 307,
+  "random_mean": 0.0007,
+  "random_max": 0.1271
+ },
+ {
+  "test": "Visium vs Xenium, regions K=6, h=2",
+  "xenium": "Rep2",
+  "sigma": 10.0,
+  "h": 2.0,
+  "tpad": 300.0,
+  "KA/KB": [
+   15,
+   6
+  ],
+  "angle_deg": 271.25,
+  "flip": 0,
+  "shift": [
+   66.0,
+   -16.0
+  ],
+  "shift_at_window_edge": false,
+  "best": 0.139,
+  "gap": 0.0679,
+  "certified": false,
+  "solve_s": 5409.4,
+  "gene_corr": 0.4587,
+  "spots_on_xenium": 0.607,
+  "shared_genes": 307,
+  "random_mean": -0.0042,
+  "random_max": 0.1115
+ }
+]

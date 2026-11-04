@@ -1,0 +1,58 @@
+[
+ {
+  "pair": "XX",
+  "method": "local50",
+  "angle": 357.32,
+  "flip": 0,
+  "off_from_ours_deg": 0.06,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.6207,
+  "sec": 95.6,
+  "objective": 0.1668,
+  "starts": 50,
+  "starts_that_found_ours": 2
+ },
+ {
+  "pair": "XX",
+  "method": "local200",
+  "angle": 357.34,
+  "flip": 0,
+  "off_from_ours_deg": 0.04,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.6247,
+  "sec": 281.4,
+  "objective": 0.1668,
+  "starts": 200,
+  "starts_that_found_ours": 6
+ },
+ {
+  "pair": "XX",
+  "method": "paste2_s0.3",
+  "angle": 348.92,
+  "flip": 0,
+  "off_from_ours_deg": 8.46,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.195,
+  "sec": 3846.1,
+  "cells_used": [
+   4000,
+   4000
+  ],
+  "s": 0.3
+ },
+ {
+  "pair": "XX",
+  "method": "paste2_s0.9",
+  "angle": 352.08,
+  "flip": 0,
+  "off_from_ours_deg": 5.3,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.1572,
+  "sec": 379.8,
+  "cells_used": [
+   4000,
+   4000
+  ],
+  "s": 0.9
+ }
+]

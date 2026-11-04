@@ -1,0 +1,170 @@
+[
+ {
+  "applied": [
+   0.0,
+   0
+  ],
+  "domains RNA/protein": [
+   8,
+   6
+  ],
+  "best": 0.2374,
+  "gap": 0.0632,
+  "certified": true,
+  "angle_deg": 0.25,
+  "flip": 0,
+  "shift": [
+   0.5,
+   -0.25
+  ],
+  "solve_s": 479.2,
+  "far_exact": 0.0795,
+  "eps_unique": 0.0988,
+  "unique_PROVEN": true,
+  "far_complete": false,
+  "angle_err": 0.25,
+  "flip_ok": 1,
+  "domain correspondence": "5/5",
+  "ceiling (same-spot agreement)": 0.511
+ },
+ {
+  "applied": [
+   73.0,
+   1
+  ],
+  "domains RNA/protein": [
+   8,
+   6
+  ],
+  "best": 0.2344,
+  "gap": 0.0636,
+  "certified": true,
+  "angle_deg": 72.75,
+  "flip": 1,
+  "shift": [
+   -0.25,
+   0.0
+  ],
+  "solve_s": 459.2,
+  "far_exact": 0.076,
+  "eps_unique": 0.084,
+  "unique_PROVEN": true,
+  "far_complete": false,
+  "angle_err": 0.25,
+  "flip_ok": 1,
+  "domain correspondence": "4/4",
+  "ceiling (same-spot agreement)": 0.511
+ },
+ {
+  "applied": [
+   211.0,
+   0
+  ],
+  "domains RNA/protein": [
+   8,
+   6
+  ],
+  "best": 0.2407,
+  "gap": 0.0635,
+  "certified": true,
+  "angle_deg": 211.06,
+  "flip": 0,
+  "shift": [
+   0.5,
+   -0.25
+  ],
+  "solve_s": 252.5,
+  "far_exact": 0.0792,
+  "eps_unique": 0.1034,
+  "unique_PROVEN": true,
+  "far_complete": true,
+  "angle_err": 0.06,
+  "flip_ok": 1,
+  "domain correspondence": "5/5",
+  "ceiling (same-spot agreement)": 0.511
+ },
+ {
+  "applied": [
+   137.0,
+   1
+  ],
+  "domains RNA/protein": [
+   8,
+   6
+  ],
+  "best": 0.24,
+  "gap": 0.064,
+  "certified": true,
+  "angle_deg": 136.88,
+  "flip": 1,
+  "shift": [
+   0.0,
+   0.25
+  ],
+  "solve_s": 284.9,
+  "far_exact": 0.081,
+  "eps_unique": 0.0949,
+  "unique_PROVEN": true,
+  "far_complete": true,
+  "angle_err": 0.12,
+  "flip_ok": 1,
+  "domain correspondence": "5/5",
+  "ceiling (same-spot agreement)": 0.511
+ },
+ {
+  "applied": [
+   290.0,
+   0
+  ],
+  "domains RNA/protein": [
+   8,
+   6
+  ],
+  "best": 0.2363,
+  "gap": 0.0632,
+  "certified": true,
+  "angle_deg": 290.06,
+  "flip": 0,
+  "shift": [
+   -0.25,
+   0.0
+  ],
+  "solve_s": 242.7,
+  "far_exact": 0.0792,
+  "eps_unique": 0.0942,
+  "unique_PROVEN": true,
+  "far_complete": true,
+  "angle_err": 0.06,
+  "flip_ok": 1,
+  "domain correspondence": "5/5",
+  "ceiling (same-spot agreement)": 0.511
+ },
+ {
+  "applied": [
+   30.0,
+   1
+  ],
+  "domains RNA/protein": [
+   8,
+   6
+  ],
+  "best": 0.2444,
+  "gap": 0.0634,
+  "certified": true,
+  "angle_deg": 29.81,
+  "flip": 1,
+  "shift": [
+   0.25,
+   0.25
+  ],
+  "solve_s": 227.2,
+  "far_exact": 0.0833,
+  "eps_unique": 0.1016,
+  "unique_PROVEN": true,
+  "far_complete": true,
+  "angle_err": 0.19,
+  "flip_ok": 1,
+  "domain correspondence": "5/5",
+  "ceiling (same-spot agreement)": 0.511
+ }
+]

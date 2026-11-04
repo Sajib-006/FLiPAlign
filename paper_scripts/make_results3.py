@@ -1,8 +1,10 @@
 """Round-5 tables and numbers (2026-10-05): second held-out set, tools under three starts, FLiPAlign as
 the start of other tools, certificate against a margin rule tuned on development data, tight-bound
 decision, score ablations, negative controls, and the appendix tables.
-Reads ../server_results/new; writes tables/res3_*.tex. Missing result files give "--" (rerun later).
-Run from paper/: python3 make_results3.py"""
+Reads results/placement; writes tables/res3_*.tex. Missing result files give "--" (rerun later).
+Run from paper_scripts/ (env RESULTS, OUT): python3 make_results3.py"""
+import os
+from _paths import RES, PLACE, STACK, OUT, TABLES, FIGURES
 import collections, glob, json, os
 import numpy as np
 from scipy.stats import beta
@@ -516,7 +518,7 @@ def appendix_tables():
         table("\n".join(["\\begin{tabular}{llrrrrrr}", "\\toprule",
                          "Set (48 cases) & Mode & Right & Certified & Holds & C\\&R & 95\\% interval (\\%) & With shift bound \\\\", "\\midrule"] + rows +
                         ["\\bottomrule", "\\end{tabular}"]),
-              "Certificates on the two held-out sets. Holds: the true placement lies in the certified zone, which is what the certificate claims. "
+              "Certificates on the two held-out sets. Holds: the true placement lies in the certified zone, which the certificate implies only when the true placement scores within $\eps$ of the answer, a condition that cannot be checked on new tissue. "
               "C\\&R: the certified answer is right (error under 200~$\\mu$m). A certificate whose zone leaves the shift free can hold while its answer is far off, "
               "so the last column counts certificates that bound the shift. The interval is for the share of certified answers that are right.", "tab:holds")
     for f_, cap, lab in (("res2_confusion.tex", "Certified and refused answers against right and wrong, on the first held-out set and on the 204 cases that existed before the second "
@@ -917,11 +919,12 @@ def landmarks_tables():
         return min(v) if v else None
     def cell(v, k):
         return "--" if v is None else f"{v:.0f}" + ("$^\\ast$" if v < floor[k] + 100 else "")
-    names = [("paste", "PASTE"), ("paste2", "PASTE2"), ("slat", "SLAT"), ("cpd", "CPD"), ("spateo", "spateo"), ("cast", "CAST"), ("stalign", "STalign")]
+    names = [("paste", "PASTE"), ("paste2", "PASTE2"), ("slat", "SLAT"), ("cpd", "CPD"), ("spateo", "spateo"), ("cast", "CAST"), ("stalign", "STalign"), ("gala", "GALA")]
     cnt = {}
     for arm in ("given", "rough", "pose"):
         for t, _ in names:
-            cnt[(arm, t)] = sum(1 for k in range(1, 8) if best(arm, t, k) is not None and best(arm, t, k) < floor[k] + 100)
+            ran = any(best(arm, t, k) is not None for k in range(1, 8))      # "--" for a start the tool was not run from
+            cnt[(arm, t)] = sum(1 for k in range(1, 8) if best(arm, t, k) is not None and best(arm, t, k) < floor[k] + 100) if ran else "--"
     fl = {k: pr[k]["coarse"]["median_um"] for k in pr}; fl_ok = sum(fl[k] < floor[k] + 100 for k in pr)
     M.update({"LMflipRight": fl_ok, "LMfineRight": sum(pr[k]["fine"]["median_um"] < floor[k] + 100 for k in pr if "fine" in pr[k]),
               "LMn": 7, "LMcert": sum(bool(pr[k]["flipalign_certified"]) for k in pr),
@@ -932,7 +935,7 @@ def landmarks_tables():
               "LMangleMax": f"{max(pr[k]['coarse']['angle_error_deg'] for k in pr if fl[k] < floor[k] + 100):.1f}",
               "LMpoints": sum(pr[k]["n_landmarks"] for k in pr)})
     for arm, nm in (("given", "G"), ("rough", "R"), ("pose", "P")):
-        bt = max((cnt[(arm, t)] for t, _ in names)); M[f"LMbest{nm}"] = bt
+        bt = max((cnt[(arm, t)] for t, _ in names if cnt[(arm, t)] != "--")); M[f"LMbest{nm}"] = bt
         M[f"LMbestName{nm}"] = " and ".join(n_ for t, n_ in names if cnt[(arm, t)] == bt)
         for t, n_ in names:
             M[f"LM{nm}{t.replace('2', 'two')}"] = cnt[(arm, t)]
@@ -964,6 +967,9 @@ NAMES_LM = {1: "Breast Rep1 (Visium to Xenium)", 2: "Breast Rep2 (Visium to Xeni
 def app_bib():
     """reference list of the appendix: the entries of main.tex that the appendix (and its tables) cite"""
     import re
+    if not (os.path.exists("main.tex") and os.path.exists("appendix.tex")):
+        print("skip app_bib: main.tex / appendix.tex (paper source) not present")
+        return
     main = open("main.tex").read()
     items = dict(re.findall(r"\\bibitem\{([^}]+)\}(.*?)(?=\\bibitem|\\end\{thebibliography\})", main, flags=re.S))
     txt = open("appendix.tex").read() + "".join(open(f).read() for f in glob.glob(f"{T}/res3_*.tex") if not f.endswith("appbib.tex"))

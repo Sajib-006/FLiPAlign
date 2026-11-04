@@ -1,0 +1,146 @@
+[
+ {
+  "pair": "XX",
+  "method": "slat_k10",
+  "angle": 357.68,
+  "flip": 0,
+  "off_from_ours_deg": 0.3,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.0971,
+  "sec": 289.4,
+  "k": 10,
+  "epochs": 6,
+  "cells_used": [
+   4000,
+   3999
+  ]
+ },
+ {
+  "pair": "XX",
+  "method": "slat_k20",
+  "angle": 357.37,
+  "flip": 0,
+  "off_from_ours_deg": 0.01,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.1056,
+  "sec": 298.5,
+  "k": 20,
+  "epochs": 6,
+  "cells_used": [
+   4000,
+   3999
+  ]
+ },
+ {
+  "pair": "XX",
+  "method": "slat_k10_e20",
+  "angle": 357.94,
+  "flip": 0,
+  "off_from_ours_deg": 0.56,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.0932,
+  "sec": 1026.4,
+  "k": 10,
+  "epochs": 20,
+  "cells_used": [
+   4000,
+   3999
+  ]
+ },
+ {
+  "pair": "VX1",
+  "method": "slat_k10",
+  "angle": 336.58,
+  "flip": 0,
+  "off_from_ours_deg": 63.45,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.0363,
+  "sec": 262.1,
+  "k": 10,
+  "epochs": 6,
+  "cells_used": [
+   4000,
+   3999
+  ]
+ },
+ {
+  "pair": "VX1",
+  "method": "slat_k20",
+  "angle": 337.27,
+  "flip": 0,
+  "off_from_ours_deg": 64.14,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.0338,
+  "sec": 281.3,
+  "k": 20,
+  "epochs": 6,
+  "cells_used": [
+   4000,
+   3999
+  ]
+ },
+ {
+  "pair": "VX1",
+  "method": "slat_k10_e20",
+  "angle": 336.78,
+  "flip": 0,
+  "off_from_ours_deg": 63.65,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.0358,
+  "sec": 891.7,
+  "k": 10,
+  "epochs": 20,
+  "cells_used": [
+   4000,
+   3999
+  ]
+ },
+ {
+  "pair": "VX2",
+  "method": "slat_k10",
+  "angle": 331.84,
+  "flip": 0,
+  "off_from_ours_deg": 60.97,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.0787,
+  "sec": 259.5,
+  "k": 10,
+  "epochs": 6,
+  "cells_used": [
+   4000,
+   3999
+  ]
+ },
+ {
+  "pair": "VX2",
+  "method": "slat_k20",
+  "angle": 329.74,
+  "flip": 0,
+  "off_from_ours_deg": 58.87,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.0791,
+  "sec": 250.5,
+  "k": 20,
+  "epochs": 6,
+  "cells_used": [
+   4000,
+   3999
+  ]
+ },
+ {
+  "pair": "VX2",
+  "method": "slat_k10_e20",
+  "angle": 332.81,
+  "flip": 0,
+  "off_from_ours_deg": 61.94,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.0765,
+  "sec": 518.5,
+  "k": 10,
+  "epochs": 20,
+  "cells_used": [
+   4000,
+   3999
+  ]
+ }
+]

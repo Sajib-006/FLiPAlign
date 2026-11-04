@@ -3,7 +3,9 @@
     bound slack (Theorem "complete up to lambda"); (b) certified answers, right and wrong, for the certificate
     and for an unproven margin rule whose threshold is tuned on all development cases or on one development
     tissue; (c) right answers against overlap on mouse brain, flip searched and flip known.
-Run from paper/: python3 make_fig_results.py  -> figures/results.pdf"""
+Run from paper_scripts/ (env RESULTS, OUT): python3 make_fig_results.py  -> figures/results.pdf"""
+import os
+from _paths import RES, PLACE, STACK, OUT, TABLES, FIGURES
 import json
 import numpy as np
 import matplotlib
@@ -89,5 +91,5 @@ c.legend(frameon=False, loc="lower left", fontsize=5.5, handlelength=1.6, border
 c.set_xlim(104, 56); c.set_ylim(0, 22); c.set_xticks(xs); c.set_xlabel("share of A on B (%)"); c.set_ylabel("brain cases right (of 20)")
 c.set_title("(c) brain, as overlap falls", fontsize=7, loc="left")
 fig.tight_layout(w_pad=1.0)
-fig.savefig("figures/results.pdf"); fig.savefig("figures/results.png", dpi=200)
+fig.savefig(os.path.join(FIGURES, "results.pdf")); fig.savefig(os.path.join(FIGURES, "results.png"), dpi=200)
 print("slack", round(slack, 4), "bars", bars, "sweep", ys, yk)

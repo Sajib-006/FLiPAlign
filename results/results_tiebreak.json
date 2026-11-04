@@ -1,0 +1,48 @@
+{
+ "357.5 (regions+contrast, proven unique)": {
+  "score_as_given": 0.5532,
+  "overlap_as_given": 0.586,
+  "score_refined": 0.5805,
+  "refined_at": {
+   "angle": 358.5,
+   "flip": 0,
+   "shift": [
+    40,
+    -128
+   ],
+   "overlap": 0.58
+  }
+ },
+ "344.12 (raw score, cell-type reference)": {
+  "score_as_given": 0.2328,
+  "overlap_as_given": 0.719,
+  "score_refined": 0.2645,
+  "refined_at": {
+   "angle": 346.12,
+   "flip": 0,
+   "shift": [
+    0,
+    -60
+   ],
+   "overlap": 0.697
+  }
+ },
+ "62.5 flipped (capped, wrong run)": {
+  "score_as_given": 0.2398,
+  "overlap_as_given": 0.575,
+  "score_refined": 0.276,
+  "refined_at": {
+   "angle": 61.5,
+   "flip": 1,
+   "shift": [
+    -60,
+    48
+   ],
+   "overlap": 0.572
+  }
+ },
+ "random baseline (30)": {
+  "mean": 0.0078,
+  "max": 0.2253
+ }
+}

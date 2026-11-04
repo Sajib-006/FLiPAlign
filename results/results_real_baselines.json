@@ -1,0 +1,596 @@
+[
+ {
+  "case": "XX",
+  "method": "paste_a0.1",
+  "fit": "plain",
+  "angle": 354.49,
+  "flip": 0,
+  "shift": [
+   -4.0,
+   -4.36
+  ],
+  "sec": 106.4,
+  "gene_score": 0.1262,
+  "gene_at_own_angle_best_shift": 0.4065,
+  "landmark_error_um": [
+   1353.4,
+   1015.4,
+   1120.1
+  ],
+  "landmark_error_median_um": 1120.1
+ },
+ {
+  "case": "XX",
+  "method": "paste_a0.1",
+  "fit": "trimmed",
+  "angle": 352.69,
+  "flip": 0,
+  "shift": [
+   -6.61,
+   -5.77
+  ],
+  "sec": 106.4,
+  "gene_score": 0.1379,
+  "gene_at_own_angle_best_shift": 0.338,
+  "landmark_error_um": [
+   1376.6,
+   893.7,
+   1062.2
+  ],
+  "landmark_error_median_um": 1062.2
+ },
+ {
+  "case": "XX",
+  "method": "paste_a0.5",
+  "fit": "plain",
+  "angle": 354.62,
+  "flip": 0,
+  "shift": [
+   -3.99,
+   -4.37
+  ],
+  "sec": 91.8,
+  "gene_score": 0.1253,
+  "gene_at_own_angle_best_shift": 0.4128,
+  "landmark_error_um": [
+   1351.2,
+   1023.2,
+   1123.4
+  ],
+  "landmark_error_median_um": 1123.4
+ },
+ {
+  "case": "XX",
+  "method": "paste_a0.5",
+  "fit": "trimmed",
+  "angle": 353.1,
+  "flip": 0,
+  "shift": [
+   -6.83,
+   -5.21
+  ],
+  "sec": 91.8,
+  "gene_score": 0.1329,
+  "gene_at_own_angle_best_shift": 0.3533,
+  "landmark_error_um": [
+   1375.5,
+   926.0,
+   1079.0
+  ],
+  "landmark_error_median_um": 1079.0
+ },
+ {
+  "case": "XX",
+  "method": "paste2_s0.5",
+  "fit": "plain",
+  "angle": 350.06,
+  "flip": 0,
+  "shift": [
+   0.88,
+   -44.99
+  ],
+  "sec": 1678.9,
+  "gene_score": 0.1827,
+  "gene_at_own_angle_best_shift": 0.276,
+  "landmark_error_um": [
+   1042.4,
+   350.5,
+   622.5
+  ],
+  "landmark_error_median_um": 622.5
+ },
+ {
+  "case": "XX",
+  "method": "paste2_s0.5",
+  "fit": "trimmed",
+  "angle": 350.15,
+  "flip": 0,
+  "shift": [
+   10.43,
+   -84.38
+  ],
+  "sec": 1678.9,
+  "gene_score": 0.2825,
+  "gene_at_own_angle_best_shift": 0.2773,
+  "landmark_error_um": [
+   658.3,
+   49.2,
+   274.1
+  ],
+  "landmark_error_median_um": 274.1
+ },
+ {
+  "case": "XX",
+  "method": "paste2_s0.7",
+  "fit": "plain",
+  "angle": 351.61,
+  "flip": 0,
+  "shift": [
+   0.8,
+   -35.05
+  ],
+  "sec": 1238.1,
+  "gene_score": 0.1605,
+  "gene_at_own_angle_best_shift": 0.3078,
+  "landmark_error_um": [
+   1109.0,
+   539.6,
+   752.3
+  ],
+  "landmark_error_median_um": 752.3
+ },
+ {
+  "case": "XX",
+  "method": "paste2_s0.7",
+  "fit": "trimmed",
+  "angle": 349.81,
+  "flip": 0,
+  "shift": [
+   4.68,
+   -75.31
+  ],
+  "sec": 1238.1,
+  "gene_score": 0.2443,
+  "gene_at_own_angle_best_shift": 0.2725,
+  "landmark_error_um": [
+   759.9,
+   84.0,
+   336.6
+  ],
+  "landmark_error_median_um": 336.6
+ },
+ {
+  "case": "XX",
+  "method": "slat_k20",
+  "fit": "plain",
+  "angle": 357.15,
+  "flip": 0,
+  "shift": [
+   -4.03,
+   41.22
+  ],
+  "sec": 276.3,
+  "gene_score": 0.106,
+  "gene_at_own_angle_best_shift": 0.5985,
+  "landmark_error_um": [
+   1725.4,
+   1601.2,
+   1613.3
+  ],
+  "landmark_error_median_um": 1613.3
+ },
+ {
+  "case": "XX",
+  "method": "slat_k20",
+  "fit": "trimmed",
+  "angle": 357.76,
+  "flip": 0,
+  "shift": [
+   1.17,
+   51.11
+  ],
+  "sec": 276.3,
+  "gene_score": 0.0782,
+  "gene_at_own_angle_best_shift": 0.6425,
+  "landmark_error_um": [
+   1796.1,
+   1720.4,
+   1711.7
+  ],
+  "landmark_error_median_um": 1720.4
+ },
+ {
+  "case": "XX",
+  "method": "cpd_8",
+  "fit": "plain",
+  "angle": 356.16,
+  "flip": 0,
+  "shift": [
+   -153.38,
+   -91.0
+  ],
+  "sec": 576.1,
+  "gene_score": 0.0844,
+  "gene_at_own_angle_best_shift": 0.5178,
+  "landmark_error_um": [
+   1828.8,
+   1748.1,
+   1707.2
+  ],
+  "landmark_error_median_um": 1748.1
+ },
+ {
+  "case": "XX",
+  "method": "local_50",
+  "fit": "plain",
+  "angle": 357.27,
+  "flip": 0,
+  "shift": [
+   35.63,
+   -128.47
+  ],
+  "sec": 531.0,
+  "gene_score": 0.6174,
+  "gene_at_own_angle_best_shift": 0.6089,
+  "landmark_error_um": [
+   80.6,
+   39.8,
+   63.4
+  ],
+  "landmark_error_median_um": 63.4
+ },
+ {
+  "case": "XX",
+  "method": "stalign_16",
+  "error": "TypeError('Invalid shape (201, 276, 6) for image data')",
+  "where": "line 729, in set_data\n    self._A = self._normalize_image_array(A)\n  File \"./.pylibs_base/matplotlib/image.py\", line 697, in _normalize_image_array\n    raise TypeError(f\"Invalid shape {A.shape} for image data\")\nTypeError: Invalid shape (201, 276, 6) for image data\n"
+ },
+ {
+  "case": "VX1",
+  "method": "paste_a0.1",
+  "fit": "plain",
+  "angle": 269.44,
+  "flip": 0,
+  "shift": [
+   6.78,
+   -0.43
+  ],
+  "sec": 161.1,
+  "gene_score": 0.1141,
+  "gene_at_own_angle_best_shift": 0.336
+ },
+ {
+  "case": "VX1",
+  "method": "paste_a0.1",
+  "fit": "trimmed",
+  "angle": 275.06,
+  "flip": 0,
+  "shift": [
+   -16.1,
+   2.93
+  ],
+  "sec": 161.1,
+  "gene_score": 0.1053,
+  "gene_at_own_angle_best_shift": 0.3823
+ },
+ {
+  "case": "VX1",
+  "method": "paste_a0.5",
+  "fit": "plain",
+  "angle": 269.78,
+  "flip": 1,
+  "shift": [
+   6.33,
+   -0.43
+  ],
+  "sec": 152.4,
+  "gene_score": -0.0068,
+  "gene_at_own_angle_best_shift": 0.0619
+ },
+ {
+  "case": "VX1",
+  "method": "paste_a0.5",
+  "fit": "trimmed",
+  "angle": 276.2,
+  "flip": 1,
+  "shift": [
+   -16.0,
+   1.15
+  ],
+  "sec": 152.4,
+  "gene_score": -0.0243,
+  "gene_at_own_angle_best_shift": 0.0544
+ },
+ {
+  "case": "VX1",
+  "method": "paste2_s0.5",
+  "fit": "plain",
+  "angle": 274.47,
+  "flip": 0,
+  "shift": [
+   40.44,
+   100.65
+  ],
+  "sec": 1100.8,
+  "gene_score": 0.2885,
+  "gene_at_own_angle_best_shift": 0.4081
+ },
+ {
+  "case": "VX1",
+  "method": "paste2_s0.5",
+  "fit": "trimmed",
+  "angle": 273.38,
+  "flip": 0,
+  "shift": [
+   30.23,
+   109.49
+  ],
+  "sec": 1100.8,
+  "gene_score": 0.411,
+  "gene_at_own_angle_best_shift": 0.4436
+ },
+ {
+  "case": "VX1",
+  "method": "paste2_s0.7",
+  "fit": "plain",
+  "angle": 276.04,
+  "flip": 0,
+  "shift": [
+   31.87,
+   77.25
+  ],
+  "sec": 991.1,
+  "gene_score": 0.2132,
+  "gene_at_own_angle_best_shift": 0.3486
+ },
+ {
+  "case": "VX1",
+  "method": "paste2_s0.7",
+  "fit": "trimmed",
+  "angle": 274.14,
+  "flip": 0,
+  "shift": [
+   30.92,
+   105.02
+  ],
+  "sec": 991.1,
+  "gene_score": 0.362,
+  "gene_at_own_angle_best_shift": 0.4235
+ },
+ {
+  "case": "VX1",
+  "method": "slat_k20",
+  "fit": "plain",
+  "angle": 336.08,
+  "flip": 0,
+  "shift": [
+   37.06,
+   29.91
+  ],
+  "sec": 299.6,
+  "gene_score": 0.0352,
+  "gene_at_own_angle_best_shift": -0.0234
+ },
+ {
+  "case": "VX1",
+  "method": "slat_k20",
+  "fit": "trimmed",
+  "angle": 338.35,
+  "flip": 0,
+  "shift": [
+   55.66,
+   26.32
+  ],
+  "sec": 299.6,
+  "gene_score": 0.0284,
+  "gene_at_own_angle_best_shift": -0.0224
+ },
+ {
+  "case": "VX1",
+  "method": "cpd_8",
+  "fit": "plain",
+  "angle": 177.9,
+  "flip": 0,
+  "shift": [
+   -266.93,
+   -193.32
+  ],
+  "sec": 806.6,
+  "gene_score": -0.0128,
+  "gene_at_own_angle_best_shift": -0.0728
+ },
+ {
+  "case": "VX1",
+  "method": "local_50",
+  "fit": "plain",
+  "angle": 273.04,
+  "flip": 0,
+  "shift": [
+   29.08,
+   119.27
+  ],
+  "sec": 22.7,
+  "gene_score": 0.4518,
+  "gene_at_own_angle_best_shift": 0.4428
+ },
+ {
+  "case": "VX1",
+  "method": "stalign_16",
+  "error": "TypeError('Invalid shape (201, 276, 15) for image data')",
+  "where": "ine 729, in set_data\n    self._A = self._normalize_image_array(A)\n  File \"./.pylibs_base/matplotlib/image.py\", line 697, in _normalize_image_array\n    raise TypeError(f\"Invalid shape {A.shape} for image data\")\nTypeError: Invalid shape (201, 276, 15) for image data\n"
+ },
+ {
+  "case": "VX2",
+  "method": "paste_a0.1",
+  "fit": "plain",
+  "angle": 357.77,
+  "flip": 0,
+  "shift": [
+   7.08,
+   -3.31
+  ],
+  "sec": 206.7,
+  "gene_score": 0.049,
+  "gene_at_own_angle_best_shift": -0.0489
+ },
+ {
+  "case": "VX2",
+  "method": "paste_a0.1",
+  "fit": "trimmed",
+  "angle": 7.01,
+  "flip": 0,
+  "shift": [
+   -15.55,
+   -25.86
+  ],
+  "sec": 206.7,
+  "gene_score": 0.0194,
+  "gene_at_own_angle_best_shift": -0.027
+ },
+ {
+  "case": "VX2",
+  "method": "paste_a0.5",
+  "fit": "plain",
+  "angle": 267.85,
+  "flip": 1,
+  "shift": [
+   7.1,
+   -3.3
+  ],
+  "sec": 219.0,
+  "gene_score": 0.0925,
+  "gene_at_own_angle_best_shift": 0.078
+ },
+ {
+  "case": "VX2",
+  "method": "paste_a0.5",
+  "fit": "trimmed",
+  "angle": 274.39,
+  "flip": 1,
+  "shift": [
+   -15.0,
+   -20.88
+  ],
+  "sec": 219.0,
+  "gene_score": 0.0728,
+  "gene_at_own_angle_best_shift": 0.0831
+ },
+ {
+  "case": "VX2",
+  "method": "paste2_s0.5",
+  "fit": "plain",
+  "angle": 267.76,
+  "flip": 0,
+  "shift": [
+   60.74,
+   47.46
+  ],
+  "sec": 1100.9,
+  "gene_score": 0.1493,
+  "gene_at_own_angle_best_shift": 0.3322
+ },
+ {
+  "case": "VX2",
+  "method": "paste2_s0.5",
+  "fit": "trimmed",
+  "angle": 269.56,
+  "flip": 0,
+  "shift": [
+   63.27,
+   3.01
+  ],
+  "sec": 1100.9,
+  "gene_score": 0.2838,
+  "gene_at_own_angle_best_shift": 0.3989
+ },
+ {
+  "case": "VX2",
+  "method": "paste2_s0.7",
+  "fit": "plain",
+  "angle": 272.49,
+  "flip": 0,
+  "shift": [
+   52.46,
+   42.92
+  ],
+  "sec": 884.0,
+  "gene_score": 0.1509,
+  "gene_at_own_angle_best_shift": 0.4099
+ },
+ {
+  "case": "VX2",
+  "method": "paste2_s0.7",
+  "fit": "trimmed",
+  "angle": 269.94,
+  "flip": 0,
+  "shift": [
+   58.64,
+   -0.68
+  ],
+  "sec": 884.0,
+  "gene_score": 0.2926,
+  "gene_at_own_angle_best_shift": 0.4097
+ },
+ {
+  "case": "VX2",
+  "method": "slat_k20",
+  "fit": "plain",
+  "angle": 328.62,
+  "flip": 0,
+  "shift": [
+   68.29,
+   46.74
+  ],
+  "sec": 297.8,
+  "gene_score": 0.0764,
+  "gene_at_own_angle_best_shift": -0.0232
+ },
+ {
+  "case": "VX2",
+  "method": "slat_k20",
+  "fit": "trimmed",
+  "angle": 341.34,
+  "flip": 0,
+  "shift": [
+   37.64,
+   72.41
+  ],
+  "sec": 297.8,
+  "gene_score": 0.0554,
+  "gene_at_own_angle_best_shift": -0.0321
+ },
+ {
+  "case": "VX2",
+  "method": "cpd_8",
+  "fit": "plain",
+  "angle": 88.22,
+  "flip": 0,
+  "shift": [
+   -186.21,
+   -94.07
+  ],
+  "sec": 701.1,
+  "gene_score": -0.1183,
+  "gene_at_own_angle_best_shift": 0.0068
+ },
+ {
+  "case": "VX2",
+  "method": "local_50",
+  "fit": "plain",
+  "angle": 270.84,
+  "flip": 0,
+  "shift": [
+   68.49,
+   -11.96
+  ],
+  "sec": 22.0,
+  "gene_score": 0.4254,
+  "gene_at_own_angle_best_shift": 0.4273
+ },
+ {
+  "case": "VX2",
+  "method": "stalign_16",
+  "error": "TypeError('Invalid shape (201, 276, 15) for image data')",
+  "where": "ine 729, in set_data\n    self._A = self._normalize_image_array(A)\n  File \"./.pylibs_base/matplotlib/image.py\", line 697, in _normalize_image_array\n    raise TypeError(f\"Invalid shape {A.shape} for image data\")\nTypeError: Invalid shape (201, 276, 15) for image data\n"
+ }
+]

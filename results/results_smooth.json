@@ -1,0 +1,425 @@
+[
+ {
+  "test": "S0 validity",
+  "checks": 720,
+  "max(score - bound), must be <= 0": -0.06257565700318674,
+  "max |fft - direct|": 1.6653345369377348e-16,
+  "pass": true
+ },
+ {
+  "test": "S1 cell types",
+  "cells A/B": [
+   83181,
+   83182
+  ],
+  "KA/KB": [
+   20,
+   20
+  ],
+  "sigma": 5.0,
+  "h": 4.0,
+  "grid": [
+   307,
+   307
+  ],
+  "build_s": 0.2,
+  "solve_s": 2742.7,
+  "evals": 3790,
+  "best": 0.2579,
+  "angle_err": 0.0,
+  "flip_ok": 1,
+  "gap": 0.1714,
+  "certified": true,
+  "margin": 0.1467
+ },
+ {
+  "test": "S1 cell types",
+  "cells A/B": [
+   83181,
+   83182
+  ],
+  "KA/KB": [
+   20,
+   20
+  ],
+  "sigma": 10.0,
+  "h": 4.0,
+  "grid": [
+   317,
+   317
+  ],
+  "build_s": 0.1,
+  "solve_s": 682.2,
+  "evals": 1262,
+  "best": 0.2212,
+  "angle_err": 0.0,
+  "flip_ok": 1,
+  "gap": 0.0654,
+  "certified": true,
+  "margin": 0.1057
+ },
+ {
+  "test": "S1 cell types",
+  "cells A/B": [
+   83181,
+   83182
+  ],
+  "KA/KB": [
+   20,
+   20
+  ],
+  "sigma": 20.0,
+  "h": 4.0,
+  "grid": [
+   337,
+   337
+  ],
+  "build_s": 0.2,
+  "solve_s": 404.9,
+  "evals": 684,
+  "best": 0.1848,
+  "angle_err": 0.0,
+  "flip_ok": 1,
+  "gap": 0.0244,
+  "certified": true,
+  "margin": 0.0652
+ },
+ {
+  "test": "S1 cell types",
+  "cells A/B": [
+   83181,
+   83182
+  ],
+  "KA/KB": [
+   20,
+   20
+  ],
+  "sigma": 10.0,
+  "h": 2.0,
+  "grid": [
+   623,
+   623
+  ],
+  "build_s": 0.5,
+  "solve_s": 1087.3,
+  "evals": 716,
+  "best": 0.222,
+  "angle_err": 0.0,
+  "flip_ok": 1,
+  "gap": 0.0273,
+  "certified": true,
+  "margin": 0.1067
+ },
+ {
+  "test": "S1 regions K=6",
+  "cells A/B": [
+   83181,
+   83182
+  ],
+  "KA/KB": [
+   6,
+   6
+  ],
+  "sigma": 5.0,
+  "h": 4.0,
+  "grid": [
+   307,
+   307
+  ],
+  "build_s": 0.0,
+  "solve_s": 102.1,
+  "evals": 1084,
+  "best": 0.7026,
+  "angle_err": 0.0,
+  "flip_ok": 1,
+  "gap": 0.2545,
+  "certified": true,
+  "margin": 0.3827
+ },
+ {
+  "test": "S1 regions K=6",
+  "cells A/B": [
+   83181,
+   83182
+  ],
+  "KA/KB": [
+   6,
+   6
+  ],
+  "sigma": 10.0,
+  "h": 4.0,
+  "grid": [
+   317,
+   317
+  ],
+  "build_s": 0.0,
+  "solve_s": 45.6,
+  "evals": 532,
+  "best": 0.6132,
+  "angle_err": 0.0,
+  "flip_ok": 1,
+  "gap": 0.1058,
+  "certified": true,
+  "margin": 0.2872
+ },
+ {
+  "test": "S1 regions K=6",
+  "cells A/B": [
+   83181,
+   83182
+  ],
+  "KA/KB": [
+   6,
+   6
+  ],
+  "sigma": 20.0,
+  "h": 4.0,
+  "grid": [
+   337,
+   337
+  ],
+  "build_s": 0.0,
+  "solve_s": 28.2,
+  "evals": 296,
+  "best": 0.5099,
+  "angle_err": 0.0,
+  "flip_ok": 1,
+  "gap": 0.0415,
+  "certified": true,
+  "margin": 0.1798
+ },
+ {
+  "test": "S1 regions K=6",
+  "cells A/B": [
+   83181,
+   83182
+  ],
+  "KA/KB": [
+   6,
+   6
+  ],
+  "sigma": 10.0,
+  "h": 2.0,
+  "grid": [
+   623,
+   623
+  ],
+  "build_s": 0.2,
+  "solve_s": 68.9,
+  "evals": 380,
+  "best": 0.6154,
+  "angle_err": 0.0,
+  "flip_ok": 1,
+  "gap": 0.0441,
+  "certified": true,
+  "margin": 0.2897
+ },
+ {
+  "test": "S2 scale (cell types)",
+  "cells A/B": [
+   2500,
+   2500
+  ],
+  "KA/KB": [
+   20,
+   20
+  ],
+  "sigma": 10.0,
+  "h": 4.0,
+  "grid": [
+   309,
+   309
+  ],
+  "build_s": 0.1,
+  "solve_s": 1909.7,
+  "evals": 4326,
+  "best": 0.2232,
+  "angle_err": 0.25,
+  "flip_ok": 1,
+  "gap": 0.1119,
+  "certified": true,
+  "margin": 0.1053
+ },
+ {
+  "test": "S2 scale (cell types)",
+  "cells A/B": [
+   10000,
+   10000
+  ],
+  "KA/KB": [
+   20,
+   20
+  ],
+  "sigma": 10.0,
+  "h": 4.0,
+  "grid": [
+   315,
+   315
+  ],
+  "build_s": 0.1,
+  "solve_s": 500.5,
+  "evals": 1546,
+  "best": 0.224,
+  "angle_err": 0.0,
+  "flip_ok": 1,
+  "gap": 0.082,
+  "certified": true,
+  "margin": 0.1078
+ },
+ {
+  "test": "S2 scale (cell types)",
+  "cells A/B": [
+   40000,
+   40000
+  ],
+  "KA/KB": [
+   20,
+   20
+  ],
+  "sigma": 10.0,
+  "h": 4.0,
+  "grid": [
+   317,
+   317
+  ],
+  "build_s": 0.1,
+  "solve_s": 626.6,
+  "evals": 1370,
+  "best": 0.2219,
+  "angle_err": 0.0,
+  "flip_ok": 1,
+  "gap": 0.0683,
+  "certified": true,
+  "margin": 0.1045
+ },
+ {
+  "test": "S2 scale (cell types)",
+  "cells A/B": [
+   83181,
+   83182
+  ],
+  "KA/KB": [
+   20,
+   20
+  ],
+  "sigma": 10.0,
+  "h": 4.0,
+  "grid": [
+   317,
+   317
+  ],
+  "build_s": 0.2,
+  "solve_s": 516.2,
+  "evals": 1262,
+  "best": 0.2212,
+  "angle_err": 0.0,
+  "flip_ok": 1,
+  "gap": 0.0654,
+  "certified": true,
+  "margin": 0.1057
+ },
+ {
+  "test": "S1b off-grid 73.37 cell types",
+  "cells A/B": [
+   83181,
+   83182
+  ],
+  "KA/KB": [
+   20,
+   20
+  ],
+  "sigma": 20.0,
+  "h": 4.0,
+  "grid": [
+   337,
+   337
+  ],
+  "build_s": 0.2,
+  "solve_s": 344.3,
+  "evals": 684,
+  "best": 0.1848,
+  "angle_err": 0.12,
+  "flip_ok": 1,
+  "gap": 0.0244,
+  "certified": true,
+  "margin": 0.0656
+ },
+ {
+  "test": "S1b off-grid 73.37 cell types",
+  "cells A/B": [
+   83181,
+   83182
+  ],
+  "KA/KB": [
+   20,
+   20
+  ],
+  "sigma": 10.0,
+  "h": 2.0,
+  "grid": [
+   623,
+   623
+  ],
+  "build_s": 0.6,
+  "solve_s": 1304.8,
+  "evals": 714,
+  "best": 0.2221,
+  "angle_err": 0.005,
+  "flip_ok": 1,
+  "gap": 0.0273,
+  "certified": true,
+  "margin": 0.1073
+ },
+ {
+  "test": "S1b off-grid 73.37 regions K=6",
+  "cells A/B": [
+   83181,
+   83182
+  ],
+  "KA/KB": [
+   6,
+   6
+  ],
+  "sigma": 20.0,
+  "h": 4.0,
+  "grid": [
+   337,
+   337
+  ],
+  "build_s": 0.1,
+  "solve_s": 29.2,
+  "evals": 296,
+  "best": 0.5098,
+  "angle_err": 0.005,
+  "flip_ok": 1,
+  "gap": 0.0415,
+  "certified": true,
+  "margin": 0.1794
+ },
+ {
+  "test": "S1b off-grid 73.37 regions K=6",
+  "cells A/B": [
+   83181,
+   83182
+  ],
+  "KA/KB": [
+   6,
+   6
+  ],
+  "sigma": 10.0,
+  "h": 2.0,
+  "grid": [
+   623,
+   623
+  ],
+  "build_s": 0.2,
+  "solve_s": 69.5,
+  "evals": 382,
+  "best": 0.6155,
+  "angle_err": 0.005,
+  "flip_ok": 1,
+  "gap": 0.0441,
+  "certified": true,
+  "margin": 0.2887
+ }
+]

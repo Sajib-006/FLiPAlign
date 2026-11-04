@@ -1,11 +1,12 @@
-"""Write every number table of the paper straight from the result files (../server_results).
+"""Write every number table of the paper straight from the result files (results/).
 No number in the paper is typed by hand. Rerun this after any new result."""
+import os
+from _paths import RES, PLACE, STACK, OUT, TABLES, FIGURES
 import collections, json, os
 import numpy as np
 
-R = "../server_results"
-T = "tables"
-os.makedirs(T, exist_ok=True)
+R = RES
+T = TABLES
 RIGHT_UM = 200
 load = lambda f: json.load(open(os.path.join(R, f)))
 NAMES = {"ours": "\\textbf{FLiPAlign}", "local_50": "Local search (our score, 50 starts)",

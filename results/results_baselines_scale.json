@@ -1,0 +1,233 @@
+[
+ {
+  "pair": "XX",
+  "method": "local search, 8 starts, our contrast score",
+  "angle": 275.77,
+  "flip": 1,
+  "angle_err_vs_ours": 81.73,
+  "flip_matches_ours": 0,
+  "score": 0.1307,
+  "starts_that_found_it": "0/8",
+  "gene_score": -0.1304,
+  "all_starts (score, angle, flip)": [
+   [
+    0.1033,
+    218.8,
+    1
+   ],
+   [
+    0.1307,
+    275.8,
+    1
+   ],
+   [
+    0.0561,
+    145.0,
+    0
+   ],
+   [
+    0.0742,
+    304.1,
+    0
+   ],
+   [
+    0.1059,
+    128.4,
+    0
+   ],
+   [
+    0.0769,
+    98.1,
+    0
+   ],
+   [
+    0.104,
+    178.1,
+    1
+   ],
+   [
+    0.1004,
+    115.9,
+    0
+   ]
+  ],
+  "sec": 78.6
+ },
+ {
+  "pair": "XX",
+  "method": "yardstick: OUR answer (SmoothAlign, contrast)",
+  "angle": 357.5,
+  "flip": 0,
+  "gene_score": 0.5375
+ },
+ {
+  "pair": "XX",
+  "method": "yardstick: random placements (20)",
+  "gene_score_mean": 0.0319,
+  "gene_score_max": 0.1822
+ },
+ {
+  "pair": "VX1",
+  "method": "local search, 8 starts, our contrast score",
+  "angle": 68.63,
+  "flip": 0,
+  "angle_err_vs_ours": 155.53,
+  "flip_matches_ours": 1,
+  "score": 0.0861,
+  "starts_that_found_it": "0/8",
+  "gene_score": -0.0394,
+  "all_starts (score, angle, flip)": [
+   [
+    0.0587,
+    309.8,
+    0
+   ],
+   [
+    0.0482,
+    112.3,
+    1
+   ],
+   [
+    0.0754,
+    294.5,
+    0
+   ],
+   [
+    0.0754,
+    294.4,
+    0
+   ],
+   [
+    0.0861,
+    68.6,
+    0
+   ],
+   [
+    0.0591,
+    54.8,
+    0
+   ],
+   [
+    0.051,
+    83.7,
+    1
+   ],
+   [
+    0.0693,
+    327.5,
+    1
+   ]
+  ],
+  "sec": 6.0
+ },
+ {
+  "pair": "VX1",
+  "method": "yardstick: OUR answer (SmoothAlign, contrast)",
+  "angle": 273.13,
+  "flip": 0,
+  "gene_score": 0.4412
+ },
+ {
+  "pair": "VX1",
+  "method": "yardstick: random placements (20)",
+  "gene_score_mean": 0.0049,
+  "gene_score_max": 0.118
+ },
+ {
+  "pair": "VX2",
+  "method": "local search, 8 starts, our contrast score",
+  "angle": 270.8,
+  "flip": 0,
+  "angle_err_vs_ours": 0.2,
+  "flip_matches_ours": 1,
+  "score": 0.115,
+  "starts_that_found_it": "1/8",
+  "gene_score": 0.4239,
+  "all_starts (score, angle, flip)": [
+   [
+    0.0702,
+    178.9,
+    1
+   ],
+   [
+    0.0715,
+    151.9,
+    0
+   ],
+   [
+    0.0796,
+    272.0,
+    1
+   ],
+   [
+    0.0632,
+    92.5,
+    1
+   ],
+   [
+    0.0796,
+    271.4,
+    1
+   ],
+   [
+    0.0608,
+    224.7,
+    1
+   ],
+   [
+    0.115,
+    270.8,
+    0
+   ],
+   [
+    0.0452,
+    321.6,
+    1
+   ]
+  ],
+  "sec": 5.2
+ },
+ {
+  "pair": "VX2",
+  "method": "yardstick: OUR answer (SmoothAlign, contrast)",
+  "angle": 270.87,
+  "flip": 0,
+  "gene_score": 0.4318
+ },
+ {
+  "pair": "VX2",
+  "method": "yardstick: random placements (20)",
+  "gene_score_mean": 0.0381,
+  "gene_score_max": 0.1295
+ },
+ {
+  "pair": "XX",
+  "method": "PASTE-style FGW, 4k subsample",
+  "angle": 351.91,
+  "flip": 0,
+  "angle_err_vs_ours": 5.59,
+  "flip_matches_ours": 1,
+  "gene_score": 0.1395,
+  "sec": 399.6
+ },
+ {
+  "pair": "VX1",
+  "method": "PASTE-style FGW, 4k subsample",
+  "angle": 276.05,
+  "flip": 0,
+  "angle_err_vs_ours": 2.95,
+  "flip_matches_ours": 1,
+  "gene_score": 0.1043,
+  "sec": 481.0
+ },
+ {
+  "pair": "VX2",
+  "method": "PASTE-style FGW, 4k subsample",
+  "angle": 275.4,
+  "flip": 0,
+  "angle_err_vs_ours": 4.4,
+  "flip_matches_ours": 1,
+  "gene_score": 0.1493,
+  "sec": 194.4
+ }
+]

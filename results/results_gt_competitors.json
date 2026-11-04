@@ -1,0 +1,147 @@
+[
+ {
+  "case": 15,
+  "answer": [
+   97.94,
+   1
+  ],
+  "truth": [
+   96.93,
+   1
+  ],
+  "answer_tre_um": 44.0,
+  "best": 0.1118,
+  "gap": 0.0127,
+  "rival_far": [
+   292.56249999999994,
+   0,
+   [
+    156.0,
+    -8.0
+   ]
+  ],
+  "rival_score": 0.1101,
+  "far_ub": 0.124,
+  "eps_rotation": -0.0121,
+  "rival_tre_um": 1416.4,
+  "rival_minus_answer_deg": 194.6,
+  "rival_is_mirror": 1,
+  "sec": 9210.2
+ },
+ {
+  "case": 18,
+  "answer": [
+   17.06,
+   0
+  ],
+  "truth": [
+   16.95,
+   0
+  ],
+  "answer_tre_um": 89.1,
+  "best": 0.0965,
+  "gap": 0.0135,
+  "rival_far": [
+   337.75,
+   1,
+   [
+    80.0,
+    120.0
+   ]
+  ],
+  "rival_score": 0.0869,
+  "far_ub": 0.102,
+  "eps_rotation": -0.0054,
+  "rival_tre_um": 1367.9,
+  "rival_minus_answer_deg": 320.7,
+  "rival_is_mirror": 1,
+  "sec": 8988.8
+ },
+ {
+  "case": 22,
+  "answer": [
+   60.56,
+   1
+  ],
+  "truth": [
+   60.36,
+   1
+  ],
+  "answer_tre_um": 49.4,
+  "best": 0.0862,
+  "gap": 0.0123,
+  "rival_far": [
+   208.3125,
+   0,
+   [
+    2.0,
+    -60.0
+   ]
+  ],
+  "rival_score": 0.0853,
+  "far_ub": 0.0982,
+  "eps_rotation": -0.012,
+  "rival_tre_um": 3818.1,
+  "rival_minus_answer_deg": 147.8,
+  "rival_is_mirror": 1,
+  "sec": 11886.5
+ },
+ {
+  "case": 19,
+  "answer": [
+   188.56,
+   1
+  ],
+  "truth": [
+   191.75,
+   1
+  ],
+  "answer_tre_um": 147.6,
+  "best": 0.1253,
+  "gap": 0.0169,
+  "rival_far": [
+   162.75,
+   0,
+   [
+    68.0,
+    -60.0
+   ]
+  ],
+  "rival_score": 0.1102,
+  "far_ub": 0.1266,
+  "eps_rotation": -0.0013,
+  "rival_tre_um": 1148.8,
+  "rival_minus_answer_deg": 334.2,
+  "rival_is_mirror": 1,
+  "sec": 3607.9
+ },
+ {
+  "case": 7,
+  "answer": [
+   202.06,
+   0
+  ],
+  "truth": [
+   170.2,
+   1
+  ],
+  "answer_tre_um": 1214.9,
+  "best": 0.0966,
+  "gap": 0.0175,
+  "rival_far": [
+   59.62499999999999,
+   0,
+   [
+    -152.0,
+    -30.0
+   ]
+  ],
+  "rival_score": 0.0925,
+  "far_ub": 0.1054,
+  "eps_rotation": -0.0088,
+  "rival_tre_um": 4405.5,
+  "rival_minus_answer_deg": 217.6,
+  "rival_is_mirror": 0,
+  "sec": 4662.1
+ }
+]

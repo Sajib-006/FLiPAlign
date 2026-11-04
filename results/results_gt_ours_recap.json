@@ -1,0 +1,32 @@
+[
+ {
+  "case": 2,
+  "tre_um": 21.2,
+  "angle_err": 0.05,
+  "flip_ok": 1,
+  "objective": 0.1326,
+  "gap": 0.0117,
+  "certified": true,
+  "solve_s": 281.2,
+  "eps_shift30": 0.0043,
+  "unique_shift30": true,
+  "shift30_complete": true,
+  "total_s": 586.1
+ },
+ {
+  "case": 3,
+  "tre_um": 32.6,
+  "angle_err": 0.405,
+  "flip_ok": 1,
+  "objective": 0.128,
+  "gap": 0.0148,
+  "certified": true,
+  "solve_s": 818.7,
+  "eps_shift30": -0.0041,
+  "unique_shift30": false,
+  "shift30_complete": true,
+  "eps_shift60": 0.0046,
+  "unique_shift60": true,
+  "total_s": 2646.2
+ }
+]

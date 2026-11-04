@@ -1,0 +1,137 @@
+[
+ {
+  "test": "S0c validity (contrast)",
+  "checks": 1080,
+  "max(score - bound), must be <= 0": -0.022686362092364215,
+  "max |fft - direct|": 6.938893903907228e-17,
+  "pass": true
+ },
+ {
+  "test": "S1c halves off-grid, cell types",
+  "sigma": 20.0,
+  "h": 4.0,
+  "tpad": 30.0,
+  "KA/KB": [
+   20,
+   20
+  ],
+  "angle_deg": 73.38,
+  "flip": 1,
+  "shift": [
+   0.0,
+   4.0
+  ],
+  "shift_at_window_edge": false,
+  "best": 0.107,
+  "gap": 0.0243,
+  "margin": 0.0546,
+  "unique_proven": true,
+  "certified": true,
+  "evals": 702,
+  "solve_s": 384.8,
+  "angle_err": 0.005,
+  "flip_ok": 1
+ },
+ {
+  "test": "S3c real, cell types",
+  "sigma": 20.0,
+  "h": 4.0,
+  "tpad": 150.0,
+  "KA/KB": [
+   20,
+   25
+  ],
+  "angle_deg": 62.5,
+  "flip": 1,
+  "shift": [
+   -48.0,
+   40.0
+  ],
+  "shift_at_window_edge": false,
+  "best": 0.0537,
+  "gap": 0.0217,
+  "margin": 0.0006,
+  "unique_proven": false,
+  "certified": false,
+  "evals": 5118,
+  "solve_s": 5401.7,
+  "label_agreement_with_expression": 0.266,
+  "labels_matched": 15
+ },
+ {
+  "test": "S3c real, cell types",
+  "sigma": 10.0,
+  "h": 4.0,
+  "tpad": 150.0,
+  "KA/KB": [
+   20,
+   25
+  ],
+  "angle_deg": 358.0,
+  "flip": 0,
+  "shift": [
+   36.0,
+   -128.0
+  ],
+  "shift_at_window_edge": false,
+  "best": 0.0625,
+  "gap": 0.0415,
+  "margin": 0.0102,
+  "unique_proven": false,
+  "certified": true,
+  "evals": 5580,
+  "solve_s": 3834.7,
+  "label_agreement_with_expression": 0.876,
+  "labels_matched": 20
+ },
+ {
+  "test": "S3c real, SHARED labels (reference)",
+  "sigma": 20.0,
+  "h": 4.0,
+  "tpad": 150.0,
+  "KA/KB": [
+   20,
+   20
+  ],
+  "angle_deg": 357.0,
+  "flip": 0,
+  "shift": [
+   32.0,
+   -124.0
+  ],
+  "shift_at_window_edge": false,
+  "best": 0.0637,
+  "gap": 0.0206,
+  "margin": 0.0102,
+  "unique_proven": false,
+  "certified": true,
+  "evals": 4174,
+  "solve_s": 2951.1,
+  "label_agreement_with_expression": 0.922,
+  "labels_matched": 20
+ },
+ {
+  "test": "S3c real, regions K=6",
+  "sigma": 20.0,
+  "h": 4.0,
+  "tpad": 150.0,
+  "KA/KB": [
+   6,
+   6
+  ],
+  "angle_deg": 357.5,
+  "flip": 0,
+  "shift": [
+   36.0,
+   -128.0
+  ],
+  "shift_at_window_edge": false,
+  "best": 0.1601,
+  "gap": 0.0305,
+  "margin": 0.0281,
+  "unique_proven": false,
+  "certified": true,
+  "evals": 2190,
+  "solve_s": 278.1
+ }
+]

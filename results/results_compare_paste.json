@@ -1,0 +1,275 @@
+[
+ {
+  "pair": "XX",
+  "method": "random placements (20)",
+  "gene_mean": 0.0256,
+  "gene_max": 0.1799
+ },
+ {
+  "pair": "XX",
+  "method": "paste_a0.1",
+  "angle": 354.49,
+  "flip": 0,
+  "off_from_ours_deg": null,
+  "flip_same_as_ours": null,
+  "gene_score": 0.1262,
+  "sec": 584.7,
+  "cells_used": [
+   4000,
+   4000
+  ]
+ },
+ {
+  "pair": "XX",
+  "method": "paste_a0.5",
+  "angle": 354.62,
+  "flip": 0,
+  "off_from_ours_deg": null,
+  "flip_same_as_ours": null,
+  "gene_score": 0.1253,
+  "sec": 347.3,
+  "cells_used": [
+   4000,
+   4000
+  ]
+ },
+ {
+  "pair": "XX",
+  "method": "paste_a0.9",
+  "angle": 354.54,
+  "flip": 0,
+  "off_from_ours_deg": null,
+  "flip_same_as_ours": null,
+  "gene_score": 0.1262,
+  "sec": 182.6,
+  "cells_used": [
+   4000,
+   4000
+  ]
+ },
+ {
+  "pair": "XX",
+  "method": "gw",
+  "angle": 354.61,
+  "flip": 0,
+  "off_from_ours_deg": null,
+  "flip_same_as_ours": null,
+  "gene_score": 0.1256,
+  "sec": 1261.7,
+  "cells_used": [
+   4000,
+   4000
+  ]
+ },
+ {
+  "pair": "XX",
+  "method": "paste_refine",
+  "angle": 341.46,
+  "flip": 0,
+  "off_from_ours_deg": null,
+  "flip_same_as_ours": null,
+  "gene_score": 0.2242,
+  "sec": 9.7,
+  "objective": 0.1233,
+  "start": [
+   354.49,
+   0
+  ]
+ },
+ {
+  "pair": "XX",
+  "method": "paste_a0.1_8k",
+  "angle": 354.21,
+  "flip": 0,
+  "off_from_ours_deg": null,
+  "flip_same_as_ours": null,
+  "gene_score": 0.1264,
+  "sec": 1461.1,
+  "cells_used": [
+   8000,
+   8000
+  ]
+ },
+ {
+  "pair": "VX1",
+  "method": "random placements (20)",
+  "gene_mean": 0.0041,
+  "gene_max": 0.0991
+ },
+ {
+  "pair": "VX1",
+  "method": "paste_a0.1",
+  "angle": 269.44,
+  "flip": 0,
+  "off_from_ours_deg": null,
+  "flip_same_as_ours": null,
+  "gene_score": 0.1141,
+  "sec": 108.1,
+  "cells_used": [
+   4000,
+   4000
+  ]
+ },
+ {
+  "pair": "VX1",
+  "method": "paste_a0.5",
+  "angle": 269.78,
+  "flip": 1,
+  "off_from_ours_deg": null,
+  "flip_same_as_ours": null,
+  "gene_score": -0.0068,
+  "sec": 489.6,
+  "cells_used": [
+   4000,
+   4000
+  ]
+ },
+ {
+  "pair": "VX1",
+  "method": "paste_a0.9",
+  "angle": 90.03,
+  "flip": 1,
+  "off_from_ours_deg": null,
+  "flip_same_as_ours": null,
+  "gene_score": 0.0449,
+  "sec": 144.2,
+  "cells_used": [
+   4000,
+   4000
+  ]
+ },
+ {
+  "pair": "VX1",
+  "method": "gw",
+  "angle": 0.0,
+  "flip": 0,
+  "off_from_ours_deg": null,
+  "flip_same_as_ours": null,
+  "gene_score": -0.0307,
+  "sec": 219.4,
+  "cells_used": [
+   4000,
+   4000
+  ]
+ },
+ {
+  "pair": "VX1",
+  "method": "paste_refine",
+  "angle": 268.86,
+  "flip": 0,
+  "off_from_ours_deg": null,
+  "flip_same_as_ours": null,
+  "gene_score": 0.1085,
+  "sec": 0.6,
+  "objective": 0.0741,
+  "start": [
+   269.44,
+   0
+  ]
+ },
+ {
+  "pair": "VX1",
+  "method": "paste_a0.1_8k",
+  "angle": 270.76,
+  "flip": 0,
+  "off_from_ours_deg": null,
+  "flip_same_as_ours": null,
+  "gene_score": 0.1123,
+  "sec": 2439.8,
+  "cells_used": [
+   4992,
+   8000
+  ]
+ },
+ {
+  "pair": "VX2",
+  "method": "random placements (20)",
+  "gene_mean": 0.0127,
+  "gene_max": 0.093
+ },
+ {
+  "pair": "VX2",
+  "method": "paste_a0.1",
+  "angle": 357.77,
+  "flip": 0,
+  "off_from_ours_deg": null,
+  "flip_same_as_ours": null,
+  "gene_score": 0.049,
+  "sec": 146.0,
+  "cells_used": [
+   4000,
+   4000
+  ]
+ },
+ {
+  "pair": "VX2",
+  "method": "paste_a0.5",
+  "angle": 267.85,
+  "flip": 1,
+  "off_from_ours_deg": null,
+  "flip_same_as_ours": null,
+  "gene_score": 0.0925,
+  "sec": 161.2,
+  "cells_used": [
+   4000,
+   4000
+  ]
+ },
+ {
+  "pair": "VX2",
+  "method": "paste_a0.9",
+  "angle": 178.35,
+  "flip": 0,
+  "off_from_ours_deg": null,
+  "flip_same_as_ours": null,
+  "gene_score": 0.0151,
+  "sec": 356.7,
+  "cells_used": [
+   4000,
+   4000
+  ]
+ },
+ {
+  "pair": "VX2",
+  "method": "gw",
+  "angle": 267.26,
+  "flip": 1,
+  "off_from_ours_deg": null,
+  "flip_same_as_ours": null,
+  "gene_score": 0.0937,
+  "sec": 162.8,
+  "cells_used": [
+   4000,
+   4000
+  ]
+ },
+ {
+  "pair": "VX2",
+  "method": "paste_refine",
+  "angle": 15.35,
+  "flip": 0,
+  "off_from_ours_deg": null,
+  "flip_same_as_ours": null,
+  "gene_score": 0.0133,
+  "sec": 1.0,
+  "objective": 0.071,
+  "start": [
+   357.77,
+   0
+  ]
+ },
+ {
+  "pair": "VX2",
+  "method": "paste_a0.1_8k",
+  "angle": 358.14,
+  "flip": 0,
+  "off_from_ours_deg": null,
+  "flip_same_as_ours": null,
+  "gene_score": 0.05,
+  "sec": 1023.9,
+  "cells_used": [
+   4992,
+   8000
+  ]
+ }
+]

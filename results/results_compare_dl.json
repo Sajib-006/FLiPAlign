@@ -1,0 +1,209 @@
+[
+ {
+  "pair": "XX",
+  "method": "slat_k10",
+  "error": "AttributeError(\"module 'scanpy' has no attribute 'pp'\")",
+  "where": "nt/disk/./run_compare_dl.py\", line 62, in slat\n    edges, feats = M.load_anndatas([a1, a2], feature=\"DPCA\", check_order=False,\n  File \"./.pylibs_base/scSLAT/model/loaddata.py\", line 284, in load_anndatas\n    sc.pp.highly_variable_genes(adata_all, n_top_genes=12000, flavor=\"seurat_v3\")\nAttributeError: module 'scanpy' has no attribute 'pp'\n",
+  "sec": 12.2
+ },
+ {
+  "pair": "XX",
+  "method": "slat_k20",
+  "error": "AttributeError(\"module 'scanpy' has no attribute 'pp'\")",
+  "where": "nt/disk/./run_compare_dl.py\", line 62, in slat\n    edges, feats = M.load_anndatas([a1, a2], feature=\"DPCA\", check_order=False,\n  File \"./.pylibs_base/scSLAT/model/loaddata.py\", line 284, in load_anndatas\n    sc.pp.highly_variable_genes(adata_all, n_top_genes=12000, flavor=\"seurat_v3\")\nAttributeError: module 'scanpy' has no attribute 'pp'\n",
+  "sec": 8.0
+ },
+ {
+  "pair": "XX",
+  "method": "slat_k10_e20",
+  "error": "AttributeError(\"module 'scanpy' has no attribute 'pp'\")",
+  "where": "nt/disk/./run_compare_dl.py\", line 62, in slat\n    edges, feats = M.load_anndatas([a1, a2], feature=\"DPCA\", check_order=False,\n  File \"./.pylibs_base/scSLAT/model/loaddata.py\", line 284, in load_anndatas\n    sc.pp.highly_variable_genes(adata_all, n_top_genes=12000, flavor=\"seurat_v3\")\nAttributeError: module 'scanpy' has no attribute 'pp'\n",
+  "sec": 1.4
+ },
+ {
+  "pair": "XX",
+  "method": "gpsa_1",
+  "angle": 0.86,
+  "flip": 0,
+  "off_from_ours_deg": 3.48,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.1509,
+  "sec": 9522.3,
+  "picked_start": [
+   0.0,
+   0
+  ],
+  "loss": 56119.52,
+  "epochs": 1000
+ },
+ {
+  "pair": "XX",
+  "method": "gpsa_8",
+  "angle": 358.38,
+  "flip": 0,
+  "off_from_ours_deg": 1.0,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.1573,
+  "sec": 6262.6,
+  "picked_start": [
+   0,
+   0
+  ],
+  "loss": 56105.477,
+  "epochs": 1000
+ },
+ {
+  "pair": "XX",
+  "method": "gpsa_8_long",
+  "angle": 358.02,
+  "flip": 0,
+  "off_from_ours_deg": 0.64,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.1816,
+  "sec": 63600.3,
+  "picked_start": [
+   0,
+   0
+  ],
+  "loss": 55799.09,
+  "epochs": 2000
+ },
+ {
+  "pair": "VX1",
+  "method": "slat_k10",
+  "error": "AttributeError(\"module 'scanpy' has no attribute 'pp'\")",
+  "where": "nt/disk/./run_compare_dl.py\", line 62, in slat\n    edges, feats = M.load_anndatas([a1, a2], feature=\"DPCA\", check_order=False,\n  File \"./.pylibs_base/scSLAT/model/loaddata.py\", line 284, in load_anndatas\n    sc.pp.highly_variable_genes(adata_all, n_top_genes=12000, flavor=\"seurat_v3\")\nAttributeError: module 'scanpy' has no attribute 'pp'\n",
+  "sec": 0.4
+ },
+ {
+  "pair": "VX1",
+  "method": "slat_k20",
+  "error": "AttributeError(\"module 'scanpy' has no attribute 'pp'\")",
+  "where": "nt/disk/./run_compare_dl.py\", line 62, in slat\n    edges, feats = M.load_anndatas([a1, a2], feature=\"DPCA\", check_order=False,\n  File \"./.pylibs_base/scSLAT/model/loaddata.py\", line 284, in load_anndatas\n    sc.pp.highly_variable_genes(adata_all, n_top_genes=12000, flavor=\"seurat_v3\")\nAttributeError: module 'scanpy' has no attribute 'pp'\n",
+  "sec": 0.2
+ },
+ {
+  "pair": "VX1",
+  "method": "slat_k10_e20",
+  "error": "AttributeError(\"module 'scanpy' has no attribute 'pp'\")",
+  "where": "nt/disk/./run_compare_dl.py\", line 62, in slat\n    edges, feats = M.load_anndatas([a1, a2], feature=\"DPCA\", check_order=False,\n  File \"./.pylibs_base/scSLAT/model/loaddata.py\", line 284, in load_anndatas\n    sc.pp.highly_variable_genes(adata_all, n_top_genes=12000, flavor=\"seurat_v3\")\nAttributeError: module 'scanpy' has no attribute 'pp'\n",
+  "sec": 1.8
+ },
+ {
+  "pair": "VX1",
+  "method": "gpsa_1",
+  "angle": 357.65,
+  "flip": 0,
+  "off_from_ours_deg": 84.52,
+  "flip_same_as_ours": 1,
+  "gene_score": -0.024,
+  "sec": 2228.3,
+  "picked_start": [
+   0.0,
+   0
+  ],
+  "loss": 55391.25,
+  "epochs": 1000
+ },
+ {
+  "pair": "VX1",
+  "method": "gpsa_8",
+  "angle": 266.63,
+  "flip": 0,
+  "off_from_ours_deg": 6.5,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.2124,
+  "sec": 4300.9,
+  "picked_start": [
+   270,
+   0
+  ],
+  "loss": 54893.84,
+  "epochs": 1000
+ },
+ {
+  "pair": "VX1",
+  "method": "gpsa_8_long",
+  "angle": 271.8,
+  "flip": 0,
+  "off_from_ours_deg": 1.33,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.4194,
+  "sec": 3568.5,
+  "picked_start": [
+   270,
+   0
+  ],
+  "loss": 54513.703,
+  "epochs": 2000
+ },
+ {
+  "pair": "VX2",
+  "method": "slat_k10",
+  "error": "AttributeError(\"module 'scanpy' has no attribute 'pp'\")",
+  "where": "nt/disk/./run_compare_dl.py\", line 62, in slat\n    edges, feats = M.load_anndatas([a1, a2], feature=\"DPCA\", check_order=False,\n  File \"./.pylibs_base/scSLAT/model/loaddata.py\", line 284, in load_anndatas\n    sc.pp.highly_variable_genes(adata_all, n_top_genes=12000, flavor=\"seurat_v3\")\nAttributeError: module 'scanpy' has no attribute 'pp'\n",
+  "sec": 0.1
+ },
+ {
+  "pair": "VX2",
+  "method": "slat_k20",
+  "error": "AttributeError(\"module 'scanpy' has no attribute 'pp'\")",
+  "where": "nt/disk/./run_compare_dl.py\", line 62, in slat\n    edges, feats = M.load_anndatas([a1, a2], feature=\"DPCA\", check_order=False,\n  File \"./.pylibs_base/scSLAT/model/loaddata.py\", line 284, in load_anndatas\n    sc.pp.highly_variable_genes(adata_all, n_top_genes=12000, flavor=\"seurat_v3\")\nAttributeError: module 'scanpy' has no attribute 'pp'\n",
+  "sec": 0.1
+ },
+ {
+  "pair": "VX2",
+  "method": "slat_k10_e20",
+  "error": "AttributeError(\"module 'scanpy' has no attribute 'pp'\")",
+  "where": "nt/disk/./run_compare_dl.py\", line 62, in slat\n    edges, feats = M.load_anndatas([a1, a2], feature=\"DPCA\", check_order=False,\n  File \"./.pylibs_base/scSLAT/model/loaddata.py\", line 284, in load_anndatas\n    sc.pp.highly_variable_genes(adata_all, n_top_genes=12000, flavor=\"seurat_v3\")\nAttributeError: module 'scanpy' has no attribute 'pp'\n",
+  "sec": 0.1
+ },
+ {
+  "pair": "VX2",
+  "method": "gpsa_1",
+  "angle": 355.74,
+  "flip": 0,
+  "off_from_ours_deg": 84.87,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.0597,
+  "sec": 230.3,
+  "picked_start": [
+   0.0,
+   0
+  ],
+  "loss": 55183.145,
+  "epochs": 1000
+ },
+ {
+  "pair": "VX2",
+  "method": "gpsa_8",
+  "angle": 268.83,
+  "flip": 0,
+  "off_from_ours_deg": 2.04,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.24,
+  "sec": 1858.3,
+  "picked_start": [
+   270,
+   0
+  ],
+  "loss": 54512.699,
+  "epochs": 1000
+ },
+ {
+  "pair": "VX2",
+  "method": "gpsa_8_long",
+  "angle": 270.17,
+  "flip": 0,
+  "off_from_ours_deg": 0.7,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.2782,
+  "sec": 2972.6,
+  "picked_start": [
+   270,
+   0
+  ],
+  "loss": 54366.035,
+  "epochs": 2000
+ }
+]

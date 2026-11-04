@@ -1,0 +1,164 @@
+[
+ {
+  "applied angle": 0.0,
+  "applied flip": 0,
+  "setting": "same-modality",
+  "PASTE-style FGW": {
+   "angle": 0.4,
+   "flip found": 0,
+   "angle err": 0.41,
+   "flip correct": 1,
+   "sec": 3.6
+  },
+  "CertAlign (ours)": {
+   "angle": 359.3,
+   "flip found": 0,
+   "angle err": 0.7,
+   "flip correct": 1,
+   "score": 0.4357,
+   "CERTIFIED": true,
+   "boxes": 8016,
+   "sec": 27.7
+  },
+  "local search (8 restarts)": {
+   "angle": 98.4,
+   "flip found": 1,
+   "angle err": 98.4,
+   "flip correct": 0,
+   "score": 0.1079,
+   "sec": 0.1
+  }
+ },
+ {
+  "applied angle": 73.0,
+  "applied flip": 1,
+  "setting": "same-modality",
+  "PASTE-style FGW": {
+   "angle": 72.6,
+   "flip found": 1,
+   "angle err": 0.37,
+   "flip correct": 1,
+   "sec": 2.8
+  },
+  "CertAlign (ours)": {
+   "angle": 73.8,
+   "flip found": 1,
+   "angle err": 0.83,
+   "flip correct": 1,
+   "score": 0.4293,
+   "CERTIFIED": true,
+   "boxes": 12223,
+   "sec": 39.3
+  },
+  "local search (8 restarts)": {
+   "angle": 73.0,
+   "flip found": 1,
+   "angle err": 0.03,
+   "flip correct": 1,
+   "score": 0.5029,
+   "sec": 0.2
+  }
+ },
+ {
+  "applied angle": 211.0,
+  "applied flip": 0,
+  "setting": "same-modality",
+  "PASTE-style FGW": {
+   "angle": 210.9,
+   "flip found": 0,
+   "angle err": 0.13,
+   "flip correct": 1,
+   "sec": 3.2
+  },
+  "CertAlign (ours)": {
+   "angle": 212.0,
+   "flip found": 0,
+   "angle err": 1.0,
+   "flip correct": 1,
+   "score": 0.325,
+   "CERTIFIED": true,
+   "boxes": 30218,
+   "sec": 109.6
+  },
+  "local search (8 restarts)": {
+   "angle": 124.4,
+   "flip found": 1,
+   "angle err": 86.62,
+   "flip correct": 0,
+   "score": 0.115,
+   "sec": 0.1
+  }
+ },
+ {
+  "applied angle": 0.0,
+  "applied flip": 0,
+  "setting": "cross-modal",
+  "PASTE-style FGW": "cannot run - no shared features between modalities",
+  "CertAlign (ours)": {
+   "angle": 0.0,
+   "flip found": 0,
+   "angle err": 0.0,
+   "flip correct": 1,
+   "score": 0.27,
+   "CERTIFIED": true,
+   "boxes": 54421,
+   "sec": 164.7
+  },
+  "local search (8 restarts)": {
+   "angle": 10.0,
+   "flip found": 1,
+   "angle err": 10.02,
+   "flip correct": 0,
+   "score": 0.1157,
+   "sec": 0.1
+  }
+ },
+ {
+  "applied angle": 73.0,
+  "applied flip": 1,
+  "setting": "cross-modal",
+  "PASTE-style FGW": "cannot run - no shared features between modalities",
+  "CertAlign (ours)": {
+   "angle": 72.4,
+   "flip found": 1,
+   "angle err": 0.58,
+   "flip correct": 1,
+   "score": 0.275,
+   "CERTIFIED": true,
+   "boxes": 61206,
+   "sec": 176.1
+  },
+  "local search (8 restarts)": {
+   "angle": 73.0,
+   "flip found": 1,
+   "angle err": 0.01,
+   "flip correct": 1,
+   "score": 0.3157,
+   "sec": 0.1
+  }
+ },
+ {
+  "applied angle": 211.0,
+  "applied flip": 0,
+  "setting": "cross-modal",
+  "PASTE-style FGW": "cannot run - no shared features between modalities",
+  "CertAlign (ours)": {
+   "angle": 212.0,
+   "flip found": 0,
+   "angle err": 1.0,
+   "flip correct": 1,
+   "score": 0.2307,
+   "CERTIFIED": true,
+   "boxes": 163998,
+   "sec": 524.9
+  },
+  "local search (8 restarts)": {
+   "angle": 43.8,
+   "flip found": 1,
+   "angle err": 167.21,
+   "flip correct": 0,
+   "score": 0.1221,
+   "sec": 0.1
+  }
+ }
+]

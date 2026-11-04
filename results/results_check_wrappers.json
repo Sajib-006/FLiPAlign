@@ -1,0 +1,78 @@
+[
+ {
+  "check": "cpd synthetic",
+  "applied": [
+   20,
+   0
+  ],
+  "found": [
+   20.0,
+   0
+  ],
+  "pass": true
+ },
+ {
+  "check": "cpd synthetic",
+  "applied": [
+   60,
+   0
+  ],
+  "found": [
+   60.0,
+   0
+  ],
+  "pass": true
+ },
+ {
+  "check": "cpd synthetic",
+  "applied": [
+   135,
+   1
+  ],
+  "found": [
+   135.0,
+   1
+  ],
+  "pass": true
+ },
+ {
+  "check": "cpd DLPFC same slide",
+  "applied": [
+   20,
+   0
+  ],
+  "found": [
+   19.91,
+   0
+  ],
+  "pass": true
+ },
+ {
+  "check": "cpd DLPFC same slide",
+  "applied": [
+   60,
+   0
+  ],
+  "found": [
+   60.06,
+   0
+  ],
+  "pass": true
+ },
+ {
+  "check": "cpd DLPFC same slide",
+  "applied": [
+   135,
+   1
+  ],
+  "found": [
+   134.88,
+   1
+  ],
+  "pass": true
+ },
+ {
+  "check": "SLAT DLPFC",
+  "note": "DLPFC expression present on server: False"
+ }
+]

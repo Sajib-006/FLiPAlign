@@ -1,0 +1,71 @@
+[
+ {
+  "pair": "P2CRC",
+  "n_spots": 4269,
+  "n_hd_bins": 545913,
+  "visium_um_per_px": 0.274,
+  "angle": 358.56,
+  "flip": 0,
+  "shift": [
+   -2.0,
+   12.0
+  ],
+  "objective": 0.2582,
+  "gap": 0.0146,
+  "certified": true,
+  "gene_score": 0.674,
+  "random_gene_mean": 0.0164,
+  "random_gene_max": 0.3166,
+  "prep_s": 47.6,
+  "solve_s": 203.8,
+  "eps_shift30": 0.0056,
+  "unique_shift30": true,
+  "total_s": 487.0
+ },
+ {
+  "pair": "P3NAT",
+  "n_spots": 3887,
+  "n_hd_bins": 487552,
+  "visium_um_per_px": 0.274,
+  "angle": 1.5,
+  "flip": 0,
+  "shift": [
+   6.0,
+   46.0
+  ],
+  "objective": 0.2205,
+  "gap": 0.0143,
+  "certified": true,
+  "gene_score": 0.3581,
+  "random_gene_mean": 0.0151,
+  "random_gene_max": 0.1998,
+  "prep_s": 31.6,
+  "solve_s": 387.3,
+  "eps_shift30": 0.0007,
+  "unique_shift30": true,
+  "total_s": 1811.0
+ },
+ {
+  "pair": "P5NAT",
+  "n_spots": 2638,
+  "n_hd_bins": 435773,
+  "visium_um_per_px": 0.274,
+  "angle": 352.62,
+  "flip": 0,
+  "shift": [
+   74.0,
+   -28.0
+  ],
+  "objective": 0.1851,
+  "gap": 0.0197,
+  "certified": true,
+  "gene_score": 0.5195,
+  "random_gene_mean": 0.0134,
+  "random_gene_max": 0.1292,
+  "prep_s": 157.4,
+  "solve_s": 299.1,
+  "eps_shift30": 0.0061,
+  "unique_shift30": true,
+  "total_s": 2127.0
+ }
+]

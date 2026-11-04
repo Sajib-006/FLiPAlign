@@ -1,0 +1,110 @@
+[
+ {
+  "pair": "XX",
+  "method": "mi_ex10",
+  "angle": 180.04,
+  "flip": 0,
+  "off_from_ours_deg": 177.34,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.0029,
+  "sec": 2358.3,
+  "angle_step": 10.0,
+  "metric": -0.32497
+ },
+ {
+  "pair": "XX",
+  "method": "mi_ex5",
+  "angle": 180.04,
+  "flip": 0,
+  "off_from_ours_deg": 177.34,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.0029,
+  "sec": 3424.2,
+  "angle_step": 5.0,
+  "metric": -0.32497
+ },
+ {
+  "pair": "XX",
+  "method": "mi_ex2.5",
+  "angle": 180.04,
+  "flip": 0,
+  "off_from_ours_deg": 177.34,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.0029,
+  "sec": 2411.5,
+  "angle_step": 2.5,
+  "metric": -0.32497
+ },
+ {
+  "pair": "VX1",
+  "method": "mi_ex10",
+  "angle": 269.98,
+  "flip": 0,
+  "off_from_ours_deg": 3.15,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.166,
+  "sec": 1648.0,
+  "angle_step": 10.0,
+  "metric": -0.08107
+ },
+ {
+  "pair": "VX1",
+  "method": "mi_ex5",
+  "angle": 269.98,
+  "flip": 0,
+  "off_from_ours_deg": 3.15,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.166,
+  "sec": 3856.7,
+  "angle_step": 5.0,
+  "metric": -0.08107
+ },
+ {
+  "pair": "VX1",
+  "method": "mi_ex2.5",
+  "angle": 269.98,
+  "flip": 0,
+  "off_from_ours_deg": 3.15,
+  "flip_same_as_ours": 1,
+  "gene_score": 0.166,
+  "sec": 7366.1,
+  "angle_step": 2.5,
+  "metric": -0.08107
+ },
+ {
+  "pair": "VX2",
+  "method": "mi_ex10",
+  "angle": 179.96,
+  "flip": 1,
+  "off_from_ours_deg": 90.91,
+  "flip_same_as_ours": 0,
+  "gene_score": 0.0967,
+  "sec": 1769.9,
+  "angle_step": 10.0,
+  "metric": -0.06388
+ },
+ {
+  "pair": "VX2",
+  "method": "mi_ex5",
+  "angle": 179.96,
+  "flip": 1,
+  "off_from_ours_deg": 90.91,
+  "flip_same_as_ours": 0,
+  "gene_score": 0.0967,
+  "sec": 4302.9,
+  "angle_step": 5.0,
+  "metric": -0.06388
+ },
+ {
+  "pair": "VX2",
+  "method": "mi_ex2.5",
+  "angle": 179.96,
+  "flip": 1,
+  "off_from_ours_deg": 90.91,
+  "flip_same_as_ours": 0,
+  "gene_score": 0.0967,
+  "sec": 7445.2,
+  "angle_step": 2.5,
+  "metric": -0.06388
+ }
+]

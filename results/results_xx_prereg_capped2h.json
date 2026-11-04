@@ -1,0 +1,22 @@
+{
+ "pair": "XX",
+ "rule": "pre-registered h=2",
+ "angle": 357.313,
+ "flip": 0,
+ "shift": [
+  36.0,
+  -128.0
+ ],
+ "objective": 0.1671,
+ "gap": Infinity,
+ "certified": false,
+ "solve_s": 7219.4,
+ "gene_score": 0.6122,
+ "landmark_error_um": [
+  84.3,
+  36.0,
+  64.0
+ ],
+ "landmark_error_median_um": 64.0,
+ "total_s": 7409.1
+}

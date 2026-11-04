@@ -1,0 +1,116 @@
+[
+ {
+  "pair": "XX",
+  "method": "random placements (20)",
+  "gene_mean": 0.0256,
+  "gene_max": 0.1799
+ },
+ {
+  "pair": "XX",
+  "method": "stalign",
+  "angle": 359.99,
+  "flip": 0,
+  "off_from_ours_deg": null,
+  "flip_same_as_ours": null,
+  "gene_score": 0.1122,
+  "sec": 9503.2,
+  "picked_start": [
+   0.0,
+   0
+  ],
+  "density_corr": 0.2031,
+  "niter": 2000
+ },
+ {
+  "pair": "XX",
+  "method": "stalign8",
+  "angle": 0.0,
+  "flip": 1,
+  "off_from_ours_deg": null,
+  "flip_same_as_ours": null,
+  "gene_score": 0.1026,
+  "sec": 1452.0,
+  "picked_start": [
+   0,
+   1
+  ],
+  "density_corr": 0.2759,
+  "niter": 1000
+ },
+ {
+  "pair": "VX1",
+  "method": "random placements (20)",
+  "gene_mean": 0.0041,
+  "gene_max": 0.0991
+ },
+ {
+  "pair": "VX1",
+  "method": "stalign",
+  "angle": 0.0,
+  "flip": 0,
+  "off_from_ours_deg": null,
+  "flip_same_as_ours": null,
+  "gene_score": -0.0279,
+  "sec": 254.4,
+  "picked_start": [
+   0.0,
+   0
+  ],
+  "density_corr": -0.0004,
+  "niter": 2000
+ },
+ {
+  "pair": "VX1",
+  "method": "stalign8",
+  "angle": 90.0,
+  "flip": 1,
+  "off_from_ours_deg": null,
+  "flip_same_as_ours": null,
+  "gene_score": 0.0408,
+  "sec": 929.8,
+  "picked_start": [
+   90,
+   1
+  ],
+  "density_corr": 0.0047,
+  "niter": 1000
+ },
+ {
+  "pair": "VX2",
+  "method": "random placements (20)",
+  "gene_mean": 0.0127,
+  "gene_max": 0.093
+ },
+ {
+  "pair": "VX2",
+  "method": "stalign",
+  "angle": 360.0,
+  "flip": 0,
+  "off_from_ours_deg": null,
+  "flip_same_as_ours": null,
+  "gene_score": 0.0425,
+  "sec": 217.0,
+  "picked_start": [
+   0.0,
+   0
+  ],
+  "density_corr": 0.0111,
+  "niter": 2000
+ },
+ {
+  "pair": "VX2",
+  "method": "stalign8",
+  "angle": 270.0,
+  "flip": 0,
+  "off_from_ours_deg": null,
+  "flip_same_as_ours": null,
+  "gene_score": 0.1713,
+  "sec": 875.6,
+  "picked_start": [
+   270,
+   0
+  ],
+  "density_corr": 0.0151,
+  "niter": 1000
+ }
+]

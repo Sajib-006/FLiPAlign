@@ -1,0 +1,488 @@
+[
+ {
+  "case": "sanity_20_0",
+  "method": "paste_a0.1",
+  "fit": "plain",
+  "angle": 339.36,
+  "flip": 0,
+  "shift": [
+   -4.19,
+   1.96
+  ],
+  "sec": 89.5,
+  "tre_um": 47.0
+ },
+ {
+  "case": "sanity_20_0",
+  "method": "paste_a0.1",
+  "fit": "trimmed",
+  "angle": 339.53,
+  "flip": 0,
+  "shift": [
+   -3.19,
+   0.66
+  ],
+  "sec": 89.5,
+  "tre_um": 30.9
+ },
+ {
+  "case": "sanity_20_0",
+  "method": "paste_a0.5",
+  "fit": "plain",
+  "angle": 339.34,
+  "flip": 0,
+  "shift": [
+   -4.19,
+   1.96
+  ],
+  "sec": 68.0,
+  "tre_um": 47.7
+ },
+ {
+  "case": "sanity_20_0",
+  "method": "paste_a0.5",
+  "fit": "trimmed",
+  "angle": 339.44,
+  "flip": 0,
+  "shift": [
+   -3.23,
+   1.15
+  ],
+  "sec": 68.0,
+  "tre_um": 35.7
+ },
+ {
+  "case": "sanity_20_0",
+  "method": "paste2_s0.5",
+  "fit": "plain",
+  "angle": 339.56,
+  "flip": 0,
+  "shift": [
+   -1.72,
+   3.68
+  ],
+  "sec": 2614.7,
+  "tre_um": 45.5
+ },
+ {
+  "case": "sanity_20_0",
+  "method": "paste2_s0.5",
+  "fit": "trimmed",
+  "angle": 339.82,
+  "flip": 0,
+  "shift": [
+   -1.64,
+   2.85
+  ],
+  "sec": 2614.7,
+  "tre_um": 33.9
+ },
+ {
+  "case": "sanity_20_0",
+  "method": "paste2_s0.7",
+  "fit": "plain",
+  "angle": 339.26,
+  "flip": 0,
+  "shift": [
+   -3.68,
+   1.62
+  ],
+  "sec": 3474.6,
+  "tre_um": 45.6
+ },
+ {
+  "case": "sanity_20_0",
+  "method": "paste2_s0.7",
+  "fit": "trimmed",
+  "angle": 339.96,
+  "flip": 0,
+  "shift": [
+   -2.32,
+   2.17
+  ],
+  "sec": 3474.6,
+  "tre_um": 27.8
+ },
+ {
+  "case": "sanity_20_0",
+  "method": "slat_k20",
+  "fit": "plain",
+  "angle": 352.24,
+  "flip": 0,
+  "shift": [
+   11.29,
+   18.08
+  ],
+  "sec": 293.4,
+  "tre_um": 503.0
+ },
+ {
+  "case": "sanity_20_0",
+  "method": "slat_k20",
+  "fit": "trimmed",
+  "angle": 350.56,
+  "flip": 0,
+  "shift": [
+   5.8,
+   17.78
+  ],
+  "sec": 293.4,
+  "tre_um": 418.1
+ },
+ {
+  "case": "sanity_20_0",
+  "method": "cpd_8",
+  "fit": "plain",
+  "angle": 38.07,
+  "flip": 1,
+  "shift": [
+   -230.74,
+   -120.1
+  ],
+  "sec": 761.7,
+  "tre_um": 2790.4
+ },
+ {
+  "case": "sanity_20_0",
+  "method": "local_50",
+  "fit": "plain",
+  "angle": 340.0,
+  "flip": 0,
+  "shift": [
+   -0.74,
+   -0.36
+  ],
+  "sec": 169.5,
+  "tre_um": 2.9
+ },
+ {
+  "case": "sanity_20_0",
+  "method": "stalign_16",
+  "error": "TypeError('Invalid shape (201, 276, 6) for image data')",
+  "where": "line 729, in set_data\n    self._A = self._normalize_image_array(A)\n  File \"./.pylibs_base/matplotlib/image.py\", line 697, in _normalize_image_array\n    raise TypeError(f\"Invalid shape {A.shape} for image data\")\nTypeError: Invalid shape (201, 276, 6) for image data\n"
+ },
+ {
+  "case": "sanity_60_0",
+  "method": "paste_a0.1",
+  "fit": "plain",
+  "angle": 299.36,
+  "flip": 0,
+  "shift": [
+   -4.19,
+   1.96
+  ],
+  "sec": 96.3,
+  "tre_um": 47.0
+ },
+ {
+  "case": "sanity_60_0",
+  "method": "paste_a0.1",
+  "fit": "trimmed",
+  "angle": 299.53,
+  "flip": 0,
+  "shift": [
+   -3.19,
+   0.66
+  ],
+  "sec": 96.3,
+  "tre_um": 30.9
+ },
+ {
+  "case": "sanity_60_0",
+  "method": "paste_a0.5",
+  "fit": "plain",
+  "angle": 299.34,
+  "flip": 0,
+  "shift": [
+   -4.19,
+   1.96
+  ],
+  "sec": 70.1,
+  "tre_um": 47.7
+ },
+ {
+  "case": "sanity_60_0",
+  "method": "paste_a0.5",
+  "fit": "trimmed",
+  "angle": 299.44,
+  "flip": 0,
+  "shift": [
+   -3.23,
+   1.15
+  ],
+  "sec": 70.1,
+  "tre_um": 35.7
+ },
+ {
+  "case": "sanity_60_0",
+  "method": "paste2_s0.5",
+  "fit": "plain",
+  "angle": 299.56,
+  "flip": 0,
+  "shift": [
+   -1.72,
+   3.68
+  ],
+  "sec": 820.7,
+  "tre_um": 45.5
+ },
+ {
+  "case": "sanity_60_0",
+  "method": "paste2_s0.5",
+  "fit": "trimmed",
+  "angle": 299.82,
+  "flip": 0,
+  "shift": [
+   -1.64,
+   2.85
+  ],
+  "sec": 820.7,
+  "tre_um": 33.9
+ },
+ {
+  "case": "sanity_60_0",
+  "method": "paste2_s0.7",
+  "fit": "plain",
+  "angle": 299.26,
+  "flip": 0,
+  "shift": [
+   -3.68,
+   1.62
+  ],
+  "sec": 566.1,
+  "tre_um": 45.6
+ },
+ {
+  "case": "sanity_60_0",
+  "method": "paste2_s0.7",
+  "fit": "trimmed",
+  "angle": 299.96,
+  "flip": 0,
+  "shift": [
+   -2.32,
+   2.17
+  ],
+  "sec": 566.1,
+  "tre_um": 27.8
+ },
+ {
+  "case": "sanity_60_0",
+  "method": "slat_k20",
+  "fit": "plain",
+  "angle": 336.26,
+  "flip": 0,
+  "shift": [
+   80.27,
+   22.07
+  ],
+  "sec": 255.0,
+  "tre_um": 1778.5
+ },
+ {
+  "case": "sanity_60_0",
+  "method": "slat_k20",
+  "fit": "trimmed",
+  "angle": 338.07,
+  "flip": 0,
+  "shift": [
+   52.24,
+   28.6
+  ],
+  "sec": 255.0,
+  "tre_um": 1740.4
+ },
+ {
+  "case": "sanity_60_0",
+  "method": "cpd_8",
+  "fit": "plain",
+  "angle": 78.17,
+  "flip": 1,
+  "shift": [
+   -230.86,
+   -120.1
+  ],
+  "sec": 775.1,
+  "tre_um": 2792.8
+ },
+ {
+  "case": "sanity_60_0",
+  "method": "local_50",
+  "fit": "plain",
+  "angle": 300.03,
+  "flip": 0,
+  "shift": [
+   -1.0,
+   -0.36
+  ],
+  "sec": 191.0,
+  "tre_um": 1.0
+ },
+ {
+  "case": "sanity_60_0",
+  "method": "stalign_16",
+  "error": "TypeError('Invalid shape (201, 276, 6) for image data')",
+  "where": "line 729, in set_data\n    self._A = self._normalize_image_array(A)\n  File \"./.pylibs_base/matplotlib/image.py\", line 697, in _normalize_image_array\n    raise TypeError(f\"Invalid shape {A.shape} for image data\")\nTypeError: Invalid shape (201, 276, 6) for image data\n"
+ },
+ {
+  "case": "sanity_135_1",
+  "method": "paste_a0.1",
+  "fit": "plain",
+  "angle": 134.36,
+  "flip": 1,
+  "shift": [
+   -4.19,
+   1.96
+  ],
+  "sec": 359.5,
+  "tre_um": 47.0
+ },
+ {
+  "case": "sanity_135_1",
+  "method": "paste_a0.1",
+  "fit": "trimmed",
+  "angle": 134.53,
+  "flip": 1,
+  "shift": [
+   -3.19,
+   0.66
+  ],
+  "sec": 359.5,
+  "tre_um": 30.9
+ },
+ {
+  "case": "sanity_135_1",
+  "method": "paste_a0.5",
+  "fit": "plain",
+  "angle": 134.34,
+  "flip": 1,
+  "shift": [
+   -4.19,
+   1.96
+  ],
+  "sec": 1054.4,
+  "tre_um": 47.7
+ },
+ {
+  "case": "sanity_135_1",
+  "method": "paste_a0.5",
+  "fit": "trimmed",
+  "angle": 134.44,
+  "flip": 1,
+  "shift": [
+   -3.23,
+   1.15
+  ],
+  "sec": 1054.4,
+  "tre_um": 35.7
+ },
+ {
+  "case": "sanity_135_1",
+  "method": "paste2_s0.5",
+  "fit": "plain",
+  "angle": 134.56,
+  "flip": 1,
+  "shift": [
+   -1.72,
+   3.68
+  ],
+  "sec": 8156.3,
+  "tre_um": 45.5
+ },
+ {
+  "case": "sanity_135_1",
+  "method": "paste2_s0.5",
+  "fit": "trimmed",
+  "angle": 134.82,
+  "flip": 1,
+  "shift": [
+   -1.64,
+   2.85
+  ],
+  "sec": 8156.3,
+  "tre_um": 33.9
+ },
+ {
+  "case": "sanity_135_1",
+  "method": "paste2_s0.7",
+  "fit": "plain",
+  "angle": 134.26,
+  "flip": 1,
+  "shift": [
+   -3.68,
+   1.62
+  ],
+  "sec": 2660.0,
+  "tre_um": 45.6
+ },
+ {
+  "case": "sanity_135_1",
+  "method": "paste2_s0.7",
+  "fit": "trimmed",
+  "angle": 134.96,
+  "flip": 1,
+  "shift": [
+   -2.32,
+   2.17
+  ],
+  "sec": 2660.0,
+  "tre_um": 27.8
+ },
+ {
+  "case": "sanity_135_1",
+  "method": "slat_k20",
+  "fit": "plain",
+  "angle": 350.96,
+  "flip": 0,
+  "shift": [
+   45.97,
+   10.96
+  ],
+  "sec": 248.9,
+  "tre_um": 4149.0
+ },
+ {
+  "case": "sanity_135_1",
+  "method": "slat_k20",
+  "fit": "trimmed",
+  "angle": 8.53,
+  "flip": 0,
+  "shift": [
+   31.19,
+   28.06
+  ],
+  "sec": 248.9,
+  "tre_um": 4431.3
+ },
+ {
+  "case": "sanity_135_1",
+  "method": "cpd_8",
+  "fit": "plain",
+  "angle": 243.24,
+  "flip": 0,
+  "shift": [
+   -231.13,
+   -120.11
+  ],
+  "sec": 630.1,
+  "tre_um": 2795.7
+ },
+ {
+  "case": "sanity_135_1",
+  "method": "local_50",
+  "fit": "plain",
+  "angle": 135.04,
+  "flip": 1,
+  "shift": [
+   -0.88,
+   -0.01
+  ],
+  "sec": 252.1,
+  "tre_um": 4.1
+ },
+ {
+  "case": "sanity_135_1",
+  "method": "stalign_16",
+  "error": "TypeError('Invalid shape (201, 276, 6) for image data')",
+  "where": "line 729, in set_data\n    self._A = self._normalize_image_array(A)\n  File \"./.pylibs_base/matplotlib/image.py\", line 697, in _normalize_image_array\n    raise TypeError(f\"Invalid shape {A.shape} for image data\")\nTypeError: Invalid shape (201, 276, 6) for image data\n"
+ }
+]

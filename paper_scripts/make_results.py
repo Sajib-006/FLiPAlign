@@ -1,14 +1,16 @@
-"""All tables and numbers of the rewritten paper (2026-10-03), straight from ../server_results/new.
+"""All tables and numbers of the rewritten paper (2026-10-03), straight from results/placement.
 Writes tables/res_*.tex and tables/res_numbers.tex. Rerun after any new result.
 
 Sets: GT1 (24 breast, development), GT2 (72: colon, mouse brain, DLPFC, development), GT3 (48, six new
 datasets, held out, frozen in FROZEN_2026-09-30.md), overlap sweep (60 brain cases), real pairs.
 "Right" = median cell error under 200 um. Baselines: best of 3 settings x 2 rigid fits, with the true
 flip handed over (FLIP_ORACLE runs replace the flipped cases)."""
+import os
+from _paths import RES, PLACE, STACK, OUT, TABLES, FIGURES
 import collections, glob, json, os
 import numpy as np
 
-R = "../server_results/new"; T = "tables"; os.makedirs(T, exist_ok=True)
+R = PLACE; T = TABLES
 RIGHT = 200.0
 TOOLS = [("paste", "PASTE"), ("paste2", "PASTE2"), ("slat", "SLAT"), ("cpd", "CPD"), ("spateo", "spateo"), ("cast", "CAST"),
          ("stalign", "STalign")]
@@ -158,7 +160,7 @@ def main():
     # ---- real pairs
     rf = {json.load(open(f))[0]["pair"]: json.load(open(f))[0] for f in glob.glob(f"{R}/realfine_t*.json")}
     rb = json.load(open(f"{R}/real_baselines_arc.json")) if os.path.exists(f"{R}/real_baselines_arc.json") else []
-    old = json.load(open("../server_results/results_real_baselines.json"))
+    old = json.load(open(os.path.join(RES, "results_real_baselines.json")))
     def bestgene(case, tool):
         v = [r.get("gene_score") for r in rb + old if r.get("case") == case and r.get("method", "").split("_")[0] == tool
              and r.get("gene_score") is not None]
@@ -232,7 +234,7 @@ def main():
               "DLcertMed": f"{np.median([r['layer_acc'] for r in c]):.2f}",
               "DLrefWrong": sum(not ok(r) for r in sd if not r["certified"]),
               "DLadjLo": f"{min(adj):.2f}", "DLadjHi": f"{max(adj):.2f}"})
-    chk = [r for r in json.load(open("../server_results/results_check_dlpfc_baselines.json"))
+    chk = [r for r in json.load(open(os.path.join(RES, "results_check_dlpfc_baselines.json")))
            if "layer_acc" in r and r["group"] == "adjacent"]
     for m_, k_ in (("paste", "DLadjPaste"), ("slat", "DLadjSlat")):
         M[k_] = f"{max(np.median([r['layer_acc'] for r in chk if r['method'] == m_ and r['fit'] == ft]) for ft in ('plain', 'trimmed')):.2f}"

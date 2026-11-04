@@ -1,0 +1,16 @@
+[
+ {
+  "test": "Visium vs Xenium Rep1, regions, h=2, sigma 20, 3 h far check",
+  "angle_deg": 273.0,
+  "flip": 0,
+  "best": 0.1191,
+  "gap": 0.0758,
+  "certified": false,
+  "far_exact": 0.086,
+  "far_ub": 0.1423,
+  "eps_unique": -0.0232,
+  "unique_PROVEN": false,
+  "far_complete": false,
+  "far_s": 11398.1
+ }
+]

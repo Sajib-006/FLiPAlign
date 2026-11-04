@@ -1,0 +1,173 @@
+[
+ {
+  "test": "S3 expression matching",
+  "Rep2->Rep1": [
+   0,
+   3,
+   4,
+   1,
+   1,
+   5,
+   11,
+   2,
+   10,
+   12,
+   2,
+   7,
+   14,
+   13,
+   9,
+   17,
+   2,
+   15,
+   3,
+   1,
+   1,
+   8,
+   1,
+   19,
+   7
+  ],
+  "best corr per Rep2 cluster": [
+   0.997,
+   0.987,
+   0.998,
+   0.971,
+   0.974,
+   0.996,
+   0.996,
+   0.987,
+   0.989,
+   0.997,
+   0.993,
+   0.997,
+   0.996,
+   0.995,
+   0.981,
+   0.987,
+   0.992,
+   0.997,
+   0.891,
+   0.953,
+   0.904,
+   0.92,
+   0.8,
+   0.988,
+   0.845
+  ],
+  "Rep1 clusters hit": 17
+ },
+ {
+  "test": "S3 real, cell types",
+  "sigma": 20.0,
+  "h": 4.0,
+  "KA/KB": [
+   20,
+   25
+  ],
+  "angle_deg": 344.38,
+  "flip": 0,
+  "shift": [
+   8.0,
+   -52.0
+  ],
+  "shift_at_window_edge": false,
+  "best": 0.0959,
+  "gap": 0.0227,
+  "margin": 0.0023,
+  "certified": true,
+  "evals": 4952,
+  "solve_s": 3348.3,
+  "label_agreement_with_expression": 0.781
+ },
+ {
+  "test": "S3 real, cell types",
+  "sigma": 10.0,
+  "h": 4.0,
+  "KA/KB": [
+   20,
+   25
+  ],
+  "angle_deg": 340.12,
+  "flip": 0,
+  "shift": [
+   -8.0,
+   -32.0
+  ],
+  "shift_at_window_edge": false,
+  "best": 0.0929,
+  "gap": 0.0547,
+  "margin": 0.004,
+  "certified": true,
+  "evals": 5580,
+  "solve_s": 2099.5,
+  "label_agreement_with_expression": 0.681
+ },
+ {
+  "test": "S3 real, SHARED labels (reference)",
+  "sigma": 20.0,
+  "h": 4.0,
+  "KA/KB": [
+   20,
+   20
+  ],
+  "angle_deg": 344.12,
+  "flip": 0,
+  "shift": [
+   8.0,
+   -48.0
+  ],
+  "shift_at_window_edge": false,
+  "best": 0.1208,
+  "gap": 0.0255,
+  "margin": 0.0102,
+  "certified": true,
+  "evals": 3404,
+  "solve_s": 1828.8,
+  "label_agreement_with_expression": 0.928
+ },
+ {
+  "test": "S3 real, regions K=6",
+  "sigma": 20.0,
+  "h": 4.0,
+  "KA/KB": [
+   6,
+   6
+  ],
+  "angle_deg": 353.88,
+  "flip": 0,
+  "shift": [
+   28.0,
+   -100.0
+  ],
+  "shift_at_window_edge": true,
+  "best": 0.2756,
+  "gap": 0.0358,
+  "margin": 0.0249,
+  "certified": true,
+  "evals": 2288,
+  "solve_s": 156.9
+ },
+ {
+  "test": "S3 real, regions K=6",
+  "sigma": 10.0,
+  "h": 4.0,
+  "KA/KB": [
+   6,
+   6
+  ],
+  "angle_deg": 353.0,
+  "flip": 0,
+  "shift": [
+   20.0,
+   -100.0
+  ],
+  "shift_at_window_edge": true,
+  "best": 0.2671,
+  "gap": 0.0866,
+  "margin": 0.0254,
+  "certified": true,
+  "evals": 5574,
+  "solve_s": 331.2
+ }
+]

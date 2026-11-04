@@ -1,0 +1,28 @@
+O4: Lemma split-value(c) equality case on random small graphs (exhaustive DP)
+  O4: 1230 (graph, G) cases, c in 2,3,4, N <= 6: OPT <= cN always, OPT = cN exactly when a K_cc-factor exists (274 equality cases); 17.2s
+O1-O3: reduction XcC -> K_{c,c}-factor
+    MILP c=3 q=1 m=2 N=15 classes=18541 OPT=45 cN=45 cover=True
+    MILP c=3 q=1 m=2 N=15 classes=18541 OPT=45 cN=45 cover=True
+    MILP c=3 q=1 m=2 N=15 classes=18541 OPT=45 cN=45 cover=True
+    MILP c=3 q=1 m=2 N=15 classes=18541 OPT=45 cN=45 cover=True
+    MILP c=3 q=1 m=3 N=21 classes=46983 OPT=63 cN=63 cover=True
+    MILP c=3 q=1 m=3 N=21 classes=46983 OPT=63 cN=63 cover=True
+    MILP c=3 q=1 m=3 N=21 classes=46983 OPT=63 cN=63 cover=True
+    MILP c=3 q=1 m=3 N=21 classes=46983 OPT=63 cN=63 cover=True
+    MILP c=3 q=2 m=2 N=18 classes=9202 OPT=54 cN=54 cover=True
+    MILP c=3 q=2 m=2 N=18 classes=15438 OPT=48 cN=54 cover=False
+    MILP c=3 q=2 m=2 N=18 classes=9202 OPT=54 cN=54 cover=True
+    MILP c=3 q=2 m=2 N=18 classes=15438 OPT=48 cN=54 cover=False
+    MILP c=3 q=2 m=3 N=24 classes=23190 OPT=72 cN=72 cover=True
+    MILP c=3 q=2 m=3 N=24 classes=31098 OPT=68 cN=72 cover=False
+    MILP c=3 q=2 m=3 N=24 classes=23190 OPT=72 cN=72 cover=True
+    MILP c=3 q=2 m=3 N=24 classes=31098 OPT=68 cN=72 cover=False
+    MILP c=3 q=3 m=2 N=21 classes=12327 OPT=53 cN=63 cover=False
+    MILP c=3 q=3 m=2 N=21 classes=12327 OPT=53 cN=63 cover=False
+    MILP c=3 q=3 m=2 N=21 classes=12327 OPT=53 cN=63 cover=False
+    MILP c=3 q=3 m=2 N=21 classes=12327 OPT=53 cN=63 cover=False
+  c=3: 319 yes and 161 no instances agree (cover <=> factor); K_cc subgraphs seen: 5040 element blocks, 3360 inside one gadget, 0 other; 20 exact MILP OPT checks; 93.2s
+  c=3: 25 yes and 20 no instances agree (cover <=> factor); K_cc subgraphs seen: 855 element blocks, 570 inside one gadget, 0 other; 0 exact MILP OPT checks; 0.1s
+  c=4: 111 yes and 69 no instances agree (cover <=> factor); K_cc subgraphs seen: 2160 element blocks, 1620 inside one gadget, 0 other; 0 exact MILP OPT checks; 0.6s
+  c=5: 55 yes and 17 no instances agree (cover <=> factor); K_cc subgraphs seen: 1080 element blocks, 864 inside one gadget, 0 other; 0 exact MILP OPT checks; 1.6s
+ALL PASS

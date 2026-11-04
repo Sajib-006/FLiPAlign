@@ -148,6 +148,7 @@ python3 check_split.py               # split labelling: value lemma, reduction f
 python3 check_zero_marginal.py       # split hardness on chance-corrected (zero-sum) tables (about 1 hour)
 python3 check_zero_marginal_3dm.py   # the same on the 3DM graph of the proof (several hours; cap 3 is slow)
 python3 check_no_cap.py             # split hardness on zero-sum tables with no cap (about 3 min)
+python3 check_odd_cap.py            # split hardness for every finite cap, non-negative tables (about 8 min)
 ```
 
 All checks pass with zero failures. The logs of our runs are the `.log` files in the same folder.

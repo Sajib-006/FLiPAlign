@@ -5,15 +5,15 @@ Z1 (A) c=2 n=4: 40 random graphs (20 with C4-factor), M in [6, 8, 10, 12], G=M a
 Z2 (A) c=2 G=M on 3DM graphs: 8 instances, failures=0: q=1 m=1 dm=yes n=6 M=10 R=4 OPT=480/480 (ok, 0s); q=2 m=2 dm=yes n=12 M=20 R=4 OPT=3840/3840 (ok, 39s); q=2 m=2 dm=no n=12 M=20 R=4 OPT=3648/3840 (ok, 24s); q=2 m=2 dm=yes n=12 M=20 R=4 OPT=3840/3840 (ok, 21s); q=2 m=2 dm=no n=12 M=20 R=4 OPT=3648/3840 (ok, 15s); q=2 m=3 dm=no n=16 M=24 R=4 OPT=920/960 (ok, 71s); q=2 m=3 dm=yes n=16 M=24 R=4 OPT=960/960 (ok, 150s); q=2 m=3 dm=no n=16 M=24 R=4 OPT=920/960 (ok, 152s)
 Z3 (A) c=3 n=3: 40 graphs (10 with K33-factor), M in [6, 9]: OPT <= c(M-R) with equality iff factor, failures=0 [269s]
 Z4 (B) +-1 padding c=2 n=2: 16 graphs (1 with C4-factor), M in [6, 12, 20], G=M: OPT >= 2M iff C4-factor, failures=0; smallest gap 2M-OPT on no-graphs = 2; skipped (too large) = 0 [459s]
-Z4 (B) +-1 padding c=2 n=3: 0 random K23-free graphs, M in [], G=M: OPT <= 2M-1/2, failures=0; smallest gap = None [0s]
+Z4 (B) +-1 padding c=2 n=3: 0 random K23-free graphs, M in [], G=M: OPT < 2M, failures=0; smallest gap = None [0s]
 Z5 proof pad sizes (n'=2cn, R=max(maxdeg,2c)) on 60 (3DM graph q=3, c in 2,4) cases: all conditions hold, C*n'(n'-c) is an integer table; failures=0; largest D=n'(n'-c) = 91200
 Z6a symmetry solver vs label-level solver: 84 instances (constructions A and B, caps 2 and 3), disagreements=0 [100s]
-Z6b (B) +-1 padding, cap c=2, pad size from the proof, G=M: 46 graphs (16 with n=2, 10 K23-free n=3, 20 K23-free n=4; 11 with C4-factor), M from 6 to 70: OPT >= 2M iff C4-factor, failures=0; smallest gap 2M-OPT on no-graphs = 2 [1s]
-Z6b (B) +-1 padding, cap c=3, pad size from the proof, G=M: 46 graphs (16 with n=2, 10 K23-free n=3, 20 K23-free n=4; 11 with C4-factor), M from 6 to 102: OPT >= 2M iff C4-factor, failures=0; smallest gap 2M-OPT on no-graphs = 12/7 [5s]
-Z6b (B) +-1 padding, cap c=4, pad size from the proof, G=M: 46 graphs (16 with n=2, 10 K23-free n=3, 20 K23-free n=4; 11 with C4-factor), M from 6 to 134: OPT >= 2M iff C4-factor, failures=0; smallest gap 2M-OPT on no-graphs = 16/9 [33s]
+Z6b (B) +-1 padding, cap c=2, smallest pad with c*n*b < n' (the proof's condition), G=M: 46 graphs (16 with n=2, 10 K23-free n=3, 20 K23-free n=4; 11 with C4-factor), M from 6 to 70: OPT >= 2M iff C4-factor, failures=0; smallest gap 2M-OPT on no-graphs = 2 [1s]
+Z6b (B) +-1 padding, cap c=3, smallest pad with c*n*b < n' (the proof's condition), G=M: 46 graphs (16 with n=2, 10 K23-free n=3, 20 K23-free n=4; 11 with C4-factor), M from 6 to 102: OPT >= 2M iff C4-factor, failures=0; smallest gap 2M-OPT on no-graphs = 12/7 [5s]
+Z6b (B) +-1 padding, cap c=4, smallest pad with c*n*b < n' (the proof's condition), G=M: 46 graphs (16 with n=2, 10 K23-free n=3, 20 K23-free n=4; 11 with C4-factor), M from 6 to 134: OPT >= 2M iff C4-factor, failures=0; smallest gap 2M-OPT on no-graphs = 16/9 [33s]
 Z6c (A) equal margins, cap c=3, n=3, G=M: 30 graphs (8 with K33-factor), M in [6, 9]: OPT <= c(M-R) with equality iff factor, failures=0 [2s]
 Z6c (A) equal margins, cap c=4, n=4, G=M: 20 graphs (4 with K44-factor), M in [8, 12]: OPT <= c(M-R) with equality iff factor, failures=0 [53s]
-Extra 3DM runs, construction B:
+Z7, construction B on the 3DM graph (check_zero_marginal_3dm.py, smallest pad meeting the proof's condition, G=M; cap 3 partly run):
 B c=2 q=1 m=1 dm=True n=6 M=56 OPT=112.000 2M=112 ok=True  0s
 B c=2 q=2 m=2 dm=True n=12 M=398 OPT=796.000 2M=796 ok=True  2s
 B c=2 q=2 m=2 dm=False n=12 M=494 OPT=986.000 2M=988 ok=True  2s

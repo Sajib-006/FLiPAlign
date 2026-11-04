@@ -54,6 +54,7 @@ python3 check_reduction.py      # cycle hardness reduction (about 1 min)
 python3 check_approx.py         # forest cover ratio (about 2 min)
 python3 e2_backward_checks.py   # backward direction of the reductions, tight family (a few min)
 python3 check_zero_marginal.py   # split hardness on chance-corrected (zero-sum) tables (about 1 hour)
+python3 check_zero_marginal_3dm.py  # the same on the 3DM graph of the proof (several hours; cap 3 is slow)
 ```
 
 All checks pass with zero failures; the logs of our run are `proof_checks/check_split.log`,

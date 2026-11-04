@@ -9,7 +9,8 @@ M = n + n' labels per side whose rows and columns all sum to zero:
       Claim: OPT(w; c, G) <= c (M - R) for every G, with equality iff H has a K_{c,c}-factor (G >= M/c).
   (B) +-1 padding (every finite cap c >= 2): the +-1 table of H, cross blocks that cancel its margins, and n'/2
       disjoint C4 pad blocks (+1 inside a block, -theta elsewhere). With n' large enough
-      (c n (max|row sum| + max|col sum|) / n' < 1), OPT >= 2M iff H has a C4-factor; otherwise OPT <= 2M - 1/2.
+      (c n (max|row sum| + max|col sum|) / n' < 1), OPT >= 2M iff H has a C4-factor; otherwise OPT < 2M (the proof gives only this;
+      the checks also print the gap 2M - OPT, which is larger on every tested case).
 Every table is checked in exact rational arithmetic to have zero margins and to equal C - r c^T / T for an explicit
 non-negative integer table C. Exact optima: bitmask DP (check_split.split_opt) for <= 16 labels, else an exact
 set-partition integer program (every class with <= c labels per side is a column) with integer weights.
@@ -547,7 +548,7 @@ def Z4(report):
         sizes.add(r["M"])
         gap = 2 * r["M"] - r["opt"]
         worst = gap if worst is None else min(worst, gap)
-    report.append(f"Z4 (B) +-1 padding c=2 n=3: {cnt} random K23-free graphs, M in {sorted(sizes)}, G=M: OPT <= 2M-1/2, failures={bad}; "
+    report.append(f"Z4 (B) +-1 padding c=2 n=3: {cnt} random K23-free graphs, M in {sorted(sizes)}, G=M: OPT < 2M, failures={bad}; "
                   f"smallest gap = {worst} [{time.time()-t0:.0f}s]")
 
 
@@ -634,7 +635,7 @@ def Z6(report):
                   f"disagreements={cmp_bad} [{time.time()-t0:.0f}s]")
     print(report[-1], flush=True)
 
-    # (2) construction B (+-1 padding, pad size from the proof) for caps 2, 3, 4
+    # (2) construction B (+-1 padding, smallest pad meeting the proof's condition c*n*b < n') for caps 2, 3, 4
     def pm_case(n, adjA, c):
         npad = pm_pad_size(n, adjA, c)
         W = pad_pm(n, adjA, npad)
@@ -670,7 +671,7 @@ def Z6(report):
             if not fac:
                 g = 2 * M - opt
                 worst = g if worst is None else min(worst, g)
-        report.append(f"Z6b (B) +-1 padding, cap c={c}, pad size from the proof, G=M: {cnt} graphs (16 with n=2, 10 K23-free n=3, "
+        report.append(f"Z6b (B) +-1 padding, cap c={c}, smallest even pad n' with c*n*b < n' (the condition the proof uses; the proof's n'=2cn^2+2 is larger), G=M: {cnt} graphs (16 with n=2, 10 K23-free n=3, "
                       f"20 K23-free n=4; {nfac} with C4-factor), M from {min(sizes)} to {max(sizes)}: OPT >= 2M iff C4-factor, "
                       f"failures={bad}; smallest gap 2M-OPT on no-graphs = {worst} [{time.time()-t1:.0f}s]")
         print(report[-1], flush=True)

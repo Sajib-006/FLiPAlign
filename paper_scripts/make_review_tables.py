@@ -108,3 +108,36 @@ L = ["\\begin{tabular}{@{}llrrrc@{}}", "\\toprule", "Cases & Mode & Certified & 
 save("rev_certprec", L)
 open(os.path.join(TABLES, "review_numbers.tex"), "w").write("".join(f"\\newcommand{{\\{k}}}{{{v}}}\n" for k, v in N.items()))
 print(open(os.path.join(TABLES, "rev_certprec.tex")).read())
+
+
+# 6. second brain (Zhuang MERFISH) and atlas-free agreement of neighbouring sections, both brains
+VV = [v for v, _ in V]
+BR = {"b1": [json.load(open(f)) for f in sorted(glob.glob(f"{R}/stackcons_[0-9].json"))],
+      "b2": [json.load(open(f)) for f in sorted(glob.glob(f"{R}/stackb2_[0-9].json"))]}
+def pick(d, v, m):
+    if m == "best":
+        return max((d["runs"][v][q] for q in ("chain", "forest_d2", "star")), key=lambda r: r["nmi"])
+    return d["runs"][v][m]
+meth = [("chain", "Chain"), ("forest_d2", "Forest"), ("star", "Star"), ("best", "Best one-to-one"), ("cap1_fromC", "Cap 1, $w$"), ("cap2_fromC", "Split")]
+L = ["\\begin{tabular}{@{}lrrrrrr@{}}", "\\toprule",
+     " & \\multicolumn{3}{c}{Brain 1 (Allen, 500 genes)} & \\multicolumn{3}{c}{Brain 2 (Zhuang, 1{,}122 genes)} \\\\",
+     "\\cmidrule(lr){2-4}\\cmidrule(lr){5-7}", "Labelling & NMI & Kappa & Classes & NMI & Kappa & Classes \\\\", "\\midrule"]
+for m, nm in meth:
+    cells = []
+    for b in ("b1", "b2"):
+        x = [pick(d, v, m) for d in BR[b] for v in VV]
+        cells += [pm([r["nmi"] for r in x]), pm([r["kappa"] for r in x]), f"{np.mean([r['n_classes'] for r in x]):.1f}"]
+    L.append(f"{nm} & " + " & ".join(cells) + " \\\\")
+L += ["\\bottomrule", "\\end{tabular}"]
+save("rev_brains", L)
+for b, tag in (("b1", "One"), ("b2", "Two")):
+    sp = np.array([pick(d, v, "cap2_fromC")["nmi"] for d in BR[b] for v in VV]); bb = np.array([pick(d, v, "best")["nmi"] for d in BR[b] for v in VV])
+    c1 = np.array([pick(d, v, "cap1_fromC")["nmi"] for d in BR[b] for v in VV])
+    ks = np.mean([pick(d, v, "cap2_fromC")["kappa"] for d in BR[b] for v in VV]); kb = np.mean([pick(d, v, "best")["kappa"] for d in BR[b] for v in VV])
+    N.update({f"BR{tag}wins": int((sp > bb).sum()), f"BR{tag}gain": f"{100 * np.median(sp / bb - 1):.0f}",
+              f"BR{tag}capwins": int((sp > c1).sum()), f"BR{tag}capgain": f"{100 * np.median(sp / c1 - 1):.0f}",
+              f"BR{tag}kapSplit": f"{ks:.2f}", f"BR{tag}kapBest": f"{kb:.2f}"})
+cl2 = [(pick(d, "clean", "cap2_fromC")["nmi"], pick(d, "clean", "best")["nmi"]) for d in BR["b2"]]
+N["BRTwoClean"] = sum(a > b for a, b in cl2)
+open(os.path.join(TABLES, "review_numbers.tex"), "w").write("".join(f"\\newcommand{{\\{k}}}{{{v}}}\n" for k, v in N.items()))
+print({k: v for k, v in N.items() if k.startswith("BR")})

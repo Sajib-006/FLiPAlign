@@ -23,7 +23,7 @@ rows = []
 for f in glob.glob(f"{R}/lm_given_pair*_*.json"):
     rows += [r for r in json.load(open(f)) if "landmark_err_median_um" in r]
 fl = {k: json.load(open(f"{R}/lm_flip_pair{k}.json")) for k in range(1, 8)}
-fig, ax = plt.subplots(figsize=(4.8, 3.35))
+fig, ax = plt.subplots(figsize=(4.8, 3.4))
 lo, hi = 12, 12000
 for i, k in enumerate(range(1, 8)):
     y = 7 - i; floor = fl[k]["floor_um"]

@@ -1,0 +1,361 @@
+{
+ "stack": 5,
+ "sections": [
+  "Zhuang-ABCA-1.125",
+  "Zhuang-ABCA-1.127",
+  "Zhuang-ABCA-1.129",
+  "Zhuang-ABCA-1.131",
+  "Zhuang-ABCA-1.133",
+  "Zhuang-ABCA-1.135",
+  "Zhuang-ABCA-1.137",
+  "Zhuang-ABCA-1.139"
+ ],
+ "z_mm": [
+  10.975185238505748,
+  11.15415809202132,
+  11.342749333955492,
+  11.533454649051524,
+  11.73825169874688,
+  12.003231053959915,
+  12.13559388245098,
+  12.308456643099264
+ ],
+ "n_cells": [
+  20218,
+  18355,
+  20516,
+  16747,
+  19190,
+  17634,
+  15936,
+  15292
+ ],
+ "runs": {
+  "clean": {
+   "chain": {
+    "ari": 0.1633,
+    "nmi": 0.2313,
+    "n_classes": 8,
+    "cons": 0.2382,
+    "same": 0.3472,
+    "kappa": 0.2264,
+    "match_frac": 0.882
+   },
+   "forest_d2": {
+    "ari": 0.1611,
+    "nmi": 0.219,
+    "n_classes": 8,
+    "cons": 0.2382,
+    "same": 0.3355,
+    "kappa": 0.2183,
+    "match_frac": 0.882
+   },
+   "star": {
+    "ari": 0.175,
+    "nmi": 0.213,
+    "n_classes": 8,
+    "cons": 0.2382,
+    "same": 0.312,
+    "kappa": 0.1833,
+    "match_frac": 0.882
+   },
+   "cap1_fromC": {
+    "ari": 0.1619,
+    "nmi": 0.2213,
+    "n_classes": 8,
+    "cons": 0.2382,
+    "same": 0.3332,
+    "kappa": 0.2173,
+    "match_frac": 0.882
+   },
+   "cap2_fromC": {
+    "ari": 0.2678,
+    "nmi": 0.2738,
+    "n_classes": 6,
+    "cons": 0.2719,
+    "same": 0.5111,
+    "kappa": 0.3556,
+    "match_frac": 0.882
+   },
+   "cap1_fromW": {
+    "ari": 0.1619,
+    "nmi": 0.2213,
+    "n_classes": 8,
+    "cons": 0.2382,
+    "same": 0.3332,
+    "kappa": 0.2173,
+    "match_frac": 0.882
+   },
+   "cap2_fromW": {
+    "ari": 0.2678,
+    "nmi": 0.2738,
+    "n_classes": 6,
+    "cons": 0.2719,
+    "same": 0.5111,
+    "kappa": 0.3556,
+    "match_frac": 0.882
+   }
+  },
+  "S1_recluster": {
+   "chain": {
+    "ari": 0.1678,
+    "nmi": 0.2361,
+    "n_classes": 8,
+    "cons": 0.2367,
+    "same": 0.3417,
+    "kappa": 0.2232,
+    "match_frac": 0.882
+   },
+   "forest_d2": {
+    "ari": 0.1585,
+    "nmi": 0.2246,
+    "n_classes": 8,
+    "cons": 0.2367,
+    "same": 0.331,
+    "kappa": 0.2139,
+    "match_frac": 0.882
+   },
+   "star": {
+    "ari": 0.1726,
+    "nmi": 0.2389,
+    "n_classes": 8,
+    "cons": 0.2367,
+    "same": 0.2979,
+    "kappa": 0.1803,
+    "match_frac": 0.882
+   },
+   "cap1_fromC": {
+    "ari": 0.1694,
+    "nmi": 0.2369,
+    "n_classes": 8,
+    "cons": 0.2367,
+    "same": 0.3282,
+    "kappa": 0.2155,
+    "match_frac": 0.882
+   },
+   "cap2_fromC": {
+    "ari": 0.2507,
+    "nmi": 0.2795,
+    "n_classes": 8,
+    "cons": 0.2703,
+    "same": 0.5056,
+    "kappa": 0.352,
+    "match_frac": 0.882
+   },
+   "cap1_fromW": {
+    "ari": 0.191,
+    "nmi": 0.2568,
+    "n_classes": 8,
+    "cons": 0.2367,
+    "same": 0.3354,
+    "kappa": 0.2214,
+    "match_frac": 0.882
+   },
+   "cap2_fromW": {
+    "ari": 0.2826,
+    "nmi": 0.2981,
+    "n_classes": 8,
+    "cons": 0.2744,
+    "same": 0.557,
+    "kappa": 0.3908,
+    "match_frac": 0.882
+   }
+  },
+  "S2_crop50": {
+   "chain": {
+    "ari": 0.1252,
+    "nmi": 0.1983,
+    "n_classes": 8,
+    "cons": 0.24,
+    "same": 0.348,
+    "kappa": 0.2289,
+    "match_frac": 0.816
+   },
+   "forest_d2": {
+    "ari": 0.1577,
+    "nmi": 0.2233,
+    "n_classes": 8,
+    "cons": 0.24,
+    "same": 0.3321,
+    "kappa": 0.213,
+    "match_frac": 0.816
+   },
+   "star": {
+    "ari": 0.1306,
+    "nmi": 0.198,
+    "n_classes": 8,
+    "cons": 0.24,
+    "same": 0.3001,
+    "kappa": 0.1799,
+    "match_frac": 0.816
+   },
+   "cap1_fromC": {
+    "ari": 0.1577,
+    "nmi": 0.2233,
+    "n_classes": 8,
+    "cons": 0.24,
+    "same": 0.3321,
+    "kappa": 0.213,
+    "match_frac": 0.816
+   },
+   "cap2_fromC": {
+    "ari": 0.2759,
+    "nmi": 0.2778,
+    "n_classes": 7,
+    "cons": 0.272,
+    "same": 0.5265,
+    "kappa": 0.3634,
+    "match_frac": 0.816
+   },
+   "cap1_fromW": {
+    "ari": 0.1641,
+    "nmi": 0.2419,
+    "n_classes": 8,
+    "cons": 0.24,
+    "same": 0.3336,
+    "kappa": 0.2155,
+    "match_frac": 0.816
+   },
+   "cap2_fromW": {
+    "ari": 0.2579,
+    "nmi": 0.2663,
+    "n_classes": 6,
+    "cons": 0.267,
+    "same": 0.5111,
+    "kappa": 0.3546,
+    "match_frac": 0.816
+   }
+  },
+  "S3_noise30": {
+   "chain": {
+    "ari": 0.1533,
+    "nmi": 0.2106,
+    "n_classes": 8,
+    "cons": 0.2045,
+    "same": 0.3269,
+    "kappa": 0.2056,
+    "match_frac": 0.882
+   },
+   "forest_d2": {
+    "ari": 0.1564,
+    "nmi": 0.2184,
+    "n_classes": 8,
+    "cons": 0.2045,
+    "same": 0.3134,
+    "kappa": 0.1933,
+    "match_frac": 0.882
+   },
+   "star": {
+    "ari": 0.1627,
+    "nmi": 0.1967,
+    "n_classes": 8,
+    "cons": 0.2045,
+    "same": 0.2945,
+    "kappa": 0.166,
+    "match_frac": 0.882
+   },
+   "cap1_fromC": {
+    "ari": 0.157,
+    "nmi": 0.2223,
+    "n_classes": 8,
+    "cons": 0.2045,
+    "same": 0.3115,
+    "kappa": 0.1938,
+    "match_frac": 0.882
+   },
+   "cap2_fromC": {
+    "ari": 0.2628,
+    "nmi": 0.2574,
+    "n_classes": 7,
+    "cons": 0.2339,
+    "same": 0.5099,
+    "kappa": 0.3432,
+    "match_frac": 0.882
+   },
+   "cap1_fromW": {
+    "ari": 0.157,
+    "nmi": 0.2223,
+    "n_classes": 8,
+    "cons": 0.2045,
+    "same": 0.3115,
+    "kappa": 0.1938,
+    "match_frac": 0.882
+   },
+   "cap2_fromW": {
+    "ari": 0.2628,
+    "nmi": 0.2574,
+    "n_classes": 7,
+    "cons": 0.2339,
+    "same": 0.5099,
+    "kappa": 0.3432,
+    "match_frac": 0.882
+   }
+  },
+  "S4_two_noisy": {
+   "chain": {
+    "ari": 0.1407,
+    "nmi": 0.1923,
+    "n_classes": 8,
+    "cons": 0.1827,
+    "same": 0.315,
+    "kappa": 0.1929,
+    "match_frac": 0.882
+   },
+   "forest_d2": {
+    "ari": 0.1448,
+    "nmi": 0.1997,
+    "n_classes": 8,
+    "cons": 0.1827,
+    "same": 0.3025,
+    "kappa": 0.183,
+    "match_frac": 0.882
+   },
+   "star": {
+    "ari": 0.1515,
+    "nmi": 0.1854,
+    "n_classes": 8,
+    "cons": 0.1827,
+    "same": 0.2805,
+    "kappa": 0.1508,
+    "match_frac": 0.882
+   },
+   "cap1_fromC": {
+    "ari": 0.1454,
+    "nmi": 0.2028,
+    "n_classes": 8,
+    "cons": 0.1827,
+    "same": 0.3007,
+    "kappa": 0.1834,
+    "match_frac": 0.882
+   },
+   "cap2_fromC": {
+    "ari": 0.1956,
+    "nmi": 0.2137,
+    "n_classes": 6,
+    "cons": 0.2092,
+    "same": 0.4769,
+    "kappa": 0.3146,
+    "match_frac": 0.882
+   },
+   "cap1_fromW": {
+    "ari": 0.1454,
+    "nmi": 0.2028,
+    "n_classes": 8,
+    "cons": 0.1827,
+    "same": 0.3007,
+    "kappa": 0.1834,
+    "match_frac": 0.882
+   },
+   "cap2_fromW": {
+    "ari": 0.1956,
+    "nmi": 0.2137,
+    "n_classes": 6,
+    "cons": 0.2092,
+    "same": 0.4769,
+    "kappa": 0.3146,
+    "match_frac": 0.882
+   }
+  }
+ },
+ "seconds": 23
+}

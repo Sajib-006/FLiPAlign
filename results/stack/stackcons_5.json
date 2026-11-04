@@ -1,0 +1,331 @@
+{
+ "stack": 5,
+ "runs": {
+  "clean": {
+   "chain": {
+    "ari": 0.0885,
+    "nmi": 0.179,
+    "n_classes": 8,
+    "cons": 0.3884,
+    "same": 0.461,
+    "kappa": 0.37,
+    "match_frac": 0.833
+   },
+   "forest_d2": {
+    "ari": 0.103,
+    "nmi": 0.1963,
+    "n_classes": 8,
+    "cons": 0.3884,
+    "same": 0.4498,
+    "kappa": 0.3601,
+    "match_frac": 0.833
+   },
+   "star": {
+    "ari": 0.0998,
+    "nmi": 0.1701,
+    "n_classes": 8,
+    "cons": 0.3884,
+    "same": 0.3508,
+    "kappa": 0.2457,
+    "match_frac": 0.833
+   },
+   "cap1_fromC": {
+    "ari": 0.103,
+    "nmi": 0.1963,
+    "n_classes": 8,
+    "cons": 0.3884,
+    "same": 0.4498,
+    "kappa": 0.3601,
+    "match_frac": 0.833
+   },
+   "cap2_fromC": {
+    "ari": 0.1064,
+    "nmi": 0.2152,
+    "n_classes": 7,
+    "cons": 0.382,
+    "same": 0.5812,
+    "kappa": 0.4673,
+    "match_frac": 0.833
+   },
+   "cap1_fromW": {
+    "ari": 0.103,
+    "nmi": 0.1963,
+    "n_classes": 8,
+    "cons": 0.3884,
+    "same": 0.4498,
+    "kappa": 0.3601,
+    "match_frac": 0.833
+   },
+   "cap2_fromW": {
+    "ari": 0.1064,
+    "nmi": 0.2152,
+    "n_classes": 7,
+    "cons": 0.382,
+    "same": 0.5812,
+    "kappa": 0.4673,
+    "match_frac": 0.833
+   }
+  },
+  "S1_recluster": {
+   "chain": {
+    "ari": 0.0956,
+    "nmi": 0.1677,
+    "n_classes": 8,
+    "cons": 0.3572,
+    "same": 0.451,
+    "kappa": 0.3552,
+    "match_frac": 0.833
+   },
+   "forest_d2": {
+    "ari": 0.0828,
+    "nmi": 0.152,
+    "n_classes": 8,
+    "cons": 0.3572,
+    "same": 0.4445,
+    "kappa": 0.3487,
+    "match_frac": 0.833
+   },
+   "star": {
+    "ari": 0.0753,
+    "nmi": 0.1553,
+    "n_classes": 8,
+    "cons": 0.3572,
+    "same": 0.3888,
+    "kappa": 0.2856,
+    "match_frac": 0.833
+   },
+   "cap1_fromC": {
+    "ari": 0.0816,
+    "nmi": 0.1501,
+    "n_classes": 8,
+    "cons": 0.3572,
+    "same": 0.4424,
+    "kappa": 0.347,
+    "match_frac": 0.833
+   },
+   "cap2_fromC": {
+    "ari": 0.0931,
+    "nmi": 0.1876,
+    "n_classes": 8,
+    "cons": 0.3524,
+    "same": 0.5544,
+    "kappa": 0.4404,
+    "match_frac": 0.833
+   },
+   "cap1_fromW": {
+    "ari": 0.0816,
+    "nmi": 0.1501,
+    "n_classes": 8,
+    "cons": 0.3572,
+    "same": 0.4424,
+    "kappa": 0.347,
+    "match_frac": 0.833
+   },
+   "cap2_fromW": {
+    "ari": 0.0931,
+    "nmi": 0.1876,
+    "n_classes": 8,
+    "cons": 0.3524,
+    "same": 0.5544,
+    "kappa": 0.4404,
+    "match_frac": 0.833
+   }
+  },
+  "S2_crop50": {
+   "chain": {
+    "ari": 0.1248,
+    "nmi": 0.2073,
+    "n_classes": 8,
+    "cons": 0.3928,
+    "same": 0.4592,
+    "kappa": 0.369,
+    "match_frac": 0.774
+   },
+   "forest_d2": {
+    "ari": 0.1015,
+    "nmi": 0.1935,
+    "n_classes": 8,
+    "cons": 0.3928,
+    "same": 0.4515,
+    "kappa": 0.3622,
+    "match_frac": 0.774
+   },
+   "star": {
+    "ari": 0.1317,
+    "nmi": 0.2233,
+    "n_classes": 8,
+    "cons": 0.3928,
+    "same": 0.3823,
+    "kappa": 0.279,
+    "match_frac": 0.774
+   },
+   "cap1_fromC": {
+    "ari": 0.1015,
+    "nmi": 0.1935,
+    "n_classes": 8,
+    "cons": 0.3928,
+    "same": 0.4515,
+    "kappa": 0.3622,
+    "match_frac": 0.774
+   },
+   "cap2_fromC": {
+    "ari": 0.099,
+    "nmi": 0.2096,
+    "n_classes": 8,
+    "cons": 0.392,
+    "same": 0.5816,
+    "kappa": 0.4709,
+    "match_frac": 0.774
+   },
+   "cap1_fromW": {
+    "ari": 0.1015,
+    "nmi": 0.1935,
+    "n_classes": 8,
+    "cons": 0.3928,
+    "same": 0.4515,
+    "kappa": 0.3622,
+    "match_frac": 0.774
+   },
+   "cap2_fromW": {
+    "ari": 0.099,
+    "nmi": 0.2096,
+    "n_classes": 8,
+    "cons": 0.392,
+    "same": 0.5816,
+    "kappa": 0.4709,
+    "match_frac": 0.774
+   }
+  },
+  "S3_noise30": {
+   "chain": {
+    "ari": 0.0803,
+    "nmi": 0.1664,
+    "n_classes": 8,
+    "cons": 0.3253,
+    "same": 0.4335,
+    "kappa": 0.3395,
+    "match_frac": 0.833
+   },
+   "forest_d2": {
+    "ari": 0.0932,
+    "nmi": 0.1782,
+    "n_classes": 8,
+    "cons": 0.3253,
+    "same": 0.4239,
+    "kappa": 0.3311,
+    "match_frac": 0.833
+   },
+   "star": {
+    "ari": 0.0925,
+    "nmi": 0.1671,
+    "n_classes": 8,
+    "cons": 0.3253,
+    "same": 0.3271,
+    "kappa": 0.218,
+    "match_frac": 0.833
+   },
+   "cap1_fromC": {
+    "ari": 0.0932,
+    "nmi": 0.1782,
+    "n_classes": 8,
+    "cons": 0.3253,
+    "same": 0.4239,
+    "kappa": 0.3311,
+    "match_frac": 0.833
+   },
+   "cap2_fromC": {
+    "ari": 0.0918,
+    "nmi": 0.1967,
+    "n_classes": 7,
+    "cons": 0.3179,
+    "same": 0.5467,
+    "kappa": 0.4248,
+    "match_frac": 0.833
+   },
+   "cap1_fromW": {
+    "ari": 0.0898,
+    "nmi": 0.166,
+    "n_classes": 8,
+    "cons": 0.3253,
+    "same": 0.4254,
+    "kappa": 0.3311,
+    "match_frac": 0.833
+   },
+   "cap2_fromW": {
+    "ari": 0.0914,
+    "nmi": 0.1869,
+    "n_classes": 7,
+    "cons": 0.3223,
+    "same": 0.5397,
+    "kappa": 0.4237,
+    "match_frac": 0.833
+   }
+  },
+  "S4_two_noisy": {
+   "chain": {
+    "ari": 0.0767,
+    "nmi": 0.1596,
+    "n_classes": 8,
+    "cons": 0.2386,
+    "same": 0.3925,
+    "kappa": 0.2928,
+    "match_frac": 0.833
+   },
+   "forest_d2": {
+    "ari": 0.0882,
+    "nmi": 0.1682,
+    "n_classes": 8,
+    "cons": 0.2386,
+    "same": 0.3835,
+    "kappa": 0.285,
+    "match_frac": 0.833
+   },
+   "star": {
+    "ari": 0.0848,
+    "nmi": 0.1519,
+    "n_classes": 8,
+    "cons": 0.2386,
+    "same": 0.3031,
+    "kappa": 0.1926,
+    "match_frac": 0.833
+   },
+   "cap1_fromC": {
+    "ari": 0.0882,
+    "nmi": 0.1682,
+    "n_classes": 8,
+    "cons": 0.2386,
+    "same": 0.3835,
+    "kappa": 0.285,
+    "match_frac": 0.833
+   },
+   "cap2_fromC": {
+    "ari": 0.0894,
+    "nmi": 0.1799,
+    "n_classes": 7,
+    "cons": 0.2297,
+    "same": 0.5055,
+    "kappa": 0.3732,
+    "match_frac": 0.833
+   },
+   "cap1_fromW": {
+    "ari": 0.0856,
+    "nmi": 0.1588,
+    "n_classes": 8,
+    "cons": 0.2386,
+    "same": 0.3849,
+    "kappa": 0.285,
+    "match_frac": 0.833
+   },
+   "cap2_fromW": {
+    "ari": 0.0884,
+    "nmi": 0.1692,
+    "n_classes": 7,
+    "cons": 0.2336,
+    "same": 0.4978,
+    "kappa": 0.3711,
+    "match_frac": 0.833
+   }
+  }
+ },
+ "seconds": 73
+}

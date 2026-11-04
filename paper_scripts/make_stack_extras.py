@@ -1,5 +1,5 @@
 """Table 4 (disjoint gene panels) and the end-to-end numbers (placement plus labelling).
-Reads results/stack/stackv2_*.json, stackplace_summary.json, stackplacefk_summary.json.
+Reads results/stack/stackv2_*.json, stackstal_*.json (STAligner), stackplace_summary.json, stackplacefk_summary.json.
 Writes tables/stackv2.tex, tables/stackv2_numbers.tex, tables/stackplace_numbers.tex.
 Run from paper_scripts/ (env RESULTS, OUT)"""
 import glob, json, os
@@ -19,14 +19,16 @@ cell = lambda a, bold=False: ("\\textbf{%s}" if bold else "%s") % f"{a.mean():.3
 gain = lambda p, g: float(np.median(100 * (nmi(p, "split") / nmi(p, g) - 1)))
 wins = lambda p, g: int(np.sum(nmi(p, "split") > nmi(p, g)))
 rnd = lambda x: f"{int(np.floor(x + 0.5))}"          # round half up
+ST = [json.load(open(f))["k8"]["nmi"] for f in sorted(glob.glob(os.path.join(STACK, "stackstal_[0-9].json")))]   # STAligner, 8 classes
+ST = np.array(ST)
 
-lines = ["\\begin{tabular}{@{}lcccc@{}}", "\\toprule",
-         " & & Forest, merged & Gene-mean & \\\\",
-         "Gene panels & Forest & to split's classes & matching & Split \\\\", "\\midrule",
+lines = ["\\begin{tabular}{@{}lccccc@{}}", "\\toprule",
+         " & & Forest, merged & Gene-mean & & \\\\",
+         "Gene panels & Forest & to split's classes & matching & STAligner & Split \\\\", "\\midrule",
          "Shared & " + " & ".join([cell(nmi("shared_panel", "forest")), cell(nmi("shared_panel", "forest_merged")),
-                                   cell(nmi("shared_panel", "gene_chain")), cell(nmi("shared_panel", "split"), True)]) + " \\\\",
+                                   cell(nmi("shared_panel", "gene_chain")), cell(ST), cell(nmi("shared_panel", "split"), True)]) + " \\\\",
          "Disjoint & " + " & ".join([cell(nmi("disjoint_panels", "forest")), cell(nmi("disjoint_panels", "forest_merged")),
-                                    "--", cell(nmi("disjoint_panels", "split"), True)]) + " \\\\",
+                                    "--", "--", cell(nmi("disjoint_panels", "split"), True)]) + " \\\\",
          "\\bottomrule", "\\end{tabular}"]
 open(os.path.join(TABLES, "stackv2.tex"), "w").write("\n".join(lines) + "\n")
 

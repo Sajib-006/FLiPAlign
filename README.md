@@ -77,6 +77,10 @@ All checks pass with zero failures; the logs of our run are `proof_checks/check_
 | `stack_place_load.py`, `real_fine_stack.py`, `stack_from_placed.py` | placement and labelling together |
 | `stack_ctrl.py` | cap 1 against cap 2 under the same score |
 | `stack_refuse.py` | the two steps together, cutting the stack at refused links |
+| `stack_sweep.py` | caps 1 to 4 and class counts 8 and 12 |
+| `stack_brain2.py`, `stack_brain2_agg.py`, `stack_consistency.py` | second brain (Zhuang MERFISH) and the atlas-free agreement score |
+| `stack_staligner.py` | STAligner baseline on the stacks (GPU) |
+| `gala_prep.py`, `gala_run.py`, `gala_summary.py` | GALA baseline on the seven real pairs (GPU) |
 | `paper_scripts/` | tables and figures of the paper, from `results/` (`rebuild_all.sh`) |
 | `results/` | saved results behind every table and figure |
 

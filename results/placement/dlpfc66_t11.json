@@ -1,0 +1,110 @@
+[
+ {
+  "k": 33,
+  "pair": "151510 vs 151672",
+  "group": "different donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 180.31,
+  "flip": 0,
+  "shift_units": [
+   14.0,
+   4.0
+  ],
+  "layer_acc": 0.193,
+  "identity_layer_acc": 0.168,
+  "best": 0.114,
+  "gap": 0.0132,
+  "certified_search": true,
+  "solve_s": 1043.2,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0102,
+    "complete": true,
+    "far_s": 464.3,
+    "zone_move_um": 885.7,
+    "rival": [
+     344.81,
+     0
+    ],
+    "rival_layer_acc": 0.137
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 1508.5
+ },
+ {
+  "k": 34,
+  "pair": "151510 vs 151673",
+  "group": "different donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 111.38,
+  "flip": 1,
+  "shift_units": [
+   -106.0,
+   18.0
+  ],
+  "layer_acc": 0.128,
+  "identity_layer_acc": 0.203,
+  "best": 0.1086,
+  "gap": 0.0132,
+  "certified_search": true,
+  "solve_s": 1636.2,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0107,
+    "complete": true,
+    "far_s": 591.0,
+    "zone_move_um": 885.7,
+    "rival": [
+     1.75,
+     0
+    ],
+    "rival_layer_acc": 0.252
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 2228.1
+ },
+ {
+  "k": 35,
+  "pair": "151510 vs 151674",
+  "group": "different donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 6.44,
+  "flip": 0,
+  "shift_units": [
+   30.0,
+   -4.0
+  ],
+  "layer_acc": 0.223,
+  "identity_layer_acc": 0.202,
+  "best": 0.1121,
+  "gap": 0.0151,
+  "certified_search": true,
+  "solve_s": 2154.4,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0124,
+    "complete": true,
+    "far_s": 860.9,
+    "zone_move_um": 885.7,
+    "rival": [
+     35.44,
+     1
+    ],
+    "rival_layer_acc": 0.09
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 3016.2
+ }
+]

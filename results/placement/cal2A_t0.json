@@ -1,0 +1,92 @@
+[
+ {
+  "set": "data/abc",
+  "case": 0,
+  "method": "start",
+  "start_err_um": 356.2
+ },
+ {
+  "tre_um": 189.2,
+  "tre_bent_um": 189.2,
+  "set": "data/abc",
+  "case": 0,
+  "method": "stalign",
+  "sigmaM": 0.05,
+  "niter": 800,
+  "epL": 2e-06,
+  "epT": 2.0,
+  "sec": 37.7
+ },
+ {
+  "tre_um": 1239.1,
+  "tre_bent_um": 1244.5,
+  "set": "data/abc",
+  "case": 0,
+  "method": "stalign",
+  "sigmaM": 0.02,
+  "niter": 800,
+  "epL": 2e-06,
+  "epT": 2.0,
+  "sec": 37.6
+ },
+ {
+  "tre_um": 2317.4,
+  "tre_bent_um": 2365.0,
+  "set": "data/abc",
+  "case": 0,
+  "method": "stalign",
+  "sigmaM": 0.01,
+  "niter": 800,
+  "epL": 2e-06,
+  "epT": 2.0,
+  "sec": 38.0
+ },
+ {
+  "tre_um": 412.2,
+  "tre_bent_um": 471.2,
+  "set": "data/abc",
+  "case": 0,
+  "method": "stalign",
+  "sigmaM": 0.05,
+  "niter": 2000,
+  "epL": 2e-06,
+  "epT": 2.0,
+  "sec": 86.6
+ },
+ {
+  "tre_um": 897.7,
+  "tre_bent_um": 751.0,
+  "set": "data/abc",
+  "case": 0,
+  "method": "stalign",
+  "sigmaM": 0.02,
+  "niter": 2000,
+  "epL": 2e-06,
+  "epT": 2.0,
+  "sec": 87.0
+ },
+ {
+  "tre_um": 8987.9,
+  "tre_bent_um": 8961.2,
+  "set": "data/abc",
+  "case": 0,
+  "method": "stalign",
+  "sigmaM": 0.02,
+  "niter": 800,
+  "epL": 2e-05,
+  "epT": 2.0,
+  "sec": 36.8
+ },
+ {
+  "tre_um": 1513.0,
+  "tre_bent_um": 1522.8,
+  "set": "data/abc",
+  "case": 0,
+  "method": "stalign",
+  "sigmaM": 0.02,
+  "niter": 800,
+  "epL": 2e-06,
+  "epT": 20.0,
+  "sec": 38.3
+ }
+]

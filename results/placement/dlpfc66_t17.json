@@ -1,0 +1,129 @@
+[
+ {
+  "k": 51,
+  "pair": "151671 vs 151672",
+  "group": "adjacent",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 0.06,
+  "flip": 0,
+  "shift_units": [
+   -10.0,
+   -8.0
+  ],
+  "layer_acc": 0.876,
+  "identity_layer_acc": 0.882,
+  "best": 0.2017,
+  "gap": 0.0125,
+  "certified_search": true,
+  "solve_s": 288.9,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": 0.0349,
+    "complete": true,
+    "far_s": 338.5,
+    "zone_move_um": 830.0,
+    "rival": [
+     340.06,
+     0
+    ],
+    "rival_layer_acc": 0.74
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 60.0,
+    "eps": 0.0038,
+    "complete": true,
+    "far_s": 236.6,
+    "zone_move_um": 1396.4
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 30.0,
+    "eps": -0.0076,
+    "complete": true,
+    "far_s": 250.5,
+    "zone_move_um": 1113.2
+   }
+  ],
+  "certified": true,
+  "finest_zone": [
+   20.0,
+   60.0
+  ],
+  "total_s": 1115.6
+ },
+ {
+  "k": 52,
+  "pair": "151671 vs 151673",
+  "group": "different donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 199.0,
+  "flip": 1,
+  "shift_units": [
+   -42.0,
+   -112.0
+  ],
+  "layer_acc": 0.484,
+  "identity_layer_acc": 0.381,
+  "best": 0.1405,
+  "gap": 0.0135,
+  "certified_search": true,
+  "solve_s": 1239.8,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0067,
+    "complete": true,
+    "far_s": 682.6,
+    "zone_move_um": 830.0,
+    "rival": [
+     51.88,
+     0
+    ],
+    "rival_layer_acc": 0.509
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 1923.5
+ },
+ {
+  "k": 53,
+  "pair": "151671 vs 151674",
+  "group": "different donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 193.75,
+  "flip": 1,
+  "shift_units": [
+   -58.0,
+   -138.0
+  ],
+  "layer_acc": 0.413,
+  "identity_layer_acc": 0.358,
+  "best": 0.1416,
+  "gap": 0.0143,
+  "certified_search": true,
+  "solve_s": 1546.7,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0141,
+    "complete": true,
+    "far_s": 655.6,
+    "zone_move_um": 830.0,
+    "rival": [
+     213.75,
+     1
+    ],
+    "rival_layer_acc": 0.466
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 2203.5
+ }
+]

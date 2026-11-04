@@ -1,0 +1,20 @@
+[
+ {
+  "case": 0,
+  "method": "spateo_sns",
+  "error": "ImportError(\"cannot import name 'multipletests' from 'statsmodels.sandbox.stats.multicomp' (./env310/lib/python3.10/site-packages/statsmodels/sandbox/stats/multicomp.py)\")",
+  "where": "s.py\", line 10, in <module>\n    from statsmodels.sandbox.stats.multicomp import multipletests\nImportError: cannot import name 'multipletests' from 'statsmodels.sandbox.stats.multicomp' (./env310/lib/python3.10/site-packages/statsmodels/sandbox/stats/multicomp.py)\n"
+ },
+ {
+  "case": 0,
+  "method": "spateo_snn",
+  "error": "ImportError(\"cannot import name 'multipletests' from 'statsmodels.sandbox.stats.multicomp' (./env310/lib/python3.10/site-packages/statsmodels/sandbox/stats/multicomp.py)\")",
+  "where": "s.py\", line 10, in <module>\n    from statsmodels.sandbox.stats.multicomp import multipletests\nImportError: cannot import name 'multipletests' from 'statsmodels.sandbox.stats.multicomp' (./env310/lib/python3.10/site-packages/statsmodels/sandbox/stats/multicomp.py)\n"
+ },
+ {
+  "case": 0,
+  "method": "spateo_sns_cos",
+  "error": "ImportError(\"cannot import name 'multipletests' from 'statsmodels.sandbox.stats.multicomp' (./env310/lib/python3.10/site-packages/statsmodels/sandbox/stats/multicomp.py)\")",
+  "where": "s.py\", line 10, in <module>\n    from statsmodels.sandbox.stats.multicomp import multipletests\nImportError: cannot import name 'multipletests' from 'statsmodels.sandbox.stats.multicomp' (./env310/lib/python3.10/site-packages/statsmodels/sandbox/stats/multicomp.py)\n"
+ }
+]

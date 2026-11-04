@@ -1,0 +1,38 @@
+{
+ "pair": 1,
+ "name": "breast Rep1",
+ "n_landmarks": 32,
+ "floor_um": 62.5,
+ "truth_angle": 273.15,
+ "flipalign_certified": true,
+ "flipalign_zone": [
+  20.0,
+  30.0
+ ],
+ "coarse": {
+  "angle": 272.938,
+  "flip": 0,
+  "shift": [
+   30.0,
+   120.0
+  ],
+  "median_um": 66.7,
+  "max_um": 228.4,
+  "angle_error_deg": 0.21
+ },
+ "fine": {
+  "angle": 273.109,
+  "flip": 0,
+  "shift": [
+   28.5,
+   116.0
+  ],
+  "median_um": 74.6,
+  "max_um": 268.7,
+  "angle_error_deg": 0.04
+ },
+ "right_within_floor_plus_100": {
+  "coarse": true,
+  "fine": true
+ }
+}

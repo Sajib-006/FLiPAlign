@@ -1,0 +1,41 @@
+[
+ {
+  "case": 0,
+  "method": "paste2_s0.5",
+  "fit": "plain",
+  "angle": 177.23,
+  "flip": 1,
+  "shift": [
+   75.37,
+   22.25
+  ],
+  "sec": 604.1,
+  "tre_um": 620.5
+ },
+ {
+  "case": 0,
+  "method": "paste2_s0.5",
+  "fit": "trimmed",
+  "angle": 178.4,
+  "flip": 1,
+  "shift": [
+   90.41,
+   67.21
+  ],
+  "sec": 604.1,
+  "tre_um": 174.6
+ },
+ {
+  "case": 0,
+  "method": "cpd_8",
+  "fit": "plain",
+  "angle": 95.68,
+  "flip": 1,
+  "shift": [
+   -231.52,
+   -74.17
+  ],
+  "sec": 311.9,
+  "tre_um": 3954.6
+ }
+]

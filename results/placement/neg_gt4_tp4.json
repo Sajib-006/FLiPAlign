@@ -1,0 +1,158 @@
+[
+ {
+  "case": 4,
+  "A_tissue": "human tonsil",
+  "B_case": 12,
+  "B_tissue": "human pancreas",
+  "angle": 309.5625,
+  "flip": 0,
+  "shift_units": [
+   -134.0,
+   -48.0
+  ],
+  "best": 0.0201,
+  "gap": 0.0055,
+  "solve_s": 1416.4,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0052,
+    "complete": true
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 1836.2
+ },
+ {
+  "case": 12,
+  "A_tissue": "human pancreas",
+  "B_case": 20,
+  "B_tissue": "human lung cancer",
+  "angle": 242.625,
+  "flip": 1,
+  "shift_units": [
+   258.0,
+   170.0
+  ],
+  "best": 0.1528,
+  "gap": 0.0163,
+  "solve_s": 647.2,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0139,
+    "complete": true
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 901.1
+ },
+ {
+  "case": 20,
+  "A_tissue": "human lung cancer",
+  "B_case": 28,
+  "B_tissue": "human skin",
+  "angle": 203.0312,
+  "flip": 1,
+  "shift_units": [
+   -110.0,
+   -216.0
+  ],
+  "best": 0.1326,
+  "gap": 0.0133,
+  "solve_s": 1532.5,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0117,
+    "complete": true
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 2073.0
+ },
+ {
+  "case": 28,
+  "A_tissue": "human skin",
+  "B_case": 36,
+  "B_tissue": "mouse pup",
+  "angle": 3.8125,
+  "flip": 0,
+  "shift_units": [
+   -176.0,
+   82.0
+  ],
+  "best": 0.2133,
+  "gap": 0.0187,
+  "solve_s": 929.8,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0091,
+    "complete": true
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 1472.4
+ },
+ {
+  "case": 36,
+  "A_tissue": "mouse pup",
+  "B_case": 44,
+  "B_tissue": "human brain",
+  "angle": 128.9531,
+  "flip": 1,
+  "shift_units": [
+   -58.0,
+   -176.0
+  ],
+  "best": 0.0338,
+  "gap": 0.0041,
+  "solve_s": 4117.4,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0025,
+    "complete": true
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 6003.2
+ },
+ {
+  "case": 44,
+  "A_tissue": "human brain",
+  "B_case": 4,
+  "B_tissue": "human tonsil",
+  "angle": 296.0625,
+  "flip": 1,
+  "shift_units": [
+   56.0,
+   -188.0
+  ],
+  "best": 0.1288,
+  "gap": 0.0153,
+  "solve_s": 443.4,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0142,
+    "complete": true
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 620.7
+ }
+]

@@ -1,0 +1,158 @@
+[
+ {
+  "case": 3,
+  "method": "spateo_sns",
+  "fit": "plain",
+  "angle": 4.0,
+  "flip": 1,
+  "shift": [
+   -3.08,
+   0.01
+  ],
+  "sec": 88.2,
+  "tre_um": 9.1
+ },
+ {
+  "case": 3,
+  "method": "spateo_sns",
+  "fit": "trimmed",
+  "angle": 4.0,
+  "flip": 1,
+  "shift": [
+   -3.08,
+   0.01
+  ],
+  "sec": 88.2,
+  "tre_um": 9.1
+ },
+ {
+  "case": 3,
+  "method": "spateo_snn",
+  "fit": "plain",
+  "angle": 3.99,
+  "flip": 1,
+  "shift": [
+   -2.97,
+   0.23
+  ],
+  "sec": 35.2,
+  "tre_um": 10.0
+ },
+ {
+  "case": 3,
+  "method": "spateo_snn",
+  "fit": "trimmed",
+  "angle": 3.99,
+  "flip": 1,
+  "shift": [
+   -2.97,
+   0.23
+  ],
+  "sec": 35.2,
+  "tre_um": 10.0
+ },
+ {
+  "case": 3,
+  "method": "spateo_sns_cos",
+  "fit": "plain",
+  "angle": 4.03,
+  "flip": 1,
+  "shift": [
+   -3.09,
+   0.47
+  ],
+  "sec": 34.2,
+  "tre_um": 8.1
+ },
+ {
+  "case": 3,
+  "method": "spateo_sns_cos",
+  "fit": "trimmed",
+  "angle": 4.03,
+  "flip": 1,
+  "shift": [
+   -3.09,
+   0.47
+  ],
+  "sec": 34.2,
+  "tre_um": 8.1
+ },
+ {
+  "case": 7,
+  "method": "spateo_sns",
+  "fit": "plain",
+  "angle": 36.92,
+  "flip": 1,
+  "shift": [
+   1.72,
+   -3.42
+  ],
+  "sec": 53.3,
+  "tre_um": 11.5
+ },
+ {
+  "case": 7,
+  "method": "spateo_sns",
+  "fit": "trimmed",
+  "angle": 36.92,
+  "flip": 1,
+  "shift": [
+   1.72,
+   -3.42
+  ],
+  "sec": 53.3,
+  "tre_um": 11.5
+ },
+ {
+  "case": 7,
+  "method": "spateo_snn",
+  "fit": "plain",
+  "angle": 36.92,
+  "flip": 1,
+  "shift": [
+   1.79,
+   -3.44
+  ],
+  "sec": 27.5,
+  "tre_um": 11.2
+ },
+ {
+  "case": 7,
+  "method": "spateo_snn",
+  "fit": "trimmed",
+  "angle": 36.92,
+  "flip": 1,
+  "shift": [
+   1.79,
+   -3.44
+  ],
+  "sec": 27.5,
+  "tre_um": 11.2
+ },
+ {
+  "case": 7,
+  "method": "spateo_sns_cos",
+  "fit": "plain",
+  "angle": 37.03,
+  "flip": 1,
+  "shift": [
+   1.45,
+   -3.67
+  ],
+  "sec": 27.2,
+  "tre_um": 7.1
+ },
+ {
+  "case": 7,
+  "method": "spateo_sns_cos",
+  "fit": "trimmed",
+  "angle": 37.03,
+  "flip": 1,
+  "shift": [
+   1.45,
+   -3.67
+  ],
+  "sec": 27.2,
+  "tre_um": 7.1
+ }
+]

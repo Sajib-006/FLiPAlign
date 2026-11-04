@@ -1,0 +1,28 @@
+[
+ {
+  "case": 69,
+  "method": "cast_rigid",
+  "fit": "plain",
+  "angle": 177.84,
+  "flip": 0,
+  "shift": [
+   -18.48,
+   16.76
+  ],
+  "sec": 10715.0,
+  "tre_um": 2041.2
+ },
+ {
+  "case": 69,
+  "method": "cast_rigid",
+  "fit": "trimmed",
+  "angle": 177.84,
+  "flip": 0,
+  "shift": [
+   -20.09,
+   17.05
+  ],
+  "sec": 10715.0,
+  "tre_um": 2046.6
+ }
+]

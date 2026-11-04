@@ -1,0 +1,132 @@
+[
+ {
+  "k": 54,
+  "pair": "151671 vs 151675",
+  "group": "different donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 187.5,
+  "flip": 1,
+  "shift_units": [
+   -50.0,
+   -110.0
+  ],
+  "layer_acc": 0.501,
+  "identity_layer_acc": 0.337,
+  "best": 0.1601,
+  "gap": 0.0153,
+  "certified_search": true,
+  "solve_s": 659.6,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": 0.0139,
+    "complete": true,
+    "far_s": 874.0,
+    "zone_move_um": 830.0,
+    "rival": [
+     207.5,
+     1
+    ],
+    "rival_layer_acc": 0.393
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 60.0,
+    "eps": -0.0049,
+    "complete": true,
+    "far_s": 538.8,
+    "zone_move_um": 1396.4
+   }
+  ],
+  "certified": true,
+  "finest_zone": [
+   20.0,
+   null
+  ],
+  "total_s": 2073.5
+ },
+ {
+  "k": 55,
+  "pair": "151671 vs 151676",
+  "group": "different donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 196.69,
+  "flip": 1,
+  "shift_units": [
+   -58.0,
+   -96.0
+  ],
+  "layer_acc": 0.517,
+  "identity_layer_acc": 0.353,
+  "best": 0.1283,
+  "gap": 0.0138,
+  "certified_search": true,
+  "solve_s": 1398.5,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0047,
+    "complete": true,
+    "far_s": 760.6,
+    "zone_move_um": 830.0,
+    "rival": [
+     176.44,
+     1
+    ],
+    "rival_layer_acc": 0.478
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 2160.2
+ },
+ {
+  "k": 56,
+  "pair": "151672 vs 151673",
+  "group": "different donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 204.75,
+  "flip": 1,
+  "shift_units": [
+   -48.0,
+   -60.0
+  ],
+  "layer_acc": 0.473,
+  "identity_layer_acc": 0.378,
+  "best": 0.1495,
+  "gap": 0.0138,
+  "certified_search": true,
+  "solve_s": 446.1,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": 0.0018,
+    "complete": true,
+    "far_s": 388.4,
+    "zone_move_um": 810.7,
+    "rival": [
+     46.62,
+     0
+    ],
+    "rival_layer_acc": 0.505
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 60.0,
+    "eps": -0.0019,
+    "complete": true,
+    "far_s": 398.1,
+    "zone_move_um": 1377.1
+   }
+  ],
+  "certified": true,
+  "finest_zone": [
+   20.0,
+   null
+  ],
+  "total_s": 1233.4
+ }
+]

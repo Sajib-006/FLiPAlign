@@ -1,0 +1,110 @@
+[
+ {
+  "k": 12,
+  "pair": "151508 vs 151510",
+  "group": "same donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 185.19,
+  "flip": 0,
+  "shift_units": [
+   -20.0,
+   38.0
+  ],
+  "layer_acc": 0.227,
+  "identity_layer_acc": 0.125,
+  "best": 0.1634,
+  "gap": 0.0147,
+  "certified_search": true,
+  "solve_s": 951.1,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0041,
+    "complete": true,
+    "far_s": 628.8,
+    "zone_move_um": 860.8,
+    "rival": [
+     1.0,
+     0
+    ],
+    "rival_layer_acc": 0.759
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 1580.8
+ },
+ {
+  "k": 13,
+  "pair": "151508 vs 151669",
+  "group": "different donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 333.06,
+  "flip": 0,
+  "shift_units": [
+   60.0,
+   16.0
+  ],
+  "layer_acc": 0.446,
+  "identity_layer_acc": 0.364,
+  "best": 0.16,
+  "gap": 0.0133,
+  "certified_search": true,
+  "solve_s": 1155.5,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0023,
+    "complete": true,
+    "far_s": 841.9,
+    "zone_move_um": 860.8,
+    "rival": [
+     42.44,
+     1
+    ],
+    "rival_layer_acc": 0.171
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 1998.4
+ },
+ {
+  "k": 14,
+  "pair": "151508 vs 151670",
+  "group": "different donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 167.25,
+  "flip": 0,
+  "shift_units": [
+   -2.0,
+   48.0
+  ],
+  "layer_acc": 0.144,
+  "identity_layer_acc": 0.4,
+  "best": 0.1452,
+  "gap": 0.0134,
+  "certified_search": true,
+  "solve_s": 1206.4,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0106,
+    "complete": true,
+    "far_s": 615.5,
+    "zone_move_um": 860.8,
+    "rival": [
+     336.62,
+     0
+    ],
+    "rival_layer_acc": 0.579
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 1822.8
+ }
+]

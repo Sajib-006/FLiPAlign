@@ -1,0 +1,38 @@
+{
+ "pair": 5,
+ "name": "colon P5NAT",
+ "n_landmarks": 41,
+ "floor_um": 101.0,
+ "truth_angle": 352.2,
+ "flipalign_certified": true,
+ "flipalign_zone": [
+  20.0,
+  30.0
+ ],
+ "coarse": {
+  "angle": 352.688,
+  "flip": 0,
+  "shift": [
+   74.0,
+   -28.0
+  ],
+  "median_um": 112.2,
+  "max_um": 473.5,
+  "angle_error_deg": 0.48
+ },
+ "fine": {
+  "angle": 352.328,
+  "flip": 0,
+  "shift": [
+   75.5,
+   -26.0
+  ],
+  "median_um": 130.4,
+  "max_um": 433.2,
+  "angle_error_deg": 0.12
+ },
+ "right_within_floor_plus_100": {
+  "coarse": true,
+  "fine": true
+ }
+}

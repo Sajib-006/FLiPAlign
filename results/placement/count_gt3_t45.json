@@ -1,0 +1,15 @@
+[
+ {
+  "case": 45,
+  "evals": 5048,
+  "solve_s": 1013.4,
+  "gap": 0.0161,
+  "best": 0.0567,
+  "leaf_halfwidth_deg": 0.1166,
+  "full_grid_at_leaf": 3088,
+  "nA": 425,
+  "grid_nodes": 544644,
+  "KA": 12,
+  "KB": 6
+ }
+]

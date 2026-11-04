@@ -1,0 +1,326 @@
+{
+ "margin": [
+  {
+   "set": "dev (96)",
+   "n": 96,
+   "accepted": 4,
+   "right": 4,
+   "same_as_cert": 4,
+   "rule": "zero wrong on dev",
+   "tau": 0.08410000000000001,
+   "score": "margin"
+  },
+  {
+   "set": "held-out (48)",
+   "n": 48,
+   "accepted": 0,
+   "right": 0,
+   "same_as_cert": 0,
+   "rule": "zero wrong on dev",
+   "tau": 0.08410000000000001,
+   "score": "margin"
+  },
+  {
+   "set": "MERFISH whole (20)",
+   "n": 20,
+   "accepted": 0,
+   "right": 0,
+   "same_as_cert": 0,
+   "rule": "zero wrong on dev",
+   "tau": 0.08410000000000001,
+   "score": "margin"
+  },
+  {
+   "set": "MERFISH 70% (20)",
+   "n": 20,
+   "accepted": 0,
+   "right": 0,
+   "same_as_cert": 0,
+   "rule": "zero wrong on dev",
+   "tau": 0.08410000000000001,
+   "score": "margin"
+  },
+  {
+   "set": "dev (96)",
+   "n": 96,
+   "accepted": 50,
+   "right": 40,
+   "same_as_cert": 47,
+   "rule": "same count as certificate on dev",
+   "tau": 0.015389999999999987,
+   "score": "margin"
+  },
+  {
+   "set": "held-out (48)",
+   "n": 48,
+   "accepted": 20,
+   "right": 17,
+   "same_as_cert": 19,
+   "rule": "same count as certificate on dev",
+   "tau": 0.015389999999999987,
+   "score": "margin"
+  },
+  {
+   "set": "MERFISH whole (20)",
+   "n": 20,
+   "accepted": 3,
+   "right": 3,
+   "same_as_cert": 0,
+   "rule": "same count as certificate on dev",
+   "tau": 0.015389999999999987,
+   "score": "margin"
+  },
+  {
+   "set": "MERFISH 70% (20)",
+   "n": 20,
+   "accepted": 7,
+   "right": 2,
+   "same_as_cert": 6,
+   "rule": "same count as certificate on dev",
+   "tau": 0.015389999999999987,
+   "score": "margin"
+  },
+  {
+   "set": "dev (96)",
+   "n": 96,
+   "accepted": 49,
+   "right": 40,
+   "same_as_cert": 47,
+   "rule": "best decision accuracy on dev",
+   "tau": 0.01579999999999998,
+   "score": "margin"
+  },
+  {
+   "set": "held-out (48)",
+   "n": 48,
+   "accepted": 20,
+   "right": 17,
+   "same_as_cert": 19,
+   "rule": "best decision accuracy on dev",
+   "tau": 0.01579999999999998,
+   "score": "margin"
+  },
+  {
+   "set": "MERFISH whole (20)",
+   "n": 20,
+   "accepted": 3,
+   "right": 3,
+   "same_as_cert": 0,
+   "rule": "best decision accuracy on dev",
+   "tau": 0.01579999999999998,
+   "score": "margin"
+  },
+  {
+   "set": "MERFISH 70% (20)",
+   "n": 20,
+   "accepted": 7,
+   "right": 2,
+   "same_as_cert": 6,
+   "rule": "best decision accuracy on dev",
+   "tau": 0.01579999999999998,
+   "score": "margin"
+  },
+  {
+   "set": "dev (96)",
+   "n": 96,
+   "accepted": 4,
+   "right": 4,
+   "same_as_cert": 4,
+   "rule": "95% of accepted right on dev",
+   "tau": 0.08410000000000001,
+   "score": "margin"
+  },
+  {
+   "set": "held-out (48)",
+   "n": 48,
+   "accepted": 0,
+   "right": 0,
+   "same_as_cert": 0,
+   "rule": "95% of accepted right on dev",
+   "tau": 0.08410000000000001,
+   "score": "margin"
+  },
+  {
+   "set": "MERFISH whole (20)",
+   "n": 20,
+   "accepted": 0,
+   "right": 0,
+   "same_as_cert": 0,
+   "rule": "95% of accepted right on dev",
+   "tau": 0.08410000000000001,
+   "score": "margin"
+  },
+  {
+   "set": "MERFISH 70% (20)",
+   "n": 20,
+   "accepted": 0,
+   "right": 0,
+   "same_as_cert": 0,
+   "rule": "95% of accepted right on dev",
+   "tau": 0.08410000000000001,
+   "score": "margin"
+  }
+ ],
+ "relative margin": [
+  {
+   "set": "dev (96)",
+   "n": 96,
+   "accepted": 21,
+   "right": 21,
+   "same_as_cert": 21,
+   "rule": "zero wrong on dev",
+   "tau": 0.23610331274564852,
+   "score": "relative margin"
+  },
+  {
+   "set": "held-out (48)",
+   "n": 48,
+   "accepted": 14,
+   "right": 14,
+   "same_as_cert": 12,
+   "rule": "zero wrong on dev",
+   "tau": 0.23610331274564852,
+   "score": "relative margin"
+  },
+  {
+   "set": "MERFISH whole (20)",
+   "n": 20,
+   "accepted": 0,
+   "right": 0,
+   "same_as_cert": 0,
+   "rule": "zero wrong on dev",
+   "tau": 0.23610331274564852,
+   "score": "relative margin"
+  },
+  {
+   "set": "MERFISH 70% (20)",
+   "n": 20,
+   "accepted": 0,
+   "right": 0,
+   "same_as_cert": 0,
+   "rule": "zero wrong on dev",
+   "tau": 0.23610331274564852,
+   "score": "relative margin"
+  },
+  {
+   "set": "dev (96)",
+   "n": 96,
+   "accepted": 50,
+   "right": 41,
+   "same_as_cert": 46,
+   "rule": "same count as certificate on dev",
+   "tau": 0.08504382558526578,
+   "score": "relative margin"
+  },
+  {
+   "set": "held-out (48)",
+   "n": 48,
+   "accepted": 27,
+   "right": 24,
+   "same_as_cert": 20,
+   "rule": "same count as certificate on dev",
+   "tau": 0.08504382558526578,
+   "score": "relative margin"
+  },
+  {
+   "set": "MERFISH whole (20)",
+   "n": 20,
+   "accepted": 0,
+   "right": 0,
+   "same_as_cert": 0,
+   "rule": "same count as certificate on dev",
+   "tau": 0.08504382558526578,
+   "score": "relative margin"
+  },
+  {
+   "set": "MERFISH 70% (20)",
+   "n": 20,
+   "accepted": 4,
+   "right": 1,
+   "same_as_cert": 4,
+   "rule": "same count as certificate on dev",
+   "tau": 0.08504382558526578,
+   "score": "relative margin"
+  },
+  {
+   "set": "dev (96)",
+   "n": 96,
+   "accepted": 39,
+   "right": 36,
+   "same_as_cert": 38,
+   "rule": "best decision accuracy on dev",
+   "tau": 0.13183741311574498,
+   "score": "relative margin"
+  },
+  {
+   "set": "held-out (48)",
+   "n": 48,
+   "accepted": 19,
+   "right": 19,
+   "same_as_cert": 16,
+   "rule": "best decision accuracy on dev",
+   "tau": 0.13183741311574498,
+   "score": "relative margin"
+  },
+  {
+   "set": "MERFISH whole (20)",
+   "n": 20,
+   "accepted": 0,
+   "right": 0,
+   "same_as_cert": 0,
+   "rule": "best decision accuracy on dev",
+   "tau": 0.13183741311574498,
+   "score": "relative margin"
+  },
+  {
+   "set": "MERFISH 70% (20)",
+   "n": 20,
+   "accepted": 3,
+   "right": 0,
+   "same_as_cert": 3,
+   "rule": "best decision accuracy on dev",
+   "tau": 0.13183741311574498,
+   "score": "relative margin"
+  },
+  {
+   "set": "dev (96)",
+   "n": 96,
+   "accepted": 23,
+   "right": 22,
+   "same_as_cert": 23,
+   "rule": "95% of accepted right on dev",
+   "tau": 0.21270291488337936,
+   "score": "relative margin"
+  },
+  {
+   "set": "held-out (48)",
+   "n": 48,
+   "accepted": 16,
+   "right": 16,
+   "same_as_cert": 14,
+   "rule": "95% of accepted right on dev",
+   "tau": 0.21270291488337936,
+   "score": "relative margin"
+  },
+  {
+   "set": "MERFISH whole (20)",
+   "n": 20,
+   "accepted": 0,
+   "right": 0,
+   "same_as_cert": 0,
+   "rule": "95% of accepted right on dev",
+   "tau": 0.21270291488337936,
+   "score": "relative margin"
+  },
+  {
+   "set": "MERFISH 70% (20)",
+   "n": 20,
+   "accepted": 0,
+   "right": 0,
+   "same_as_cert": 0,
+   "rule": "95% of accepted right on dev",
+   "tau": 0.21270291488337936,
+   "score": "relative margin"
+  }
+ ]
+}

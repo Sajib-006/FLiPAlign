@@ -1,0 +1,110 @@
+[
+ {
+  "k": 18,
+  "pair": "151508 vs 151674",
+  "group": "different donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 14.5,
+  "flip": 1,
+  "shift_units": [
+   -74.0,
+   30.0
+  ],
+  "layer_acc": 0.068,
+  "identity_layer_acc": 0.271,
+  "best": 0.162,
+  "gap": 0.0134,
+  "certified_search": true,
+  "solve_s": 1430.4,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0101,
+    "complete": true,
+    "far_s": 690.3,
+    "zone_move_um": 860.8,
+    "rival": [
+     356.56,
+     0
+    ],
+    "rival_layer_acc": 0.277
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 2121.8
+ },
+ {
+  "k": 19,
+  "pair": "151508 vs 151675",
+  "group": "different donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 181.38,
+  "flip": 1,
+  "shift_units": [
+   -84.0,
+   -36.0
+  ],
+  "layer_acc": 0.223,
+  "identity_layer_acc": 0.222,
+  "best": 0.1554,
+  "gap": 0.0154,
+  "certified_search": true,
+  "solve_s": 1709.5,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0062,
+    "complete": true,
+    "far_s": 1075.3,
+    "zone_move_um": 860.8,
+    "rival": [
+     23.56,
+     1
+    ],
+    "rival_layer_acc": 0.071
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 2785.8
+ },
+ {
+  "k": 20,
+  "pair": "151508 vs 151676",
+  "group": "different donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 255.31,
+  "flip": 0,
+  "shift_units": [
+   -18.0,
+   106.0
+  ],
+  "layer_acc": 0.108,
+  "identity_layer_acc": 0.274,
+  "best": 0.1323,
+  "gap": 0.0128,
+  "certified_search": true,
+  "solve_s": 2503.5,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0113,
+    "complete": true,
+    "far_s": 1187.1,
+    "zone_move_um": 860.8,
+    "rival": [
+     200.81,
+     0
+    ],
+    "rival_layer_acc": 0.113
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 3691.6
+ }
+]

@@ -1,0 +1,39 @@
+[
+ {
+  "pair": "S1 -> S2",
+  "nA": 161985,
+  "nB": 154578,
+  "angle": 1.25,
+  "flip": 0,
+  "shift_units": [
+   -2.0,
+   2.0
+  ],
+  "best": 0.3074,
+  "gap": 0.0192,
+  "certified_search": true,
+  "solve_s": 147.4,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0063,
+    "far_exact": 0.2943,
+    "complete": true,
+    "zone_move_um": 992.2
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "gene_answer": 0.8958,
+  "rival": [
+   179.81,
+   1
+  ],
+  "rival_is_mirror": 1,
+  "gene_rival": 0.6919,
+  "gene_random_mean": 0.06,
+  "gene_random_max": 0.1531,
+  "total_s": 474.7
+ }
+]

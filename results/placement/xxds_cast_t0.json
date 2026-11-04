@@ -1,0 +1,170 @@
+[
+ {
+  "start": "centroid",
+  "method": "cast_rigid",
+  "start_landmark_um": [
+   1287.7,
+   1393.2,
+   1302.9
+  ],
+  "landmark_um_plain": [
+   441.6,
+   2700.4,
+   4001.5
+  ],
+  "turn_plain": [
+   1.94,
+   1
+  ],
+  "landmark_um_trimmed": [
+   438.3,
+   2708.8,
+   4010.9
+  ],
+  "turn_trimmed": [
+   1.94,
+   1
+  ],
+  "sec": 604.3
+ },
+ {
+  "start": "centroid",
+  "method": "cast_full",
+  "start_landmark_um": [
+   1287.7,
+   1393.2,
+   1302.9
+  ],
+  "landmark_um_plain": [
+   419.9,
+   2452.6,
+   3823.3
+  ],
+  "turn_plain": [
+   3.84,
+   1
+  ],
+  "landmark_um_trimmed": [
+   443.0,
+   2293.1,
+   3795.8
+  ],
+  "turn_trimmed": [
+   7.09,
+   1
+  ],
+  "sec": 671.1
+ },
+ {
+  "start": "flipalign",
+  "method": "cast_rigid",
+  "start_landmark_um": [
+   42.4,
+   15.1,
+   41.0
+  ],
+  "landmark_um_plain": [
+   198.5,
+   2363.1,
+   3678.3
+  ],
+  "turn_plain": [
+   0.29,
+   1
+  ],
+  "landmark_um_trimmed": [
+   152.2,
+   2379.4,
+   3696.7
+  ],
+  "turn_trimmed": [
+   0.29,
+   1
+  ],
+  "sec": 566.6
+ },
+ {
+  "start": "flipalign",
+  "method": "cast_full",
+  "start_landmark_um": [
+   42.4,
+   15.1,
+   41.0
+  ],
+  "landmark_um_plain": [
+   347.1,
+   2509.2,
+   3802.4
+  ],
+  "turn_plain": [
+   359.84,
+   1
+  ],
+  "landmark_um_trimmed": [
+   319.2,
+   2397.4,
+   3783.8
+  ],
+  "turn_trimmed": [
+   2.09,
+   1
+  ],
+  "sec": 631.3
+ },
+ {
+  "start": "landmarks",
+  "method": "cast_rigid",
+  "start_landmark_um": [
+   11.8,
+   18.2,
+   29.6
+  ],
+  "landmark_um_plain": [
+   364.1,
+   2502.9,
+   3860.0
+  ],
+  "turn_plain": [
+   2.12,
+   1
+  ],
+  "landmark_um_trimmed": [
+   354.0,
+   2518.2,
+   3877.1
+  ],
+  "turn_trimmed": [
+   2.12,
+   1
+  ],
+  "sec": 564.7
+ },
+ {
+  "start": "landmarks",
+  "method": "cast_full",
+  "start_landmark_um": [
+   11.8,
+   18.2,
+   29.6
+  ],
+  "landmark_um_plain": [
+   431.8,
+   2732.3,
+   3976.1
+  ],
+  "turn_plain": [
+   359.35,
+   1
+  ],
+  "landmark_um_trimmed": [
+   497.0,
+   2840.2,
+   4114.2
+  ],
+  "turn_trimmed": [
+   359.96,
+   1
+  ],
+  "sec": 629.4
+ }
+]

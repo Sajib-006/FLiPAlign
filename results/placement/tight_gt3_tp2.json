@@ -1,0 +1,38 @@
+[
+ {
+  "case": 2,
+  "best": 0.2643,
+  "tre_um": 494.3,
+  "certified_loose": true,
+  "eps_loose": 0.0194,
+  "eps_tight": 0.00068,
+  "far_exact": 0.22998,
+  "complete": true,
+  "far_evals": 525,
+  "far_s": 69.8
+ },
+ {
+  "case": 18,
+  "best": 0.0414,
+  "tre_um": 3555.5,
+  "certified_loose": false,
+  "eps_loose": -0.0064,
+  "eps_tight": 0.0,
+  "far_exact": 0.04019,
+  "complete": true,
+  "far_evals": 20351,
+  "far_s": 2986.5
+ },
+ {
+  "case": 34,
+  "best": 0.0328,
+  "tre_um": 5794.2,
+  "certified_loose": false,
+  "eps_loose": -0.0127,
+  "eps_tight": -0.0037,
+  "far_exact": 0.03208,
+  "complete": false,
+  "far_evals": 24823,
+  "far_s": 5405.5
+ }
+]

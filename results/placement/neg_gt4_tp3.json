@@ -1,0 +1,190 @@
+[
+ {
+  "case": 3,
+  "A_tissue": "human tonsil",
+  "B_case": 11,
+  "B_tissue": "human pancreas",
+  "angle": 300.25,
+  "flip": 0,
+  "shift_units": [
+   14.0,
+   -40.0
+  ],
+  "best": 0.0129,
+  "gap": 0.0045,
+  "solve_s": 6750.7,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0043,
+    "complete": true
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 8330.4
+ },
+ {
+  "case": 11,
+  "A_tissue": "human pancreas",
+  "B_case": 19,
+  "B_tissue": "human lung cancer",
+  "angle": 192.8125,
+  "flip": 1,
+  "shift_units": [
+   300.0,
+   -14.0
+  ],
+  "best": 0.0919,
+  "gap": 0.0109,
+  "solve_s": 2265.2,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0109,
+    "complete": true
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 2924.4
+ },
+ {
+  "case": 19,
+  "A_tissue": "human lung cancer",
+  "B_case": 27,
+  "B_tissue": "human skin",
+  "angle": 86.5625,
+  "flip": 1,
+  "shift_units": [
+   48.0,
+   -258.0
+  ],
+  "best": 0.0768,
+  "gap": 0.0161,
+  "solve_s": 1752.8,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0151,
+    "complete": true
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 2457.7
+ },
+ {
+  "case": 27,
+  "A_tissue": "human skin",
+  "B_case": 35,
+  "B_tissue": "mouse pup",
+  "angle": 295.8125,
+  "flip": 1,
+  "shift_units": [
+   -146.0,
+   -300.0
+  ],
+  "best": 0.1761,
+  "gap": 0.0182,
+  "solve_s": 756.8,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": 0.003,
+    "complete": true
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 60.0,
+    "eps": 0.003,
+    "complete": true
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 30.0,
+    "eps": -0.0079,
+    "complete": true
+   }
+  ],
+  "certified": true,
+  "finest_zone": [
+   20.0,
+   60.0
+  ],
+  "S_answer": 0.1761,
+  "O_answer": 0.8385,
+  "S_other": 0.1456,
+  "O_other": 0.7967,
+  "total_s": 3365.8
+ },
+ {
+  "case": 35,
+  "A_tissue": "mouse pup",
+  "B_case": 43,
+  "B_tissue": "human brain",
+  "angle": 3.3594,
+  "flip": 0,
+  "shift_units": [
+   162.0,
+   -152.0
+  ],
+  "best": 0.051,
+  "gap": 0.0047,
+  "solve_s": 1644.7,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": 0.002,
+    "complete": true
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 60.0,
+    "eps": -0.0011,
+    "complete": true
+   }
+  ],
+  "certified": true,
+  "finest_zone": [
+   20.0,
+   null
+  ],
+  "S_answer": 0.051,
+  "O_answer": 0.2136,
+  "S_other": 0.0435,
+  "O_other": 0.2211,
+  "total_s": 8238.7
+ },
+ {
+  "case": 43,
+  "A_tissue": "human brain",
+  "B_case": 3,
+  "B_tissue": "human tonsil",
+  "angle": 108.3125,
+  "flip": 0,
+  "shift_units": [
+   154.0,
+   -300.0
+  ],
+  "best": 0.0703,
+  "gap": 0.0152,
+  "solve_s": 2250.9,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0116,
+    "complete": true
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 3062.9
+ }
+]

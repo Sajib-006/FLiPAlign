@@ -1,0 +1,89 @@
+{
+ "stack": 1,
+ "runs": {
+  "clean": {
+   "d1": {
+    "local_search": 1.9451,
+    "pair_bound": 2.09331,
+    "exact": {
+     "value": 1.95857,
+     "dual_bound": 2.17354,
+     "status": 1,
+     "seconds": 900.1
+    },
+    "pairs_all_optimal": true,
+    "ratio_to_pair_bound": 0.9292,
+    "ratio_to_exact": 0.9931
+   },
+   "d2": {
+    "local_search": 3.077,
+    "pair_bound": 3.41504,
+    "exact": {
+     "value": 3.08611,
+     "dual_bound": 3.73766,
+     "status": 1,
+     "seconds": 902.0
+    },
+    "pairs_all_optimal": true,
+    "ratio_to_pair_bound": 0.901,
+    "ratio_to_exact": 0.997
+   }
+  },
+  "S1_recluster": {
+   "d1": {
+    "local_search": 1.7761,
+    "pair_bound": 1.9737,
+    "exact": {
+     "value": 1.85178,
+     "dual_bound": 2.05632,
+     "status": 1,
+     "seconds": 900.1
+    },
+    "pairs_all_optimal": true,
+    "ratio_to_pair_bound": 0.8999,
+    "ratio_to_exact": 0.9591
+   },
+   "d2": {
+    "local_search": 2.7868,
+    "pair_bound": 3.24281,
+    "exact": {
+     "value": 2.9217,
+     "dual_bound": 3.64753,
+     "status": 1,
+     "seconds": 900.1
+    },
+    "pairs_all_optimal": true,
+    "ratio_to_pair_bound": 0.8594,
+    "ratio_to_exact": 0.9538
+   }
+  },
+  "S3_noise30": {
+   "d1": {
+    "local_search": 1.759,
+    "pair_bound": 1.89829,
+    "exact": {
+     "value": 1.76753,
+     "dual_bound": 1.95855,
+     "status": 1,
+     "seconds": 900.1
+    },
+    "pairs_all_optimal": true,
+    "ratio_to_pair_bound": 0.9266,
+    "ratio_to_exact": 0.9952
+   },
+   "d2": {
+    "local_search": 2.7661,
+    "pair_bound": 3.08677,
+    "exact": {
+     "value": 2.81497,
+     "dual_bound": 3.36815,
+     "status": 1,
+     "seconds": 900.1
+    },
+    "pairs_all_optimal": true,
+    "ratio_to_pair_bound": 0.8961,
+    "ratio_to_exact": 0.9826
+   }
+  }
+ }
+}

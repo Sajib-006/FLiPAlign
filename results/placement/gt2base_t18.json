@@ -1,0 +1,215 @@
+[
+ {
+  "case": 18,
+  "method": "paste_a0.01",
+  "fit": "plain",
+  "angle": 248.9,
+  "flip": 0,
+  "shift": [
+   -1.38,
+   -0.17
+  ],
+  "sec": 210.3,
+  "tre_um": 3936.4
+ },
+ {
+  "case": 18,
+  "method": "paste_a0.01",
+  "fit": "trimmed",
+  "angle": 248.84,
+  "flip": 0,
+  "shift": [
+   -2.53,
+   0.17
+  ],
+  "sec": 210.3,
+  "tre_um": 3940.7
+ },
+ {
+  "case": 18,
+  "method": "paste_a0.1",
+  "fit": "plain",
+  "angle": 248.86,
+  "flip": 0,
+  "shift": [
+   -1.37,
+   -0.17
+  ],
+  "sec": 201.6,
+  "tre_um": 3936.6
+ },
+ {
+  "case": 18,
+  "method": "paste_a0.1",
+  "fit": "trimmed",
+  "angle": 248.44,
+  "flip": 0,
+  "shift": [
+   -3.53,
+   2.77
+  ],
+  "sec": 201.6,
+  "tre_um": 3947.3
+ },
+ {
+  "case": 18,
+  "method": "paste_a0.5",
+  "fit": "plain",
+  "angle": 248.94,
+  "flip": 0,
+  "shift": [
+   -1.38,
+   -0.17
+  ],
+  "sec": 141.9,
+  "tre_um": 3936.2
+ },
+ {
+  "case": 18,
+  "method": "paste_a0.5",
+  "fit": "trimmed",
+  "angle": 248.69,
+  "flip": 0,
+  "shift": [
+   -2.94,
+   1.58
+  ],
+  "sec": 141.9,
+  "tre_um": 3944.6
+ },
+ {
+  "case": 18,
+  "method": "paste2_s0.3",
+  "fit": "plain",
+  "angle": 195.96,
+  "flip": 0,
+  "shift": [
+   24.26,
+   -64.58
+  ],
+  "sec": 359.0,
+  "tre_um": 3605.9
+ },
+ {
+  "case": 18,
+  "method": "paste2_s0.3",
+  "fit": "trimmed",
+  "angle": 197.67,
+  "flip": 0,
+  "shift": [
+   21.36,
+   -60.09
+  ],
+  "sec": 359.0,
+  "tre_um": 3622.1
+ },
+ {
+  "case": 18,
+  "method": "paste2_s0.5",
+  "fit": "plain",
+  "angle": 195.33,
+  "flip": 0,
+  "shift": [
+   20.66,
+   -61.02
+  ],
+  "sec": 492.7,
+  "tre_um": 3607.1
+ },
+ {
+  "case": 18,
+  "method": "paste2_s0.5",
+  "fit": "trimmed",
+  "angle": 197.41,
+  "flip": 0,
+  "shift": [
+   20.78,
+   -57.37
+  ],
+  "sec": 492.7,
+  "tre_um": 3621.1
+ },
+ {
+  "case": 18,
+  "method": "paste2_s0.7",
+  "fit": "plain",
+  "angle": 194.62,
+  "flip": 0,
+  "shift": [
+   18.46,
+   -56.01
+  ],
+  "sec": 346.0,
+  "tre_um": 3604.7
+ },
+ {
+  "case": 18,
+  "method": "paste2_s0.7",
+  "fit": "trimmed",
+  "angle": 197.34,
+  "flip": 0,
+  "shift": [
+   21.62,
+   -58.65
+  ],
+  "sec": 346.0,
+  "tre_um": 3619.7
+ },
+ {
+  "case": 18,
+  "method": "slat_k10",
+  "error": "AttributeError(\"'AnnData' object has no attribute 'concatenate'\")",
+  "where": " File \"./venv_base/lib/python3.12/site-packages/scSLAT/model/loaddata.py\", line 283, in load_anndatas\n    adata_all = adatas[0].concatenate(adatas[1], join=join)\n                ^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'AnnData' object has no attribute 'concatenate'\n"
+ },
+ {
+  "case": 18,
+  "method": "slat_k20",
+  "error": "AttributeError(\"'AnnData' object has no attribute 'concatenate'\")",
+  "where": " File \"./venv_base/lib/python3.12/site-packages/scSLAT/model/loaddata.py\", line 283, in load_anndatas\n    adata_all = adatas[0].concatenate(adatas[1], join=join)\n                ^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'AnnData' object has no attribute 'concatenate'\n"
+ },
+ {
+  "case": 18,
+  "method": "slat_k40",
+  "error": "AttributeError(\"'AnnData' object has no attribute 'concatenate'\")",
+  "where": " File \"./venv_base/lib/python3.12/site-packages/scSLAT/model/loaddata.py\", line 283, in load_anndatas\n    adata_all = adatas[0].concatenate(adatas[1], join=join)\n                ^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'AnnData' object has no attribute 'concatenate'\n"
+ },
+ {
+  "case": 18,
+  "method": "cpd_8",
+  "fit": "plain",
+  "angle": 15.74,
+  "flip": 0,
+  "shift": [
+   65.66,
+   32.59
+  ],
+  "sec": 260.2,
+  "tre_um": 3039.3
+ },
+ {
+  "case": 18,
+  "method": "cpd_8_w0",
+  "fit": "plain",
+  "angle": 250.27,
+  "flip": 0,
+  "shift": [
+   -12.62,
+   -9.51
+  ],
+  "sec": 255.5,
+  "tre_um": 3952.5
+ },
+ {
+  "case": 18,
+  "method": "cpd_8_w0.5",
+  "fit": "plain",
+  "angle": 48.54,
+  "flip": 0,
+  "shift": [
+   9.65,
+   60.89
+  ],
+  "sec": 318.8,
+  "tre_um": 2957.8
+ }
+]

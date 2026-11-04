@@ -1,0 +1,20 @@
+T1 c=2 N=4: 600 graphs (38 with a C4-factor), 3600 (graph, weights, G) cases, failures=0 [6s]
+T2 c=unbounded +-1 N=4: 285 K23-free graphs (5 with C4-factor), failures=0 [1s]
+T3 q=4 random 120 instances (53 yes): failures=0 [1464s]
+T4 stacks K=3 N=3 c=2: 300 random stacks x 2 values of G (N and unbounded): stack OPT <= sum of pair OPT failures=0 (bound tight in 11 of 600); pair OPT <= 2*max weight matching failures=0 (5s) [5s]
+
+==== SUMMARY ====
+T1 c=2 N=2: 16 graphs (1 with a C4-factor), 96 (graph, weights, G) cases, failures=0
+T1 c=2 N=3: 512 graphs (0 with a C4-factor), 3072 (graph, weights, G) cases, failures=0
+T1 c=2 N=4: 600 graphs (38 with a C4-factor), 3600 (graph, weights, G) cases, failures=0
+T2 table (no two rows share 3 columns): (3,3):e=7,2e=14 vs 15; (3,4):e=9,2e=18 vs 19; (3,5):e=10,2e=20 vs 23; (3,6):e=12,2e=24 vs 27; (4,4):e=12,2e=24 vs 24; (4,5):e=13,2e=26 vs 29; (4,6):e=15,2e=30 vs 34; (5,5):e=16,2e=32 vs 35; (5,6):e=18,2e=36 vs 41; (6,6):e=21,2e=42 vs 48  -> strict except (4,4) equality: True
+T2 (4,4) equality case: 24 matrices with 12 ones and no K23/K32, of which 24 are K44 minus a perfect matching (expect 24 = 4!)
+T2 c=unbounded +-1 N=2: 16 K23-free graphs (1 with C4-factor), failures=0
+T2 c=unbounded +-1 N=3: 478 K23-free graphs (0 with C4-factor), failures=0
+T2 c=unbounded +-1 N=4: 285 K23-free graphs (5 with C4-factor), failures=0
+T3 q=2 all 255 instances (175 yes): structure + (3DM <=> C4-factor) failures=0; exact split OPT checked on 8; K44 blow-up checked on 162
+T3 exact split OPT (c=2, G=N, 0/1 and +-1) on 3 instances with q<=2, m<=2 (up to 24 labels): failures=0
+T3 q=3 random 300 instances (131 yes): failures=0
+T3 q=4 random 120 instances (53 yes): failures=0
+T4 stacks K=3 N=3 c=2: 300 random stacks x 2 values of G (N and unbounded): stack OPT <= sum of pair OPT failures=0 (bound tight in 11 of 600); pair OPT <= 2*max weight matching failures=0 (5s)
+python3 check_split.py  1231.47s user 31.73s system 85% cpu 24:37.86 total

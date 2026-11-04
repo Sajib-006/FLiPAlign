@@ -1,0 +1,157 @@
+[
+ {
+  "pair": "VX2",
+  "angle": 270.8125,
+  "flip": 0,
+  "shift_units": [
+   68.0,
+   -12.0
+  ],
+  "best": 0.1159,
+  "gap": 0.0143,
+  "certified_search": true,
+  "solve_s": 870.1,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": 0.0159,
+    "complete": true,
+    "zone_move_um": 916.4
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 150.0,
+    "eps": 0.0159,
+    "complete": true,
+    "zone_move_um": 2332.4
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 100.0,
+    "eps": 0.0159,
+    "complete": true,
+    "zone_move_um": 1860.4
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 60.0,
+    "eps": 0.0122,
+    "complete": true,
+    "zone_move_um": 1482.8
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 30.0,
+    "eps": -0.0021,
+    "complete": true,
+    "zone_move_um": 1199.6
+   }
+  ],
+  "certified": true,
+  "finest_zone": [
+   20.0,
+   60.0
+  ],
+  "gene_coarse": 0.4268,
+  "fine": {
+   "sigma2": 5.0,
+   "h2": 0.5,
+   "best2": 0.1604,
+   "gap2": 0.0122,
+   "search2_complete": true,
+   "search2_s": 632.7,
+   "theta2_deg": 271.234,
+   "t2": [
+    68.0,
+    -16.5
+   ],
+   "inside_Z1": true,
+   "ladder2": [
+    {
+     "zone_deg": 5.0,
+     "zone_shift_units": 10.0,
+     "eps": 0.0079,
+     "complete": true,
+     "far_s": 675.9,
+     "zone_move_um": 324.6
+    },
+    {
+     "zone_deg": 3.0,
+     "zone_shift_units": 10.0,
+     "eps": 0.0079,
+     "complete": true,
+     "far_s": 664.5,
+     "zone_move_um": 232.5
+    },
+    {
+     "zone_deg": 2.0,
+     "zone_shift_units": 10.0,
+     "eps": 0.006,
+     "complete": true,
+     "far_s": 685.2,
+     "zone_move_um": 186.5
+    },
+    {
+     "zone_deg": 1.0,
+     "zone_shift_units": 10.0,
+     "eps": -0.0067,
+     "complete": true,
+     "far_s": 621.9,
+     "zone_move_um": 140.5
+    },
+    {
+     "zone_deg": 3.0,
+     "zone_shift_units": 5.0,
+     "eps": -0.0069,
+     "complete": true,
+     "far_s": 602.7,
+     "zone_move_um": 185.3
+    },
+    {
+     "zone_deg": 2.0,
+     "zone_shift_units": 5.0,
+     "eps": -0.0069,
+     "complete": true,
+     "far_s": 604.4,
+     "zone_move_um": 139.3
+    },
+    {
+     "zone_deg": 1.0,
+     "zone_shift_units": 5.0,
+     "eps": -0.0069,
+     "complete": true,
+     "far_s": 649.1,
+     "zone_move_um": 93.3
+    },
+    {
+     "zone_deg": 1.0,
+     "zone_shift_units": 3.0,
+     "eps": -0.0105,
+     "complete": true,
+     "far_s": 598.3,
+     "zone_move_um": 74.4
+    },
+    {
+     "zone_deg": 0.5,
+     "zone_shift_units": 3.0,
+     "eps": -0.0108,
+     "complete": true,
+     "far_s": 600.0,
+     "zone_move_um": 51.3
+    }
+   ],
+   "fine_zone": [
+    2.0,
+    10.0
+   ]
+  },
+  "fine_angle": 271.2344,
+  "fine_shift_units": [
+   68.0,
+   -16.5
+  ],
+  "gene_fine": 0.4657,
+  "total_s": 15549.5
+ }
+]

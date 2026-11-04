@@ -1,0 +1,158 @@
+[
+ {
+  "case": 6,
+  "A_tissue": "mouse brain (Prime 5K)",
+  "B_case": 14,
+  "B_tissue": "mouse brain (V1)",
+  "angle": 79.4375,
+  "flip": 1,
+  "shift_units": [
+   72.0,
+   20.0
+  ],
+  "best": 0.3722,
+  "gap": 0.0165,
+  "solve_s": 165.6,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.012,
+    "complete": true
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 253.8
+ },
+ {
+  "case": 14,
+  "A_tissue": "mouse brain (V1)",
+  "B_case": 22,
+  "B_tissue": "human kidney",
+  "angle": 141.1875,
+  "flip": 1,
+  "shift_units": [
+   88.0,
+   -80.0
+  ],
+  "best": 0.0539,
+  "gap": 0.0082,
+  "solve_s": 408.3,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0042,
+    "complete": true
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 673.7
+ },
+ {
+  "case": 22,
+  "A_tissue": "human kidney",
+  "B_case": 30,
+  "B_tissue": "human lymph node",
+  "angle": 305.8125,
+  "flip": 1,
+  "shift_units": [
+   -30.0,
+   22.0
+  ],
+  "best": 0.0323,
+  "gap": 0.0122,
+  "solve_s": 1362.8,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0105,
+    "complete": true
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 1632.3
+ },
+ {
+  "case": 30,
+  "A_tissue": "human lymph node",
+  "B_case": 38,
+  "B_tissue": "human liver",
+  "angle": 76.625,
+  "flip": 0,
+  "shift_units": [
+   292.0,
+   2.0
+  ],
+  "best": 0.0584,
+  "gap": 0.0128,
+  "solve_s": 1119.6,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0091,
+    "complete": true
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 1529.8
+ },
+ {
+  "case": 38,
+  "A_tissue": "human liver",
+  "B_case": 46,
+  "B_tissue": "human heart",
+  "angle": 36.75,
+  "flip": 1,
+  "shift_units": [
+   24.0,
+   -116.0
+  ],
+  "best": 0.0204,
+  "gap": 0.0063,
+  "solve_s": 4609.6,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0056,
+    "complete": true
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 5680.8
+ },
+ {
+  "case": 46,
+  "A_tissue": "human heart",
+  "B_case": 6,
+  "B_tissue": "mouse brain (Prime 5K)",
+  "angle": 296.5,
+  "flip": 0,
+  "shift_units": [
+   -162.0,
+   -102.0
+  ],
+  "best": 0.1329,
+  "gap": 0.0164,
+  "solve_s": 650.0,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0108,
+    "complete": true
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 933.0
+ }
+]

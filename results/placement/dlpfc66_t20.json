@@ -1,0 +1,183 @@
+[
+ {
+  "k": 60,
+  "pair": "151673 vs 151674",
+  "group": "adjacent",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 2.12,
+  "flip": 0,
+  "shift_units": [
+   2.0,
+   10.0
+  ],
+  "layer_acc": 0.892,
+  "identity_layer_acc": 0.872,
+  "best": 0.2258,
+  "gap": 0.0149,
+  "certified_search": true,
+  "solve_s": 334.5,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": 0.033,
+    "complete": true,
+    "far_s": 336.2,
+    "zone_move_um": 781.1,
+    "rival": [
+     342.12,
+     0
+    ],
+    "rival_layer_acc": 0.676
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 60.0,
+    "eps": 0.0136,
+    "complete": true,
+    "far_s": 398.9,
+    "zone_move_um": 1347.5
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 30.0,
+    "eps": -0.0059,
+    "complete": true,
+    "far_s": 252.4,
+    "zone_move_um": 1064.3
+   }
+  ],
+  "certified": true,
+  "finest_zone": [
+   20.0,
+   60.0
+  ],
+  "total_s": 1323.1
+ },
+ {
+  "k": 61,
+  "pair": "151673 vs 151675",
+  "group": "same donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 355.5,
+  "flip": 0,
+  "shift_units": [
+   12.0,
+   -6.0
+  ],
+  "layer_acc": 0.806,
+  "identity_layer_acc": 0.79,
+  "best": 0.2438,
+  "gap": 0.0148,
+  "certified_search": true,
+  "solve_s": 269.9,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": 0.0428,
+    "complete": true,
+    "far_s": 349.2,
+    "zone_move_um": 781.1,
+    "rival": [
+     15.56,
+     0
+    ],
+    "rival_layer_acc": 0.676
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 60.0,
+    "eps": 0.0335,
+    "complete": true,
+    "far_s": 411.0,
+    "zone_move_um": 1347.5
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 30.0,
+    "eps": 0.0016,
+    "complete": true,
+    "far_s": 253.8,
+    "zone_move_um": 1064.3
+   },
+   {
+    "zone_deg": 10.0,
+    "zone_shift_units": 20.0,
+    "eps": -0.0075,
+    "complete": true,
+    "far_s": 232.4,
+    "zone_move_um": 580.8
+   }
+  ],
+  "certified": true,
+  "finest_zone": [
+   20.0,
+   30.0
+  ],
+  "total_s": 1517.4
+ },
+ {
+  "k": 62,
+  "pair": "151673 vs 151676",
+  "group": "same donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 358.56,
+  "flip": 0,
+  "shift_units": [
+   4.0,
+   10.0
+  ],
+  "layer_acc": 0.849,
+  "identity_layer_acc": 0.85,
+  "best": 0.2253,
+  "gap": 0.0147,
+  "certified_search": true,
+  "solve_s": 267.0,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": 0.0374,
+    "complete": true,
+    "far_s": 399.3,
+    "zone_move_um": 781.1,
+    "rival": [
+     256.38,
+     1
+    ],
+    "rival_layer_acc": 0.613
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 60.0,
+    "eps": 0.0374,
+    "complete": true,
+    "far_s": 541.0,
+    "zone_move_um": 1347.5
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 30.0,
+    "eps": 0.0019,
+    "complete": true,
+    "far_s": 240.9,
+    "zone_move_um": 1064.3
+   },
+   {
+    "zone_deg": 10.0,
+    "zone_shift_units": 20.0,
+    "eps": -0.0075,
+    "complete": true,
+    "far_s": 225.5,
+    "zone_move_um": 580.8
+   }
+  ],
+  "certified": true,
+  "finest_zone": [
+   20.0,
+   30.0
+  ],
+  "total_s": 1674.8
+ }
+]

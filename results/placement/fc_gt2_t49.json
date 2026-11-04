@@ -1,0 +1,16 @@
+[
+ {
+  "case": 49,
+  "answer_flip": 1,
+  "true_flip": 1,
+  "answer_tre_um": 754.5,
+  "certified": false,
+  "S_answer": 0.1565,
+  "O_answer": 0.775,
+  "S_other": 0.1553,
+  "O_other": 0.8497,
+  "other_tre_um": 1935.8,
+  "other_gap": 0.0144,
+  "other_s": 475.8
+ }
+]

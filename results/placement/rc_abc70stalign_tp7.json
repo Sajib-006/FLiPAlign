@@ -1,0 +1,40 @@
+[
+ {
+  "case": 7,
+  "method": "stalign_16c",
+  "fit": "plain",
+  "angle": 315.8,
+  "flip": 1,
+  "shift": [
+   10.15,
+   34.13
+  ],
+  "sec": 691.7,
+  "tre_um": 3005.5,
+  "tre_nonrigid_um": 2994.6,
+  "picked_start": [
+   315.0,
+   1
+  ],
+  "density_corr": 0.377
+ },
+ {
+  "case": 15,
+  "method": "stalign_16c",
+  "fit": "plain",
+  "angle": 245.7,
+  "flip": 0,
+  "shift": [
+   -30.78,
+   22.24
+  ],
+  "sec": 609.3,
+  "tre_um": 3576.1,
+  "tre_nonrigid_um": 3597.0,
+  "picked_start": [
+   270.0,
+   0
+  ],
+  "density_corr": 0.4264
+ }
+]

@@ -1,0 +1,80 @@
+[
+ {
+  "case": 11,
+  "method": "spateo_sns",
+  "fit": "plain",
+  "angle": 305.6,
+  "flip": 1,
+  "shift": [
+   66.97,
+   8.4
+  ],
+  "sec": 47.3,
+  "tre_um": 371.4
+ },
+ {
+  "case": 11,
+  "method": "spateo_sns",
+  "fit": "trimmed",
+  "angle": 305.6,
+  "flip": 1,
+  "shift": [
+   66.97,
+   8.4
+  ],
+  "sec": 47.3,
+  "tre_um": 371.4
+ },
+ {
+  "case": 11,
+  "method": "spateo_snn",
+  "fit": "plain",
+  "angle": 304.97,
+  "flip": 1,
+  "shift": [
+   68.88,
+   9.39
+  ],
+  "sec": 26.8,
+  "tre_um": 349.9
+ },
+ {
+  "case": 11,
+  "method": "spateo_snn",
+  "fit": "trimmed",
+  "angle": 304.97,
+  "flip": 1,
+  "shift": [
+   68.88,
+   9.39
+  ],
+  "sec": 26.8,
+  "tre_um": 349.9
+ },
+ {
+  "case": 11,
+  "method": "spateo_sns_cos",
+  "fit": "plain",
+  "angle": 304.54,
+  "flip": 1,
+  "shift": [
+   70.0,
+   12.37
+  ],
+  "sec": 26.9,
+  "tre_um": 319.7
+ },
+ {
+  "case": 11,
+  "method": "spateo_sns_cos",
+  "fit": "trimmed",
+  "angle": 304.54,
+  "flip": 1,
+  "shift": [
+   70.0,
+   12.37
+  ],
+  "sec": 26.9,
+  "tre_um": 319.7
+ }
+]

@@ -1,0 +1,110 @@
+[
+ {
+  "k": 42,
+  "pair": "151669 vs 151674",
+  "group": "different donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 206.81,
+  "flip": 1,
+  "shift_units": [
+   -28.0,
+   -72.0
+  ],
+  "layer_acc": 0.396,
+  "identity_layer_acc": 0.289,
+  "best": 0.1507,
+  "gap": 0.0148,
+  "certified_search": true,
+  "solve_s": 2621.5,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0128,
+    "complete": true,
+    "far_s": 1076.7,
+    "zone_move_um": 785.3,
+    "rival": [
+     37.06,
+     0
+    ],
+    "rival_layer_acc": 0.367
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 3699.2
+ },
+ {
+  "k": 43,
+  "pair": "151669 vs 151675",
+  "group": "different donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 196.75,
+  "flip": 1,
+  "shift_units": [
+   -50.0,
+   -12.0
+  ],
+  "layer_acc": 0.272,
+  "identity_layer_acc": 0.252,
+  "best": 0.1478,
+  "gap": 0.0147,
+  "certified_search": true,
+  "solve_s": 2501.5,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0083,
+    "complete": true,
+    "far_s": 1161.9,
+    "zone_move_um": 785.3,
+    "rival": [
+     228.56,
+     1
+    ],
+    "rival_layer_acc": 0.295
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 3664.6
+ },
+ {
+  "k": 44,
+  "pair": "151669 vs 151676",
+  "group": "different donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 236.38,
+  "flip": 1,
+  "shift_units": [
+   -44.0,
+   32.0
+  ],
+  "layer_acc": 0.326,
+  "identity_layer_acc": 0.273,
+  "best": 0.1384,
+  "gap": 0.0143,
+  "certified_search": true,
+  "solve_s": 1755.9,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0134,
+    "complete": true,
+    "far_s": 613.2,
+    "zone_move_um": 785.3,
+    "rival": [
+     216.31,
+     1
+    ],
+    "rival_layer_acc": 0.29
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 2370.2
+ }
+]

@@ -1,0 +1,2 @@
+instances 400 yes 84 no 316 brute-force Phi checks 159 ALL CHECKS PASSED
+python3 check_reduction.py  70.12s user 1.28s system 90% cpu 1:18.48 total

@@ -1,0 +1,65 @@
+[
+ {
+  "case": 2,
+  "method": "stalign_1c",
+  "fit": "plain",
+  "angle": 358.82,
+  "flip": 0,
+  "shift": [
+   -29.45,
+   -70.19
+  ],
+  "sec": 50.1,
+  "tre_um": 2185.0,
+  "tre_nonrigid_um": 2181.6,
+  "arm": "init",
+  "start_err_um": 2186.6,
+  "picked_start": [
+   0.0,
+   0
+  ],
+  "density_corr": 0.2261
+ },
+ {
+  "case": 10,
+  "method": "stalign_1c",
+  "fit": "plain",
+  "angle": 3.39,
+  "flip": 0,
+  "shift": [
+   -169.57,
+   39.86
+  ],
+  "sec": 56.1,
+  "tre_um": 800.9,
+  "tre_nonrigid_um": 826.5,
+  "arm": "init",
+  "start_err_um": 281.3,
+  "picked_start": [
+   0.0,
+   0
+  ],
+  "density_corr": 0.1789
+ },
+ {
+  "case": 18,
+  "method": "stalign_1c",
+  "fit": "plain",
+  "angle": 357.75,
+  "flip": 0,
+  "shift": [
+   -34.95,
+   -73.07
+  ],
+  "sec": 28.3,
+  "tre_um": 280.6,
+  "tre_nonrigid_um": 240.1,
+  "arm": "init",
+  "start_err_um": 145.4,
+  "picked_start": [
+   0.0,
+   0
+  ],
+  "density_corr": 0.24
+ }
+]

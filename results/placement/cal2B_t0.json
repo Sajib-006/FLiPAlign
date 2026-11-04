@@ -1,0 +1,92 @@
+[
+ {
+  "set": "data/gt3",
+  "case": 16,
+  "method": "start",
+  "start_err_um": 436.8
+ },
+ {
+  "tre_um": 404.5,
+  "tre_bent_um": 537.3,
+  "set": "data/gt3",
+  "case": 16,
+  "method": "stalign",
+  "sigmaM": 0.05,
+  "niter": 800,
+  "epL": 2e-06,
+  "epT": 2.0,
+  "sec": 28.0
+ },
+ {
+  "tre_um": 258.3,
+  "tre_bent_um": 258.1,
+  "set": "data/gt3",
+  "case": 16,
+  "method": "stalign",
+  "sigmaM": 0.02,
+  "niter": 800,
+  "epL": 2e-06,
+  "epT": 2.0,
+  "sec": 28.9
+ },
+ {
+  "tre_um": 733.5,
+  "tre_bent_um": 714.9,
+  "set": "data/gt3",
+  "case": 16,
+  "method": "stalign",
+  "sigmaM": 0.01,
+  "niter": 800,
+  "epL": 2e-06,
+  "epT": 2.0,
+  "sec": 28.8
+ },
+ {
+  "tre_um": 381.7,
+  "tre_bent_um": 553.0,
+  "set": "data/gt3",
+  "case": 16,
+  "method": "stalign",
+  "sigmaM": 0.05,
+  "niter": 2000,
+  "epL": 2e-06,
+  "epT": 2.0,
+  "sec": 62.0
+ },
+ {
+  "tre_um": 94.6,
+  "tre_bent_um": 134.3,
+  "set": "data/gt3",
+  "case": 16,
+  "method": "stalign",
+  "sigmaM": 0.02,
+  "niter": 2000,
+  "epL": 2e-06,
+  "epT": 2.0,
+  "sec": 61.1
+ },
+ {
+  "tre_um": 4646.5,
+  "tre_bent_um": 4802.9,
+  "set": "data/gt3",
+  "case": 16,
+  "method": "stalign",
+  "sigmaM": 0.02,
+  "niter": 800,
+  "epL": 2e-05,
+  "epT": 2.0,
+  "sec": 26.7
+ },
+ {
+  "tre_um": 258.4,
+  "tre_bent_um": 275.8,
+  "set": "data/gt3",
+  "case": 16,
+  "method": "stalign",
+  "sigmaM": 0.02,
+  "niter": 800,
+  "epL": 2e-06,
+  "epT": 20.0,
+  "sec": 27.6
+ }
+]

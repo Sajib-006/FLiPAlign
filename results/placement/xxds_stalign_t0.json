@@ -1,0 +1,203 @@
+[
+ {
+  "start": "centroid",
+  "method": "stalign_labels",
+  "start_landmark_um": [
+   1287.7,
+   1393.2,
+   1302.9
+  ],
+  "landmark_um_bent": [
+   1287.7,
+   1393.2,
+   1302.9
+  ],
+  "landmark_um_plain": [
+   1287.7,
+   1393.2,
+   1302.9
+  ],
+  "turn_plain": [
+   360.0,
+   0
+  ],
+  "sec": 55.2
+ },
+ {
+  "start": "centroid",
+  "method": "stalign_density",
+  "start_landmark_um": [
+   1287.7,
+   1393.2,
+   1302.9
+  ],
+  "landmark_um_bent": [
+   1287.4,
+   1392.5,
+   1302.3
+  ],
+  "landmark_um_plain": [
+   1287.4,
+   1392.6,
+   1302.4
+  ],
+  "turn_plain": [
+   360.0,
+   0
+  ],
+  "sec": 49.6
+ },
+ {
+  "start": "centroid",
+  "method": "cpd_1",
+  "start_landmark_um": [
+   1287.7,
+   1393.2,
+   1302.9
+  ],
+  "landmark_um_plain": [
+   1719.3,
+   1628.5,
+   1591.4
+  ],
+  "turn_plain": [
+   356.16,
+   0
+  ],
+  "sec": 30.8
+ },
+ {
+  "start": "flipalign",
+  "method": "stalign_labels",
+  "start_landmark_um": [
+   42.4,
+   15.1,
+   41.0
+  ],
+  "landmark_um_bent": [
+   41.8,
+   16.1,
+   41.1
+  ],
+  "landmark_um_plain": [
+   41.9,
+   15.9,
+   41.3
+  ],
+  "turn_plain": [
+   360.0,
+   0
+  ],
+  "sec": 54.8
+ },
+ {
+  "start": "flipalign",
+  "method": "stalign_density",
+  "start_landmark_um": [
+   42.4,
+   15.1,
+   41.0
+  ],
+  "landmark_um_bent": [
+   42.2,
+   15.4,
+   40.5
+  ],
+  "landmark_um_plain": [
+   42.2,
+   15.4,
+   40.7
+  ],
+  "turn_plain": [
+   360.0,
+   0
+  ],
+  "sec": 50.0
+ },
+ {
+  "start": "flipalign",
+  "method": "cpd_1",
+  "start_landmark_um": [
+   42.4,
+   15.1,
+   41.0
+  ],
+  "landmark_um_plain": [
+   1711.4,
+   1615.5,
+   1577.7
+  ],
+  "turn_plain": [
+   358.03,
+   0
+  ],
+  "sec": 31.1
+ },
+ {
+  "start": "landmarks",
+  "method": "stalign_labels",
+  "start_landmark_um": [
+   11.8,
+   18.2,
+   29.6
+  ],
+  "landmark_um_bent": [
+   11.3,
+   16.4,
+   31.3
+  ],
+  "landmark_um_plain": [
+   10.8,
+   15.9,
+   31.5
+  ],
+  "turn_plain": [
+   359.98,
+   0
+  ],
+  "sec": 55.2
+ },
+ {
+  "start": "landmarks",
+  "method": "stalign_density",
+  "start_landmark_um": [
+   11.8,
+   18.2,
+   29.6
+  ],
+  "landmark_um_bent": [
+   11.7,
+   18.0,
+   30.0
+  ],
+  "landmark_um_plain": [
+   11.5,
+   17.5,
+   30.2
+  ],
+  "turn_plain": [
+   359.99,
+   0
+  ],
+  "sec": 50.3
+ },
+ {
+  "start": "landmarks",
+  "method": "cpd_1",
+  "start_landmark_um": [
+   11.8,
+   18.2,
+   29.6
+  ],
+  "landmark_um_plain": [
+   1711.0,
+   1614.9,
+   1577.1
+  ],
+  "turn_plain": [
+   357.25,
+   0
+  ],
+  "sec": 31.2
+ }
+]

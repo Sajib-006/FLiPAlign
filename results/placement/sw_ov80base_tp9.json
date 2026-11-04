@@ -1,0 +1,275 @@
+[
+ {
+  "case": 9,
+  "method": "paste_a0.01",
+  "fit": "plain",
+  "angle": 252.09,
+  "flip": 1,
+  "shift": [
+   -2.51,
+   -1.6
+  ],
+  "sec": 283.2,
+  "tre_um": 3771.0
+ },
+ {
+  "case": 9,
+  "method": "paste_a0.01",
+  "fit": "trimmed",
+  "angle": 249.48,
+  "flip": 1,
+  "shift": [
+   4.93,
+   -4.43
+  ],
+  "sec": 283.2,
+  "tre_um": 3762.3
+ },
+ {
+  "case": 9,
+  "method": "paste_a0.1",
+  "fit": "plain",
+  "angle": 252.34,
+  "flip": 1,
+  "shift": [
+   -2.51,
+   -1.6
+  ],
+  "sec": 279.3,
+  "tre_um": 3773.3
+ },
+ {
+  "case": 9,
+  "method": "paste_a0.1",
+  "fit": "trimmed",
+  "angle": 249.66,
+  "flip": 1,
+  "shift": [
+   4.83,
+   -4.17
+  ],
+  "sec": 279.3,
+  "tre_um": 3763.3
+ },
+ {
+  "case": 9,
+  "method": "paste_a0.5",
+  "fit": "plain",
+  "angle": 252.36,
+  "flip": 1,
+  "shift": [
+   -2.51,
+   -1.6
+  ],
+  "sec": 315.0,
+  "tre_um": 3772.9
+ },
+ {
+  "case": 9,
+  "method": "paste_a0.5",
+  "fit": "trimmed",
+  "angle": 249.65,
+  "flip": 1,
+  "shift": [
+   4.88,
+   -4.27
+  ],
+  "sec": 315.0,
+  "tre_um": 3763.2
+ },
+ {
+  "case": 9,
+  "method": "paste2_s0.3",
+  "fit": "plain",
+  "angle": 214.7,
+  "flip": 1,
+  "shift": [
+   8.42,
+   -28.33
+  ],
+  "sec": 388.8,
+  "tre_um": 3747.2
+ },
+ {
+  "case": 9,
+  "method": "paste2_s0.3",
+  "fit": "trimmed",
+  "angle": 215.89,
+  "flip": 1,
+  "shift": [
+   2.15,
+   -28.46
+  ],
+  "sec": 388.8,
+  "tre_um": 3755.2
+ },
+ {
+  "case": 9,
+  "method": "paste2_s0.5",
+  "fit": "plain",
+  "angle": 214.45,
+  "flip": 1,
+  "shift": [
+   9.71,
+   -28.88
+  ],
+  "sec": 378.7,
+  "tre_um": 3745.3
+ },
+ {
+  "case": 9,
+  "method": "paste2_s0.5",
+  "fit": "trimmed",
+  "angle": 215.36,
+  "flip": 1,
+  "shift": [
+   0.08,
+   -27.63
+  ],
+  "sec": 378.7,
+  "tre_um": 3755.2
+ },
+ {
+  "case": 9,
+  "method": "paste2_s0.7",
+  "fit": "plain",
+  "angle": 213.69,
+  "flip": 1,
+  "shift": [
+   13.47,
+   -28.7
+  ],
+  "sec": 269.7,
+  "tre_um": 3741.2
+ },
+ {
+  "case": 9,
+  "method": "paste2_s0.7",
+  "fit": "trimmed",
+  "angle": 215.29,
+  "flip": 1,
+  "shift": [
+   0.57,
+   -27.57
+  ],
+  "sec": 269.7,
+  "tre_um": 3754.6
+ },
+ {
+  "case": 9,
+  "method": "slat_k10",
+  "fit": "plain",
+  "angle": 347.67,
+  "flip": 0,
+  "shift": [
+   17.75,
+   -3.73
+  ],
+  "sec": 14.4,
+  "tre_um": 1614.9
+ },
+ {
+  "case": 9,
+  "method": "slat_k10",
+  "fit": "trimmed",
+  "angle": 333.98,
+  "flip": 0,
+  "shift": [
+   84.88,
+   4.5
+  ],
+  "sec": 14.4,
+  "tre_um": 805.0
+ },
+ {
+  "case": 9,
+  "method": "slat_k20",
+  "fit": "plain",
+  "angle": 347.13,
+  "flip": 0,
+  "shift": [
+   21.37,
+   -3.3
+  ],
+  "sec": 10.8,
+  "tre_um": 1579.4
+ },
+ {
+  "case": 9,
+  "method": "slat_k20",
+  "fit": "trimmed",
+  "angle": 330.5,
+  "flip": 0,
+  "shift": [
+   94.85,
+   -1.38
+  ],
+  "sec": 10.8,
+  "tre_um": 629.8
+ },
+ {
+  "case": 9,
+  "method": "slat_k40",
+  "fit": "plain",
+  "angle": 347.62,
+  "flip": 0,
+  "shift": [
+   20.56,
+   -3.52
+  ],
+  "sec": 10.5,
+  "tre_um": 1600.1
+ },
+ {
+  "case": 9,
+  "method": "slat_k40",
+  "fit": "trimmed",
+  "angle": 331.5,
+  "flip": 0,
+  "shift": [
+   93.23,
+   0.23
+  ],
+  "sec": 10.5,
+  "tre_um": 676.5
+ },
+ {
+  "case": 9,
+  "method": "cpd_8",
+  "fit": "plain",
+  "angle": 132.44,
+  "flip": 0,
+  "shift": [
+   68.02,
+   47.58
+  ],
+  "sec": 208.8,
+  "tre_um": 5392.9
+ },
+ {
+  "case": 9,
+  "method": "cpd_8_w0",
+  "fit": "plain",
+  "angle": 143.16,
+  "flip": 0,
+  "shift": [
+   -0.52,
+   -13.62
+  ],
+  "sec": 178.3,
+  "tre_um": 5421.7
+ },
+ {
+  "case": 9,
+  "method": "cpd_8_w0.5",
+  "fit": "plain",
+  "angle": 9.11,
+  "flip": 0,
+  "shift": [
+   93.37,
+   49.83
+  ],
+  "sec": 191.3,
+  "tre_um": 2328.8
+ }
+]

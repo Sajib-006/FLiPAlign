@@ -1,0 +1,28 @@
+[
+ {
+  "case": 0,
+  "method": "slat_k20",
+  "fit": "plain",
+  "angle": 354.49,
+  "flip": 0,
+  "shift": [
+   76.57,
+   55.88
+  ],
+  "sec": 40.7,
+  "tre_um": 4338.8
+ },
+ {
+  "case": 0,
+  "method": "slat_k20",
+  "fit": "trimmed",
+  "angle": 356.83,
+  "flip": 0,
+  "shift": [
+   75.94,
+   51.03
+  ],
+  "sec": 40.7,
+  "tre_um": 4338.4
+ }
+]

@@ -1,0 +1,38 @@
+{
+ "pair": 3,
+ "name": "colon P2CRC",
+ "n_landmarks": 41,
+ "floor_um": 86.8,
+ "truth_angle": 358.48,
+ "flipalign_certified": true,
+ "flipalign_zone": [
+  20.0,
+  30.0
+ ],
+ "coarse": {
+  "angle": 358.5,
+  "flip": 0,
+  "shift": [
+   -2.0,
+   12.0
+  ],
+  "median_um": 120.6,
+  "max_um": 359.0,
+  "angle_error_deg": 0.02
+ },
+ "fine": {
+  "angle": 358.609,
+  "flip": 0,
+  "shift": [
+   -2.5,
+   11.0
+  ],
+  "median_um": 111.0,
+  "max_um": 342.4,
+  "angle_error_deg": 0.13
+ },
+ "right_within_floor_plus_100": {
+  "coarse": true,
+  "fine": true
+ }
+}

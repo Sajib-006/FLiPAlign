@@ -1,0 +1,92 @@
+[
+ {
+  "case": 5,
+  "method": "paste_a0.01",
+  "fit": "plain",
+  "angle": 19.57,
+  "flip": 0,
+  "shift": [
+   -5.21,
+   2.49
+  ],
+  "sec": 40.5,
+  "tre_um": 922.4
+ },
+ {
+  "case": 5,
+  "method": "paste_a0.01",
+  "fit": "trimmed",
+  "angle": 18.65,
+  "flip": 0,
+  "shift": [
+   -7.86,
+   -5.7
+  ],
+  "sec": 40.5,
+  "tre_um": 855.1
+ },
+ {
+  "case": 5,
+  "method": "paste2_s0.3",
+  "fit": "plain",
+  "angle": 23.28,
+  "flip": 0,
+  "shift": [
+   -14.97,
+   -37.32
+  ],
+  "sec": 239.9,
+  "tre_um": 502.5
+ },
+ {
+  "case": 5,
+  "method": "paste2_s0.3",
+  "fit": "trimmed",
+  "angle": 27.1,
+  "flip": 0,
+  "shift": [
+   -19.11,
+   -74.14
+  ],
+  "sec": 239.9,
+  "tre_um": 114.7
+ },
+ {
+  "case": 5,
+  "method": "slat_k10",
+  "error": "AttributeError(\"'AnnData' object has no attribute 'concatenate'\")",
+  "where": " File \"./venv_base/lib/python3.12/site-packages/scSLAT/model/loaddata.py\", line 283, in load_anndatas\n    adata_all = adatas[0].concatenate(adatas[1], join=join)\n                ^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'AnnData' object has no attribute 'concatenate'\n"
+ },
+ {
+  "case": 5,
+  "method": "slat_k40",
+  "error": "AttributeError(\"'AnnData' object has no attribute 'concatenate'\")",
+  "where": " File \"./venv_base/lib/python3.12/site-packages/scSLAT/model/loaddata.py\", line 283, in load_anndatas\n    adata_all = adatas[0].concatenate(adatas[1], join=join)\n                ^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'AnnData' object has no attribute 'concatenate'\n"
+ },
+ {
+  "case": 5,
+  "method": "cpd_8_w0",
+  "fit": "plain",
+  "angle": 20.68,
+  "flip": 0,
+  "shift": [
+   -5.17,
+   2.21
+  ],
+  "sec": 121.0,
+  "tre_um": 907.7
+ },
+ {
+  "case": 5,
+  "method": "cpd_8_w0.5",
+  "fit": "plain",
+  "angle": 36.42,
+  "flip": 0,
+  "shift": [
+   -161.13,
+   -84.04
+  ],
+  "sec": 336.2,
+  "tre_um": 1368.1
+ }
+]

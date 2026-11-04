@@ -1,0 +1,23 @@
+{
+ "pair": 6,
+ "name": "lung HD1",
+ "n_landmarks": 41,
+ "floor_um": 31.3,
+ "truth_angle": 272.82,
+ "flipalign_certified": false,
+ "flipalign_zone": null,
+ "coarse": {
+  "angle": 272.75,
+  "flip": 0,
+  "shift": [
+   -186.0,
+   34.0
+  ],
+  "median_um": 53.0,
+  "max_um": 109.1,
+  "angle_error_deg": 0.07
+ },
+ "right_within_floor_plus_100": {
+  "coarse": true
+ }
+}

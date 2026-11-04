@@ -1,0 +1,25 @@
+[
+ {
+  "case": 10,
+  "B": {
+   "self_score": 0.3092,
+   "mirror_best": 0.1579,
+   "mirror_gap": 0.0111,
+   "mirror_deg": 79.75,
+   "index": 0.5106,
+   "index_upper": 0.5464,
+   "complete": true,
+   "secs": 212.2
+  },
+  "A": {
+   "self_score": 0.1857,
+   "mirror_best": 0.077,
+   "mirror_gap": 0.0139,
+   "mirror_deg": 98.62,
+   "index": 0.4146,
+   "index_upper": 0.4896,
+   "complete": true,
+   "secs": 1392.7
+  }
+ }
+]

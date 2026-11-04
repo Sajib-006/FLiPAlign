@@ -1,0 +1,222 @@
+[
+ {
+  "case": 0,
+  "tissue": "mouse brain (MS1)",
+  "section": "1",
+  "kind": "cell",
+  "nA": 72892,
+  "nB": 51835,
+  "applied_deg": 143.4,
+  "applied_flip": 1,
+  "overlap": 0.593
+ },
+ {
+  "case": 1,
+  "tissue": "mouse brain (MS1)",
+  "section": "1",
+  "kind": "spot",
+  "nA": 3548,
+  "nB": 51835,
+  "applied_deg": 85.42,
+  "applied_flip": 1,
+  "overlap": 0.595
+ },
+ {
+  "case": 2,
+  "tissue": "mouse brain (MS1)",
+  "section": "1",
+  "kind": "cell",
+  "nA": 72892,
+  "nB": 51835,
+  "applied_deg": 34.83,
+  "applied_flip": 1,
+  "overlap": 0.593
+ },
+ {
+  "case": 3,
+  "tissue": "mouse brain (MS1)",
+  "section": "1",
+  "kind": "spot",
+  "nA": 3447,
+  "nB": 51835,
+  "applied_deg": 195.49,
+  "applied_flip": 1,
+  "overlap": 0.577
+ },
+ {
+  "case": 4,
+  "tissue": "mouse brain (MS2)",
+  "section": "2",
+  "kind": "cell",
+  "nA": 69560,
+  "nB": 49465,
+  "applied_deg": 286.81,
+  "applied_flip": 0,
+  "overlap": 0.594
+ },
+ {
+  "case": 5,
+  "tissue": "mouse brain (MS2)",
+  "section": "2",
+  "kind": "spot",
+  "nA": 3316,
+  "nB": 49465,
+  "applied_deg": 295.7,
+  "applied_flip": 0,
+  "overlap": 0.58
+ },
+ {
+  "case": 6,
+  "tissue": "mouse brain (MS2)",
+  "section": "2",
+  "kind": "cell",
+  "nA": 69560,
+  "nB": 49465,
+  "applied_deg": 298.98,
+  "applied_flip": 1,
+  "overlap": 0.594
+ },
+ {
+  "case": 7,
+  "tissue": "mouse brain (MS2)",
+  "section": "2",
+  "kind": "spot",
+  "nA": 3328,
+  "nB": 49465,
+  "applied_deg": 266.21,
+  "applied_flip": 1,
+  "overlap": 0.589
+ },
+ {
+  "case": 8,
+  "tissue": "mouse brain (MS3)",
+  "section": "3",
+  "kind": "cell",
+  "nA": 71092,
+  "nB": 50554,
+  "applied_deg": 61.13,
+  "applied_flip": 0,
+  "overlap": 0.595
+ },
+ {
+  "case": 9,
+  "tissue": "mouse brain (MS3)",
+  "section": "3",
+  "kind": "spot",
+  "nA": 3419,
+  "nB": 50554,
+  "applied_deg": 42.14,
+  "applied_flip": 0,
+  "overlap": 0.587
+ },
+ {
+  "case": 10,
+  "tissue": "mouse brain (MS3)",
+  "section": "3",
+  "kind": "cell",
+  "nA": 71092,
+  "nB": 50554,
+  "applied_deg": 57.0,
+  "applied_flip": 1,
+  "overlap": 0.595
+ },
+ {
+  "case": 11,
+  "tissue": "mouse brain (MS3)",
+  "section": "3",
+  "kind": "spot",
+  "nA": 3450,
+  "nB": 50554,
+  "applied_deg": 309.57,
+  "applied_flip": 0,
+  "overlap": 0.584
+ },
+ {
+  "case": 12,
+  "tissue": "mouse brain (Prime 5K)",
+  "section": "data/xen3/brainprime",
+  "kind": "cell",
+  "nA": 28415,
+  "nB": 20207,
+  "applied_deg": 143.99,
+  "applied_flip": 0,
+  "overlap": 0.586
+ },
+ {
+  "case": 13,
+  "tissue": "mouse brain (Prime 5K)",
+  "section": "data/xen3/brainprime",
+  "kind": "spot",
+  "nA": 1342,
+  "nB": 20207,
+  "applied_deg": 111.19,
+  "applied_flip": 0,
+  "overlap": 0.572
+ },
+ {
+  "case": 14,
+  "tissue": "mouse brain (Prime 5K)",
+  "section": "data/xen3/brainprime",
+  "kind": "cell",
+  "nA": 28415,
+  "nB": 20207,
+  "applied_deg": 243.21,
+  "applied_flip": 0,
+  "overlap": 0.578
+ },
+ {
+  "case": 15,
+  "tissue": "mouse brain (Prime 5K)",
+  "section": "data/xen3/brainprime",
+  "kind": "spot",
+  "nA": 1381,
+  "nB": 20207,
+  "applied_deg": 114.0,
+  "applied_flip": 1,
+  "overlap": 0.577
+ },
+ {
+  "case": 16,
+  "tissue": "mouse brain (V1)",
+  "section": "data/xen3/brainv1",
+  "kind": "cell",
+  "nA": 58750,
+  "nB": 41778,
+  "applied_deg": 69.32,
+  "applied_flip": 1,
+  "overlap": 0.582
+ },
+ {
+  "case": 17,
+  "tissue": "mouse brain (V1)",
+  "section": "data/xen3/brainv1",
+  "kind": "spot",
+  "nA": 2892,
+  "nB": 41778,
+  "applied_deg": 220.22,
+  "applied_flip": 0,
+  "overlap": 0.573
+ },
+ {
+  "case": 18,
+  "tissue": "mouse brain (V1)",
+  "section": "data/xen3/brainv1",
+  "kind": "cell",
+  "nA": 58750,
+  "nB": 41778,
+  "applied_deg": 247.74,
+  "applied_flip": 1,
+  "overlap": 0.586
+ },
+ {
+  "case": 19,
+  "tissue": "mouse brain (V1)",
+  "section": "data/xen3/brainv1",
+  "kind": "spot",
+  "nA": 2914,
+  "nB": 41778,
+  "applied_deg": 81.59,
+  "applied_flip": 0,
+  "overlap": 0.573
+ }
+]

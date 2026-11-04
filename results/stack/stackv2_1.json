@@ -1,0 +1,44 @@
+{
+ "stack": 1,
+ "runs": {
+  "shared_panel": {
+   "forest": {
+    "nmi": 0.2671,
+    "ari": 0.1932,
+    "n_classes": 8
+   },
+   "split": {
+    "nmi": 0.2982,
+    "ari": 0.2298,
+    "n_classes": 8
+   },
+   "forest_merged": {
+    "nmi": 0.2671,
+    "ari": 0.1932,
+    "n_classes": 8
+   },
+   "gene_chain": {
+    "nmi": 0.2509,
+    "ari": 0.1813,
+    "n_classes": 8
+   }
+  },
+  "disjoint_panels": {
+   "forest": {
+    "nmi": 0.2441,
+    "ari": 0.1639,
+    "n_classes": 8
+   },
+   "split": {
+    "nmi": 0.2824,
+    "ari": 0.2056,
+    "n_classes": 8
+   },
+   "forest_merged": {
+    "nmi": 0.2441,
+    "ari": 0.1639,
+    "n_classes": 8
+   }
+  }
+ }
+}

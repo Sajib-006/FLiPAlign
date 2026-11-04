@@ -1,0 +1,121 @@
+[
+ {
+  "k": 39,
+  "pair": "151669 vs 151671",
+  "group": "same donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 358.0,
+  "flip": 0,
+  "shift_units": [
+   4.0,
+   -14.0
+  ],
+  "layer_acc": 0.685,
+  "identity_layer_acc": 0.635,
+  "best": 0.1654,
+  "gap": 0.0133,
+  "certified_search": true,
+  "solve_s": 574.1,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0005,
+    "complete": true,
+    "far_s": 367.1,
+    "zone_move_um": 785.3,
+    "rival": [
+     18.06,
+     0
+    ],
+    "rival_layer_acc": 0.795
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 942.1
+ },
+ {
+  "k": 40,
+  "pair": "151669 vs 151672",
+  "group": "same donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 359.75,
+  "flip": 0,
+  "shift_units": [
+   -4.0,
+   8.0
+  ],
+  "layer_acc": 0.505,
+  "identity_layer_acc": 0.536,
+  "best": 0.1705,
+  "gap": 0.0125,
+  "certified_search": true,
+  "solve_s": 395.4,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": 0.0205,
+    "complete": true,
+    "far_s": 523.0,
+    "zone_move_um": 785.3,
+    "rival": [
+     19.81,
+     0
+    ],
+    "rival_layer_acc": 0.566
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 60.0,
+    "eps": -0.0005,
+    "complete": true,
+    "far_s": 370.9,
+    "zone_move_um": 1351.7
+   }
+  ],
+  "certified": true,
+  "finest_zone": [
+   20.0,
+   null
+  ],
+  "total_s": 1290.2
+ },
+ {
+  "k": 41,
+  "pair": "151669 vs 151673",
+  "group": "different donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 220.75,
+  "flip": 1,
+  "shift_units": [
+   -82.0,
+   -2.0
+  ],
+  "layer_acc": 0.33,
+  "identity_layer_acc": 0.291,
+  "best": 0.1445,
+  "gap": 0.0138,
+  "certified_search": true,
+  "solve_s": 1409.9,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0056,
+    "complete": true,
+    "far_s": 911.2,
+    "zone_move_um": 785.3,
+    "rival": [
+     55.75,
+     0
+    ],
+    "rival_layer_acc": 0.35
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 2322.1
+ }
+]

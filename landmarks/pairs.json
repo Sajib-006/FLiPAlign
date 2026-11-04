@@ -1,0 +1,86 @@
+{
+ "pair1_breast_Rep1": {
+  "left": "breast_visium",
+  "right": "breast_xenium_rep1",
+  "left_size": [
+   1809,
+   2000
+  ],
+  "right_size": [
+   1924,
+   1515
+  ]
+ },
+ "pair2_breast_Rep2": {
+  "left": "breast_visium",
+  "right": "breast_xenium_rep2",
+  "left_size": [
+   1809,
+   2000
+  ],
+  "right_size": [
+   1924,
+   1242
+  ]
+ },
+ "pair3_colon_P2CRC": {
+  "left": "colon_v2_P2CRC",
+  "right": "colon_hd_P2CRC",
+  "left_size": [
+   600,
+   387
+  ],
+  "right_size": [
+   600,
+   389
+  ]
+ },
+ "pair4_colon_P3NAT": {
+  "left": "colon_v2_P3NAT",
+  "right": "colon_hd_P3NAT",
+  "left_size": [
+   600,
+   303
+  ],
+  "right_size": [
+   600,
+   317
+  ]
+ },
+ "pair5_colon_P5NAT": {
+  "left": "colon_v2_P5NAT",
+  "right": "colon_hd_P5NAT",
+  "left_size": [
+   600,
+   359
+  ],
+  "right_size": [
+   600,
+   415
+  ]
+ },
+ "pair6_lung_HD1": {
+  "left": "lung_hd1",
+  "right": "lung_xv1",
+  "left_size": [
+   1410,
+   2400
+  ],
+  "right_size": [
+   1568,
+   2716
+  ]
+ },
+ "pair7_lung_HD2": {
+  "left": "lung_hd2",
+  "right": "lung_xp5",
+  "left_size": [
+   1391,
+   2400
+  ],
+  "right_size": [
+   1670,
+   2705
+  ]
+ }
+}

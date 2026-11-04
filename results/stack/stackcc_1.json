@@ -1,0 +1,130 @@
+{
+ "stack": 1,
+ "sections": [
+  "C57BL6J-638850.14",
+  "C57BL6J-638850.15",
+  "C57BL6J-638850.16",
+  "C57BL6J-638850.17",
+  "C57BL6J-638850.18",
+  "C57BL6J-638850.19",
+  "C57BL6J-638850.24",
+  "C57BL6J-638850.25"
+ ],
+ "runs": {
+  "clean": {
+   "jlp_forest_d2": {
+    "ari": 0.1932,
+    "nmi": 0.2671,
+    "per_section_ari": 0.2938
+   },
+   "cc_d1": {
+    "ari": 0.2844,
+    "nmi": 0.3168,
+    "n_classes": 5,
+    "value": 2.1158,
+    "value_start": 1.7012,
+    "pos_weight_bound": 2.3592
+   },
+   "cc_d2": {
+    "ari": 0.2836,
+    "nmi": 0.3073,
+    "n_classes": 5,
+    "value": 3.3994,
+    "value_start": 2.7578,
+    "pos_weight_bound": 3.9362
+   }
+  },
+  "S1_recluster": {
+   "jlp_forest_d2": {
+    "ari": 0.1827,
+    "nmi": 0.2563,
+    "per_section_ari": 0.28
+   },
+   "cc_d1": {
+    "ari": 0.2964,
+    "nmi": 0.3222,
+    "n_classes": 4,
+    "value": 2.0246,
+    "value_start": 1.4583,
+    "pos_weight_bound": 2.2733
+   },
+   "cc_d2": {
+    "ari": 0.2964,
+    "nmi": 0.3222,
+    "n_classes": 4,
+    "value": 3.3281,
+    "value_start": 2.3909,
+    "pos_weight_bound": 3.7904
+   }
+  },
+  "S2_crop50": {
+   "jlp_forest_d2": {
+    "ari": 0.1886,
+    "nmi": 0.2641,
+    "per_section_ari": 0.2946
+   },
+   "cc_d1": {
+    "ari": 0.2804,
+    "nmi": 0.3134,
+    "n_classes": 5,
+    "value": 1.9165,
+    "value_start": 1.5503,
+    "pos_weight_bound": 2.1478
+   },
+   "cc_d2": {
+    "ari": 0.2796,
+    "nmi": 0.3037,
+    "n_classes": 5,
+    "value": 3.051,
+    "value_start": 2.5047,
+    "pos_weight_bound": 3.5761
+   }
+  },
+  "S3_noise30": {
+   "jlp_forest_d2": {
+    "ari": 0.1802,
+    "nmi": 0.2456,
+    "per_section_ari": 0.2695
+   },
+   "cc_d1": {
+    "ari": 0.2678,
+    "nmi": 0.2956,
+    "n_classes": 5,
+    "value": 1.9142,
+    "value_start": 1.5318,
+    "pos_weight_bound": 2.1441
+   },
+   "cc_d2": {
+    "ari": 0.267,
+    "nmi": 0.2873,
+    "n_classes": 5,
+    "value": 3.068,
+    "value_start": 2.4772,
+    "pos_weight_bound": 3.5585
+   }
+  },
+  "S4_two_noisy": {
+   "jlp_forest_d2": {
+    "ari": 0.1688,
+    "nmi": 0.225,
+    "per_section_ari": 0.2509
+   },
+   "cc_d1": {
+    "ari": 0.2509,
+    "nmi": 0.2711,
+    "n_classes": 5,
+    "value": 1.7567,
+    "value_start": 1.3974,
+    "pos_weight_bound": 1.9666
+   },
+   "cc_d2": {
+    "ari": 0.2524,
+    "nmi": 0.2654,
+    "n_classes": 5,
+    "value": 2.7828,
+    "value_start": 2.2359,
+    "pos_weight_bound": 3.2315
+   }
+  }
+ }
+}

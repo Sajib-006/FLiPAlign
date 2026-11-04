@@ -1,0 +1,168 @@
+[
+ {
+  "pair": "stack 1 pair 0",
+  "angle": 283.0,
+  "flip": 0,
+  "shift_units": [
+   22.0,
+   26.0
+  ],
+  "best": 0.1554,
+  "gap": 0.0189,
+  "certified_search": true,
+  "solve_s": 150.6,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": 0.0063,
+    "complete": true,
+    "zone_move_um": 865.8
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 150.0,
+    "eps": 0.0063,
+    "complete": true,
+    "zone_move_um": 2281.8
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 100.0,
+    "eps": 0.0063,
+    "complete": true,
+    "zone_move_um": 1809.8
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 60.0,
+    "eps": 0.0037,
+    "complete": true,
+    "zone_move_um": 1432.2
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 30.0,
+    "eps": -0.0093,
+    "complete": true,
+    "zone_move_um": 1149.0
+   }
+  ],
+  "certified": true,
+  "finest_zone": [
+   20.0,
+   60.0
+  ],
+  "fine": {
+   "sigma2": 5.0,
+   "h2": 0.5,
+   "best2": 0.2043,
+   "gap2": 0.0183,
+   "search2_complete": true,
+   "search2_s": 593.7,
+   "theta2_deg": 282.953,
+   "t2": [
+    22.5,
+    32.5
+   ],
+   "inside_Z1": true,
+   "ladder2": [
+    {
+     "zone_deg": 5.0,
+     "zone_shift_units": 10.0,
+     "eps": -0.005,
+     "complete": true,
+     "far_s": 476.4,
+     "zone_move_um": 311.9
+    },
+    {
+     "zone_deg": 3.0,
+     "zone_shift_units": 10.0,
+     "eps": -0.005,
+     "complete": true,
+     "far_s": 479.3,
+     "zone_move_um": 224.9
+    },
+    {
+     "zone_deg": 2.0,
+     "zone_shift_units": 10.0,
+     "eps": -0.005,
+     "complete": true,
+     "far_s": 489.3,
+     "zone_move_um": 181.4
+    },
+    {
+     "zone_deg": 1.0,
+     "zone_shift_units": 10.0,
+     "eps": -0.013,
+     "complete": true,
+     "far_s": 343.8,
+     "zone_move_um": 137.9
+    },
+    {
+     "zone_deg": 3.0,
+     "zone_shift_units": 5.0,
+     "eps": -0.015,
+     "complete": true,
+     "far_s": 371.6,
+     "zone_move_um": 177.7
+    },
+    {
+     "zone_deg": 2.0,
+     "zone_shift_units": 5.0,
+     "eps": -0.015,
+     "complete": true,
+     "far_s": 372.3,
+     "zone_move_um": 134.2
+    },
+    {
+     "zone_deg": 1.0,
+     "zone_shift_units": 5.0,
+     "eps": -0.015,
+     "complete": true,
+     "far_s": 373.3,
+     "zone_move_um": 90.7
+    },
+    {
+     "zone_deg": 1.0,
+     "zone_shift_units": 3.0,
+     "eps": -0.0173,
+     "complete": true,
+     "far_s": 356.0,
+     "zone_move_um": 71.8
+    },
+    {
+     "zone_deg": 0.5,
+     "zone_shift_units": 3.0,
+     "eps": -0.0173,
+     "complete": true,
+     "far_s": 356.6,
+     "zone_move_um": 50.1
+    }
+   ],
+   "fine_zone": null
+  },
+  "fine_angle": 282.9531,
+  "fine_shift_units": [
+   22.5,
+   32.5
+  ],
+  "err_um_coarse": 123.6,
+  "err_um": 172.7,
+  "E_R": [
+   [
+    0.999338,
+    0.036389
+   ],
+   [
+    -0.036389,
+    0.999338
+   ]
+  ],
+  "E_t": [
+   -24.6279,
+   39.0341
+  ],
+  "total_s": 5039.1
+ }
+]

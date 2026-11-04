@@ -1,0 +1,371 @@
+[
+ {
+  "case": 0,
+  "h": 2.0,
+  "min_overlap": null,
+  "flip_known": true,
+  "relabel": "1:16:8",
+  "tre_um": 337.8,
+  "true_shift_units": [
+   -169.606,
+   330.693
+  ],
+  "angle": 93.3125,
+  "flip": 1,
+  "shift_units": [
+   -182.0,
+   300.0
+  ],
+  "truth": [
+   89.82,
+   1
+  ],
+  "flip_ok": 1,
+  "best": 0.0623,
+  "gap": 0.0138,
+  "certified_search": true,
+  "solve_s": 1276.5,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0138,
+    "complete": true,
+    "far_s": 462.3,
+    "far_exact": 0.062,
+    "zone_move_um": 858.5,
+    "rival": [
+     188.13,
+     1
+    ],
+    "rival_tre_um": 6830.7,
+    "rival_is_mirror": 0
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "finest_zone_move_um": null,
+  "total_s": 1740.4
+ },
+ {
+  "case": 8,
+  "h": 2.0,
+  "min_overlap": null,
+  "flip_known": true,
+  "relabel": "1:16:8",
+  "tre_um": 3401.4,
+  "true_shift_units": [
+   228.574,
+   -4.359
+  ],
+  "angle": 224.125,
+  "flip": 1,
+  "shift_units": [
+   -84.0,
+   -114.0
+  ],
+  "truth": [
+   349.58,
+   1
+  ],
+  "flip_ok": 1,
+  "best": 0.0283,
+  "gap": 0.01,
+  "certified_search": true,
+  "solve_s": 360.2,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.01,
+    "complete": true,
+    "far_s": 126.3,
+    "far_exact": 0.0274,
+    "zone_move_um": 413.5,
+    "rival": [
+     329.75,
+     1
+    ],
+    "rival_tre_um": 3026.0,
+    "rival_is_mirror": 0
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "finest_zone_move_um": null,
+  "total_s": 487.0
+ },
+ {
+  "case": 16,
+  "h": 2.0,
+  "min_overlap": null,
+  "flip_known": true,
+  "relabel": "1:16:8",
+  "tre_um": 31.9,
+  "true_shift_units": [
+   216.544,
+   -44.671
+  ],
+  "angle": 154.875,
+  "flip": 0,
+  "shift_units": [
+   214.0,
+   -44.0
+  ],
+  "truth": [
+   154.48,
+   0
+  ],
+  "flip_ok": 1,
+  "best": 0.1467,
+  "gap": 0.0119,
+  "certified_search": true,
+  "solve_s": 230.5,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": 0.0382,
+    "complete": true,
+    "far_s": 419.2,
+    "far_exact": 0.0972,
+    "zone_move_um": 989.2,
+    "rival": [
+     131.81,
+     0
+    ],
+    "rival_tre_um": 4127.5,
+    "rival_is_mirror": 0
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 60.0,
+    "eps": 0.0337,
+    "complete": true,
+    "far_s": 477.5,
+    "far_exact": 0.1008,
+    "zone_move_um": 1555.6
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 30.0,
+    "eps": 0.0036,
+    "complete": true,
+    "far_s": 197.7,
+    "far_exact": 0.131,
+    "zone_move_um": 1272.4
+   },
+   {
+    "zone_deg": 10.0,
+    "zone_shift_units": 20.0,
+    "eps": -0.005,
+    "complete": true,
+    "far_s": 182.3,
+    "far_exact": 0.1398,
+    "zone_move_um": 685.3
+   }
+  ],
+  "certified": true,
+  "finest_zone": [
+   20.0,
+   30.0
+  ],
+  "finest_zone_move_um": 1272.4,
+  "total_s": 1508.6
+ },
+ {
+  "case": 24,
+  "h": 2.0,
+  "min_overlap": null,
+  "flip_known": true,
+  "relabel": "1:16:8",
+  "tre_um": 28.0,
+  "true_shift_units": [
+   244.39,
+   -118.507
+  ],
+  "angle": 345.9375,
+  "flip": 1,
+  "shift_units": [
+   242.0,
+   -118.0
+  ],
+  "truth": [
+   346.32,
+   1
+  ],
+  "flip_ok": 1,
+  "best": 0.1503,
+  "gap": 0.0102,
+  "certified_search": true,
+  "solve_s": 183.4,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": 0.0427,
+    "complete": true,
+    "far_s": 570.4,
+    "far_exact": 0.0951,
+    "zone_move_um": 927.1,
+    "rival": [
+     36.19,
+     1
+    ],
+    "rival_tre_um": 2457.7,
+    "rival_is_mirror": 0
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 60.0,
+    "eps": 0.0371,
+    "complete": true,
+    "far_s": 445.9,
+    "far_exact": 0.1026,
+    "zone_move_um": 1493.5
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 30.0,
+    "eps": 0.0064,
+    "complete": true,
+    "far_s": 206.3,
+    "far_exact": 0.1333,
+    "zone_move_um": 1210.3
+   },
+   {
+    "zone_deg": 10.0,
+    "zone_shift_units": 20.0,
+    "eps": -0.0027,
+    "complete": true,
+    "far_s": 156.9,
+    "far_exact": 0.1426,
+    "zone_move_um": 654.1
+   }
+  ],
+  "certified": true,
+  "finest_zone": [
+   20.0,
+   30.0
+  ],
+  "finest_zone_move_um": 1210.3,
+  "total_s": 1563.9
+ },
+ {
+  "case": 32,
+  "h": 2.0,
+  "min_overlap": null,
+  "flip_known": true,
+  "relabel": "1:16:8",
+  "tre_um": 782.1,
+  "true_shift_units": [
+   6.439,
+   -382.055
+  ],
+  "angle": 294.6875,
+  "flip": 0,
+  "shift_units": [
+   12.0,
+   -300.0
+  ],
+  "truth": [
+   293.52,
+   0
+  ],
+  "flip_ok": 1,
+  "best": 0.246,
+  "gap": 0.0176,
+  "certified_search": true,
+  "solve_s": 617.9,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": 0.0497,
+    "complete": true,
+    "far_s": 982.5,
+    "far_exact": 0.1802,
+    "zone_move_um": 1652.3,
+    "rival": [
+     274.66,
+     0
+    ],
+    "rival_tre_um": 1824.1,
+    "rival_is_mirror": 0
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 60.0,
+    "eps": 0.0144,
+    "complete": true,
+    "far_s": 624.0,
+    "far_exact": 0.2149,
+    "zone_move_um": 2218.7
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 30.0,
+    "eps": -0.0136,
+    "complete": true,
+    "far_s": 448.3,
+    "far_exact": 0.2419,
+    "zone_move_um": 1935.5
+   }
+  ],
+  "certified": true,
+  "finest_zone": [
+   20.0,
+   60.0
+  ],
+  "finest_zone_move_um": 2218.7,
+  "total_s": 2676.2
+ },
+ {
+  "case": 40,
+  "h": 2.0,
+  "min_overlap": null,
+  "flip_known": true,
+  "relabel": "1:16:8",
+  "tre_um": 91.2,
+  "true_shift_units": [
+   183.17,
+   32.638
+  ],
+  "angle": 21.3125,
+  "flip": 1,
+  "shift_units": [
+   176.0,
+   38.0
+  ],
+  "truth": [
+   19.99,
+   1
+  ],
+  "flip_ok": 1,
+  "best": 0.1557,
+  "gap": 0.0131,
+  "certified_search": true,
+  "solve_s": 265.6,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0029,
+    "complete": true,
+    "far_s": 173.9,
+    "far_exact": 0.141,
+    "zone_move_um": 500.8,
+    "rival": [
+     320.56,
+     1
+    ],
+    "rival_tre_um": 2857.7,
+    "rival_is_mirror": 0
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "finest_zone_move_um": null,
+  "total_s": 440.0
+ }
+]

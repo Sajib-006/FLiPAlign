@@ -1,0 +1,27 @@
+{
+ "observed": {
+  "flipalign": 51,
+  "best_tool": 30,
+  "ratio": 1.7
+ },
+ "both": {
+  "flipalign": 51,
+  "best_tool": 30,
+  "ratio": 1.7,
+  "ratio_ci": [
+   0.97,
+   2.64
+  ],
+  "p_flip_not_better": 0.0356
+ },
+ "second": {
+  "flipalign": 24,
+  "best_tool": 19,
+  "ratio": 1.263,
+  "ratio_ci": [
+   0.57,
+   2.0
+  ],
+  "p_flip_not_better": 0.2815
+ }
+}

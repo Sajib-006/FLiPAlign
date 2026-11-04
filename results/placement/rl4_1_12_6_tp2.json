@@ -1,0 +1,374 @@
+[
+ {
+  "case": 2,
+  "h": 2.0,
+  "min_overlap": null,
+  "flip_known": true,
+  "relabel": "1:12:6",
+  "tre_um": 31.2,
+  "true_shift_units": [
+   -135.349,
+   68.031
+  ],
+  "angle": 41.6563,
+  "flip": 0,
+  "shift_units": [
+   -132.0,
+   68.0
+  ],
+  "truth": [
+   41.55,
+   0
+  ],
+  "flip_ok": 1,
+  "best": 0.104,
+  "gap": 0.0129,
+  "certified_search": true,
+  "solve_s": 146.7,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": 0.0412,
+    "complete": true,
+    "far_s": 428.4,
+    "far_exact": 0.0488,
+    "zone_move_um": 1081.6,
+    "rival": [
+     209.75,
+     0
+    ],
+    "rival_tre_um": 7295.1,
+    "rival_is_mirror": 0
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 60.0,
+    "eps": 0.0286,
+    "complete": true,
+    "far_s": 287.0,
+    "far_exact": 0.0607,
+    "zone_move_um": 1648.0
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 30.0,
+    "eps": 0.0081,
+    "complete": true,
+    "far_s": 189.4,
+    "far_exact": 0.0822,
+    "zone_move_um": 1364.8
+   },
+   {
+    "zone_deg": 10.0,
+    "zone_shift_units": 20.0,
+    "eps": -0.0022,
+    "complete": true,
+    "far_s": 166.2,
+    "far_exact": 0.0927,
+    "zone_move_um": 731.6
+   }
+  ],
+  "certified": true,
+  "finest_zone": [
+   20.0,
+   30.0
+  ],
+  "finest_zone_move_um": 1364.8,
+  "total_s": 1219.4
+ },
+ {
+  "case": 10,
+  "h": 2.0,
+  "min_overlap": null,
+  "flip_known": true,
+  "relabel": "1:12:6",
+  "tre_um": 3234.0,
+  "true_shift_units": [
+   42.771,
+   -39.11
+  ],
+  "angle": 190.6875,
+  "flip": 1,
+  "shift_units": [
+   -42.0,
+   50.0
+  ],
+  "truth": [
+   322.25,
+   1
+  ],
+  "flip_ok": 1,
+  "best": 0.034,
+  "gap": 0.0069,
+  "certified_search": true,
+  "solve_s": 851.2,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0068,
+    "complete": true,
+    "far_s": 332.2,
+    "far_exact": 0.0338,
+    "zone_move_um": 562.5,
+    "rival": [
+     1.56,
+     1
+    ],
+    "rival_tre_um": 2944.5,
+    "rival_is_mirror": 0
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "finest_zone_move_um": null,
+  "total_s": 1183.9
+ },
+ {
+  "case": 18,
+  "h": 2.0,
+  "min_overlap": null,
+  "flip_known": true,
+  "relabel": "1:12:6",
+  "tre_um": 6704.5,
+  "true_shift_units": [
+   -314.325,
+   80.856
+  ],
+  "angle": 228.1875,
+  "flip": 1,
+  "shift_units": [
+   300.0,
+   2.0
+  ],
+  "truth": [
+   124.12,
+   1
+  ],
+  "flip_ok": 1,
+  "best": 0.1194,
+  "gap": 0.0103,
+  "certified_search": true,
+  "solve_s": 533.5,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0053,
+    "complete": true,
+    "far_s": 252.7,
+    "far_exact": 0.1134,
+    "zone_move_um": 781.3,
+    "rival": [
+     248.19,
+     1
+    ],
+    "rival_tre_um": 6767.2,
+    "rival_is_mirror": 0
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "finest_zone_move_um": null,
+  "total_s": 787.2
+ },
+ {
+  "case": 26,
+  "h": 2.0,
+  "min_overlap": null,
+  "flip_known": true,
+  "relabel": "1:12:6",
+  "tre_um": 56.3,
+  "true_shift_units": [
+   -200.36,
+   -49.862
+  ],
+  "angle": 312.375,
+  "flip": 0,
+  "shift_units": [
+   -196.0,
+   -46.0
+  ],
+  "truth": [
+   312.6,
+   0
+  ],
+  "flip_ok": 1,
+  "best": 0.1819,
+  "gap": 0.0119,
+  "certified_search": true,
+  "solve_s": 114.8,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": 0.067,
+    "complete": true,
+    "far_s": 316.1,
+    "far_exact": 0.1006,
+    "zone_move_um": 1059.6,
+    "rival": [
+     292.38,
+     0
+    ],
+    "rival_tre_um": 1196.9,
+    "rival_is_mirror": 0
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 60.0,
+    "eps": 0.0285,
+    "complete": true,
+    "far_s": 130.0,
+    "far_exact": 0.139,
+    "zone_move_um": 1626.0
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 30.0,
+    "eps": 0.0079,
+    "complete": true,
+    "far_s": 111.7,
+    "far_exact": 0.1611,
+    "zone_move_um": 1342.8
+   },
+   {
+    "zone_deg": 10.0,
+    "zone_shift_units": 20.0,
+    "eps": -0.0007,
+    "complete": true,
+    "far_s": 112.2,
+    "far_exact": 0.1699,
+    "zone_move_um": 720.6
+   }
+  ],
+  "certified": true,
+  "finest_zone": [
+   20.0,
+   30.0
+  ],
+  "finest_zone_move_um": 1342.8,
+  "total_s": 786.2
+ },
+ {
+  "case": 34,
+  "h": 2.0,
+  "min_overlap": null,
+  "flip_known": true,
+  "relabel": "1:12:6",
+  "tre_um": 5035.8,
+  "true_shift_units": [
+   -25.254,
+   488.348
+  ],
+  "angle": 179.9062,
+  "flip": 1,
+  "shift_units": [
+   92.0,
+   -20.0
+  ],
+  "truth": [
+   169.83,
+   1
+  ],
+  "flip_ok": 1,
+  "best": 0.2114,
+  "gap": 0.0146,
+  "certified_search": true,
+  "solve_s": 660.2,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": 0.0131,
+    "complete": true,
+    "far_s": 365.9,
+    "far_exact": 0.1837,
+    "zone_move_um": 1780.6,
+    "rival": [
+     199.91,
+     1
+    ],
+    "rival_tre_um": 5659.6,
+    "rival_is_mirror": 0
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 60.0,
+    "eps": -0.0066,
+    "complete": true,
+    "far_s": 545.9,
+    "far_exact": 0.2035,
+    "zone_move_um": 2347.0
+   }
+  ],
+  "certified": true,
+  "finest_zone": [
+   20.0,
+   null
+  ],
+  "finest_zone_move_um": 1780.6,
+  "total_s": 1574.3
+ },
+ {
+  "case": 42,
+  "h": 2.0,
+  "min_overlap": null,
+  "flip_known": true,
+  "relabel": "1:12:6",
+  "tre_um": 68.6,
+  "true_shift_units": [
+   102.962,
+   22.008
+  ],
+  "angle": 196.625,
+  "flip": 0,
+  "shift_units": [
+   96.0,
+   20.0
+  ],
+  "truth": [
+   196.96,
+   0
+  ],
+  "flip_ok": 1,
+  "best": 0.1754,
+  "gap": 0.014,
+  "certified_search": true,
+  "solve_s": 98.0,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": 0.0205,
+    "complete": true,
+    "far_s": 83.7,
+    "far_exact": 0.1392,
+    "zone_move_um": 581.0,
+    "rival": [
+     176.63,
+     0
+    ],
+    "rival_tre_um": 969.9,
+    "rival_is_mirror": 0
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 60.0,
+    "eps": -0.0033,
+    "complete": true,
+    "far_s": 68.2,
+    "far_exact": 0.1631,
+    "zone_move_um": 1147.4
+   }
+  ],
+  "certified": true,
+  "finest_zone": [
+   20.0,
+   null
+  ],
+  "finest_zone_move_um": 581.0,
+  "total_s": 250.6
+ }
+]

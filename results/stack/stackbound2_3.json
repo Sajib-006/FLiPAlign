@@ -1,0 +1,155 @@
+{
+ "stack": 3,
+ "runs": {
+  "clean": {
+   "d1": {
+    "local_search": 2.1789,
+    "pair_bound": 2.33037,
+    "full_program": {
+     "value": 2.21702,
+     "dual_bound": 2.21702,
+     "status": 0,
+     "seconds": 284.6
+    },
+    "pairs_all_optimal": true,
+    "ratio_to_pair_bound": 0.935,
+    "ratio_to_best_found": 0.9828,
+    "ratio_to_full_dual": 0.9828
+   },
+   "d2": {
+    "local_search": 3.7628,
+    "pair_bound": 4.10258,
+    "full_program": {
+     "value": 3.81592,
+     "dual_bound": 4.08168,
+     "status": 1,
+     "seconds": 600.1
+    },
+    "pairs_all_optimal": true,
+    "ratio_to_pair_bound": 0.9172,
+    "ratio_to_best_found": 0.9861,
+    "ratio_to_full_dual": 0.9219
+   }
+  },
+  "S1_recluster": {
+   "d1": {
+    "local_search": 2.0869,
+    "pair_bound": 2.24005,
+    "full_program": {
+     "value": 2.14446,
+     "dual_bound": 2.14446,
+     "status": 0,
+     "seconds": 347.7
+    },
+    "pairs_all_optimal": true,
+    "ratio_to_pair_bound": 0.9316,
+    "ratio_to_best_found": 0.9732,
+    "ratio_to_full_dual": 0.9732
+   },
+   "d2": {
+    "local_search": 3.4161,
+    "pair_bound": 3.86408,
+    "full_program": {
+     "value": 3.55617,
+     "dual_bound": 3.96022,
+     "status": 1,
+     "seconds": 600.1
+    },
+    "pairs_all_optimal": true,
+    "ratio_to_pair_bound": 0.8841,
+    "ratio_to_best_found": 0.9606,
+    "ratio_to_full_dual": 0.8626
+   }
+  },
+  "S2_crop50": {
+   "d1": {
+    "local_search": 2.0614,
+    "pair_bound": 2.19422,
+    "full_program": {
+     "value": 2.12504,
+     "dual_bound": 2.12504,
+     "status": 0,
+     "seconds": 242.8
+    },
+    "pairs_all_optimal": true,
+    "ratio_to_pair_bound": 0.9395,
+    "ratio_to_best_found": 0.9701,
+    "ratio_to_full_dual": 0.9701
+   },
+   "d2": {
+    "local_search": 3.5491,
+    "pair_bound": 3.84905,
+    "full_program": {
+     "value": 3.58846,
+     "dual_bound": 3.86554,
+     "status": 1,
+     "seconds": 600.0
+    },
+    "pairs_all_optimal": true,
+    "ratio_to_pair_bound": 0.9221,
+    "ratio_to_best_found": 0.989,
+    "ratio_to_full_dual": 0.9181
+   }
+  },
+  "S3_noise30": {
+   "d1": {
+    "local_search": 2.0045,
+    "pair_bound": 2.138,
+    "full_program": {
+     "value": 2.04137,
+     "dual_bound": 2.04137,
+     "status": 0,
+     "seconds": 258.5
+    },
+    "pairs_all_optimal": true,
+    "ratio_to_pair_bound": 0.9376,
+    "ratio_to_best_found": 0.9819,
+    "ratio_to_full_dual": 0.9819
+   },
+   "d2": {
+    "local_search": 3.3822,
+    "pair_bound": 3.69458,
+    "full_program": {
+     "value": 3.433,
+     "dual_bound": 3.71623,
+     "status": 1,
+     "seconds": 600.1
+    },
+    "pairs_all_optimal": true,
+    "ratio_to_pair_bound": 0.9154,
+    "ratio_to_best_found": 0.9852,
+    "ratio_to_full_dual": 0.9101
+   }
+  },
+  "S4_two_noisy": {
+   "d1": {
+    "local_search": 1.8296,
+    "pair_bound": 1.95357,
+    "full_program": {
+     "value": 1.85984,
+     "dual_bound": 1.85984,
+     "status": 0,
+     "seconds": 393.7
+    },
+    "pairs_all_optimal": true,
+    "ratio_to_pair_bound": 0.9365,
+    "ratio_to_best_found": 0.9837,
+    "ratio_to_full_dual": 0.9837
+   },
+   "d2": {
+    "local_search": 3.063,
+    "pair_bound": 3.33162,
+    "full_program": {
+     "value": 3.0998,
+     "dual_bound": 3.36588,
+     "status": 1,
+     "seconds": 600.1
+    },
+    "pairs_all_optimal": true,
+    "ratio_to_pair_bound": 0.9194,
+    "ratio_to_best_found": 0.9881,
+    "ratio_to_full_dual": 0.91
+   }
+  }
+ }
+}

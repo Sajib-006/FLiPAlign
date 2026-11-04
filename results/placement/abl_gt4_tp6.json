@@ -1,0 +1,632 @@
+[
+ {
+  "case": 6,
+  "truth_flip": 1,
+  "pairing": {
+   "score": 0.10821,
+   "angle": 222.0,
+   "flip": 1,
+   "shift_units": [
+    -64.0,
+    226.0
+   ],
+   "tre_um": 24.3
+  },
+  "pairing_known": {
+   "score": 0.10821,
+   "angle": 222.0,
+   "flip": 1,
+   "shift_units": [
+    -64.0,
+    226.0
+   ],
+   "tre_um": 24.3
+  },
+  "rowmax": {
+   "score": 0.11964,
+   "angle": 212.0,
+   "flip": 1,
+   "shift_units": [
+    292.0,
+    48.0
+   ],
+   "tre_um": 3774.0
+  },
+  "rowmax_known": {
+   "score": 0.11964,
+   "angle": 212.0,
+   "flip": 1,
+   "shift_units": [
+    292.0,
+    48.0
+   ],
+   "tre_um": 3774.0
+  },
+  "mi": {
+   "score": 0.09722,
+   "angle": 222.0,
+   "flip": 1,
+   "shift_units": [
+    -64.0,
+    224.0
+   ],
+   "tre_um": 22.8
+  },
+  "mi_known": {
+   "score": 0.09722,
+   "angle": 222.0,
+   "flip": 1,
+   "shift_units": [
+    -64.0,
+    224.0
+   ],
+   "tre_um": 22.8
+  },
+  "shape": {
+   "score": 0.79285,
+   "angle": 193.0,
+   "flip": 0,
+   "shift_units": [
+    0.0,
+    -20.0
+   ],
+   "tre_um": 4785.8
+  },
+  "shape_known": {
+   "score": 0.77161,
+   "angle": 226.0,
+   "flip": 1,
+   "shift_units": [
+    -18.0,
+    -10.0
+   ],
+   "tre_um": 2278.9
+  },
+  "shared": {
+   "score": 0.05841,
+   "angle": 222.0,
+   "flip": 1,
+   "shift_units": [
+    -64.0,
+    224.0
+   ],
+   "tre_um": 22.8
+  },
+  "shared_known": {
+   "score": 0.05841,
+   "angle": 222.0,
+   "flip": 1,
+   "shift_units": [
+    -64.0,
+    224.0
+   ],
+   "tre_um": 22.8
+  },
+  "total_s": 715.0
+ },
+ {
+  "case": 14,
+  "truth_flip": 0,
+  "pairing": {
+   "score": 0.04508,
+   "angle": 169.0,
+   "flip": 0,
+   "shift_units": [
+    38.0,
+    -34.0
+   ],
+   "tre_um": 1214.0
+  },
+  "pairing_known": {
+   "score": 0.04508,
+   "angle": 169.0,
+   "flip": 0,
+   "shift_units": [
+    38.0,
+    -34.0
+   ],
+   "tre_um": 1214.0
+  },
+  "rowmax": {
+   "score": 0.10733,
+   "angle": 63.0,
+   "flip": 1,
+   "shift_units": [
+    262.0,
+    26.0
+   ],
+   "tre_um": 1868.3
+  },
+  "rowmax_known": {
+   "score": 0.10572,
+   "angle": 0.0,
+   "flip": 0,
+   "shift_units": [
+    280.0,
+    20.0
+   ],
+   "tre_um": 2187.9
+  },
+  "mi": {
+   "score": 0.0309,
+   "angle": 125.0,
+   "flip": 1,
+   "shift_units": [
+    -258.0,
+    182.0
+   ],
+   "tre_um": 4095.4
+  },
+  "mi_known": {
+   "score": 0.02929,
+   "angle": 234.0,
+   "flip": 0,
+   "shift_units": [
+    70.0,
+    -194.0
+   ],
+   "tre_um": 2585.0
+  },
+  "shape": {
+   "score": 0.95065,
+   "angle": 325.0,
+   "flip": 0,
+   "shift_units": [
+    2.0,
+    -4.0
+   ],
+   "tre_um": 2905.0
+  },
+  "shape_known": {
+   "score": 0.95065,
+   "angle": 325.0,
+   "flip": 0,
+   "shift_units": [
+    2.0,
+    -4.0
+   ],
+   "tre_um": 2905.0
+  },
+  "shared": {
+   "score": 0.01206,
+   "angle": 142.0,
+   "flip": 0,
+   "shift_units": [
+    140.0,
+    24.0
+   ],
+   "tre_um": 9.9
+  },
+  "shared_known": {
+   "score": 0.01206,
+   "angle": 142.0,
+   "flip": 0,
+   "shift_units": [
+    140.0,
+    24.0
+   ],
+   "tre_um": 9.9
+  },
+  "total_s": 664.8
+ },
+ {
+  "case": 22,
+  "truth_flip": 0,
+  "pairing": {
+   "score": 0.26998,
+   "angle": 239.0,
+   "flip": 0,
+   "shift_units": [
+    174.0,
+    -62.0
+   ],
+   "tre_um": 62.5
+  },
+  "pairing_known": {
+   "score": 0.26998,
+   "angle": 239.0,
+   "flip": 0,
+   "shift_units": [
+    174.0,
+    -62.0
+   ],
+   "tre_um": 62.5
+  },
+  "rowmax": {
+   "score": 0.30465,
+   "angle": 247.0,
+   "flip": 1,
+   "shift_units": [
+    300.0,
+    218.0
+   ],
+   "tre_um": 4926.0
+  },
+  "rowmax_known": {
+   "score": 0.29205,
+   "angle": 239.0,
+   "flip": 0,
+   "shift_units": [
+    174.0,
+    -62.0
+   ],
+   "tre_um": 62.5
+  },
+  "mi": {
+   "score": 0.39504,
+   "angle": 238.0,
+   "flip": 0,
+   "shift_units": [
+    176.0,
+    -64.0
+   ],
+   "tre_um": 27.2
+  },
+  "mi_known": {
+   "score": 0.39504,
+   "angle": 238.0,
+   "flip": 0,
+   "shift_units": [
+    176.0,
+    -64.0
+   ],
+   "tre_um": 27.2
+  },
+  "shape": {
+   "score": 0.90208,
+   "angle": 225.0,
+   "flip": 0,
+   "shift_units": [
+    -10.0,
+    -18.0
+   ],
+   "tre_um": 1933.2
+  },
+  "shape_known": {
+   "score": 0.90208,
+   "angle": 225.0,
+   "flip": 0,
+   "shift_units": [
+    -10.0,
+    -18.0
+   ],
+   "tre_um": 1933.2
+  },
+  "shared": {
+   "score": 0.08438,
+   "angle": 238.0,
+   "flip": 0,
+   "shift_units": [
+    174.0,
+    -66.0
+   ],
+   "tre_um": 21.0
+  },
+  "shared_known": {
+   "score": 0.08438,
+   "angle": 238.0,
+   "flip": 0,
+   "shift_units": [
+    174.0,
+    -66.0
+   ],
+   "tre_um": 21.0
+  },
+  "total_s": 660.0
+ },
+ {
+  "case": 30,
+  "truth_flip": 1,
+  "pairing": {
+   "score": 0.25485,
+   "angle": 119.0,
+   "flip": 1,
+   "shift_units": [
+    -180.0,
+    94.0
+   ],
+   "tre_um": 30.8
+  },
+  "pairing_known": {
+   "score": 0.25485,
+   "angle": 119.0,
+   "flip": 1,
+   "shift_units": [
+    -180.0,
+    94.0
+   ],
+   "tre_um": 30.8
+  },
+  "rowmax": {
+   "score": 0.25865,
+   "angle": 120.0,
+   "flip": 1,
+   "shift_units": [
+    -182.0,
+    94.0
+   ],
+   "tre_um": 22.7
+  },
+  "rowmax_known": {
+   "score": 0.25865,
+   "angle": 120.0,
+   "flip": 1,
+   "shift_units": [
+    -182.0,
+    94.0
+   ],
+   "tre_um": 22.7
+  },
+  "mi": {
+   "score": 0.46394,
+   "angle": 120.0,
+   "flip": 1,
+   "shift_units": [
+    -180.0,
+    92.0
+   ],
+   "tre_um": 33.7
+  },
+  "mi_known": {
+   "score": 0.46394,
+   "angle": 120.0,
+   "flip": 1,
+   "shift_units": [
+    -180.0,
+    92.0
+   ],
+   "tre_um": 33.7
+  },
+  "shape": {
+   "score": 0.88733,
+   "angle": 23.0,
+   "flip": 0,
+   "shift_units": [
+    -30.0,
+    44.0
+   ],
+   "tre_um": 4059.2
+  },
+  "shape_known": {
+   "score": 0.87599,
+   "angle": 98.0,
+   "flip": 1,
+   "shift_units": [
+    12.0,
+    16.0
+   ],
+   "tre_um": 2226.8
+  },
+  "shared": {
+   "score": 0.1336,
+   "angle": 120.0,
+   "flip": 1,
+   "shift_units": [
+    -182.0,
+    94.0
+   ],
+   "tre_um": 22.7
+  },
+  "shared_known": {
+   "score": 0.1336,
+   "angle": 120.0,
+   "flip": 1,
+   "shift_units": [
+    -182.0,
+    94.0
+   ],
+   "tre_um": 22.7
+  },
+  "total_s": 556.4
+ },
+ {
+  "case": 38,
+  "truth_flip": 0,
+  "pairing": {
+   "score": 0.16251,
+   "angle": 246.0,
+   "flip": 0,
+   "shift_units": [
+    -26.0,
+    46.0
+   ],
+   "tre_um": 5690.5
+  },
+  "pairing_known": {
+   "score": 0.16251,
+   "angle": 246.0,
+   "flip": 0,
+   "shift_units": [
+    -26.0,
+    46.0
+   ],
+   "tre_um": 5690.5
+  },
+  "rowmax": {
+   "score": 0.16555,
+   "angle": 246.0,
+   "flip": 0,
+   "shift_units": [
+    -28.0,
+    44.0
+   ],
+   "tre_um": 5676.3
+  },
+  "rowmax_known": {
+   "score": 0.16555,
+   "angle": 246.0,
+   "flip": 0,
+   "shift_units": [
+    -28.0,
+    44.0
+   ],
+   "tre_um": 5676.3
+  },
+  "mi": {
+   "score": 0.32188,
+   "angle": 147.0,
+   "flip": 1,
+   "shift_units": [
+    -38.0,
+    -300.0
+   ],
+   "tre_um": 8796.6
+  },
+  "mi_known": {
+   "score": 0.31201,
+   "angle": 235.0,
+   "flip": 0,
+   "shift_units": [
+    50.0,
+    44.0
+   ],
+   "tre_um": 6252.0
+  },
+  "shape": {
+   "score": 0.75268,
+   "angle": 82.0,
+   "flip": 1,
+   "shift_units": [
+    28.0,
+    124.0
+   ],
+   "tre_um": 10135.3
+  },
+  "shape_known": {
+   "score": 0.72676,
+   "angle": 265.0,
+   "flip": 0,
+   "shift_units": [
+    -14.0,
+    -80.0
+   ],
+   "tre_um": 3851.6
+  },
+  "shared": {
+   "score": 0.09276,
+   "angle": 281.0,
+   "flip": 0,
+   "shift_units": [
+    142.0,
+    -300.0
+   ],
+   "tre_um": 2243.3
+  },
+  "shared_known": {
+   "score": 0.09276,
+   "angle": 281.0,
+   "flip": 0,
+   "shift_units": [
+    142.0,
+    -300.0
+   ],
+   "tre_um": 2243.3
+  },
+  "total_s": 1545.2
+ },
+ {
+  "case": 46,
+  "truth_flip": 1,
+  "pairing": {
+   "score": 0.12239,
+   "angle": 167.0,
+   "flip": 1,
+   "shift_units": [
+    -38.0,
+    -78.0
+   ],
+   "tre_um": 194.8
+  },
+  "pairing_known": {
+   "score": 0.12239,
+   "angle": 167.0,
+   "flip": 1,
+   "shift_units": [
+    -38.0,
+    -78.0
+   ],
+   "tre_um": 194.8
+  },
+  "rowmax": {
+   "score": 0.14934,
+   "angle": 359.0,
+   "flip": 0,
+   "shift_units": [
+    -190.0,
+    48.0
+   ],
+   "tre_um": 3168.3
+  },
+  "rowmax_known": {
+   "score": 0.14319,
+   "angle": 189.0,
+   "flip": 1,
+   "shift_units": [
+    20.0,
+    74.0
+   ],
+   "tre_um": 1680.6
+  },
+  "mi": {
+   "score": 0.30387,
+   "angle": 176.0,
+   "flip": 1,
+   "shift_units": [
+    -22.0,
+    -72.0
+   ],
+   "tre_um": 281.6
+  },
+  "mi_known": {
+   "score": 0.30387,
+   "angle": 176.0,
+   "flip": 1,
+   "shift_units": [
+    -22.0,
+    -72.0
+   ],
+   "tre_um": 281.6
+  },
+  "shape": {
+   "score": 0.88921,
+   "angle": 347.0,
+   "flip": 1,
+   "shift_units": [
+    -4.0,
+    -2.0
+   ],
+   "tre_um": 3714.0
+  },
+  "shape_known": {
+   "score": 0.88921,
+   "angle": 347.0,
+   "flip": 1,
+   "shift_units": [
+    -4.0,
+    -2.0
+   ],
+   "tre_um": 3714.0
+  },
+  "shared": {
+   "score": 0.01715,
+   "angle": 170.0,
+   "flip": 1,
+   "shift_units": [
+    -26.0,
+    -82.0
+   ],
+   "tre_um": 127.4
+  },
+  "shared_known": {
+   "score": 0.01715,
+   "angle": 170.0,
+   "flip": 1,
+   "shift_units": [
+    -26.0,
+    -82.0
+   ],
+   "tre_um": 127.4
+  },
+  "total_s": 606.5
+ }
+]

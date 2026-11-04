@@ -1,0 +1,80 @@
+[
+ {
+  "case": 50,
+  "method": "cast_rigid",
+  "fit": "plain",
+  "angle": 5.88,
+  "flip": 1,
+  "shift": [
+   -66.74,
+   48.64
+  ],
+  "sec": 224.0,
+  "tre_um": 2304.2
+ },
+ {
+  "case": 50,
+  "method": "cast_rigid",
+  "fit": "trimmed",
+  "angle": 5.88,
+  "flip": 1,
+  "shift": [
+   -66.76,
+   48.62
+  ],
+  "sec": 224.0,
+  "tre_um": 2304.2
+ },
+ {
+  "case": 50,
+  "method": "cast_affine",
+  "fit": "plain",
+  "angle": 186.1,
+  "flip": 0,
+  "shift": [
+   -14.17,
+   32.62
+  ],
+  "sec": 219.9,
+  "tre_um": 1922.7
+ },
+ {
+  "case": 50,
+  "method": "cast_affine",
+  "fit": "trimmed",
+  "angle": 187.27,
+  "flip": 0,
+  "shift": [
+   -15.95,
+   29.63
+  ],
+  "sec": 219.9,
+  "tre_um": 1934.1
+ },
+ {
+  "case": 50,
+  "method": "cast_full",
+  "fit": "plain",
+  "angle": 5.32,
+  "flip": 1,
+  "shift": [
+   -45.75,
+   68.53
+  ],
+  "sec": 231.5,
+  "tre_um": 2197.2
+ },
+ {
+  "case": 50,
+  "method": "cast_full",
+  "fit": "trimmed",
+  "angle": 4.01,
+  "flip": 1,
+  "shift": [
+   -53.3,
+   76.29
+  ],
+  "sec": 231.5,
+  "tre_um": 2228.3
+ }
+]

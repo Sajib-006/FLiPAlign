@@ -1,0 +1,140 @@
+[
+ {
+  "k": 21,
+  "pair": "151509 vs 151510",
+  "group": "adjacent",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 357.44,
+  "flip": 0,
+  "shift_units": [
+   -10.0,
+   2.0
+  ],
+  "layer_acc": 0.879,
+  "identity_layer_acc": 0.851,
+  "best": 0.2441,
+  "gap": 0.0143,
+  "certified_search": true,
+  "solve_s": 242.3,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": 0.0491,
+    "complete": true,
+    "far_s": 314.6,
+    "zone_move_um": 906.0,
+    "rival": [
+     237.38,
+     1
+    ],
+    "rival_layer_acc": 0.786
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 60.0,
+    "eps": 0.0158,
+    "complete": true,
+    "far_s": 249.3,
+    "zone_move_um": 1472.4
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 30.0,
+    "eps": -0.0063,
+    "complete": true,
+    "far_s": 231.6,
+    "zone_move_um": 1189.2
+   }
+  ],
+  "certified": true,
+  "finest_zone": [
+   20.0,
+   60.0
+  ],
+  "total_s": 1039.3
+ },
+ {
+  "k": 22,
+  "pair": "151509 vs 151669",
+  "group": "different donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 222.5,
+  "flip": 1,
+  "shift_units": [
+   -44.0,
+   -76.0
+  ],
+  "layer_acc": 0.331,
+  "identity_layer_acc": 0.225,
+  "best": 0.1501,
+  "gap": 0.0131,
+  "certified_search": true,
+  "solve_s": 946.1,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": 0.0055,
+    "complete": true,
+    "far_s": 995.3,
+    "zone_move_um": 906.0,
+    "rival": [
+     329.19,
+     0
+    ],
+    "rival_layer_acc": 0.406
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 60.0,
+    "eps": -0.0028,
+    "complete": true,
+    "far_s": 670.7,
+    "zone_move_um": 1472.4
+   }
+  ],
+  "certified": true,
+  "finest_zone": [
+   20.0,
+   null
+  ],
+  "total_s": 2613.2
+ },
+ {
+  "k": 23,
+  "pair": "151509 vs 151670",
+  "group": "different donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 227.75,
+  "flip": 1,
+  "shift_units": [
+   -22.0,
+   -94.0
+  ],
+  "layer_acc": 0.412,
+  "identity_layer_acc": 0.223,
+  "best": 0.128,
+  "gap": 0.0139,
+  "certified_search": true,
+  "solve_s": 1957.5,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0071,
+    "complete": true,
+    "far_s": 1061.6,
+    "zone_move_um": 906.0,
+    "rival": [
+     346.06,
+     0
+    ],
+    "rival_layer_acc": 0.495
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 3020.1
+ }
+]

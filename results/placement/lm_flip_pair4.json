@@ -1,0 +1,38 @@
+{
+ "pair": 4,
+ "name": "colon P3NAT",
+ "n_landmarks": 38,
+ "floor_um": 107.2,
+ "truth_angle": 1.82,
+ "flipalign_certified": true,
+ "flipalign_zone": [
+  20.0,
+  30.0
+ ],
+ "coarse": {
+  "angle": 1.5,
+  "flip": 0,
+  "shift": [
+   6.0,
+   46.0
+  ],
+  "median_um": 120.7,
+  "max_um": 331.4,
+  "angle_error_deg": 0.32
+ },
+ "fine": {
+  "angle": 1.484,
+  "flip": 0,
+  "shift": [
+   3.0,
+   47.5
+  ],
+  "median_um": 115.2,
+  "max_um": 361.2,
+  "angle_error_deg": 0.34
+ },
+ "right_within_floor_plus_100": {
+  "coarse": true,
+  "fine": true
+ }
+}

@@ -1,0 +1,79 @@
+[
+ {
+  "case": 1,
+  "h": 2.0,
+  "min_overlap": null,
+  "flip_known": true,
+  "tre_um": 53.7,
+  "true_shift_units": [
+   109.57,
+   43.917
+  ],
+  "angle": 84.375,
+  "flip": 1,
+  "shift_units": [
+   110.0,
+   40.0
+  ],
+  "truth": [
+   85.42,
+   1
+  ],
+  "flip_ok": 1,
+  "best": 0.2917,
+  "gap": 0.0174,
+  "certified_search": true,
+  "solve_s": 107.8,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": 0.0639,
+    "complete": true,
+    "far_s": 115.5,
+    "far_exact": 0.2084,
+    "zone_move_um": 955.0,
+    "rival": [
+     64.38,
+     1
+    ],
+    "rival_tre_um": 1011.6,
+    "rival_is_mirror": 0
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 60.0,
+    "eps": 0.0457,
+    "complete": true,
+    "far_s": 149.1,
+    "far_exact": 0.2271,
+    "zone_move_um": 1521.4
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 30.0,
+    "eps": 0.0032,
+    "complete": true,
+    "far_s": 96.2,
+    "far_exact": 0.2703,
+    "zone_move_um": 1238.2
+   },
+   {
+    "zone_deg": 10.0,
+    "zone_shift_units": 20.0,
+    "eps": -0.0077,
+    "complete": true,
+    "far_s": 96.6,
+    "far_exact": 0.2816,
+    "zone_move_um": 668.1
+   }
+  ],
+  "certified": true,
+  "finest_zone": [
+   20.0,
+   30.0
+  ],
+  "finest_zone_move_um": 1238.2,
+  "total_s": 565.9
+ }
+]

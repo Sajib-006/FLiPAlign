@@ -1,0 +1,43 @@
+[
+ {
+  "pair": "stack 4 pair 0",
+  "angle": 226.4375,
+  "flip": 0,
+  "shift_units": [
+   16.0,
+   26.0
+  ],
+  "best": 0.4205,
+  "gap": 0.0185,
+  "certified_search": true,
+  "solve_s": 90.5,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.012,
+    "complete": true,
+    "zone_move_um": 970.6
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "err_um_coarse": 69.7,
+  "err_um": 69.7,
+  "E_R": [
+   [
+    0.999905,
+    -0.013792
+   ],
+   [
+    0.013792,
+    0.999905
+   ]
+  ],
+  "E_t": [
+   4.7452,
+   -13.8845
+  ],
+  "total_s": 148.6
+ }
+]

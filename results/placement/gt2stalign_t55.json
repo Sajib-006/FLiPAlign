@@ -1,0 +1,20 @@
+[
+ {
+  "case": 55,
+  "method": "stalign_16",
+  "fit": "plain",
+  "angle": 180.0,
+  "flip": 0,
+  "shift": [
+   0.0,
+   -0.0
+  ],
+  "sec": 670.8,
+  "tre_um": 4208.2,
+  "picked_start": [
+   180.0,
+   0
+  ],
+  "density_corr": 0.0726
+ }
+]

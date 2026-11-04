@@ -1,0 +1,80 @@
+[
+ {
+  "case": 54,
+  "method": "slat_k10",
+  "fit": "plain",
+  "angle": 14.9,
+  "flip": 0,
+  "shift": [
+   30.22,
+   32.16
+  ],
+  "sec": 17.0,
+  "tre_um": 2029.3
+ },
+ {
+  "case": 54,
+  "method": "slat_k10",
+  "fit": "trimmed",
+  "angle": 5.22,
+  "flip": 0,
+  "shift": [
+   60.59,
+   43.29
+  ],
+  "sec": 17.0,
+  "tre_um": 2044.5
+ },
+ {
+  "case": 54,
+  "method": "slat_k20",
+  "fit": "plain",
+  "angle": 14.82,
+  "flip": 0,
+  "shift": [
+   25.52,
+   32.49
+  ],
+  "sec": 13.8,
+  "tre_um": 2050.5
+ },
+ {
+  "case": 54,
+  "method": "slat_k20",
+  "fit": "trimmed",
+  "angle": 6.56,
+  "flip": 0,
+  "shift": [
+   60.19,
+   43.27
+  ],
+  "sec": 13.8,
+  "tre_um": 2038.1
+ },
+ {
+  "case": 54,
+  "method": "slat_k40",
+  "fit": "plain",
+  "angle": 16.83,
+  "flip": 0,
+  "shift": [
+   22.9,
+   29.99
+  ],
+  "sec": 13.8,
+  "tre_um": 2032.3
+ },
+ {
+  "case": 54,
+  "method": "slat_k40",
+  "fit": "trimmed",
+  "angle": 4.88,
+  "flip": 0,
+  "shift": [
+   60.96,
+   44.33
+  ],
+  "sec": 13.8,
+  "tre_um": 2048.4
+ }
+]

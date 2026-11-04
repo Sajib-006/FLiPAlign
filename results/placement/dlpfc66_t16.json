@@ -1,0 +1,129 @@
+[
+ {
+  "k": 48,
+  "pair": "151670 vs 151674",
+  "group": "different donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 235.75,
+  "flip": 1,
+  "shift_units": [
+   -36.0,
+   12.0
+  ],
+  "layer_acc": 0.329,
+  "identity_layer_acc": 0.308,
+  "best": 0.159,
+  "gap": 0.0148,
+  "certified_search": true,
+  "solve_s": 591.5,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0013,
+    "complete": true,
+    "far_s": 460.1,
+    "zone_move_um": 767.3,
+    "rival": [
+     193.94,
+     1
+    ],
+    "rival_layer_acc": 0.449
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 1052.4
+ },
+ {
+  "k": 49,
+  "pair": "151670 vs 151675",
+  "group": "different donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 198.56,
+  "flip": 1,
+  "shift_units": [
+   -60.0,
+   -80.0
+  ],
+  "layer_acc": 0.353,
+  "identity_layer_acc": 0.268,
+  "best": 0.1498,
+  "gap": 0.015,
+  "certified_search": true,
+  "solve_s": 814.8,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": -0.0082,
+    "complete": true,
+    "far_s": 397.7,
+    "zone_move_um": 767.3,
+    "rival": [
+     231.0,
+     1
+    ],
+    "rival_layer_acc": 0.303
+   }
+  ],
+  "certified": false,
+  "finest_zone": null,
+  "total_s": 1213.2
+ },
+ {
+  "k": 50,
+  "pair": "151670 vs 151676",
+  "group": "different donor",
+  "input": "own gene clusters K=12 (never sees layers)",
+  "angle": 240.62,
+  "flip": 1,
+  "shift_units": [
+   -34.0,
+   50.0
+  ],
+  "layer_acc": 0.324,
+  "identity_layer_acc": 0.291,
+  "best": 0.1485,
+  "gap": 0.0144,
+  "certified_search": true,
+  "solve_s": 411.9,
+  "ladder": [
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": null,
+    "eps": 0.0011,
+    "complete": true,
+    "far_s": 367.2,
+    "zone_move_um": 767.3,
+    "rival": [
+     260.69,
+     1
+    ],
+    "rival_layer_acc": 0.243
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 60.0,
+    "eps": 0.0011,
+    "complete": true,
+    "far_s": 407.8,
+    "zone_move_um": 1333.7
+   },
+   {
+    "zone_deg": 20.0,
+    "zone_shift_units": 30.0,
+    "eps": -0.0079,
+    "complete": true,
+    "far_s": 316.6,
+    "zone_move_um": 1050.5
+   }
+  ],
+  "certified": true,
+  "finest_zone": [
+   20.0,
+   60.0
+  ],
+  "total_s": 1504.1
+ }
+]

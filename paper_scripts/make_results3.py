@@ -976,7 +976,11 @@ def app_bib():
         return
     main = open("main.tex").read()
     items = dict(re.findall(r"\\bibitem\{([^}]+)\}(.*?)(?=\\bibitem|\\end\{thebibliography\})", main, flags=re.S))
-    txt = open("appendix.tex").read() + "".join(open(f).read() for f in glob.glob(f"{T}/res3_*.tex") if not f.endswith("appbib.tex"))
+    if os.path.exists(f"{T}/appendix_extra_bib.tex"):          # references cited only in the appendix
+        extra = open(f"{T}/appendix_extra_bib.tex").read() + "\\end{thebibliography}"
+        items.update(dict(re.findall(r"\\bibitem\{([^}]+)\}(.*?)(?=\\bibitem|\\end\{thebibliography\})", extra, flags=re.S)))
+    txt = "".join(open(f).read() for f in ("appendix.tex", "split_theory.tex", "stack_theory.tex") if os.path.exists(f))
+    txt += "".join(open(f).read() for f in glob.glob(f"{T}/*.tex") if not f.endswith(("appbib.tex", "extra_bib.tex")))
     keys = []
     for grp in re.findall(r"\\cite\{([^}]+)\}", txt):
         for k in grp.split(","):

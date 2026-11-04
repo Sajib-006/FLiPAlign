@@ -1,0 +1,36 @@
+check_no_cap.py started 2026-11-04 15:59:09
+N1 padding lemma OPT(W) = OPT(w0) + 3X on 130 random cores (n=2,3; entries in {-1,0,1}, {-1,1}, {-2..2}; X <= 2), DP and multicut agree on 130: failures=0 [42s]
+N5 control, length-3 path: identity OPT(W3) = OPT(w0) + 2X fails on 13 of 62 random cores (example w0=[[2, -3], [-3, 1]], X=3, OPT(W3)=7, OPT(w0)=3)
+N4 explicit yes-labelling on 27 3DM yes-instances (q=2,3): value 2n+3X with N/2 classes and with n/2+1 classes, zero sums: 54 labellings, failures=0
+N2 n=4 graphs with all degrees <= 2 (7343 such graphs, 18 with a C4-factor): checked 48 (18 yes, 30 no), N = 4 + 2X up to 36; OPT >= 2n+3X iff C4-factor, OPT <= 2n+3X always: failures=0; smallest gap on no: 2 [1s]
+  N3 q=2 m=2 no  n=12 X=76 N=164 OPT=249 2n+3X=252 rounds=1 [6s]
+  N3 q=2 m=2 yes n=12 X=76 N=164 OPT=252 2n+3X=252 rounds=1 [2s]
+  N3 q=2 m=2 no  n=12 X=76 N=164 OPT=250 2n+3X=252 rounds=1 [2s]
+  N3 q=2 m=2 yes n=12 X=76 N=164 OPT=252 2n+3X=252 rounds=1 [1s]
+  N3 q=2 m=3 no  n=16 X=156 N=328 OPT=498 2n+3X=500 rounds=1 [20s]
+  N3 q=2 m=3 no  n=16 X=156 N=328 OPT=498 2n+3X=500 rounds=1 [23s]
+  N3 q=2 m=3 yes n=16 X=156 N=328 OPT=500 2n+3X=500 rounds=1 [3s]
+  N3 q=2 m=3 yes n=16 X=156 N=328 OPT=500 2n+3X=500 rounds=1 [3s]
+  N3 q=3 m=3 yes n=18 X=222 N=462 OPT=702 2n+3X=702 rounds=1 [3s]
+  N3 q=3 m=3 no  n=18 X=222 N=462 OPT=700 2n+3X=702 rounds=1 [5s]
+   q=3 m=3 no  n=18 X=222 N=462 OPT=700 2n+3X=702 rounds=1 [5s]
+N0 zero sums, entries in {-1,0,1}, W = chance(W + J), C in {0,1,2}: 163 tables, failures=0
+
+==== SUMMARY ====
+N1 padding lemma OPT(W) = OPT(w0) + 3X on 130 random cores (n=2,3; entries in {-1,0,1}, {-1,1}, {-2..2}; X <= 2), DP and multicut agree on 130: failures=0 [42s]
+N5 control, length-3 path: identity OPT(W3) = OPT(w0) + 2X fails on 13 of 62 random cores (example w0=[[2, -3], [-3, 1]], X=3, OPT(W3)=7, OPT(w0)=3)
+N4 explicit yes-labelling on 27 3DM yes-instances (q=2,3): value 2n+3X with N/2 classes and with n/2+1 classes, zero sums: 54 labellings, failures=0
+N2 n=4 graphs with all degrees <= 2 (7343 such graphs, 18 with a C4-factor): checked 48 (18 yes, 30 no), N = 4 + 2X up to 36; OPT >= 2n+3X iff C4-factor, OPT <= 2n+3X always: failures=0; smallest gap on no: 2 [1s]
+N3 3DM graph H (q=2, m=2,3; q=3, m=3), padded, exact multicut: 10 instances (5 yes): failures=0
+   q=2 m=2 no  n=12 X=76 N=164 OPT=249 2n+3X=252 rounds=1 [6s]
+   q=2 m=2 yes n=12 X=76 N=164 OPT=252 2n+3X=252 rounds=1 [2s]
+   q=2 m=2 no  n=12 X=76 N=164 OPT=250 2n+3X=252 rounds=1 [2s]
+   q=2 m=2 yes n=12 X=76 N=164 OPT=252 2n+3X=252 rounds=1 [1s]
+   q=2 m=3 no  n=16 X=156 N=328 OPT=498 2n+3X=500 rounds=1 [20s]
+   q=2 m=3 no  n=16 X=156 N=328 OPT=498 2n+3X=500 rounds=1 [23s]
+   q=2 m=3 yes n=16 X=156 N=328 OPT=500 2n+3X=500 rounds=1 [3s]
+   q=2 m=3 yes n=16 X=156 N=328 OPT=500 2n+3X=500 rounds=1 [3s]
+   q=3 m=3 yes n=18 X=222 N=462 OPT=702 2n+3X=702 rounds=1 [3s]
+   q=3 m=3 no  n=18 X=222 N=462 OPT=700 2n+3X=702 rounds=1 [5s]
+N0 zero sums, entries in {-1,0,1}, W = chance(W + J), C in {0,1,2}: 163 tables, failures=0
+total time 138s

@@ -1,0 +1,834 @@
+[
+ {
+  "case": 3,
+  "method": "imagereg_ncc",
+  "fit": "intensity_30um",
+  "angle": 358.7,
+  "flip": 0,
+  "t_abs_units": [
+   -29.63,
+   19.79
+  ],
+  "score": 0.935,
+  "sec": 139.3,
+  "arm": "given",
+  "start_err_um": 216.2,
+  "landmark_err_median_um": 86.0,
+  "floor_um": 86.8,
+  "pair": 3,
+  "right_within_floor_plus_100": true,
+  "candidates": [
+   {
+    "deg": 358.7,
+    "flip": 0,
+    "score": 0.935,
+    "err_um": 86.0
+   },
+   {
+    "deg": 356.0,
+    "flip": 0,
+    "score": 0.7588,
+    "err_um": 273.4
+   },
+   {
+    "deg": 2.0,
+    "flip": 0,
+    "score": 0.7394,
+    "err_um": 311.8
+   },
+   {
+    "deg": 352.0,
+    "flip": 0,
+    "score": 0.6477,
+    "err_um": 582.3
+   },
+   {
+    "deg": 6.0,
+    "flip": 0,
+    "score": 0.6353,
+    "err_um": 724.4
+   }
+  ],
+  "note": "P(a) = R(angle) F^flip a + t_abs_units, analysis-frame units (9.44 um), no centring; candidates = top 5 search answers with their landmark errors (for diagnosis only)"
+ },
+ {
+  "case": 3,
+  "method": "imagereg_ncc_mi",
+  "fit": "intensity_30um",
+  "angle": 358.68,
+  "flip": 0,
+  "t_abs_units": [
+   -29.8,
+   20.0
+  ],
+  "score": -0.8521,
+  "sec": 147.1,
+  "arm": "given",
+  "start_err_um": 216.2,
+  "landmark_err_median_um": 85.8,
+  "floor_um": 86.8,
+  "pair": 3,
+  "right_within_floor_plus_100": true,
+  "candidates": [
+   {
+    "deg": 358.7,
+    "flip": 0,
+    "score": 0.935,
+    "err_um": 86.0
+   },
+   {
+    "deg": 356.0,
+    "flip": 0,
+    "score": 0.7588,
+    "err_um": 273.4
+   },
+   {
+    "deg": 2.0,
+    "flip": 0,
+    "score": 0.7394,
+    "err_um": 311.8
+   },
+   {
+    "deg": 352.0,
+    "flip": 0,
+    "score": 0.6477,
+    "err_um": 582.3
+   },
+   {
+    "deg": 6.0,
+    "flip": 0,
+    "score": 0.6353,
+    "err_um": 724.4
+   }
+  ],
+  "note": "P(a) = R(angle) F^flip a + t_abs_units, analysis-frame units (9.44 um), no centring; candidates = top 5 search answers with their landmark errors (for diagnosis only)"
+ },
+ {
+  "case": 3,
+  "method": "imagereg_phase",
+  "fit": "intensity_30um",
+  "angle": 358.7,
+  "flip": 0,
+  "t_abs_units": [
+   -30.54,
+   19.43
+  ],
+  "score": 0.0945,
+  "sec": 78.7,
+  "arm": "given",
+  "start_err_um": 216.2,
+  "landmark_err_median_um": 86.7,
+  "floor_um": 86.8,
+  "pair": 3,
+  "right_within_floor_plus_100": true,
+  "candidates": [
+   {
+    "deg": 358.7,
+    "flip": 0,
+    "score": 0.0945,
+    "err_um": 86.7
+   },
+   {
+    "deg": 355.9,
+    "flip": 0,
+    "score": 0.0133,
+    "err_um": 374.7
+   },
+   {
+    "deg": 3.1,
+    "flip": 0,
+    "score": 0.0119,
+    "err_um": 559.0
+   },
+   {
+    "deg": 344.5,
+    "flip": 0,
+    "score": 0.0094,
+    "err_um": 1471.8
+   },
+   {
+    "deg": 20.0,
+    "flip": 1,
+    "score": 0.0087,
+    "err_um": 3445.3
+   }
+  ],
+  "note": "P(a) = R(angle) F^flip a + t_abs_units, analysis-frame units (9.44 um), no centring; candidates = top 5 search answers with their landmark errors (for diagnosis only)"
+ },
+ {
+  "case": 3,
+  "method": "imagereg_phase_mi",
+  "fit": "intensity_30um",
+  "angle": 358.68,
+  "flip": 0,
+  "t_abs_units": [
+   -29.79,
+   20.0
+  ],
+  "score": -0.8521,
+  "sec": 94.3,
+  "arm": "given",
+  "start_err_um": 216.2,
+  "landmark_err_median_um": 85.8,
+  "floor_um": 86.8,
+  "pair": 3,
+  "right_within_floor_plus_100": true,
+  "candidates": [
+   {
+    "deg": 358.7,
+    "flip": 0,
+    "score": 0.0945,
+    "err_um": 86.7
+   },
+   {
+    "deg": 355.9,
+    "flip": 0,
+    "score": 0.0133,
+    "err_um": 374.7
+   },
+   {
+    "deg": 3.1,
+    "flip": 0,
+    "score": 0.0119,
+    "err_um": 559.0
+   },
+   {
+    "deg": 344.5,
+    "flip": 0,
+    "score": 0.0094,
+    "err_um": 1471.8
+   },
+   {
+    "deg": 20.0,
+    "flip": 1,
+    "score": 0.0087,
+    "err_um": 3445.3
+   }
+  ],
+  "note": "P(a) = R(angle) F^flip a + t_abs_units, analysis-frame units (9.44 um), no centring; candidates = top 5 search answers with their landmark errors (for diagnosis only)"
+ },
+ {
+  "case": 3,
+  "method": "imagereg_ncc",
+  "fit": "mask_30um",
+  "angle": 358.6,
+  "flip": 0,
+  "t_abs_units": [
+   -30.86,
+   22.81
+  ],
+  "score": 0.9752,
+  "sec": 160.0,
+  "arm": "given",
+  "start_err_um": 216.2,
+  "landmark_err_median_um": 91.9,
+  "floor_um": 86.8,
+  "pair": 3,
+  "right_within_floor_plus_100": true,
+  "candidates": [
+   {
+    "deg": 358.6,
+    "flip": 0,
+    "score": 0.9752,
+    "err_um": 91.9
+   },
+   {
+    "deg": 356.0,
+    "flip": 0,
+    "score": 0.8894,
+    "err_um": 214.7
+   },
+   {
+    "deg": 2.0,
+    "flip": 0,
+    "score": 0.8795,
+    "err_um": 340.3
+   },
+   {
+    "deg": 352.0,
+    "flip": 0,
+    "score": 0.7941,
+    "err_um": 539.7
+   },
+   {
+    "deg": 6.0,
+    "flip": 0,
+    "score": 0.7928,
+    "err_um": 685.1
+   }
+  ],
+  "note": "P(a) = R(angle) F^flip a + t_abs_units, analysis-frame units (9.44 um), no centring; candidates = top 5 search answers with their landmark errors (for diagnosis only)"
+ },
+ {
+  "case": 3,
+  "method": "imagereg_ncc_mi",
+  "fit": "mask_30um",
+  "angle": 358.65,
+  "flip": 0,
+  "t_abs_units": [
+   -30.25,
+   21.78
+  ],
+  "score": -0.6684,
+  "sec": 167.7,
+  "arm": "given",
+  "start_err_um": 216.2,
+  "landmark_err_median_um": 91.8,
+  "floor_um": 86.8,
+  "pair": 3,
+  "right_within_floor_plus_100": true,
+  "candidates": [
+   {
+    "deg": 358.6,
+    "flip": 0,
+    "score": 0.9752,
+    "err_um": 91.9
+   },
+   {
+    "deg": 356.0,
+    "flip": 0,
+    "score": 0.8894,
+    "err_um": 214.7
+   },
+   {
+    "deg": 2.0,
+    "flip": 0,
+    "score": 0.8795,
+    "err_um": 340.3
+   },
+   {
+    "deg": 352.0,
+    "flip": 0,
+    "score": 0.7941,
+    "err_um": 539.7
+   },
+   {
+    "deg": 6.0,
+    "flip": 0,
+    "score": 0.7928,
+    "err_um": 685.1
+   }
+  ],
+  "note": "P(a) = R(angle) F^flip a + t_abs_units, analysis-frame units (9.44 um), no centring; candidates = top 5 search answers with their landmark errors (for diagnosis only)"
+ },
+ {
+  "case": 3,
+  "method": "imagereg_phase",
+  "fit": "mask_30um",
+  "angle": 358.5,
+  "flip": 0,
+  "t_abs_units": [
+   -34.35,
+   25.86
+  ],
+  "score": 0.0712,
+  "sec": 70.2,
+  "arm": "given",
+  "start_err_um": 216.2,
+  "landmark_err_median_um": 99.7,
+  "floor_um": 86.8,
+  "pair": 3,
+  "right_within_floor_plus_100": true,
+  "candidates": [
+   {
+    "deg": 358.5,
+    "flip": 0,
+    "score": 0.0712,
+    "err_um": 99.7
+   },
+   {
+    "deg": 355.7,
+    "flip": 0,
+    "score": 0.0209,
+    "err_um": 399.4
+   },
+   {
+    "deg": 4.0,
+    "flip": 0,
+    "score": 0.0141,
+    "err_um": 682.7
+   },
+   {
+    "deg": 30.0,
+    "flip": 1,
+    "score": 0.0117,
+    "err_um": 3206.0
+   },
+   {
+    "deg": 52.0,
+    "flip": 0,
+    "score": 0.0114,
+    "err_um": 4439.1
+   }
+  ],
+  "note": "P(a) = R(angle) F^flip a + t_abs_units, analysis-frame units (9.44 um), no centring; candidates = top 5 search answers with their landmark errors (for diagnosis only)"
+ },
+ {
+  "case": 3,
+  "method": "imagereg_phase_mi",
+  "fit": "mask_30um",
+  "angle": 358.65,
+  "flip": 0,
+  "t_abs_units": [
+   -30.21,
+   21.65
+  ],
+  "score": -0.6684,
+  "sec": 79.9,
+  "arm": "given",
+  "start_err_um": 216.2,
+  "landmark_err_median_um": 91.3,
+  "floor_um": 86.8,
+  "pair": 3,
+  "right_within_floor_plus_100": true,
+  "candidates": [
+   {
+    "deg": 358.5,
+    "flip": 0,
+    "score": 0.0712,
+    "err_um": 99.7
+   },
+   {
+    "deg": 355.7,
+    "flip": 0,
+    "score": 0.0209,
+    "err_um": 399.4
+   },
+   {
+    "deg": 4.0,
+    "flip": 0,
+    "score": 0.0141,
+    "err_um": 682.7
+   },
+   {
+    "deg": 30.0,
+    "flip": 1,
+    "score": 0.0117,
+    "err_um": 3206.0
+   },
+   {
+    "deg": 52.0,
+    "flip": 0,
+    "score": 0.0114,
+    "err_um": 4439.1
+   }
+  ],
+  "note": "P(a) = R(angle) F^flip a + t_abs_units, analysis-frame units (9.44 um), no centring; candidates = top 5 search answers with their landmark errors (for diagnosis only)"
+ },
+ {
+  "case": 3,
+  "method": "imagereg_ncc",
+  "fit": "intensity_50um",
+  "angle": 358.7,
+  "flip": 0,
+  "t_abs_units": [
+   -29.48,
+   19.93
+  ],
+  "score": 0.9543,
+  "sec": 92.6,
+  "arm": "given",
+  "start_err_um": 216.2,
+  "landmark_err_median_um": 87.9,
+  "floor_um": 86.8,
+  "pair": 3,
+  "right_within_floor_plus_100": true,
+  "candidates": [
+   {
+    "deg": 358.7,
+    "flip": 0,
+    "score": 0.9543,
+    "err_um": 87.9
+   },
+   {
+    "deg": 356.0,
+    "flip": 0,
+    "score": 0.798,
+    "err_um": 273.9
+   },
+   {
+    "deg": 2.0,
+    "flip": 0,
+    "score": 0.7769,
+    "err_um": 292.5
+   },
+   {
+    "deg": 352.0,
+    "flip": 0,
+    "score": 0.682,
+    "err_um": 590.1
+   },
+   {
+    "deg": 6.0,
+    "flip": 0,
+    "score": 0.6685,
+    "err_um": 740.0
+   }
+  ],
+  "note": "P(a) = R(angle) F^flip a + t_abs_units, analysis-frame units (9.44 um), no centring; candidates = top 5 search answers with their landmark errors (for diagnosis only)"
+ },
+ {
+  "case": 3,
+  "method": "imagereg_ncc_mi",
+  "fit": "intensity_50um",
+  "angle": 358.66,
+  "flip": 0,
+  "t_abs_units": [
+   -29.83,
+   20.79
+  ],
+  "score": -0.9315,
+  "sec": 102.1,
+  "arm": "given",
+  "start_err_um": 216.2,
+  "landmark_err_median_um": 88.4,
+  "floor_um": 86.8,
+  "pair": 3,
+  "right_within_floor_plus_100": true,
+  "candidates": [
+   {
+    "deg": 358.7,
+    "flip": 0,
+    "score": 0.9543,
+    "err_um": 87.9
+   },
+   {
+    "deg": 356.0,
+    "flip": 0,
+    "score": 0.798,
+    "err_um": 273.9
+   },
+   {
+    "deg": 2.0,
+    "flip": 0,
+    "score": 0.7769,
+    "err_um": 292.5
+   },
+   {
+    "deg": 352.0,
+    "flip": 0,
+    "score": 0.682,
+    "err_um": 590.1
+   },
+   {
+    "deg": 6.0,
+    "flip": 0,
+    "score": 0.6685,
+    "err_um": 740.0
+   }
+  ],
+  "note": "P(a) = R(angle) F^flip a + t_abs_units, analysis-frame units (9.44 um), no centring; candidates = top 5 search answers with their landmark errors (for diagnosis only)"
+ },
+ {
+  "case": 3,
+  "method": "imagereg_phase",
+  "fit": "intensity_50um",
+  "angle": 358.6,
+  "flip": 0,
+  "t_abs_units": [
+   -31.44,
+   22.24
+  ],
+  "score": 0.211,
+  "sec": 23.7,
+  "arm": "given",
+  "start_err_um": 216.2,
+  "landmark_err_median_um": 89.1,
+  "floor_um": 86.8,
+  "pair": 3,
+  "right_within_floor_plus_100": true,
+  "candidates": [
+   {
+    "deg": 358.6,
+    "flip": 0,
+    "score": 0.211,
+    "err_um": 89.1
+   },
+   {
+    "deg": 356.0,
+    "flip": 0,
+    "score": 0.025,
+    "err_um": 432.3
+   },
+   {
+    "deg": 2.1,
+    "flip": 0,
+    "score": 0.0237,
+    "err_um": 451.7
+   },
+   {
+    "deg": 160.0,
+    "flip": 1,
+    "score": 0.0156,
+    "err_um": 7960.6
+   },
+   {
+    "deg": 10.0,
+    "flip": 1,
+    "score": 0.0145,
+    "err_um": 3916.0
+   }
+  ],
+  "note": "P(a) = R(angle) F^flip a + t_abs_units, analysis-frame units (9.44 um), no centring; candidates = top 5 search answers with their landmark errors (for diagnosis only)"
+ },
+ {
+  "case": 3,
+  "method": "imagereg_phase_mi",
+  "fit": "intensity_50um",
+  "angle": 358.66,
+  "flip": 0,
+  "t_abs_units": [
+   -29.84,
+   20.81
+  ],
+  "score": -0.9315,
+  "sec": 26.7,
+  "arm": "given",
+  "start_err_um": 216.2,
+  "landmark_err_median_um": 88.3,
+  "floor_um": 86.8,
+  "pair": 3,
+  "right_within_floor_plus_100": true,
+  "candidates": [
+   {
+    "deg": 358.6,
+    "flip": 0,
+    "score": 0.211,
+    "err_um": 89.1
+   },
+   {
+    "deg": 356.0,
+    "flip": 0,
+    "score": 0.025,
+    "err_um": 432.3
+   },
+   {
+    "deg": 2.1,
+    "flip": 0,
+    "score": 0.0237,
+    "err_um": 451.7
+   },
+   {
+    "deg": 160.0,
+    "flip": 1,
+    "score": 0.0156,
+    "err_um": 7960.6
+   },
+   {
+    "deg": 10.0,
+    "flip": 1,
+    "score": 0.0145,
+    "err_um": 3916.0
+   }
+  ],
+  "note": "P(a) = R(angle) F^flip a + t_abs_units, analysis-frame units (9.44 um), no centring; candidates = top 5 search answers with their landmark errors (for diagnosis only)"
+ },
+ {
+  "case": 3,
+  "method": "imagereg_ncc",
+  "fit": "mask_50um",
+  "angle": 358.7,
+  "flip": 0,
+  "t_abs_units": [
+   -29.61,
+   20.51
+  ],
+  "score": 0.982,
+  "sec": 83.2,
+  "arm": "given",
+  "start_err_um": 216.2,
+  "landmark_err_median_um": 91.6,
+  "floor_um": 86.8,
+  "pair": 3,
+  "right_within_floor_plus_100": true,
+  "candidates": [
+   {
+    "deg": 358.7,
+    "flip": 0,
+    "score": 0.982,
+    "err_um": 91.6
+   },
+   {
+    "deg": 356.0,
+    "flip": 0,
+    "score": 0.9037,
+    "err_um": 212.5
+   },
+   {
+    "deg": 2.0,
+    "flip": 0,
+    "score": 0.8927,
+    "err_um": 335.3
+   },
+   {
+    "deg": 352.0,
+    "flip": 0,
+    "score": 0.8069,
+    "err_um": 535.3
+   },
+   {
+    "deg": 6.0,
+    "flip": 0,
+    "score": 0.8057,
+    "err_um": 671.5
+   }
+  ],
+  "note": "P(a) = R(angle) F^flip a + t_abs_units, analysis-frame units (9.44 um), no centring; candidates = top 5 search answers with their landmark errors (for diagnosis only)"
+ },
+ {
+  "case": 3,
+  "method": "imagereg_ncc_mi",
+  "fit": "mask_50um",
+  "angle": 358.66,
+  "flip": 0,
+  "t_abs_units": [
+   -29.8,
+   21.34
+  ],
+  "score": -0.7464,
+  "sec": 88.0,
+  "arm": "given",
+  "start_err_um": 216.2,
+  "landmark_err_median_um": 90.3,
+  "floor_um": 86.8,
+  "pair": 3,
+  "right_within_floor_plus_100": true,
+  "candidates": [
+   {
+    "deg": 358.7,
+    "flip": 0,
+    "score": 0.982,
+    "err_um": 91.6
+   },
+   {
+    "deg": 356.0,
+    "flip": 0,
+    "score": 0.9037,
+    "err_um": 212.5
+   },
+   {
+    "deg": 2.0,
+    "flip": 0,
+    "score": 0.8927,
+    "err_um": 335.3
+   },
+   {
+    "deg": 352.0,
+    "flip": 0,
+    "score": 0.8069,
+    "err_um": 535.3
+   },
+   {
+    "deg": 6.0,
+    "flip": 0,
+    "score": 0.8057,
+    "err_um": 671.5
+   }
+  ],
+  "note": "P(a) = R(angle) F^flip a + t_abs_units, analysis-frame units (9.44 um), no centring; candidates = top 5 search answers with their landmark errors (for diagnosis only)"
+ },
+ {
+  "case": 3,
+  "method": "imagereg_phase",
+  "fit": "mask_50um",
+  "angle": 358.7,
+  "flip": 0,
+  "t_abs_units": [
+   -30.93,
+   20.96
+  ],
+  "score": 0.1756,
+  "sec": 25.0,
+  "arm": "given",
+  "start_err_um": 216.2,
+  "landmark_err_median_um": 89.5,
+  "floor_um": 86.8,
+  "pair": 3,
+  "right_within_floor_plus_100": true,
+  "candidates": [
+   {
+    "deg": 358.7,
+    "flip": 0,
+    "score": 0.1756,
+    "err_um": 89.5
+   },
+   {
+    "deg": 2.9,
+    "flip": 0,
+    "score": 0.0264,
+    "err_um": 506.8
+   },
+   {
+    "deg": 352.4,
+    "flip": 0,
+    "score": 0.0261,
+    "err_um": 809.4
+   },
+   {
+    "deg": 177.0,
+    "flip": 1,
+    "score": 0.0193,
+    "err_um": 7316.7
+   },
+   {
+    "deg": 331.0,
+    "flip": 1,
+    "score": 0.0187,
+    "err_um": 4650.3
+   }
+  ],
+  "note": "P(a) = R(angle) F^flip a + t_abs_units, analysis-frame units (9.44 um), no centring; candidates = top 5 search answers with their landmark errors (for diagnosis only)"
+ },
+ {
+  "case": 3,
+  "method": "imagereg_phase_mi",
+  "fit": "mask_50um",
+  "angle": 358.66,
+  "flip": 0,
+  "t_abs_units": [
+   -29.8,
+   21.34
+  ],
+  "score": -0.7464,
+  "sec": 29.8,
+  "arm": "given",
+  "start_err_um": 216.2,
+  "landmark_err_median_um": 90.3,
+  "floor_um": 86.8,
+  "pair": 3,
+  "right_within_floor_plus_100": true,
+  "candidates": [
+   {
+    "deg": 358.7,
+    "flip": 0,
+    "score": 0.1756,
+    "err_um": 89.5
+   },
+   {
+    "deg": 2.9,
+    "flip": 0,
+    "score": 0.0264,
+    "err_um": 506.8
+   },
+   {
+    "deg": 352.4,
+    "flip": 0,
+    "score": 0.0261,
+    "err_um": 809.4
+   },
+   {
+    "deg": 177.0,
+    "flip": 1,
+    "score": 0.0193,
+    "err_um": 7316.7
+   },
+   {
+    "deg": 331.0,
+    "flip": 1,
+    "score": 0.0187,
+    "err_um": 4650.3
+   }
+  ],
+  "note": "P(a) = R(angle) F^flip a + t_abs_units, analysis-frame units (9.44 um), no centring; candidates = top 5 search answers with their landmark errors (for diagnosis only)"
+ }
+]

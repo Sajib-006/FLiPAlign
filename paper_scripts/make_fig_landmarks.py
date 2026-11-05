@@ -21,6 +21,8 @@ NAMES = {1: "Breast Rep1\nVisium $\\rightarrow$ Xenium", 2: "Breast Rep2\nVisium
 TOOL = {"paste": "PASTE", "paste2": "PASTE2", "slat": "SLAT", "cpd": "CPD", "spateo": "spateo", "cast": "CAST", "stalign": "STalign", "gala": "GALA"}
 rows = []
 for f in glob.glob(f"{R}/lm_given_pair*_*.json"):
+    if f.endswith("_imagereg.json"):        # photo registration is shown in fig_realpairs, not here
+        continue
     rows += [r for r in json.load(open(f)) if "landmark_err_median_um" in r]
 fl = {k: json.load(open(f"{R}/lm_flip_pair{k}.json")) for k in range(1, 8)}
 fig, ax = plt.subplots(figsize=(4.8, 3.4))

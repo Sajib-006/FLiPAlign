@@ -43,7 +43,7 @@ stacklabel/           THE STACK LABELLING METHOD
 runs_placement/       placement experiments (known-answer sets, real pairs, landmarks)
 runs_stacks/          stack experiments (controls, sweeps, second brain, the two steps together)
 runs_baselines/       the published tools we compare with (PASTE, PASTE2, SLAT, CPD, spateo, CAST, STalign,
-                      GALA, STAligner)
+                      GALA, STAligner) and rigid registration of the tissue photos
 checks/               numerical checks (Fourier scores, movement bound, pair bound)
 proof_checks/         brute-force checks of the complexity proofs
 
@@ -129,6 +129,7 @@ The table and figure scripts in the last column are all in `paper_scripts/`.
 | Second brain and atlas-free agreement (kappa) | `runs_stacks/stack_brain2.py`, `runs_stacks/stack_brain2_agg.py`, `runs_stacks/stack_consistency.py` | `make_review_tables.py` |
 | The two steps together (refused links cut the stack) | `runs_stacks/stack_place_load.py`, `runs_stacks/real_fine_stack.py`, `runs_stacks/stack_from_placed.py`, `runs_stacks/stack_refuse.py` | `make_stack_extras.py`, `make_review_tables.py` |
 | GALA on the seven real pairs | `runs_baselines/gala_prep.py`, `runs_baselines/gala_run.py` | `runs_baselines/gala_summary.py` |
+| Rigid registration of the tissue photos (seven real pairs) | `runs_baselines/image_reg.py` (needs the photos; see its header) | `make_fig_realpairs.py` (squares in Fig. 3b) |
 | Refusal figure, older tables | the placement runs above | `make_new.py`, `make_tables.py`, `make_figures.py` |
 | Run time of the stack methods | `runs_stacks/time_stack.py` | numbers in the text |
 | Fourier score against direct sums, movement bound | `checks/check_fft.py`, `checks/lambda_check.py` | numbers in the text |

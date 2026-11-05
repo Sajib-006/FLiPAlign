@@ -23,8 +23,14 @@ PLAT = {1: "Visium → Xenium", 2: "Visium → Xenium", 3: "Visium → Visium HD
         5: "Visium → Visium HD", 6: "Visium HD → Xenium", 7: "Visium HD → Xenium 5K"}
 TOOL = {"paste": "PASTE", "paste2": "PASTE2", "slat": "SLAT", "cpd": "CPD", "spateo": "spateo", "cast": "CAST", "stalign": "STalign", "gala": "GALA"}
 rows = []
+IMG = {}                                    # rigid registration of the two tissue photos (runs_baselines/image_reg.py)
 for f in glob.glob(f"{R}/lm_given_pair*_*.json"):
-    rows += [r for r in json.load(open(f)) if "landmark_err_median_um" in r]
+    rr = [r for r in json.load(open(f)) if "landmark_err_median_um" in r]
+    if f.endswith("_imagereg.json"):
+        for r in rr:
+            IMG[r["pair"]] = min(IMG.get(r["pair"], 1e9), r["landmark_err_median_um"])
+        continue
+    rows += rr
 best = {k: {} for k in range(1, 8)}
 for r in rows:
     t = r["method"].split("_")[0]; k = r["pair"]
@@ -88,6 +94,8 @@ for i, k in enumerate(range(1, 8)):
     bx.scatter(i + 0.17, min(best[k][bt], hi_ * 0.97), s=22, marker="D", c=BASE, edgecolor="white", lw=0.5, zorder=3)
     e = FL[k]["coarse"]["median_um"]; cert = FL[k]["flipalign_certified"]
     bx.scatter(i - 0.17, min(e, hi_ * 0.97), s=26, marker="o", c=OURS if cert else "white", edgecolor=OURS, lw=1.0, zorder=4)
+    if k in IMG:
+        bx.scatter(i + 0.32, min(IMG[k], hi_ * 0.97), s=14, marker="s", c="white", edgecolor=INK, lw=0.7, zorder=3)
     bx.text(i + 0.17, 1.03, TOOL[bt], transform=bx.get_xaxis_transform(), ha="center", va="bottom", fontsize=FS_SMALL - 0.5, color=MUTED)
 bx.set_yscale("log"); bx.set_ylim(lo_, hi_); bx.set_xlim(-0.55, 6.55)
 bx.set_xticks(range(7)); bx.set_xticklabels([SHORT[k] for k in range(1, 8)])
@@ -99,6 +107,7 @@ h2 = [Line2D([], [], marker="o", ls="", ms=4.2, mfc=OURS, mec=OURS, label="FLiPA
       Line2D([], [], marker="o", ls="", ms=4.2, mfc="white", mec=OURS, mew=1.0, label="FLiPAlign, refused"),
       Line2D([], [], marker="D", ls="", ms=3.8, mfc=BASE, mec="white", label="best tool"),
       Line2D([], [], marker="o", ls="", ms=2.6, mfc=REFUSED, mec="none", label="other tools"),
+      Line2D([], [], marker="s", ls="", ms=3.2, mfc="white", mec=INK, mew=0.7, label="photo registration"),
       Patch(color=RIGHT, alpha=0.18, label="right (below floor\n+ 100 µm)"),
       Line2D([], [], color=RIGHT, lw=0.8, label="floor (best rigid\nfit to landmarks)")]
 bx.legend(handles=h2, loc="center left", bbox_to_anchor=(1.01, 0.5), fontsize=FS_SMALL, labelspacing=0.45)

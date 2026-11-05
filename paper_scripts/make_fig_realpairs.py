@@ -30,13 +30,13 @@ for r in rows:
     t = r["method"].split("_")[0]; k = r["pair"]
     best[k][t] = min(best[k].get(t, 1e9), r["landmark_err_median_um"])
 
-FH = 3.98
+FH = 3.72
 fig = plt.figure(figsize=(TEXTW, FH))
 # ---------------------------------------------------------------- (a) seven overlays, 2 rows x 4 (last cell: key)
 inch = lambda x, y, w, h: [x / TEXTW, y / FH, w / TEXTW, h / FH]
-MW = 0.92                                           # map size (inches)
+MW = 0.84                                           # map size (inches)
 X0 = [0.10 + i * 1.19 for i in range(4)]
-Y0 = [2.86, 1.46]
+Y0 = [2.68, 1.40]
 axes, SHOWN = {}, {}
 for i, k in enumerate(range(1, 8)):
     ax = fig.add_axes(inch(X0[i % 4], Y0[i // 4], MW, MW)); axes[k] = ax

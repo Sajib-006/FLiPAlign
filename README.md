@@ -60,8 +60,8 @@ Python 3.10 or later.
 pip install -r requirements.txt
 ```
 
-`requirements.txt` pins the versions used for the paper (numpy 2.2.6, scipy 1.18.1, scikit-learn 1.9.1, pandas 3.0.6,
-h5py 3.16.0, matplotlib 3.11.2). This is enough for FLiPAlign, split labelling, the proof checks and the rebuild of
+`requirements.txt` gives lower bounds; the paper's runs used numpy 2.2.6, scipy 1.18.1, scikit-learn 1.9.1, pandas 3.0.6,
+h5py 3.16.0 and matplotlib 3.11.2. This is enough for FLiPAlign, split labelling, the proof checks and the rebuild of
 all tables and figures. The published tools need their own packages (paste-bio, POT, anndata, scSLAT, spateo, CAST,
 STalign, GALA, STAligner). We ran each of them in its own environment.
 
@@ -134,6 +134,25 @@ The table and figure scripts in the last column are all in `paper_scripts/`.
 | Fourier score against direct sums, movement bound | `checks/check_fft.py`, `checks/lambda_check.py` | numbers in the text |
 | Pair bound used by the stack certificate | `checks/test_pairbound.py` | numbers in the text |
 
+## Result file names
+
+`results/placement/` holds one JSON file per case, tool and start. The prefix says which test it belongs to:
+
+| Prefix | Meaning |
+| --- | --- |
+| `gt1`, `gt2` | development cases (breast; colon, mouse brain and DLPFC) |
+| `gt3`, `gt4` | first and second (clean) held-out sets |
+| `gtNh2` | FLiPAlign, flip searched (`h=2`); `fk_` flip known; `fc_` mirror self-check; `gtNfine`, `fkfine_` fine stage |
+| `gtNbase`, `gtNspateo`, `gtNcast`, `gtNstalign`, `gtNslat` | published tools as given (`base` holds PASTE, PASTE2 and CPD) |
+| `gtNfo_*`, `rs_*`, `rp_*` | tools handed the true flip, also a rough angle, also a rough position |
+| `grid_`, `gtNlocal`, `abl_`, `rl_`, `w7_` | 1 degree grid, local search, score ablations, re-clustering, wider window |
+| `abc`, `abc_ov70`, `gt_ovNN`, `fk_ovNN` | Allen MERFISH neighbours and the overlap sweep |
+| `lm_*_pairK` | the seven real pairs scored on landmarks (`lm_flip` is FLiPAlign; `lm_given`, `lm_rough`, `lm_pose` the tools from three starts) |
+
+`results/stack/` holds one file per stack and experiment (`stack_`, `stackcap_`, `stackbound2_`, `stackctrl_`,
+`stacksweep_`, `stackv2_`, `stackb2_` for brain 2, `stackcons_`, `stackstal_`, `stackplace*`). The script that reads
+each prefix is listed in the table above.
+
 ## Proof checks (no data needed)
 
 The folder `proof_checks/` holds brute-force checks of the complexity results, including the finite enumeration used
@@ -181,7 +200,8 @@ take minutes on a laptop. Only the GALA and STAligner baselines need a GPU.
 
 ## Paper settings
 
-The paper used `SmoothAlign(A, la, B, lb, h=2.0, sigma=20.0, tpad=300.0, contrast=True)`. The defaults in
+The paper used `SmoothAlign(A, la, B, lb, h=2.0, sigma=20.0, tpad=300.0, contrast=True)`, also available as
+`paper_defaults(A, la, B, lb)` in `flipalign/smoothalign.py`. The defaults in
 `flipalign/smoothalign.py` are different (h=4.0, sigma=10.0, tpad=30.0, contrast=False), so pass the paper values as
 shown above. The experiment scripts set their values in the code, and `example.py` uses its own values for the small
 synthetic pair.

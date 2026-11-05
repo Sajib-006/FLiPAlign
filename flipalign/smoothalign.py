@@ -438,3 +438,12 @@ def far_upper_bound(al, best, th_best, flip_best, exclude_deg=20.0, n0=90, max_e
     return {"far_ub": float(far_ub), "far_exact": float(far_exact),
             "eps": float(best - far_ub), "complete": not capped,
             "far_evals": al.n_rot_evals - ev0, "far_secs": time.time() - t0}
+
+
+# Settings used for every result in the paper (the class defaults above are older and differ).
+PAPER_SETTINGS = dict(h=2.0, sigma=20.0, tpad=300.0, contrast=True)
+
+
+def paper_defaults(A, la, B, lb, **kw):
+    """SmoothAlign with the paper's settings; keyword arguments override them."""
+    return SmoothAlign(A, la, B, lb, **{**PAPER_SETTINGS, **kw})

@@ -1,7 +1,8 @@
-# Versions used on the cluster for the paper. Python 3.10 or later.
-numpy==2.2.6
-scipy==1.18.1
-scikit-learn==1.9.1
-pandas==3.0.6
-h5py==3.16.0
-matplotlib==3.11.2
+# Python 3.10 or later. The paper's runs used numpy 2.2.6, scipy 1.18.1, scikit-learn 1.9.1, pandas 3.0.6,
+# h5py 3.16.0 and matplotlib 3.11.2; older versions down to the lower bounds below also work.
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.3
+pandas>=2.1
+h5py>=3.8
+matplotlib>=3.8

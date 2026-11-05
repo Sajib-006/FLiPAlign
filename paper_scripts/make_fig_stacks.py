@@ -102,13 +102,13 @@ yb, hb = 0.08, 0.28
 axb = fig.add_axes([0.085, yb, 0.165, hb])
 lo, hi = 0.11, 0.36
 axb.plot([lo, hi], [lo, hi], color=MUTED, lw=0.6, ls="--", zorder=0)
-axb.scatter(b1_best, b1_split, s=9, marker="o", facecolor=OURS, edgecolor="white", lw=0.3, label=f"Brain 1 ({w1}/30)", zorder=3)
-axb.scatter(b2_best, b2_split, s=10, marker="^", facecolor="white", edgecolor=OURS, lw=0.7, label=f"Brain 2 ({w2}/30)", zorder=3)
+axb.scatter(b1_best, b1_split, s=9, marker="o", facecolor=OURS, edgecolor="white", lw=0.3, label="Brain 1", zorder=3)
+axb.scatter(b2_best, b2_split, s=10, marker="^", facecolor="white", edgecolor=OURS, lw=0.7, label="Brain 2", zorder=3)
 axb.set_xlim(lo, hi); axb.set_ylim(lo, hi)
 axb.set_xticks([0.15, 0.25, 0.35]); axb.set_yticks([0.15, 0.25, 0.35])
 axb.set_xlabel("Best one-to-one NMI"); axb.set_ylabel("Split NMI")
 axb.set_title("Split vs one-to-one", pad=3)
-axb.legend(loc="lower right", bbox_to_anchor=(1.04, -0.02), fontsize=7.2, handletextpad=0.0, borderaxespad=0.0, labelspacing=0.3)
+axb.legend(loc="lower right", bbox_to_anchor=(1.03, -0.01), fontsize=7.2, handletextpad=0.0, borderaxespad=0.0, labelspacing=0.3)
 letter(fig, axb, "b", dx=-0.055, dy=0.02)
 
 # (c) cap sweep

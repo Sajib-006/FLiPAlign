@@ -38,7 +38,7 @@ for i, k in enumerate(range(1, 8)):
     bt = min(best, key=best.get)
     for t, v in best.items():
         if t != bt: ax.scatter(min(v, hi * 0.95), y - 0.16, s=9, color=GREY, lw=0, zorder=2)
-    ax.scatter(min(best[bt], hi * 0.95), y - 0.16, s=26, marker="D", color=ORANGE, edgecolor="white", lw=0.6, zorder=3)
+    ax.scatter(min(best[bt], hi * 0.95), y - 0.16, s=26, marker="^", color=ORANGE, edgecolor="white", lw=0.6, zorder=3)
     ax.text(1.02, y, TOOL[bt], transform=ax.get_yaxis_transform(), va="center", ha="left", fontsize=8.5, color=INK)   # best tool, right margin
     e = fl[k]["coarse"]["median_um"]; cert = fl[k]["flipalign_certified"]
     ax.scatter(min(e, hi * 0.95), y + 0.16, s=30, marker="o", color=BLUE if cert else "white", edgecolor=BLUE, lw=1.1, zorder=4)
@@ -50,7 +50,7 @@ from matplotlib.lines import Line2D
 from matplotlib.patches import Patch
 h = [Line2D([], [], marker="o", ls="", color=BLUE, ms=5, label="FLiPAlign, certified"),
      Line2D([], [], marker="o", ls="", markerfacecolor="white", markeredgecolor=BLUE, ms=5, label="FLiPAlign, refused"),
-     Line2D([], [], marker="D", ls="", color=ORANGE, ms=4.5, label="best tool on the pair"),
+     Line2D([], [], marker="^", ls="", color=ORANGE, ms=4.5, label="best tool on the pair"),
      Line2D([], [], marker="o", ls="", color=GREY, ms=3, label="other tools"),
      Patch(color=BAND, label=r"right ($<$ floor + 100 $\mu$m)"),
      Line2D([], [], color="#7fae7f", lw=0.8, label="floor (best rigid fit)")]

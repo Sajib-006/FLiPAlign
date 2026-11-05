@@ -46,7 +46,7 @@ slack = float(np.median(mm - ee))
 lim = [0, 0.11]
 a.plot(lim, lim, color=GREY, lw=0.8); a.plot(lim, [lim[0] - slack, lim[1] - slack], color=GREY, lw=0.8, ls="--")
 a.axhline(0, color=INK, lw=0.5)
-a.scatter(mm[rg], ee[rg], s=9, color=BLUE, lw=0, alpha=0.8, label="answer right"); a.scatter(mm[~rg], ee[~rg], s=11, color=ORANGE, lw=0, marker="D", alpha=0.9, label="answer wrong")
+a.scatter(mm[rg], ee[rg], s=9, color=BLUE, lw=0, alpha=0.8, label="answer right"); a.scatter(mm[~rg], ee[~rg], s=11, color=ORANGE, lw=0, marker="^", alpha=0.9, label="answer wrong")
 a.set_xlim(0, 0.11); a.set_ylim(-0.025, 0.11); a.set_xlabel("margin on a 1$^\\circ$ grid (no proof)"); a.set_ylabel("proven margin $\\varepsilon$")
 a.text(0.050, 0.064, "$\\varepsilon$ = margin", rotation=41, color=GREY, fontsize=7); a.text(0.074, 0.040, "margin $-$ slack", rotation=41, color=GREY, fontsize=7)
 a.text(0.108, 0.003, "certified above", ha="right", fontsize=7, color=INK)
@@ -85,7 +85,7 @@ for ov in xs:
     cs_ = sorted(load(f"gt_ov{ov}")); pats = [f"sw_ov{ov}base", f"sw_ov{ov}spateo", f"sw_ov{ov}cast"]
     g1 = tool_best(pats, cs_, GOOD, [f"sw_fo_ov{ov}base", f"sw_fo_ov{ov}spateo", f"sw_fo_ov{ov}cast"])
     yt.append(max(v[0] for v in g1.values() if v))
-c.plot(xs, yk, color="#3C5488", lw=1.6, marker="o", ms=4, mfc="white", label="FLiPAlign, flip known"); c.plot(xs, ys, color="#3C5488", lw=1.6, marker="D", ms=4, label="FLiPAlign, flip searched")
+c.plot(xs, yk, color="#3C5488", lw=1.6, marker="o", ms=4, mfc="white", label="FLiPAlign, flip known"); c.plot(xs, ys, color="#3C5488", lw=1.6, marker="^", ms=4, label="FLiPAlign, flip searched")
 c.plot(xs, yt, color="#4DBBD5", lw=1.4, marker="s", ms=3.5, ls="--", label="best tool, flip given")
 c.legend(frameon=False, loc="upper center", fontsize=7, handlelength=1.6, borderpad=0.1)
 c.set_xlim(104, 56); c.set_ylim(0, 31); c.set_yticks([0, 5, 10, 15, 20]); c.set_xticks(xs); c.set_xlabel("share of A on B (%)"); c.set_ylabel("brain cases right (of 20)")

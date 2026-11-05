@@ -91,7 +91,7 @@ for i, k in enumerate(range(1, 8)):
     others = [v for t, v in best[k].items() if t != bt]
     bx.scatter(np.full(len(others), i + 0.17) + np.linspace(-0.05, 0.05, len(others)), np.clip(others, lo_, hi_ * 0.97),
                s=5, c=REFUSED, lw=0, zorder=2)
-    bx.scatter(i + 0.17, min(best[k][bt], hi_ * 0.97), s=22, marker="D", c=BASE, edgecolor="white", lw=0.5, zorder=3)
+    bx.scatter(i + 0.17, min(best[k][bt], hi_ * 0.97), s=22, marker="^", c=BASE, edgecolor="white", lw=0.5, zorder=3)
     e = FL[k]["coarse"]["median_um"]; cert = FL[k]["flipalign_certified"]
     bx.scatter(i - 0.17, min(e, hi_ * 0.97), s=26, marker="o", c=OURS if cert else "white", edgecolor=OURS, lw=1.0, zorder=4)
     if k in IMG:
@@ -105,7 +105,7 @@ bx.text(-0.62, 1.03, "best tool", transform=bx.get_xaxis_transform(), ha="right"
 bx.set_yticks([100, 1000, 10000]); bx.set_yticklabels(["100", "1,000", "10,000"])
 h2 = [Line2D([], [], marker="o", ls="", ms=4.2, mfc=OURS, mec=OURS, label="FLiPAlign, certified"),
       Line2D([], [], marker="o", ls="", ms=4.2, mfc="white", mec=OURS, mew=1.0, label="FLiPAlign, refused"),
-      Line2D([], [], marker="D", ls="", ms=3.8, mfc=BASE, mec="white", label="best tool"),
+      Line2D([], [], marker="^", ls="", ms=5, mfc=BASE, mec="white", label="best tool"),
       Line2D([], [], marker="o", ls="", ms=2.6, mfc=REFUSED, mec="none", label="other tools"),
       Line2D([], [], marker="s", ls="", ms=3.2, mfc="white", mec=INK, mew=0.7, label="photo registration"),
       Patch(color=RIGHT, alpha=0.18, label="right (below floor\n+ 100 µm)"),

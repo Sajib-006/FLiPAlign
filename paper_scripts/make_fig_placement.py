@@ -42,7 +42,7 @@ err_c, err_r = np.array(err_c), np.array(err_r)
 z = np.load(os.path.join(PLACE, "fig_case.npz"), allow_pickle=True)
 
 # ------------------------------------------------------------------ figure
-fig = plt.figure(figsize=(TEXTW, 3.7))
+fig = plt.figure(figsize=(TEXTW, 3.42))
 W, H = fig.get_size_inches()
 ax_in = lambda x, y, w, h: fig.add_axes([x / W, y / H, w / W, h / H])
 
@@ -57,7 +57,7 @@ def frame(ax, xy=None):
         ax.set_xlim(c[0] - r, c[0] + r); ax.set_ylim(c[1] - r, c[1] + r)
     ax.invert_yaxis()
 
-top, mh = 2.38, 1.05
+top, mh = 2.24, 0.92
 axA = ax_in(0.05, top, 0.72, mh); axB = ax_in(0.82, top, 0.72, mh)
 tissue(axA, z["A_obs"], z["la"], s=0.25)
 tissue(axB, z["B"], np.asarray(z["lb"]) + 6, s=0.25)             # other colours: label names are not shared
@@ -99,7 +99,7 @@ rowsn = ["FLiPAlign"] + [dict(TOOLS)[t] for t in order]
 blues = ["#C6DBEF", "#6BAED6", "#2171B5", "#08306B"]
 mk = ["o", "o", "o", "o"]
 ys = np.arange(len(rowsn))[::-1]
-cw, cy, ch = 1.02, 0.72, 1.20
+cw, cy, ch = 1.02, 0.70, 1.12
 axes_c = []
 for j, (sn, lab, _) in enumerate(SETS):
     ax = ax_in(0.62 + j * (cw + 0.12), cy, cw, ch); axes_c.append(ax)

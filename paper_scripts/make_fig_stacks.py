@@ -71,7 +71,7 @@ def match_colors(key):
 colmap = {"one": match_colors("one"), "split": match_colors("split")}
 
 # ---------------------------------------------------------------- figure
-fig = plt.figure(figsize=(TEXTW, 3.55))
+fig = plt.figure(figsize=(TEXTW, 3.3))
 cols = [("own", "Own labels"), ("one", "One-to-one"), ("split", "Split (ours)"), ("div", "Atlas divisions")]
 x0, w, h, gapx = 0.075, 0.215, 0.158, 0.017
 ytop = 0.95
@@ -139,7 +139,7 @@ axd.legend(loc="upper left", bbox_to_anchor=(-0.04, 1.02), fontsize=7.2, handlet
 letter(fig, axd, "d", dx=-0.05, dy=0.02)
 
 # (e) drift, every link chained vs cut at refused links
-axe = fig.add_axes([0.845, yb, 0.15, hb])
+axe = fig.add_axes([0.862, yb, 0.135, hb])
 st = np.arange(1, len(A) + 1)
 for s_, a, c in zip(st, drift_all, drift_cut):
     axe.plot([s_, s_], [c, a], color=LIGHT, lw=2.2, zorder=0, solid_capstyle="round")

@@ -65,11 +65,11 @@ for i, k in enumerate(range(1, 8)):
     ax.set_title(NAME[k], fontsize=FS, pad=4)
     f = FL[k]; e = f["coarse"]["median_um"]; cert = f["flipalign_certified"]; right = f["right_within_floor_plus_100"]["coarse"]
     status = ("certified" if cert else "refused") + (", right" if right else ", wrong")
-    col = (RIGHT if right else WRONG) if cert else MUTED
+    col = (RIGHT if right else WRONG) if cert else "#D08A00"   # refused: amber
     es = f"{e / 1000:.1f} mm" if e >= 1000 else f"{e:.0f} µm"
     ax.text(0.5, -0.03, PLAT[k], transform=ax.transAxes, ha="center", va="top", fontsize=FS_SMALL, color=MUTED)
-    ax.text(0.5, -0.13, f"{status}, {es}", transform=ax.transAxes, ha="center", va="top", fontsize=FS_SMALL,
-            color=col, fontweight="bold" if cert else "normal")
+    ax.text(0.5, -0.165, f"{status}, {es}", transform=ax.transAxes, ha="center", va="top", fontsize=FS_SMALL,
+            color=col, fontweight="bold")
 letter(fig, axes[1], "a", dx=-0.004, dy=0.022)
 # key in the eighth cell
 kx = fig.add_axes(inch(X0[3], Y0[1], MW, MW)); kx.axis("off")

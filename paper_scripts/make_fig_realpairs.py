@@ -40,9 +40,9 @@ FH = 3.72
 fig = plt.figure(figsize=(TEXTW, FH))
 # ---------------------------------------------------------------- (a) seven overlays, 2 rows x 4 (last cell: key)
 inch = lambda x, y, w, h: [x / TEXTW, y / FH, w / TEXTW, h / FH]
-MW = 0.84                                           # map size (inches)
-X0 = [0.10 + i * 1.19 for i in range(4)]
-Y0 = [2.68, 1.40]
+MW = 0.76                                           # map size (inches)
+X0 = [0.14 + i * 1.19 for i in range(4)]
+Y0 = [2.73, 1.45]
 axes, SHOWN = {}, {}
 for i, k in enumerate(range(1, 8)):
     ax = fig.add_axes(inch(X0[i % 4], Y0[i // 4], MW, MW)); axes[k] = ax

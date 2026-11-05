@@ -141,14 +141,13 @@ letter(fig, axd, "d", dx=-0.05, dy=0.02)
 # (e) drift, every link chained vs cut at refused links
 axe = fig.add_axes([0.862, yb, 0.135, hb])
 st = np.arange(1, len(A) + 1)
-for s_, a, c in zip(st, drift_all, drift_cut):
-    axe.plot([s_, s_], [c, a], color=LIGHT, lw=2.2, zorder=0, solid_capstyle="round")
-axe.scatter(st, drift_all, s=14, color=REFUSED, zorder=2, label="All links chained", lw=0)
-axe.scatter(st, drift_cut, s=14, color=OURS, zorder=3, label="Cut at refusals", lw=0)
-axe.set_yscale("log"); axe.set_ylim(80, 8e4); axe.set_yticks([1e2, 1e3, 1e4]); axe.set_yticklabels(["100", "1,000", "10,000"]); axe.minorticks_off(); axe.set_xticks(st); axe.set_xlim(0.4, len(A) + 0.6)
+bw = 0.38
+axe.bar(st - bw / 2, drift_all, width=bw, bottom=0, color=REFUSED, lw=0, label="All links chained", zorder=2)
+axe.bar(st + bw / 2, drift_cut, width=bw, bottom=0, color=OURS, lw=0, label="Cut at refusals", zorder=3)
+axe.set_yscale("log"); axe.set_ylim(80, 1.2e5); axe.set_yticks([1e2, 1e3, 1e4]); axe.set_yticklabels(["100", "1,000", "10,000"]); axe.minorticks_off(); axe.set_xticks(st); axe.set_xlim(0.4, len(A) + 0.6)
 axe.set_xlabel("Stack"); axe.set_ylabel("Largest drift (µm)", labelpad=1)
 axe.set_title("Both steps", pad=3)
-axe.legend(loc="upper center", fontsize=7.2, handletextpad=0.0, borderaxespad=0.0, ncol=1)
+axe.legend(loc="upper center", fontsize=7.2, handlelength=0.9, handletextpad=0.3, borderaxespad=0.0, ncol=1)
 letter(fig, axe, "e", dx=-0.05, dy=0.02)
 
 save(fig, os.path.join(FIGURES, "fig_stacks"))

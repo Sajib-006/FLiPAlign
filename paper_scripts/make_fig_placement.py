@@ -110,11 +110,11 @@ for j, (sn, lab, _) in enumerate(SETS):
         ok = ~np.isnan(v)
         ax.plot([np.nanmin(v), np.nanmax(v)], [y, y], color="#BDBDBD", lw=0.8, zorder=1)
         for k in np.where(ok)[0]:
-            ax.scatter(v[k], y, s=16, color=blues[k], edgecolor="white", lw=0.4, zorder=2 + k)
+            ax.scatter(v[k], y, s=26, color=blues[k], edgecolor="white", lw=0.4, zorder=2 + k)
     s_, k_ = counts[sn]["_ours"]
     ax.plot([s_, k_], [ys[0], ys[0]], color="#9FB0D0", lw=0.8, zorder=1)
-    ax.scatter(s_, ys[0], marker="s", s=20, color=OURS, edgecolor="white", lw=0.4, zorder=5)
-    ax.scatter(k_, ys[0], marker="s", s=20, facecolor="white", edgecolor=OURS, lw=0.9, zorder=4)
+    ax.scatter(s_, ys[0], marker="s", s=28, color=OURS, edgecolor="white", lw=0.4, zorder=5)
+    ax.scatter(k_, ys[0], marker="s", s=28, facecolor="white", edgecolor=OURS, lw=0.9, zorder=4)
     ax.set_xlim(-1.5, n); ax.set_ylim(-0.6, len(rowsn) - 0.4)
     ax.set_xticks([0, 12, 24, 36, 48]); ax.set_title(f"{lab} ({n} cases)", pad=3)
     ax.set_yticks(ys); ax.set_yticklabels(rowsn if j == 0 else [])
